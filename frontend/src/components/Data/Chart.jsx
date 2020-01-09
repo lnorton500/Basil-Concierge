@@ -8,10 +8,6 @@ class Chart extends Component {
         super(props);
 
         this.state = {
-
-            series: [
-                props.value
-            ],
             options: {
                 chart: {
                     type: 'radialBar',
@@ -42,8 +38,6 @@ class Chart extends Component {
                     },
                 }
             },
-
-
         };
     }
 
@@ -52,7 +46,7 @@ class Chart extends Component {
 
         return (
             <div className="chart">
-                <ApexCharts options={this.state.options} series={data} type="radialBar" width="300px" />
+                <ApexCharts options={this.state.options} series={data} type="radialBar" className="chart-div" />
                 <div className="chart-data">
                     <p className="chart-value">{this.props.value}%</p>
                     <p className="chart-name">{this.props.name}</p>

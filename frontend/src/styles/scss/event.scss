@@ -2,6 +2,7 @@
     width: 100%;
 
     $background: rgb(250, 250, 250);
+    $border: 1px solid darken($background, 10%);
     //box-shadow: 1px 1px 4px 1px darken($background, 15%);
 
     margin-bottom: 20px;
@@ -10,17 +11,18 @@
         width: 100%;
 
         background: $background;
-        border-radius: 2px;
-        border: 1px solid darken($background, 10%);
+        border-radius: 5px;
+        border: $border;
         padding: 20px;
+
+        &.open {
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            border-bottom: none;
+        }
 
         display: flex;
         justify-content: space-between;
-
-
-        &.open {
-            box-shadow: none;
-        }
 
         .fa-chevron-down {
             transform: rotate(0deg);
@@ -39,15 +41,25 @@
         }
     }
 
-    .event-description {
+    .event-info {
         width: 100%;
         background: darken($background, 5%);
         padding: 40px;
         text-align: justify;
 
-        p {
-            margin: 10px;
-            line-height: 1.3em;
+        border: $border;
+        border-top: none;
+
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+
+        .description {
+            width: 60%;
+
+            p {
+                margin: 10px;
+                line-height: 1.3em;
+            }
         }
     }
 }

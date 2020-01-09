@@ -4,13 +4,15 @@
   .event .event-bar {
     width: 100%;
     background: #fafafa;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 1px solid #e1e1e1;
     padding: 20px;
     display: flex;
     justify-content: space-between; }
     .event .event-bar.open {
-      box-shadow: none; }
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-bottom: none; }
     .event .event-bar .fa-chevron-down {
       transform: rotate(0deg);
       transition: transform 1s linear; }
@@ -21,11 +23,17 @@
     .event .event-bar .open {
       transform: rotate(180deg);
       transition: transform 0.25s linear; }
-  .event .event-description {
+  .event .event-info {
     width: 100%;
     background: #ededed;
     padding: 40px;
-    text-align: justify; }
-    .event .event-description p {
-      margin: 10px;
-      line-height: 1.3em; }
+    text-align: justify;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+    .event .event-info .description {
+      width: 60%; }
+      .event .event-info .description p {
+        margin: 10px;
+        line-height: 1.3em; }

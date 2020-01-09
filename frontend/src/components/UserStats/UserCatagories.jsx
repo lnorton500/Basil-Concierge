@@ -14,10 +14,10 @@ class UserCatagories extends Component {
     render() {
         return (
             <div className="sidebar">
-                <Chart name="Software Engineering" value={this.state.value} />
-                <Chart name="Dev ops" value={this.state.value} />
-                <Chart name="Testing" value={this.state.value} />
-                <Chart name="UX Design" value={this.state.value} />
+                <Chart name="Software Engineering" value={75} />
+                <Chart name="Dev ops" value={50} />
+                <Chart name="Testing" value={25} />
+                <Chart name="UX Design" value={63} />
             </div>
         );
     }

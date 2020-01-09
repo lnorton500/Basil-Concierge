@@ -20,14 +20,14 @@ class Home extends Component {
             <div className="screen">
                 <div className="heading"><h1>Home</h1> </div>
                 <div className="content">
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
-                    <Event name="Test event" description={description} />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
                 </div>
             </div>
         );

@@ -1,12 +1,25 @@
 .chart {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+
+    min-height: 200px !important;
+    height: 200px !important;
+
+    .chart-div {
+        min-height: 200px !important;
+        height: 200px !important;
+
+        * {
+            min-height: 200px !important;
+            height: 200px !important;
+
+        }
+    }
 
     .chart-data {
         position: absolute;
+        text-align: center;
         top: 35%;
         left: 25%;
-        text-align: center;
         width: 50%;
 
         .chart-name {

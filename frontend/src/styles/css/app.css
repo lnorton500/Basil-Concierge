@@ -6,7 +6,7 @@
   font-family: 'Lato', sans-serif; }
 
 .screen {
-  width: 82%;
+  width: 80%;
   padding: 10px; }
   .screen .heading {
     margin: 10px;
@@ -14,3 +14,5 @@
     width: 100%; }
   .screen .content {
     margin: 15px; }
+    .screen .content p {
+      line-height: 1.2em; }
