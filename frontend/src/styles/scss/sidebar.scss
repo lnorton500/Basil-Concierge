@@ -1,0 +1,13 @@
+.sidebar {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 18%;
+    height: 100vh;
+    overflow: scroll;
+    background: lightgray;
+
+    .chart {
+        border-bottom: 1px slategray solid;
+    }
+}
