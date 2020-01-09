@@ -2,7 +2,6 @@
   "name": "ui",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://grocock.email",
   "dependencies": {
     "ajv-keywords": "^3.4.1",
     "axios": "^0.19.0",
