@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import App from './screens/Home';
+import Home from './screens/Home';
 
 import {
     BrowserRouter as Router,
@@ -14,7 +14,7 @@ class App extends Component {
         this.state = {}
     }
     render() {
-        <Router>
+        return (<Router>
             <div>
                 <nav>
                     <ul>
@@ -32,7 +32,7 @@ class App extends Component {
                     </Route>
                 </Switch>
             </div>
-        </Router>
+        </Router>)
     }
 }
 
