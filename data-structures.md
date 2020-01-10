@@ -1,17 +1,25 @@
 # Data Structures
 
-## Talk
+## Event
 
 **Title** `string`
 
-**Speakers** `string[]`
+**Subtitle** `string` \*
 
-**Description** description/abstract of the talk, `string[]`
+**Description** `string[]`
 
-**When** date and time, `formatted date string`
+**Abstract** `string[]`
+
+**Persons** `string[]`
+
+**Start** `datetime`
 
 **Duration**, `int`
 
-**Location** information about the location e.g., room, building, address, `string[]`
+**Room** `string`
 
-See `sample-data.json` for examples
+**Track** `string`
+
+\* Internal: only stored for data training, not available with API
+
+See `events.json` for sample data
