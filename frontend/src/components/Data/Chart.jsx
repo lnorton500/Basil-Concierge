@@ -27,15 +27,13 @@ class Chart extends Component {
                     }
                 },
                 fill: {
-                    type: 'gradient',
-                    gradient: {
-                        shade: 'light',
-                        shadeIntensity: 0.4,
-                        inverseColors: false,
-                        opacityFrom: 1,
-                        opacityTo: 1,
-                        stops: [0, 50, 53, 91]
-                    },
+                    colors: [props.color]
+                },
+                animation: {
+                    dynamicAnimation: {
+                        enabled: true,
+                        speed: 1500
+                    }
                 }
             },
         };
@@ -46,9 +44,9 @@ class Chart extends Component {
 
         return (
             <div className="chart">
-                <ApexCharts options={this.state.options} series={data} type="radialBar" className="chart-div" />
+                <ApexCharts options={this.state.options} series={data} type="radialBar" className="chart-div" height="300px" />
                 <div className="chart-data">
-                    <p className="chart-value">{this.props.value}%</p>
+                    <p className="chart-value">{this.props.value.toFixed(0)}%</p>
                     <p className="chart-name">{this.props.name}</p>
                 </div>
             </div>

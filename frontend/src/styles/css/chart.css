@@ -2,20 +2,14 @@
   width: 100%;
   min-height: 200px !important;
   height: 200px !important; }
-  .chart .chart-div {
-    min-height: 200px !important;
-    height: 200px !important; }
-    .chart .chart-div * {
-      min-height: 200px !important;
-      height: 200px !important; }
   .chart .chart-data {
     position: absolute;
     text-align: center;
-    top: 35%;
-    left: 25%;
-    width: 50%; }
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    transform: translate(-50%, -50%); }
     .chart .chart-data .chart-name {
-      font-size: 1.25em; }
+      font-size: 1em; }
     .chart .chart-data .chart-value {
-      font-size: 1.5em;
-      min-height: 2em; }
+      font-size: 1.5em; }

@@ -4,7 +4,7 @@ var express = require("express");
 var router = express.Router();
 
 router.get("/all", function (request, response) {
-  api.projects.all(
+  api.events.all(
     error => response.json(error),
     result => response.json(result)
   );

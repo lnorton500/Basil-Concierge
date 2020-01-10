@@ -27,6 +27,7 @@
     display: flex;
     width: 100%;
     background: #ededed;
+    box-shadow: inset 0px 2px 5px 0px #c7c7c7;
     padding: 40px;
     text-align: justify;
     border: 1px solid #e1e1e1;
@@ -34,15 +35,17 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px; }
     .event .event-info .description {
-      width: 80%; }
+      width: 70%; }
       .event .event-info .description p {
         margin: 10px;
         line-height: 1.3em; }
     .event .event-info .details {
-      width: 20%; }
+      width: 30%; }
       .event .event-info .details .detail {
         margin: 20px;
         text-align: justify; }
+        .event .event-info .details .detail:first-child {
+          margin-top: 0px; }
         .event .event-info .details .detail h4 {
           width: 100%;
           font-size: 1.2em; }

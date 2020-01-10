@@ -2,9 +2,8 @@
   position: fixed;
   right: 0px;
   top: 0px;
-  width: 20%;
-  height: 100vh;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
   background: lightgray; }
   .sidebar .chart {
     border-bottom: 1px slategray solid; }

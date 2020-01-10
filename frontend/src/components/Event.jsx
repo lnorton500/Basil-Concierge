@@ -6,10 +6,10 @@ class Event extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: props.name,
-            description: props.description,
+            id: props.id,
+            event: props.event,
             showDescription: false,
-            interested: props.interested
+            interested: false
         }
 
 
@@ -46,13 +46,13 @@ class Event extends Component {
         return (
             <div className="event" >
                 <div className={eventClass} onClick={this.toggleDisplay}>
-                    <h3>{this.state.name}</h3>
+                    <h3>{this.state.event.title}</h3>
 
                     <div className="interested-section">
-                        <div className="uninterested" style={{ display: this.state.interested ? "block" : "none" }}>
+                        <div className="uninterested" style={{ display: !this.state.interested ? "block" : "none" }}>
                             <a onClick={this.interested}>Interested?</a>
                         </div>
-                        <div className="interested" style={{ display: !this.state.interested ? "block" : "none" }}>
+                        <div className="interested" style={{ display: this.state.interested ? "block" : "none" }}>
                             <a title="Thanks for your interested">Interested</a>
                         </div>
 
@@ -64,8 +64,8 @@ class Event extends Component {
                 </div>
                 <div className="event-info" style={{ display: this.state.showDescription ? "flex" : "none" }}>
                     <div className="description">
-                        {this.state.description.split("\n").map((i, key) => {
-                            return <p>{i}</p>;
+                        {this.state.event.description.map((i, key) => {
+                            return <p key={key}>{i}</p>;
                         })}
                     </div>
 
@@ -85,10 +85,9 @@ class Event extends Component {
                         <div className="detail location">
                             <h4>Location</h4>
                             <div className="address">
-                                <span className="line"><span class="street-address">169 University Avenue</span></span>
-                                <span className="line"><span class="locality">Palo Alto</span>, <abbr class="region" title="California">CA</abbr>&nbsp;&nbsp;</span>
-                                <span className="line"><span class="postal-code">94301</span></span>
-                                <span className="line"><span class="country-name">USA</span></span>
+                                {this.state.event.location.map((i, key) => {
+                                    return <span key={key} className="line">{i}</span>;
+                                })}
                             </div>
                         </div>
                     </div>
