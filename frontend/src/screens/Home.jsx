@@ -16,10 +16,24 @@ class Home extends Component {
         Sed non magna finibus, consectetur diam ac, varius purus. Mauris ut vehicula orci, quis accumsan tellus. Ut id tincidunt risus. Proin dapibus dictum tortor vel lacinia. Curabitur maximus vel tortor blandit consequat. Suspendisse hendrerit tincidunt dui. Phasellus vitae leo a nisl sodales iaculis ac vitae urna. Ut sed mattis odio. Suspendisse in eros nisl. Sed porttitor aliquam mauris, in gravida est suscipit non. Vivamus nec varius turpis. Donec lacus tellus, egestas ac gravida vitae, volutpat non eros. Aenean et vehicula diam. Vivamus elit dui, molestie mattis ornare ut, tempus non massa. 
         `
 
+        
+
         return (
             <div className="screen">
                 <div className="heading"><h1>Home</h1> </div>
                 <div className="content">
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
+                    <Event name="Test event" description={description} interested="false" />
                     <Event name="Test event" description={description} interested="false" />
                     <Event name="Test event" description={description} interested="false" />
                     <Event name="Test event" description={description} interested="false" />

@@ -62,7 +62,7 @@ class Event extends Component {
                         <i className="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <div className="event-info" style={{ display: this.state.showDescription ? "block" : "none" }}>
+                <div className="event-info" style={{ display: this.state.showDescription ? "flex" : "none" }}>
                     <div className="description">
                         {this.state.description.split("\n").map((i, key) => {
                             return <p>{i}</p>;
@@ -70,7 +70,27 @@ class Event extends Component {
                     </div>
 
                     <div className="details">
-                        
+                        <div className="detail date">
+                            <h4>Date</h4>
+                            <p>Friday 10 Jan 2020</p>
+                        </div>
+                        <div className="detail time">
+                            <h4>Time</h4>
+                            <p>14:25 - 15:25</p>
+                        </div>
+                        <div className="detail speaker">
+                            <h4>Speaker</h4>
+                            <p>John Doe</p>
+                        </div>
+                        <div className="detail location">
+                            <h4>Location</h4>
+                            <div className="address">
+                                <span className="line"><span class="street-address">169 University Avenue</span></span>
+                                <span className="line"><span class="locality">Palo Alto</span>, <abbr class="region" title="California">CA</abbr>&nbsp;&nbsp;</span>
+                                <span className="line"><span class="postal-code">94301</span></span>
+                                <span className="line"><span class="country-name">USA</span></span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div >

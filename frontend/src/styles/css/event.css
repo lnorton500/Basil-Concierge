@@ -24,6 +24,7 @@
       transform: rotate(180deg);
       transition: transform 0.25s linear; }
   .event .event-info {
+    display: flex;
     width: 100%;
     background: #ededed;
     padding: 40px;
@@ -33,7 +34,17 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px; }
     .event .event-info .description {
-      width: 60%; }
+      width: 80%; }
       .event .event-info .description p {
         margin: 10px;
         line-height: 1.3em; }
+    .event .event-info .details {
+      width: 20%; }
+      .event .event-info .details .detail {
+        margin: 20px;
+        text-align: justify; }
+        .event .event-info .details .detail h4 {
+          width: 100%;
+          font-size: 1.2em; }
+        .event .event-info .details .detail .address .line {
+          display: block; }

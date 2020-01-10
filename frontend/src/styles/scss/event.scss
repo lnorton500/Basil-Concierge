@@ -42,6 +42,7 @@
     }
 
     .event-info {
+        display: flex;
         width: 100%;
         background: darken($background, 5%);
         padding: 40px;
@@ -54,11 +55,31 @@
         border-bottom-right-radius: 5px;
 
         .description {
-            width: 60%;
+            width: 80%;
 
             p {
                 margin: 10px;
                 line-height: 1.3em;
+            }
+        }
+
+        .details {
+            width: 20%;
+
+            .detail {
+                margin: 20px;
+                text-align: justify;
+
+                h4 {
+                    width: 100%;
+                    font-size: 1.2em;
+                }
+
+                .address {
+                    .line {
+                        display: block;
+                    }
+                }
             }
         }
     }
