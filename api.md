@@ -6,4 +6,4 @@ All API routes start with `/api`.
 | --------- | ------ | ----------------- | ------------------------ | ---------- |
 | `/events` | GET    |                   | All event IDs            | `string[]` |
 |           | GET    | `:id` Event ID    | Event information        | `event`    |
-| `/search` | GET    | `:q` Search query | Any related events found | `event[]`  |
+| `/search` | GET    | `q=` Search query | Any related events found | `event[]`  |
