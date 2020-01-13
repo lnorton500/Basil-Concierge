@@ -15,12 +15,13 @@ class Home extends Component {
 
     componentDidMount() {
         axios
-            .get("http://127.0.0.1:8080/events/all")
+            .get("https://watsonibm.eu-gb.mybluemix.net/api/events/")
             .then(res => {
                 this.setState({
                     isLoaded: true,
                     events: res.data,
                 });
+                console.log(this.state)
             })
             .catch(error => {
                 this.setState({
