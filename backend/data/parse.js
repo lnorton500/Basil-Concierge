@@ -1,3 +1,24 @@
+/*
+Used to convert JSON data converted from XML
+to match event structure
+
+Functions:
+- Remove id
+- Remove language
+- Remove link
+- Remove type
+- Remove slug
+
+- Check subtitle type;
+  empty subtitles were converted to empty arrays
+
+- Combine start time with event date
+
+- Convert duration from hh:mm to int
+
+- Restructure persons
+*/
+
 const fs = require("fs");
 
 let rooms = [];
@@ -7,24 +28,7 @@ rooms = rooms.concat(roomOne, roomTwo);
 
 let newEvents = [];
 
-addEvent = event => {
-  /*
-    - remove id
-    - remove language
-    - remove link
-    - remove type
-    - remove slug
-
-    - change subtitle type
-    - black subtitles are empty arrays (wtf?)
-
-    - combine start with date
-
-    - convert duration from hh:mm to int
-
-    - format persons
-    */
-
+cosnt addEvent = event => {
   // delete shit
   delete event._id;
   delete event.language;
