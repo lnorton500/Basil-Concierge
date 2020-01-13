@@ -1,0 +1,13 @@
+{
+  "start": 1577869800000,
+  "duration": 45,
+  "room": "AW1.121",
+  "title": "Orchestrating jails with nomad and pot",
+  "subtitle": "A container-based cloud computing platform for FreeBSD",
+  "track": "BSD",
+  "abstract": "<p>Docker and Kubernetes are changing the way to deploy services and applications in the Linux world.\nWhat about FreeBSD?\n2 years ago we presented pot, another jail abstraction framework. In time, the pot framework has developed to provide features containers-alike.\nThe plugin interface provided by nomad (a container orchestrator), allowed us to develop a driver for pot, enabling nomad to orchestrate pot jails.\nIn this talk, we'd like to present this FreeBSD-based ambitious alternative to Docker-Kubernetes</p>",
+  "description": "",
+  "persons": [
+    "Luca Pizzamiglio"
+  ]
+}

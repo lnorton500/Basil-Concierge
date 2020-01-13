@@ -1,0 +1,13 @@
+{
+  "start": 1577892000000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "FaaS You Like It: Create Serverless Functions & Run Anywhere",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>\"Serverless\" is a hot topic right now, and something that a lot of developers are keen to try.</p>\n\n<p>A lot of focus has been on implementations that are proprietary to and only run on a single provider's cloud.</p>\n\n<p>In this talk, I'll show how you can develop \"serverless\" functions on your laptop, with an open source platform and run them where you like.</p>",
+  "description": "<p>However, if you attend a Serverless event, you may come away with the impression that it's a world of proprietary walled gardens from the major cloud providers.</p>\n\n<p>In this talk I will cover:</p>\n\n<ul>\n<li> The case for open source serverless frameworks in general</li>\n<li> The fnproject (fnproject.io) in particular</li>\n<li> Implementing serverless Shakespeare on a laptop</li>\n</ul>",
+  "persons": [
+    "Ewan Slater"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577886600000,
+  "duration": 20,
+  "room": "K.3.401",
+  "title": "RISC-V Hypervisors",
+  "subtitle": "Where are we ? What next ?",
+  "track": "RISC-V",
+  "abstract": "<p>The RISC-V H-extension (aka hypervisor extension) is suitable for both Type1 and Type2 hypervisor. We have ported two hypervisors for RISC-V: Xvisor (Type1) and KVM (Type2). We show the current state and furture work for both hypervisors.</p>",
+  "description": "",
+  "persons": [
+    "Anup Patel"
+  ]
+}

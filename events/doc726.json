@@ -1,0 +1,13 @@
+{
+  "start": 1577887800000,
+  "duration": 40,
+  "room": "UB4.136",
+  "title": "Our road to a k8s/GKE based Closed Build Environment",
+  "subtitle": "A small journey to an autoscaling build env based on Jenkins.",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "<p>My team build a new Closed Build Environment for building Release Packages on Google Cloud Platform(gcp) with Google Kubernetes Engine (GKE).</p>\n\n<p>I like to take you on a small journey through a variety of topics we came across (open for change):</p>\n\n<ul>\n<li><p>How we bootstrap and how we use ArgoCD</p></li>\n<li><p>Autoscaling to 100 Build nodes for building</p></li>\n<li><p>Why we are using Prometheus-Operator</p></li>\n<li><p>SRE or how we maintain our stack</p></li>\n<li><p>Product aspect</p></li>\n<li><p>Base Image building &amp; scanning</p></li>\n<li><p>Network setup with Shared VPC</p></li>\n<li><p>Google Cloud Platform IAM Permissions vs. RBAC</p></li>\n<li><p>Specific GKE Features like Workload Identity</p></li>\n</ul>\n\n\n<p>And others</p>\n\n<p>Simple real live example how my team is doing it. Looking forward to inspire and to get feedback from others!</p>",
+  "description": "",
+  "persons": [
+    "Siegfried Kiermayer"
+  ]
+}

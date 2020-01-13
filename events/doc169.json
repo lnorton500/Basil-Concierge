@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "HAC: the Compiler which will Never Become Big",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "<p>In the Ada world, we are surrounded by impressive and professional\ntools that can handle large and complex projects.  Did you ever\ndream of a tiny, incomplete but compatible system to play with?\nAre you too impatient, when developing small pieces of code, for\nlong compile-bind-link-run cycles?  Are you a beginner intimidated by\nproject files and sophisticated tools?  Then HAC (the HAC Ada Compiler,\nor the Hello-world Ada Compiler) is for you.</p>",
+  "description": "<p>HAC is a revival of the SmallAda project, which supported the \"Pascal\nsubset\" plus tasking.</p>",
+  "persons": [
+    "Gautier de Montmollin"
+  ]
+}

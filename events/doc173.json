@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 50,
+  "room": "AW1.125",
+  "title": "Live Demo of Ada's Distribution Features",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "<p>Ada incorporates in its standard a model for distributed execution.\nIt is an abstract model that does not depend on a particular kind of\nnetwork or any other communication mean, and that preserves full typing\ncontrol across partitions.  This presentation briefly exposes the\nprinciples of Ada's distribution model, then shows the possibilities\nwith life demos across different machines and operating systems.</p>",
+  "description": "",
+  "persons": [
+    "Jean-Pierre Rosen"
+  ]
+}

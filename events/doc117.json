@@ -1,0 +1,13 @@
+{
+  "start": 1577882400000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "Overview of encryption features",
+  "subtitle": "",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "<p>MariaDB/MySQL/Percona Server provide some features in this space, but currently there isn't one product that covers all the needs (at least not available as FOSS).\nThis talk will provide an overview of Data-at-Rest-Encryption features in MySQL, MariaDB and Percona Server for MySQL, their availability across versions, and status (experimental/GA).</p>",
+  "description": "",
+  "persons": [
+    "Hrvoje Matijakovic"
+  ]
+}

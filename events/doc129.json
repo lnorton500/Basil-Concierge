@@ -1,0 +1,13 @@
+{
+  "start": 1577904000000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "20 mins to write a MySQL Shell Plugin",
+  "subtitle": "Extend the MySQL Shell with a plugin created from scratch",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "<p>MySQL Shell is a new client for MySQL. It comes with multiple functionalities like the adminAPI commands to setup and operate a MySQL InnoDB Cluster but also check for upgrades, import JSON, parallel import and more... It also allows you to communicate with the MySQL Server in SQL, Python or Javascript !\nDuring this session we will write a plugin from scratch to extend the Shell using the MySQL Shell Plugin Framework. The code will be written live in Python.</p>",
+  "description": "",
+  "persons": [
+    "Fr\u00e9d\u00e9ric Descamps"
+  ]
+}

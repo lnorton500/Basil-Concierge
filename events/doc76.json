@@ -1,0 +1,13 @@
+{
+  "start": 1577899200000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "Userspace networking: beyond the kernel bypass with RDMA!",
+  "subtitle": "Using the RDMA infrastructure for performance while retaining kernel integration",
+  "track": "Software Defined Networking",
+  "abstract": "<p>While userspace networking has demonstrated great performance benefits, it does come with greater complexity than kernel networking.</p>\n\n<p>In parallel, Remote Direct Memory Access (RDMA) was developed as an efficient way to move data in HPC and storage clusters with great success.</p>\n\n<p>Key properties of this technology are also highly desirable for userspace networking: native integration with the operating system (OS), OS bypass and a very efficient software interface.\nRDMA-capable network adapters are now enabling standard Ethernet networking functions through the RDMA interface, allowing userspace networking software such as <a href=\"https://fd.io\">VPP</a> to achieve extreme performance while integrating transparently with the OS.</p>\n\n<p>We'll present:</p>\n\n<ul>\n<li>the RDMA Ethernet concepts, architecture and interfaces</li>\n<li>how VPP leverages it</li>\n<li>the problems solved by this architecture and the usecase it enables</li>\n</ul>",
+  "description": "",
+  "persons": [
+    "Beno\u00eet Ganne"
+  ]
+}

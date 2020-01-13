@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 30,
+  "room": "UD2.119",
+  "title": "FASTEN: Scaling static analyses to ecosystems",
+  "subtitle": "",
+  "track": "Dependency Management",
+  "abstract": "<p>As recent events, such as the leftpad incident and the Equifax data breach, have demonstrated, dependencies on networks of external libraries can introduce projects to significant operational and\ncompliance risks as well as difficult to assess security implications. FASTEN introduces fine-grained, method-level, tracking of dependencies on top of existing dependency management networks. In our talk, we will present how FASTEN works on top of the Rust/Cargo and Java/Maven ecosystems.</p>",
+  "description": "",
+  "persons": [
+    "Georgios Gousios"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Web of Twins",
+  "subtitle": "From IoT to Immersive worlds and beyond...",
+  "track": "JavaScript",
+  "abstract": "<p>Overview of Web of thing concept, Mozilla WebThings IoT platform demonstrated using A-Frame 3D framework for building virtual reality experiences.</p>",
+  "description": "<p>The Web of Things connects real-world objects to the World Wide Web,\nMozilla proposed an open source implementation of Web of things concept.\nto connect and control smart home devices with Privacy by design.</p>\n\n<p>Once the WebThing platform is in place WoT can be used for many other purposes,</p>\n\n<p>As a demonstration, devices can be also \"mirrored\" in a virtual world\nand interacted differently using XR devices.</p>\n\n<p>Using A-Frame framework it's very easy to create models\nand keep the the Digital Twins updated in real time on the Web.</p>\n\n<p>Each components of this \"Web of Twins\" experiment will be detailed\nfrom sensors or actuators to rich 3D user interfaces and more.</p>",
+  "persons": [
+    "Philippe Coval"
+  ]
+}

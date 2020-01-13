@@ -1,0 +1,13 @@
+{
+  "start": 1577877300000,
+  "duration": 45,
+  "room": "K.3.201",
+  "title": "0 A.D.: Graphics Pipeline",
+  "subtitle": "How open-source game graphics works",
+  "track": "Game Development",
+  "abstract": "<p>A story about graphics pipeline of 0 A. D. (an open-source game of Wildfire Games) and its issues.</p>\n\n<p>Talking structure:</p>\n\n<ul>\n<li><p>A little history of 0AD (https://play0ad.com/about/the-story-of-0-a-d/)</p></li>\n<li><p>How our graphics pipeline works</p></li>\n<li><p>Used technologies (SDL, OpenGL 1/2, ARB/GLSL shaders)</p></li>\n<li><p>Known problems (old OpenGL, legacy support of OpenGL drivers on macOS 10.14)</p></li>\n<li><p>Future plans</p></li>\n</ul>",
+  "description": "",
+  "persons": [
+    "Vladislav Belov"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "Application Whitelisting in Linux Environment",
+  "subtitle": "",
+  "track": "Security",
+  "abstract": "<p>Are you a sysadmin and feeling paranoid? Let's promote security hardening to another level.\nPerhaps, with the concept of Application Whitelisting you will be able to sleep again.</p>",
+  "description": "<p>In this session we are going to explain the Application Whitelisting idea and its implementation, what benefits are there from a security point of view and how it differs from competitors.\nWe are going to show how to create a new set of rules based on distribution default for given examples.\nAs a result, an attendee should be able to setup the Application Whitelisting framework on his server or workstation.</p>\n\n<p>This presentation is based on Red Hat/Fedora Linux environment.</p>",
+  "persons": [
+    "Radovan Sroka"
+  ]
+}

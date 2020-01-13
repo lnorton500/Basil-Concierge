@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 50,
+  "room": "UD2.218A",
+  "title": "Embedded systems, the road to Linux",
+  "subtitle": "Early boot, comparing and explaining different systems.",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "<p>As soon as you are on Linux you are generally confident with the embedded system, whatever it is.\nBut often the boot process may hide some misteries, and understanding the details may help to recover a\nbricked board or to upgrade or replace a bootloader. The explained path would start from comparing some different\nSoC's, passing from the ROM boot loader, static RAM, sdram init, secondary bootloader, and so on,\nuntil the last \"jump\" to Linux. Most common non volatile boot devices would be introduced. A basic\nknowledge would be ok for the audience.</p>",
+  "description": "",
+  "persons": [
+    "Angelo Dureghello"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Why is Django 3.0 a revolution for building websites with Python?",
+  "subtitle": "From WSGI to ASGI and why it matters",
+  "track": "Python",
+  "abstract": "<p>For almost 20 years, we relied on a CGI based protocol called WSGI to use Python to handle HTTP requests and responses software.\nBecause Python is singled threaded we relied on a couple of hacks such as Gunicorn or uWSGI to share a socket through multiple processes.\nHowever the cost of all these multiple processes was a bit heavy and error prone.</p>\n\n<p>Through Django Channels Andrew Godwin paved the way for a better way of creating web services with Python. This work landed in Django 3.0.\nLet's explore how it works and why it worth it!</p>",
+  "description": "",
+  "persons": [
+    "R\u00e9my Hubscher"
+  ]
+}

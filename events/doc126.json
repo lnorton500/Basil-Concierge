@@ -1,0 +1,13 @@
+{
+  "start": 1577898600000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "Comparing Hash Join solution, the good, the bad and the worse.",
+  "subtitle": "",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "<p>MySQL 8.0.18 comes (finally) with a long waited and desired hash-join implementation.\nThat was already present in other pseudo MySQL distributions like MariaDb.\nBut, what is has-join, how it works, what problems it solves, when and how to use it.\nLast but not least are all the different implementations doing the same things, or are they acting and performing differently.\nWe are going to perform a short journey in hash-join implementations and answer all these questions.</p>",
+  "description": "",
+  "persons": [
+    "Marco Tusa (the Grinch)"
+  ]
+}

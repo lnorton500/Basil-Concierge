@@ -1,0 +1,13 @@
+{
+  "start": 1577882700000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "WebRTC isn't just for (video) conference calls",
+  "subtitle": "",
+  "track": "Real Time Communications",
+  "abstract": "<p>WebRTC is showing up in many places: security cameras, babymonitors, games streaming, autonomous cars etc\nI'll describe the advantages of WebRTC in these devices but also the challenges of non-mainstream usage.\nI'll bring a demo or two and some sample code.</p>",
+  "description": "",
+  "persons": [
+    "Tim Panton"
+  ]
+}

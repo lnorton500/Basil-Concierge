@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Introduction to Reactive Programming with RxPY",
+  "subtitle": "",
+  "track": "Python",
+  "abstract": "<p>Reactive Programming is an event based programming method. ReactiveX is a cross-platform implementation of Reactive Programming. It is heavily inspired from functional programming and contains many operators that allow to create, modify, and combine streams of events. Moreover it is composable and extensible. This short introduction presents Reactive Programming through RxPY, the Python implementation of ReactiveX.</p>",
+  "description": "<p>The aim of this talk is to present RxPY to people that never used it, or used RxPY v1:</p>\n\n<ul>\n<li>Principles of Reactive Programming</li>\n<li>What is ReactiveX and RxPY</li>\n<li>Short history of RxPY</li>\n<li>How to deal with errors</li>\n<li>how to deal with concurrency</li>\n<li>How to document your code with marble and reactivity diagrams</li>\n</ul>\n\n\n<p>The examples of the presentations are done with RxPY v3, that has been released this summer. This release contains major improvements over RxPY v1 (v2 has never been released).</p>",
+  "persons": [
+    "Romain Picard"
+  ]
+}

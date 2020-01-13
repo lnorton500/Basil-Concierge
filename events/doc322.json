@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "FoxDot and the Summer of 2019",
+  "subtitle": "",
+  "track": "Python",
+  "abstract": "<p>Yeah, this is about my last summer. But I promise to focus on the story of how I was able to do four amazing lightning talks with Python and a harmonica.</p>\n\n<p>This one is not about technical stuff, it is about finding something that python overlaps with your hobbies and sharing it back to the community.</p>",
+  "description": "<p>This talk is about writing songs and playing music with python. Back in 2017 I came to know FoxDot, a python wrapper around SuperCollider, which is a super popular open source synthesizer. Since then, I have been using it to create entertaining lighting talks and would like to cover a bit more than just a lightning talk this time.</p>",
+  "persons": [
+    "Mois\u00e9s Guimar\u00e3es"
+  ]
+}

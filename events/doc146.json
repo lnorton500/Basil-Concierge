@@ -1,0 +1,13 @@
+{
+  "start": 1577898000000,
+  "duration": 60,
+  "room": "AW1.120",
+  "title": "Weblate! Localize your project the developer way: continously, flawlessly, community driven, and open-source",
+  "subtitle": "Don\u2019t bother your development process with manual work. Connect Weblate to your VCS and let the localization magic happen.",
+  "track": "Coding for Language Communities",
+  "abstract": "<p>The presentation will show you how to localize your project easily with little effort, open-source way. Why we started Weblate? We said no to repetitive work, no to manual work with translation files anymore. Weblate is unique for its tight integration to VCS. Set it up once and start engaging the community of translators. More languages translated means more happy users of your software. Be like openSUSE, Fedora, and many more, and speak your users' language now thanks to Weblate!</p>",
+  "description": "<p>The presentation will show you how to localize your project easily with little effort, open-source way. Why we started Weblate? We said no to repetitive work, no to manual work with translation files anymore. Weblate is unique for its tight integration to VCS. Set it up once and start engaging the community of translators. More languages translated means more happy users of your software. Be like openSUSE, Fedora, and many more, and speak your users' language now thanks to Weblate! I will show you the main perks of Weblate and the setup of the project. If you have a project with open repo and you want to start translating it, take your git:// link, and we will set it up right on the spot. FOSDEM is a great time and place to found your translating community. And I am looking forward to answer all your questions!</p>",
+  "persons": [
+    "V\u00e1clav Zbr\u00e1nek"
+  ]
+}

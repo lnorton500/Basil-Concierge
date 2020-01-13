@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Querying millions to billions of metrics with M3DB's inverted index",
+  "subtitle": "",
+  "track": "Monitoring and Observability",
+  "abstract": "<p>The cardinality of monitoring data we are collecting today continues to rise, in no small part due to the ephemeral nature of containers and compute platforms like Kubernetes. Querying a flat dataset comprised of an increasing number of metrics requires searching through millions and in some cases billions of metrics to select a subset to display or alert on. The ability to use wildcards or regex within the tag name and values of these metrics and traces are becoming less of a nice-to-have feature and more useful for the growing popularity of ad-hoc exploratory queries.</p>\n\n<p>In this talk we will look at how Prometheus introduced the concept of a reverse index existing side-by-side with a traditional column based TSDB in a single process.  We will then walk through the evolution of M3\u2019s metric index, starting with ElasticSearch and evolving over the years to the current M3DB reverse index. We will give an in depth overview of the alternate designs and dive deep into the architecture of the current distributed index and the optimizations we\u2019ve made in order to fulfill wildcards and regex queries across billions of metrics.</p>",
+  "description": "",
+  "persons": [
+    "Rob Skillington"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "AW1.120",
+  "title": "ONLYOFFICE: How to securely collaborate on documents within content management applications",
+  "subtitle": "",
+  "track": "Collaborative Information and Content Management Applications",
+  "abstract": "<p>ONLYOFFICE is an open-source HTML5-based office suite for editing and collaborating on text documents, spreadsheets, and presentations online. Here, maximizing format compatibility, establishing browser-agnostic content display and optimizing real-time data transfer in co-authoring are the core principles in building applicable editing software.</p>\n\n<p>End user-side demand indicates that deeper integration in productivity solutions and content management applications is one of the main directions for ONLYOFFICE. We would like to share our experience in building connectors that allow users to edit and co-author their documents securely right within a platform they use.</p>\n\n<p>Presentation milestones:</p>\n\n<ul>\n<li>Review of the technical basis of ONLYOFFICE editors (HTML5 Canvas, JavaScript, etc.);</li>\n<li>Open API that allows creating third-party connectors;</li>\n<li>Integration with content management platforms such as XWiki, Nextcloud, ownCloud (including connectors/integration apps development);</li>\n<li>Security measures (JSON Web Token, limited cache lifetime, etc.)</li>\n<li>Connecting desktop and mobile environments to content management platforms;</li>\n<li>ONLYOFFICE integration roadmap.</li>\n</ul>",
+  "description": "",
+  "persons": [
+    "Alex Mikheev"
+  ]
+}

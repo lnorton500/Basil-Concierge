@@ -1,0 +1,13 @@
+{
+  "start": 1577873100000,
+  "duration": 25,
+  "room": "K.4.201",
+  "title": "Low-end platform profiling with HawkTracer profiler",
+  "subtitle": "",
+  "track": "Debugging Tools",
+  "abstract": "<p>HawkTracer is low-overhead instrumentation-based profiler built at Amazon Video for platforms with limited capabilities. It's written in C but can be used almost with any other language (we've successfully used it with JavaScript, LUA and Python). It's highly extensible (at compile time) and portable so it can be run on almost any embedded device. In this talk I'll introduce the architecture of the profiler, present it's advantages and limitations, show how can you instrument the code and demonstrate the profiler in action by running it with an example cross-language (C++ and Python) project.</p>",
+  "description": "",
+  "persons": [
+    "Marcin Kolny"
+  ]
+}

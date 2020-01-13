@@ -1,0 +1,13 @@
+{
+  "start": 1577882400000,
+  "duration": 30,
+  "room": "AW1.125",
+  "title": "Celebrating Guile 2020",
+  "subtitle": "Lessons Learns in the Last Lap to Guile 3",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "<p>Guile maintainer Andy Wingo shares his thoughts on the last lap of the race to Guile 3.  We'll go over ways that Guile got faster, more capable, and more minimal at the same time.</p>",
+  "description": "<p>New languages are often lovely and minimal but don't have a wide user community.  To the extent that an old language has a community, it also has a legacy burden of supporting that community's old code.  How should these be balanced?  Is there a balance?</p>\n\n<p>In this talk, Andy Wingo takes the opportunity of the Guile 3 release to reflect on change and continuity: how can a language stay minimal over time, and how is Guile working towards this goal?  We cover cases in which things have gone well, not so well, as well as ongoing challenges and opportunities.</p>",
+  "persons": [
+    "Andy Wingo"
+  ]
+}

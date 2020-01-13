@@ -1,0 +1,13 @@
+{
+  "start": 1577879400000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "TornadoVM: A Virtual Machine for Exploiting \u200bHigh-Performance Heterogeneous \u200bExecution of Java Programs\u200b",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>The proliferation of heterogeneous hardware in recent years has driven us to consider that every system we program, most likely includes a mix of computing elements; each of which with different hardware characteristics enabling programmers to improve performance while reducing energy consumption. These new heterogeneous devices include multi-core CPUs, GPUs and FPGAs. This trend has been accompanied by changes in software development norms that do not necessarily favor programmers. A prime example is the two most popular heterogeneous programming languages, CUDA and OpenCL, which expose several low-level features to the API making them difficult to use by non-expert users.</p>\n\n<p>Instead of using low-level programming languages, developers in industry and academia tend to use higher-level, object-oriented programming languages, typically executed on managed runtime environments, such as Java, R, and Javascript. Although many programmers might expect that such programming languages would have already been adapted for transparent execution on heterogeneous hardware, the reality is that their support is either very limited or absent.</p>\n\n<p>In this talk, we present TornadoVM (https://github.com/beehive-lab/TornadoVM), a heterogeneous programming framework for Java programs. TornadoVM co-exists with standard JVMs (e.g., OpenJDK) that implement the JVMCI. TornadoVM consists of three components: 1) a simple API for composing pipelines of existing Java methods, 2) an optimizing JIT compiler that extends the Graal compiler with hardware-aware optimizations that generate OpenCL C code, and 3) a runtime system that executes TornadoVM specific bytecodes, performs memory management, and schedules the code for execution on GPUs, multicore CPUs, and FPGAs. Essentially, TornadoVM is a \u201cVM-in-a-VM\u201d that can adapt execution completely dynamically and transparently to the user, always finding the highest-performing combination of hardware accelerators through dynamic reconfiguration.</p>",
+  "description": "",
+  "persons": [
+    "Thanos Stratikopoulos"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface",
+  "subtitle": "",
+  "track": "Security",
+  "abstract": "<p>Spectre-type attacks are a real threat to secure systems because a successful attack can undermine even an application that would be traditionally considered safe.\nSpecFuzz is the first tool that enables fuzzing for such vulnerabilities.</p>",
+  "description": "<p>The key is a novel concept of speculation exposure:\nThe program is instrumented to simulate speculative execution in software by forcefully executing the code paths that could be triggered due to mispredictions, thereby making the speculative memory accesses visible to integrity checkers (e.g., AddressSanitizer).\nCombined with the conventional fuzzing techniques, speculation exposure enables more precise identification of potential vulnerabilities compared to state-of-the-art static analyzers.</p>\n\n<p>Technical report: https://arxiv.org/abs/1905.10311</p>",
+  "persons": [
+    "Oleksii Oleksenko"
+  ]
+}

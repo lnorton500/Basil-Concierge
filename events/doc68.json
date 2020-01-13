@@ -1,0 +1,13 @@
+{
+  "start": 1577883000000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "Analyzing DPDK applications with eBPF",
+  "subtitle": "Sharpening the toolset",
+  "track": "Software Defined Networking",
+  "abstract": "<p>One of the challenges of doing software network applications is observing the inputs, outputs, and what the application is doing with them. Linux provides a rich tool set with eBPF but integrating this into a DPDK application is challenging. The DPDK libraries for capturing is incomplete which leads to lots of time debugging the tools. This talk addresses these issues, recommends solutions and proposes enhancements to make developers live easier.</p>",
+  "description": "<p>The DPDK provides a limited form of packet capture, but it only works on a single interface with no filtering and inaccurate timestamps.\nI go over  what packet capture does now, how it can be improved, and how it can be integrated with other tracing.</p>\n\n<p>This talk is an extension of the talk  (based on community feedback) given in 2019 at the DPDK userspace summit.</p>",
+  "persons": [
+    "Stephen Hemminger"
+  ]
+}

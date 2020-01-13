@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "Which video network streaming protocol should I use?",
+  "subtitle": "",
+  "track": "Open Media",
+  "abstract": "<p>Open source stacks such as GStreamer, ffmpeg and UPipe now implement a large number of different ways to stream audio &amp; video over a network. Just to name a few, there are RTSP, SRT, RIST, WebRTC, HLS, DASH, AES67, SmoothStreaming, RTMP! Some are for local networks and some target the Internet, depending on the use-case, these protocols have different upsides and downsides. To create a successful project, one needs to select the best suited technology. I'll go over the various protocols and explain how they relate to each other and their individual advantages and inconveniences.</p>",
+  "description": "",
+  "persons": [
+    "Olivier Cr\u00eate"
+  ]
+}

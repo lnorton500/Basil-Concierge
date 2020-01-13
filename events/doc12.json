@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 50,
+  "room": "K.1.105 (La Fontaine)",
+  "title": "Fixing the Kubernetes clusterfuck",
+  "subtitle": "Understanding security from the kernel up",
+  "track": "Containers and Security",
+  "abstract": "<p>Kubernetes is complex, and extremely vulnerable. In 2019 we explored the complexity of the Kubernetes codebase, and the antipatterns therein. This year we want to look at understanding how we observe our cluster at runtime. Let's live code some C and C++ and explore the libraries that bring Wireshark, Falco, and Sysdig to life. We concretely demonstrate how we are able to audit a Kubernetes system, by taking advantage of auditing the kernel's syscall information while enriching this data with meta information from Kubernetes.</p>",
+  "description": "<p>We start off by presenting the problem of Kubernetes security at runtime. We discuss concerns with namespace and privilege escalation in a Kubernetes environment. We discover how auditing the kernel gives us visibility into both the container layer, as well as the underlying system layer.</p>\n\n<p>We look at building an eBPF probe, or kernel module to begin auditing syscall metrics. We discover how we are able to pull those out of the kernel into userspace, and start exploring powerful patterns for using these metrics to secure a Kubernetes cluster.</p>\n\n<p>The audience walks away understanding how the kernel treats containers, and how we are able to easily make sense of them. The audience also walks away equipped with an OSS toolkit for understanding, observing, and securing a Kubernetes environment.</p>",
+  "persons": [
+    "Kris Nova"
+  ]
+}

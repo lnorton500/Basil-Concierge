@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Creating Word Clouds with OpenOffice",
+  "subtitle": "Text mining and visualization in Writer",
+  "track": "Open Document Editors",
+  "abstract": "<p>OpenOffice Writer offers all features needed for basic frequency analysis and visualization. We'll see how to do automated text analysis and simple word clouds without using specialized external tools.</p>",
+  "description": "",
+  "persons": [
+    "Andrea Pescetti"
+  ]
+}

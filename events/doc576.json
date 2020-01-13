@@ -1,0 +1,13 @@
+{
+  "start": 1577873100000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "GeoServer Basics",
+  "subtitle": "",
+  "track": "Geospatial",
+  "abstract": "<p>GeoServer Basics\nWelcome to GeoServer, a popular web service for publishing your geospatial data using industry standards for vector, raster and mapping.</p>\n\n<p>Are you just getting started with GeoServer, or considering it for the first time?</p>\n\n<p>This presentation is here to help, introducing the basics of:\nUsage: Concepts used to connect to your data and publish as a spatial service.\nContext: What role GeoServer plays in your organization and what value the application provides.\nCommunity: How the project is managed, and a discussion of the upcoming activities.</p>\n\n<p>Attend this presentation to get a running start on using GeoServer in your organization.</p>",
+  "description": "",
+  "persons": [
+    "Jody Garnett"
+  ]
+}

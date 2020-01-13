@@ -1,0 +1,14 @@
+{
+  "start": 1577902800000,
+  "duration": 40,
+  "room": "H.1302 (Depage)",
+  "title": "JRuby Startup and AOT",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>Rubyists work from a command line, which makes JRuby startup time a critical concern. Traditionally, the JVM has not been optimized for startup, but that's changing. This talk will explore all available options for making a heavy runtime like JRuby start up quickly, from using class data caching services like Hotspot's CDS and OpenJ9's Quickstart to ahead-of-time compilation of JRuby using GraalVM's Native Image. We'll compare approaches and trade-offs.</p>",
+  "description": "",
+  "persons": [
+    "Charles Nutter",
+    "Thomas Enebo"
+  ]
+}

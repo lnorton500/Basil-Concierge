@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 25,
+  "room": "K.3.401",
+  "title": "Packaging Rust programs in GNU Guix",
+  "subtitle": "Build reproducibility and dependency management",
+  "track": "Rust",
+  "abstract": "<p>Rust is a language with a healthy ecosystem and a strong developer base. With built-in dependency management it's easy to build and install new programs even for those who have never used the language. But how is its adoption among Linux distros?\nCome with me as we figure out how best to package rust libraries and binaries in Linux distributions which demand total control over dependency management.</p>",
+  "description": "",
+  "persons": [
+    "Efraim Flashner"
+  ]
+}

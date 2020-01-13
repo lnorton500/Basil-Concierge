@@ -1,0 +1,14 @@
+{
+  "start": 1577883600000,
+  "duration": 45,
+  "room": "H.1308 (Rolin)",
+  "title": "Building Blocks for Containerized Ceph",
+  "subtitle": "How Raw Block PersistentVolumes Changed the Way We Look at Storage in Kubernetes",
+  "track": "Software Defined Storage",
+  "abstract": "<p>Originally, Kubernetes PersistentVolumes (PVs) could only present storage to containers as filesystems. Now, raw block PersistentVolumes (PVs) allow applications to consume storage in a new way. In particular, Rook-Ceph now makes use of them to provide the backing store for its clustered storage in a more Kubernetes-like fashion and with improved security. Now we can rethink the notion of how we structure our storage clusters, moving the focus away from static nodes and basing them on more dynamic, resilient storage devices.</p>",
+  "description": "<p>Originally, Kubernetes PersistentVolumes (PVs) could only present storage to containers as filesystems. However, some applications prefer to use block storage, usually for reasons of performance, and have no need for a full filesystem. Several such applications have had to go as far as directly accessing local system directories to get the functionality they need in Kubernetes.</p>\n\n<p>Raw block PVs are a relatively new feature that went beta in Kubernetes 1.13. They allow Kubernetes to present storage to containers as block devices, removing the need for provisioners to format filesystems on top of them. This not only allows for greater performance to the applications that expect it, it also helps improve security by reducing the level of permissions such an application's containers require to run.</p>\n\n<p>Rook-Ceph is the Ceph operator for the Rook project. It provides resilient storage by running the various Ceph components as containers and managing them via Kubernetes. Originally, it would bind-mount system directories to manipulate the storage devices it consumed. It now leverages raw block PVs to store its data, expanding the types of storage it can consume. In particular, cloud environments are now a space where its storage Pods can migrate in response to node failures and have the storage devices move with their Pods.</p>\n\n<p>For the uninitiated, this presentation will start with an overview of how storage is modeled and presented in Kubernetes. It will then describe how that storage was originally consumed by Rook-Ceph, what we changed about it, and the consequences (both good and bad) of those changes.</p>",
+  "persons": [
+    "Jose Rivera",
+    "Rohan Gupta"
+  ]
+}

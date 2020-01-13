@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 30,
+  "room": "UD2.119",
+  "title": "Self-hosted server backups for the paranoid",
+  "subtitle": "Using Borg, SSH, Python and FreeNAS to securely backup Linux servers",
+  "track": "Backup and Recovery",
+  "abstract": "<p><a href=\"https://quarkslab.com/en/\">Quarkslab</a> is a French company specializing in information security R&amp;D, consulting and software development.</p>\n\n<p>Due to strong data security constraints imposing self-hosted solutions coupled with limited resources in a fast-growth environment, data safety has been a pain point in our infrastructure.</p>\n\n<p>After our backup server failed, we decided to recreate a new backup system from scratch, adapted to our needs and using technologies we were familiar with, to backup 30+ Linux servers.</p>\n\n<hr />\n\n<p>In this talk, we will present how our old backup system failed, the key requirements we learned from this failure, and how we designed and implemented a new backup system based on <a href=\"https://borgbackup.readthedocs.io/en/stable/\">Borg Backup</a>, <a href=\"https://github.com/witten/borgmatic\">borgmatic</a>, SSH, Python and <a href=\"https://www.freenas.org/\">FreeNAS</a> to solve those requirements.</p>\n\n<p>We will conclude by listing the shortcomings and improvement points of our approach, as well as comparing our solution to seven important properties every backup system should have.</p>\n\n<hr />\n\n<p>Some interesting features of our new backup solution are strong data safety and security, fully self-hosted, using only open-source tools, simple to set up and easy to understand.</p>\n\n<p>One specific requirement we solved was for the sysadmin team to be blind to the data they backup, managing only the process itself.</p>\n\n<p>This lets people working on confidential project on dedicated and access-restricted servers to still use a centralized and resilient backup system without compromising data and server security.</p>\n\n<hr />\n\n<p>We will open-source our Ansible roles and Python scripts on <a href=\"https://github.com/quarkslab\">Github</a> before FOSDEM.</p>",
+  "description": "",
+  "persons": [
+    "Axel Tripier"
+  ]
+}

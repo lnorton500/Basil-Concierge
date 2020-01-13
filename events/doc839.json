@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 120,
+  "room": "UD2.Corridor",
+  "title": "PGP Keysigning",
+  "subtitle": "",
+  "track": "Keysigning",
+  "abstract": "<p>The FOSDEM 2020 PGP Keysigning</p>",
+  "description": "<p>The keysigning event takes place in the corridor on the second level of the U building. There is no fixed end time. Previous editions last for approximately one hour per 100 keys on the list. You must register before the conference to take part. Please bring the printed list, a pen and appropriate form of identification with you the event.</p>\n\n<p>Please note that you must register your key at least a week in advance of the conference.</p>",
+  "persons": [
+    "FOSDEM Staff"
+  ]
+}

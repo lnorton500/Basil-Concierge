@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Using biometric gadgets for express-tests in the UX/UI research",
+  "subtitle": "",
+  "track": "Open Source Design",
+  "abstract": "<p>Estimating the user\u2019s physical and mental state with a set of special measuring devices can be helpful in detecting bottlenecks of the human-computer interaction. Until recent years, evaluating cognitive and physical load by biometrical parameters (heart rate, galvanic skin response, brain waves, gaze direction, etc.) was too expensive to be widely adopted for FLOSS. However contemporary consumer-grade gadgets targeted at fitness and entertainment are much more affordable and precise enough to be used in the UX/UI comparison. Still, their different primary goal often complicates their usage for the  research.  The talk will highlight which devices are the most suitable ones for the research purposes in the open-source world (the ones having open-source and GNU/Linux frameworks to access biometric data).  Gadgets covered with the talk are fitness-trackers, EEG headsets, and eye-trackers. Patterns of getting data, problems with cyphering and licensing will be discussed, as well as brief biometry usage scenarios and examples of the UI express-testing.</p>",
+  "description": "",
+  "persons": [
+    "Dmitriy Kostiuk"
+  ]
+}

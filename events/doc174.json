@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "Writing Shared Memory Parallel Programs in Ada",
+  "subtitle": "Multitasked Newton's Method for Power Series",
+  "track": "Ada",
+  "abstract": "<p>Tasks in Ada are effective to speed up computations on multicore\nprocessors.  In writing parallel programs we determine the granularity\nof the parallelism with respect to the memory management.  We have to\ndecide on the size of each job, the mapping of the jobs to the tasks,\nand on the location of the input and output data for each job.</p>\n\n<p>A multitasked Newton's method will show the effectiveness of Ada to\nspeed up the computation of power series.  This application belongs\nto the free and open source package PHCpack, a package to solve\npolynomial systems by polynomial homotopy continuation.</p>",
+  "description": "",
+  "persons": [
+    "Jan Verschelde"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577871300000,
+  "duration": 25,
+  "room": "UB5.230",
+  "title": "Organizing Open Source for Cities",
+  "subtitle": "Adapting the Open Source Program Office",
+  "track": "Community devroom",
+  "abstract": "<p>Open Source is vital in the expansion wave of smart cities. Yet, where is the sustainable municipal open innovation economic engine/s, and how do we start them spinning at scale? \u2014 Only through structured collaboration and community.  We present the community collaboration efforts, accomplishments, and vision of the partners behind the launch of the Johns Hopkins Open Source Program Office for Open Cities, the community creation efforts of the City of Paris's open source city services platform Lutece, and the interactions with and between Baltimore communities, Paris communities, and open source communities and institutions.</p>",
+  "description": "<p>Open Source is vital in the expansion wave of smart cities. Yet, where is the sustainable municipal Open innovation economic engine/s, and how do we start them spinning at scale? \u2014 Only through structured collaboration and community. The open source communities and institutions are highly successful at this in other industries. In cities, open source is not enough, we also need open data, open standards, etc. As we scale, openness and transparency, interoperability, feedback mechanisms, security, non-bias, privacy, become dominating design requirements. Accelerating the scale of good solutions needs help and structure. There are 18,000 municipalities in the US alone, currently siloed, and meaningful technical and community cooperation is minimal. We need a new flexible institutional framework to advance cooperation and scaling within our interdisciplinary design requirements.</p>\n\n<p>The open source program office is a successful industry construct in the open source world, and we aim to investigate adapting this construct to accelerate and scale open cities; from open source software &amp; services, open data, and standards, to non-bias, security, privacy, access, diversity, and above all TRUST!</p>\n\n<p>Johns Hopkins University has launched what is the believed to be the first OSPO for higher education and launching it in part to support Open Cities including Baltimore.  Jacob Green from Mosslabs.io discussed the launch of the JHU OSPO, its initial initiatives, and collaborations with City of Paris.</p>",
+  "persons": [
+    "Jacob Green"
+  ]
+}

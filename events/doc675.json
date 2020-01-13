@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 30,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Peer-to-peer collaboration, search & discovery",
+  "subtitle": "Decentralized collaborative application development",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "<p>A data-centric, offline-first approach to decentralized collaborative application development focusing on data ownership and privacy.</p>",
+  "description": "<p>Exploring replicated mergeable data structure stores as building blocks of decentralized applications that enable asynchronous collaboration and offline search in combination with peer-to-peer gossip-based protocols that provide pub/sub, dissemination, and recommendation services both over the internet as well as on local and mobile proximity networks, thereby forming interest-based networks that facilitate discovery of personally relevant content and people.</p>",
+  "persons": [
+    "TG x"
+  ]
+}

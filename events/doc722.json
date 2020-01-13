@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 15,
+  "room": "UB4.136",
+  "title": "Infrastructure CICD with KubeVirt and Tekton",
+  "subtitle": "",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "<p>Over the past few years, we\u2019ve all realized the benefits of CICD. The more that we test our code and the faster that we can have these changes integrated, the more value we derive from these systems (and our code). However, in general this only ever seems to be applied to application code. We sometimes forget that no matter how fast deploy our applications -- if the underlying infrastructure components are not benefiting from this same process, we\u2019ll only ever be as good as these weaker links. But why are things like this? Because testing these components can be hard and often access to these systems are highly restricted (for good reason!). But with tools like KubeVirt and Kubernetes, we don\u2019t need this access  just to test out our changes. We can safely test infrastructure related  deployments and changes (DNS, networking, ansible roles) safely within our own environment before pushing things straight to production! What we\u2019ll dig in on during this talk is how to safely deploy infrastructure related components on Kubernetes and orchestrate the testing and deployment of these changes with Tekton and KubeVirt. We\u2019ll also discuss some of the advantages and disadvantages that may come with an approach like this and how we\u2019re looking to use this on a handful of internal projects.</p>",
+  "description": "",
+  "persons": [
+    "Tyler Auerbeck"
+  ]
+}

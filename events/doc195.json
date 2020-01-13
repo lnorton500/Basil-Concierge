@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 30,
+  "room": "AW1.126",
+  "title": "Developing Open-Science Research Platforms",
+  "subtitle": "Zotero, PressForward, Tropy, DHARPA",
+  "track": "Open Research Tools and Technologies",
+  "abstract": "<p>From Zotero to PressForward to Tropy, my research team has developed a wide range of open-science research tools over the last 13 years. I'll talk about how the availability and selection of our technology stacks has influenced humanities (and non-humanities) research methodologies, and I'll provide an update on my team's newest and most comprehensive research platform, DHARPA.</p>",
+  "description": "<p>I'm flexible on the length of the talk and the format. No expected prior knowledge.</p>",
+  "persons": [
+    "Sean Takats"
+  ]
+}

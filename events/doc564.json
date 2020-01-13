@@ -1,0 +1,13 @@
+{
+  "start": 1577884200000,
+  "duration": 30,
+  "room": "AW1.125",
+  "title": "Introduction to G-Expressions",
+  "subtitle": "Introduction to G-Expressions",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "<p>This talk will present an overview of G-Expressions and how the GNU Guix project uses them.</p>",
+  "description": "<p>The GNU Guix project invented G-Expressions to make it easier to stage S-Expressions for later manipulation or evaluation.  They are similar to S-Expressions (hence the name) but provide useful code staging features beyond what can be easily accomplished with just \"quasiquote\" and \"unquote\".  A high-level object (such as a Guix package) can be included in a G-Expression; the transitive dependencies of that high-level object will then be automatically carried along with the G-Expression.  When the G-Expression is converted to an S-Expression and stored on disk for later manipulation or evaluation, the high-level object will be automatically \"lowered\" to an appropriate representation (such as the package's output path) via a \"compiler\".  Compared to direct manipulation of S-Expressions, G-Expressions provide a simpler and more intuitive way to stage code that refers to such high-level objects.</p>\n\n<p>The Guix project uses G-Expressions to accomplish a wide variety of tasks, including:</p>\n\n<ul>\n<li>Executing the \"liberation\" procedure to convert Mozilla Firefox's source code into GNU IceCat's source code</li>\n<li>Building Docker containers from scratch</li>\n<li>Executing activation actions during system boot</li>\n<li>...and more!</li>\n</ul>",
+  "persons": [
+    "Christopher Marusich"
+  ]
+}

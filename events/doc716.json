@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 60,
+  "room": "UB4.132",
+  "title": "LibreOffice Exam Session 2",
+  "subtitle": "",
+  "track": "Certification",
+  "abstract": "<p>LibreOffice Certifications are designed to recognize professionals in the areas of development, migrations and trainings who have the technical capabilities and the real-world experience to provide value added services to enterprises and organizations deploying LibreOffice on a large number of PCs.</p>",
+  "description": "<p>In the future, LibreOffice Certifications will be extended to Level 1 and Level 2 Support professionals.</p>\n\n<p>The LibreOffice Certification is not targeted to end users, although Certified Training Professionals will be able to provide such a service upon request (although not as a LibreOffice Certification). In general, end user certification is managed by organizations with a wider reach such as the Linux Professional Institute.</p>",
+  "persons": [
+    "LibreOffice Team"
+  ]
+}

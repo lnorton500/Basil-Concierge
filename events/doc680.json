@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 30,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Building a Web App that Doesn\u2019t Trust the Server",
+  "subtitle": "Securing ProtonMail",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "<p>How do you know WhatsApp Web isn\u2019t spying on your messages, despite the end-to-end encryption? Why did Signal decide to build a desktop application instead of a web app?</p>\n\n<p>Open Source clients are a necessary, but unfortunately not sufficient, requirement for guaranteeing privacy. This talk explores two other issues: how to securely deliver that source code, and how to securely deliver the encryption keys that users use to communicate. It also presents our proposed solutions to these problems.</p>",
+  "description": "<p>At ProtonMail, we\u2019re aiming to build a web application that gives users the guarantee that we are physically unable to read their email, even if we wanted to. This comes with a set of challenges: how can the user trust the source code that comes from the server (without reading it each time), and how can the user trust the public keys that they receive (without hosting key signing parties, however fun they may be :)).</p>\n\n<p>We currently support self-hosting, and manual key verification and pinning as solutions to these issues, respectively. However, these are highly manual solutions. This talk will present two projects we\u2019ve been working on to provide privacy guarantees without requiring any action: Source Code Transparency and Key Transparency.</p>\n\n<p>Finally, we\u2019ll also briefly discuss what kind of APIs we could add to browsers to make it easier to develop web apps that don\u2019t trust the server.</p>",
+  "persons": [
+    "Daniel Huigens"
+  ]
+}

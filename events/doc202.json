@@ -1,0 +1,13 @@
+{
+  "start": 1577875500000,
+  "duration": 25,
+  "room": "K.3.201",
+  "title": "Python for Godot",
+  "subtitle": "",
+  "track": "Game Development",
+  "abstract": "<p>Godot is an incredible open source game engine. Among it key features, it comes packed with a script language called GDscript and loosely based on Python.\nBut could it be even better ? Could we use the real Python to code our game on Godot ?</p>\n\n<p>And maybe even more important, is it really a good idea ?</p>",
+  "description": "<p>Godot is an advanced, feature-packed, multi-platform 2D and 3D open source game engine.\nThe project has joined the Software Freedom Conservancy project and it growing community makes it hopes to become a real alternative to Unity&amp;GameMaker.</p>\n\n<p>This talk present the Godot-Python project aiming at bringing Python as a fully integrated language into Godot.</p>\n\n<p>We will have a look at Godot\u2019s internal architecture as is it itself a real interpreter with it garbage collector, dynamic typing, introspection and even builtin custom scripting language.\nAll of this having to work next to our Python interpreter and communicate back and forth with it.</p>\n\n<p>We will then dig into Godot-Python design choices, both past and current, this project came through a looot of errors and trials ;-)</p>\n\n<p>Finally we will discuss the pros and cons about using Python as a script language for Godot vs the traditional GDscript.</p>\n\n<p>The audience should have some basic knowledge of C level computing (static vs dynamic language, compilation &amp; linking).</p>",
+  "persons": [
+    "Emmanuel Leblond"
+  ]
+}

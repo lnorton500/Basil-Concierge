@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "Functional audio and video stream generation with Liquidsoap",
+  "subtitle": "",
+  "track": "Open Media",
+  "abstract": "<p>The talk will give a general overview of the Liquidsoap language, and put focus on recent new features: support for HLS, efficient video, etc.</p>",
+  "description": "<p>The task of generating multimedia streams such as for webradios or live youtube channels is a complicated task. One needs to face low-level issues (properly encoding and distributing the streams), mid-level issues (performing normalization, signal processing, color grading, etc.) and high-level issues such as generating the stream from a wide variety of sources (local files, other streams, live interventions, user requests, etc.) and properly combining them (performing transitions, adding commercials, vary the contents during the day, etc.). In this talk, we present Liquidsoap, a dedicated high-level functional language, which allows performing all these tasks in a modular way, with strong guarantees that the stream will not fail on the long run.</p>",
+  "persons": [
+    "Romain Beauxis"
+  ]
+}

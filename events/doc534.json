@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 30,
+  "room": "AW1.120",
+  "title": "Platform independent CPU/FPGA co-design: the OscImp-Digital framework",
+  "subtitle": "G. Goavec-Merou, P.-Y. Bourgeois, J.-M. Friedt",
+  "track": "Free Software Radio",
+  "abstract": "<p>Combining the flexibility of FPGA hardware configuration with the high abstraction level of an operating system running on a general purpose central processing unit (CPU) requires mastering a broad range of knowledge, from low level hardware configuration to kernel drivers to libraries and userspace application. While some vendor specific frameworks tackle the challenge, we focus on a vendor independent solution applicable to current FPGA Systen on Chip providers: the OscImp Digital framework provides a comprehensive set of FPGA IP, associated Linux driver, library and userspace examples based on GNU Radio running on the embedded CPU. We demonstrate its use on the Redpitaya platform processing baseband signals as well as the Zynq, most significantly associated with the AD9363 radiofrequency frontend on the PlutoSDR board. In both cases, the FPGA is not only used to stream I/Q coefficients but pre-process the datastream in order to reduce bandwidth and efficiently feed the CPU: we demonstrate embedded FM broadcast radio reception as well as GPS decoding on the PlutoSDR custom bitstream. The framework is available at https://github.com/oscimp/oscimpDigital</p>",
+  "description": "",
+  "persons": [
+    "Jean-Michel Friedt"
+  ]
+}

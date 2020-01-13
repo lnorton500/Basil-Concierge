@@ -1,0 +1,13 @@
+{
+  "start": 1577900400000,
+  "duration": 35,
+  "room": "H.1309 (Van Rijn)",
+  "title": "Shipping a performance API on Chromium",
+  "subtitle": "Experiences from shipping the Element Timing API",
+  "track": "Web Performance",
+  "abstract": "<p>Adding new web performance APIs to the web is a complex process. In this talk, I'll go over the steps we went through to ship the Element Timing API in Chromium, which enables measuring rendering timing of image and text content. You'll learn about the process to ship an API exposing performance information to web developers. There were many steps involved in the process: engaging with developers and other browser vendors, brainstorming, privacy and security reviews, Origin Trials, posting an Intent, and addressing questions and ideas after the API has shipped.</p>",
+  "description": "",
+  "persons": [
+    "Nicol\u00e1s Pe\u00f1a Moreno"
+  ]
+}

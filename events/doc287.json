@@ -1,0 +1,16 @@
+{
+  "start": 1577876400000,
+  "duration": 50,
+  "room": "UA2.220 (Guillissen)",
+  "title": "DEBATE: Should FOSS licenses be enforced at all?  What means are acceptable if so?",
+  "subtitle": "",
+  "track": "Legal and Policy Issues",
+  "abstract": "<p>In a perfect world, lawyers (and the entire legal system) should not be necessary. And in a perfect FOSS world, everyone respects each and every provision of every license. The reality is, however, very different, and enforcement may be a necessary evil. This need does not mean we have to open the gates to be flooded by \"copyleft trolls\", but to establish a sound enforcement policy, in order to unleash the lawyers only for the most blatant and repeated violations</p>",
+  "description": "<p>Affirmative position: FOSS licenses should not be enforced.</p>\n\n<ol>\n<li>First Affirmative Constructive (1AC) = 7 minutes\na. Cross-examination of First Affirmative by Second Negative = 3 minutes</li>\n<li>First Negative Constructive (1NC)  = 7 minutes\na. Cross-examination of First Negative by First Affirmative = 3 minutes</li>\n<li>Second Affirmative Constructive (2AC)  = 7 minutes\na. Cross-examination of Second Affirmative by First Negative = 3 minutes</li>\n<li>Second Negative Constructive (2NC)  = 7 minutes\na. Cross-examination of Second Negative by Second Affirmative = 3 minutes</li>\n<li>First Negative Rebuttal (1NR)  = 3 minutes</li>\n<li>First Affirmative Rebuttal (1AR)  = 3 minutes</li>\n<li>Second Negative Rebuttal (2NR)  = 3 minutes</li>\n<li>Second Affirmative Rebuttal (2AR)  = 3 minutes</li>\n</ol>",
+  "persons": [
+    "Pamela Chestek",
+    "Giovanni Battista Gallus",
+    "Marc Jones",
+    "McCoy Smith"
+  ]
+}

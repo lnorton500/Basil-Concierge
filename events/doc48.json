@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 45,
+  "room": "H.1302 (Depage)",
+  "title": "State of OpenJDK",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>A review of the past year in the life of the OpenJDK Community, and a look at what's ahead.</p>",
+  "description": "",
+  "persons": [
+    "Mark Reinhold"
+  ]
+}

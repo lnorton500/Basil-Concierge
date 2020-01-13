@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 25,
+  "room": "UD2.119",
+  "title": "Relax-and-Recover (ReaR) Mass Deployment",
+  "subtitle": "",
+  "track": "Backup and Recovery",
+  "abstract": "<p>Installing and configuring ReaR on thousands of Linux systems might become a nightmare to keep track what/where was done with success. Luckily using configuration management software we can do this quite easily.\nIn this talk we will guide you through a recipe on how we have done this for a multi-national company.</p>",
+  "description": "",
+  "persons": [
+    "Gratien D'haese"
+  ]
+}

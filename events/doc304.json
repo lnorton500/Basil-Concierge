@@ -1,0 +1,13 @@
+{
+  "start": 1577892900000,
+  "duration": 30,
+  "room": "UB2.147",
+  "title": "Releasing Software with GitOps",
+  "subtitle": "How OpenStack manages releases using Git based automation",
+  "track": "Testing and Automation",
+  "abstract": "<p>Overview of the process the OpenStack community uses to manage all software releases through automation around Git commits.</p>",
+  "description": "<p>The OpenStack community has enabled a lot of automation around releasing their software. This presentation will give an overview of how code reviews are used to manage release activity. It will step through the use of Zuul CI jobs to perform validation of requests before they are accepted, and how commits are used to trigger jobs to tag and release the software, update documentation, trigger requirements updates, and other follow on work that needs to happen whenever new code is released.</p>",
+  "persons": [
+    "Sean McGinnis"
+  ]
+}

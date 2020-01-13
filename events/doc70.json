@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 40,
+  "room": "H.1308 (Rolin)",
+  "title": "Weave Net, an Open Source Container Network",
+  "subtitle": "Five years with no central point of control",
+  "track": "Software Defined Networking",
+  "abstract": "<p>A tour of the internals of Weave Net, one of the most popular container networks:\ndesign challenges and lessons learned from five years in the wild. Including\nKubernetes integration and how CNI was born.</p>\n\n<p>Weave Net is written in Go, using many Linux kernel features such as veths, bridges and iptables.\nAimed at developers rather than network engineers, Weave Net tries to be self-configuring and\nfind the best available transport between nodes. The control plane operates via gossip,\nwith no central point of control.</p>",
+  "description": "",
+  "persons": [
+    "Bryan Boreham"
+  ]
+}

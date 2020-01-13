@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "Replacing iptables with eBPF in Kubernetes with Cilium",
+  "subtitle": "",
+  "track": "Software Defined Networking",
+  "abstract": "<p>Michal Rostecki is a Software Engineer working at SUSE. He's working on Cilium, both upstream and on integrating it with openSUSE Kubic Project and SUSE CaaS Platform.</p>\n\n<p>Swaminathan Vasudevan is a Software Engineer working at SUSE. Worked on Neutron Networking Upstream and currently migrating to Cilium and openSUSE Kubic Project and SUSE CaaS Platform.</p>",
+  "description": "<p>Cilium is an open source project which provides networking, security and load balancing for application services that are deployed using Linux container technologies by using the native eBPF technology in the Linux kernel.\nIn this presentation we would talk about:\n- The evolution of the BPF filters and will explain the advantages of eBPF Filters and its use cases today in Linux especially on how Cilium networking utilizes the eBPF Filters to secure the Kubernetes workload with increased performance when compared to legacy iptables.\n- How Cilium uses SOCKMAP for layer 7 policy enforcement\n- How Cilium integrates with Istio and handles L7 Network Policies with Envoy Proxies.\n- The new features since the last release such as running Kubernetes cluster without kube-proxy, providing clusterwide NetworkPolicies, providing fully distributed networking and security observability platform for cloud native workloads etc.</p>",
+  "persons": [
+    "Michal Rostecki"
+  ]
+}

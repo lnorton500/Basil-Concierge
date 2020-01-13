@@ -1,0 +1,13 @@
+{
+  "start": 1577893200000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Open Source Support Program by OTA",
+  "subtitle": "",
+  "track": "Lightning Talks",
+  "abstract": "<p>The Open Technology Assembly (OTA), formerly known as Belgian Unix Users Group, is a non-profit organisation  which main goal was to promote and organise meetings around Unix and Open Source in general (mainly more than a decade ago).\nOver the years the Internet took over so that the interest in our meetings declined and finally we stopped organise meetings altogether. However, as a non-profit organisation we would like to do something useful such as supporting and funding new open source related projects.</p>",
+  "description": "<p>The Open Technology Assembly (OTA) will open an Open Source Support program to apply for funding. It would be nice that the chosen Open Source projects owners submit a (lightning) talk for next year's FOSDEM, however, it is not obliged.\nWe will also organise an independent jury to go over the submitted projects and make a list of the projects which will get funding. Before FOSDEM starts we will have web pages explaining most of the details.</p>",
+  "persons": [
+    "Gratien D'haese"
+  ]
+}

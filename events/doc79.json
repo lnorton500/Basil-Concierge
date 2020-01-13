@@ -1,0 +1,13 @@
+{
+  "start": 1577874900000,
+  "duration": 30,
+  "room": "H.1309 (Van Rijn)",
+  "title": "DNS Management in OpenStack",
+  "subtitle": "What is the OpenStack DNS API?",
+  "track": "DNS",
+  "abstract": "<p>All major clouds have integrated DNS management these days, and OpenStack is one of them. We will run through the OpenStack DNS (Designate) project - how it works, why we laid it out the way we did, how you can use it, and how other OpenStack components can leverage it.</p>",
+  "description": "<p>We will run through the general architecture of the project, and show how we can remain a simple control layer over multiple DNS servers and service providers.</p>\n\n<p>We will show how you can run Designate stand alone, as a multi tenant API for managing DNS inside your company, and how you can use the ability to have multiple pools of servers available for multiple purposes.</p>\n\n<p>Finally we will show the myriad of both OpenStack and other Open Source software integrations for DNS management, and DNS-01 ACME validation.</p>",
+  "persons": [
+    "Graham Hayes"
+  ]
+}

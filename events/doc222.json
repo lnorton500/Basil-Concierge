@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 20,
+  "room": "K.3.401",
+  "title": "Oreboot",
+  "subtitle": "RISC-V Firmware in Rust",
+  "track": "RISC-V",
+  "abstract": "<p>Oreboot = Coreboot - C. Oreboot is a fully open-source power-on-reset and romstage firmware written in Rust. Oreboot can boot a HiFive RISC-V processor to Linux with a Go user-mode.</p>\n\n<p>Oreboot rethinks the firmware driver models. Each driver is distilled to four basic functions: init, pread, pwrite and shutdown. This interface allows us to make convenient higher-level drivers such as a \"union driver\" which duplicates a single write operation to multiple drivers. This makes consoles which have multiple underlying UART drivers elegant.</p>\n\n<p>By using the Rust programming language, Oreboot has a leg-up in terms of security and reliability compared to contemporary firmware written in C or assembly. Rust's borrow-checker ensures pointers are not used after freed and proves that coroutines are thread-safe at compile time.</p>\n\n<p>In this talk, we will also present a short overview of the basics of Rust, how our driver model incorporates coroutines and the bootflow of Oreboot.</p>",
+  "description": "",
+  "persons": [
+    "Ryan O'Leary"
+  ]
+}

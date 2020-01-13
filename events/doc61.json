@@ -1,0 +1,13 @@
+{
+  "start": 1577901000000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "The OpenJDK JVM : Securing a moving target or What could possibly go wrong?",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>The OpenJDK Java Virtual Machine presents some interesting challenges\nwhen it comes to guarding against potential vulnerabilities. This talk\nwill explain how dynamic class-loading, JIT compilation, speculative\ncompilation and other aspects of the JVM's operation present a moving\nattack surface that presents some very different challenges to those\nfound in other programs or runtimes.</p>\n\n<p>This talk won't say anything about specific vulnerabilities but it will\nidentify a few areas of the OpenJDK JVM where some of these unique types\nof vulnerability have been identified and resolved. It may teach you\nsome things you didn't know about the complexity of the JVM and\nhopefully reassure you that the OpenJDK devs are very aware of what\ncould possibly go wrong. Whether we have got it all right is left as a\nfollow-up exercise for attendees.</p>",
+  "description": "",
+  "persons": [
+    "Andrew Dinn"
+  ]
+}

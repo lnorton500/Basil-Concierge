@@ -1,0 +1,13 @@
+{
+  "start": 1577889600000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Getting started with FPGA's for Packet Processing",
+  "subtitle": "Intel FPGA opportunities",
+  "track": "Lightning Talks",
+  "abstract": "<p>The FPGA is an emerging technology that can increase the performance of packet processing due to need of increased protocol complexity.\nThere are many models of system where FPGA is suitable more or less depending on use-case.</p>\n\n<p>The presentation will introduce the system models presenting how to use FPGA inside larger systems.\nThe models include inline, lookaside and fast-path packet processing capabilities requiring different approaches from system level making accelerated system more usable and easier to integrate with existing components.</p>\n\n<p>In this talk we cover the challenges related to integration of the FPGA system with SW components like DPDK/kernel drivers and orchestration.\nThe examples of real FPGA deployments will be presented on base of Intel Programmable Acceleration Card family.</p>",
+  "description": "<p>The talk describes a  new usage for FPGA technology used for packet processing. It presents opportunities, problems going to be solve and challenges related to use a complex programmable systems for mass deployment.</p>\n\n<p>It covers typical use-cases and some basic rules defining how to use FPGA system efficienly and integrate it with existing software stack and existing orchestration systems like Openstack or kubernetes.</p>",
+  "persons": [
+    "Miroslaw Walukiewicz"
+  ]
+}

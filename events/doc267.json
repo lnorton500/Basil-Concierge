@@ -1,0 +1,13 @@
+{
+  "start": 1577901600000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "Capsule Update & LVFS: Improving system firmware updates",
+  "subtitle": "Improving reliability and security by simplifying distribution of firmware updates",
+  "track": "Open Source Firmware, BMC and Bootloader",
+  "abstract": "<p>As the rich capabilities of platforms increase, so does their complexity. As hypervisors and operating systems harden their attack surfaces, malware has been moving deeper into the platform. For example, a modern laptop may have over 15 updatable firmware elements, each with low-level access to a specific hardware domain. From the early days of proprietary BIOS in the 1980\u2019s and 1990\u2019s, to the world of standards in the 2000\u2019s, to the post-PC world of the last few years, the nature of firmware has changed. In order to provide security guarantees for platform firmware, the servicing model of the platform takes center stage.</p>\n\n<p>This session discusses the evolution of platform servicing using examples based on device firmware, non-host/system on a chip (SOC) firmware, and implementation of the Unified Extensible Firmware Interface (UEFI). A modern servicing model features elements for component-based update, resiliency in case unexpected conditions, a more seamless user experience, lowering the friction of update integration, and telemetry for a view into platform health and firmware inventory.</p>\n\n<p>This talk will discuss current trends in standards such as UEFI and associated EDK II firmware, and how the Linux Vendor Firmware System (LVFS) used these components as part of a holistic, open source approach to seamless firmware updates.</p>",
+  "description": "",
+  "persons": [
+    "Brian Richardson"
+  ]
+}

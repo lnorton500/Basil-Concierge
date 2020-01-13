@@ -1,0 +1,13 @@
+{
+  "start": 1577893800000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "News from gEDA/gaf",
+  "subtitle": "including an introduction to gschem",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "<p>This talk gives an overview of the recent gEDA/gaf development and the new features in gEDA/gaf 1.10.0.  It is followed by an introduction to gschem and how to use it to create symbols and schematics.</p>",
+  "description": "",
+  "persons": [
+    "Roland Lutz"
+  ]
+}

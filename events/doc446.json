@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 10,
+  "room": "H.1301 (Cornil)",
+  "title": "Kotlin DevRoom Welcoming Remarks",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "<p>Welcoming participants to the first edition of the Kotlin DevRoom @ FOSDEM</p>",
+  "description": "",
+  "persons": [
+    "Nicola Corti"
+  ]
+}

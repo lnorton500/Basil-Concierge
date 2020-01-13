@@ -1,0 +1,13 @@
+{
+  "start": 1577886600000,
+  "duration": 15,
+  "room": "UB4.136",
+  "title": "A Practical CI/CD Framework for Machine Learning at Massive Scale",
+  "subtitle": "",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "<p>Managing production machine learning systems at scale has uncovered new challenges that have required fundamentally different approaches to that of traditional software engineering and data science. In this talk, we'll provide key insights on MLOps, which often encompasses the concepts around monitoring, deployment, orchestration and continuous delivery for machine learning. We will be covering a hands on an example where we will be training, deploying and monitoring ML at scale.  We'll be using Jenkins X (+ Prow &amp; Tekton) to deploy/promote these models across multiple environments. We will use KIND (Kubernetes in Docker) to run integration tests in our development environment. Finally, we'll be using Seldon to orchestrate &amp; monitor these models leveraging advanced ML techniques.</p>",
+  "description": "<p>Managing production machine learning systems at scale has uncovered new challenges which have required fundamentally different approaches to that of traditional software engineering and data science. In this talk, we'll provide key insights on MLOps, which often encompasses the concepts around monitoring, deployment, orchestration and continuous delivery for machine learning. We will be covering a hands on an example where we will be training, deploying and monitoring ML at scale.  We'll be using Jenkins X (+ Prow &amp; Tekton) to deploy/promote these models across multiple environments. We will use KIND (Kubernetes in Docker) to run integration tests in our development environment. Finally, we'll be using Seldon to orchestrate &amp; monitor these models leveraging advanced ML techniques.</p>",
+  "persons": [
+    "Alejandro Saucedo"
+  ]
+}

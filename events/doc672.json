@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 30,
+  "room": "UA2.220 (Guillissen)",
+  "title": "P2P how and Kademlia",
+  "subtitle": "P2P how and Kademlia",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "<p>Recently there has been tremendous interest in P2P systems and their usefulness. However most people are confused about how they work, how nodes are techno-magically able to find each other or the right other node with expected data. This talk would start p2p from basics, it's differences with client-server systems and then different ways p2p systems can operate, dhts as one way. And then end with more specific things as kademlia being a good dht and how does it work. It would be interesting because it (kademlia) powers some of the most popular p2p systems such as bittorrent, IPFS, Ethereum, I2P, Tox etc.</p>",
+  "description": "<p>Contents of the talk would be as follows\n- what is a p2p system\n- a bit about client-server\n- finding nodes in client-server vs p2p\n- p2p as overlay networks\n- some earlier p2p systems and their limits\n- distributed hash tables to rescue, dht basics\n- what makes a good dht</p>\n\n<p>since Kademlia is a good dht</p>\n\n<p>Kademlia\n- core ideas (Uniform ID Space, Closeness, Local view)\n- protocol messages\n- joining network\n- locating nodes and resources\n- storing\n- go-libp2p-kad-dht</p>\n\n<p>TADA!</p>",
+  "persons": [
+    "Kishan Sagathiya"
+  ]
+}

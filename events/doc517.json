@@ -1,0 +1,14 @@
+{
+  "start": 1577896200000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Pitch your project",
+  "subtitle": "",
+  "track": "Open Source Design",
+  "abstract": "<p>If you contribute to a free / open source project in need of design contributions, come and pitch it to the designers in the room.</p>",
+  "description": "<p>In this session, FOSS projects as given time to present and ask for contributions to the designers in the room. Each project is given 3 minutes to present. In those 3 minutes, they should briefly introduce the project, explain what design help they need, and provide contact details so designers can reach them after FOSDEM.</p>\n\n<p>The Open Source Design collective will use the information to submit a \"job\" for each project to the Open Source Design \"jobs board\" (https://opensourcedesign.net/jobs/), so that the request for design help reaches not just the designers in the room, but also the wider design community.</p>",
+  "persons": [
+    "Bernard Tyers",
+    "Amit Nambiar"
+  ]
+}

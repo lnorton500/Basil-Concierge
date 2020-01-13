@@ -1,0 +1,14 @@
+{
+  "start": 1577890800000,
+  "duration": 30,
+  "room": "H.1309 (Van Rijn)",
+  "title": "Back to the future",
+  "subtitle": "Incremental backup in oVirt",
+  "track": "Virtualization and IaaS",
+  "abstract": "<p>Do you need to go back in time to restore data from important VMs? oVirt\ndoes not provide a time machine yet, but you can build one using oVirt\nbackup APIs.</p>\n\n<p>Building on changed blocks tracking in qemu, and upcoming libvirt backup\nAPI, oVirt will provide API to perform incremental backups. You will be\nable to back up VMs more efficiently, downloading only changed blocks.\nIncremental backup will be simpler and more reliable, not requiring\ncreating and deleting snapshots. Uploading will support on-the-fly\nconversion from raw to qcow2 when restoring disks.</p>\n\n<p>In this talk we will travel into the future, introducing the oVirt\nincremental backup API for starting and ending backups, and the\novirt-imageio API for downloading changed blocks. Finally, we will travel\nback to the past, and show how to restore raw guest data into new disks.</p>\n\n<p>Audience:\nBackup vendors and virtualization developers, interested in utilizing\nincremental backup API. Also, oVirt administrators and users interested in\npeeking into the future of oVirt.</p>\n\n<p>Session summary:\nPeek into the future of oVirt backup API.</p>",
+  "description": "<p>Do you need to go back in time to restore data from important VMs? oVirt\ndoes not provide a time machine yet, but you can build one using oVirt\nbackup APIs.</p>\n\n<p>Building on changed blocks tracking in qemu, and upcoming libvirt backup\nAPI, oVirt will provide API to perform incremental backups. You will be\nable to back up VMs more efficiently, downloading only changed blocks.\nIncremental backup will be simpler and more reliable, not requiring\ncreating and deleting snapshots. Uploading will support on-the-fly\nconversion from raw to qcow2 when restoring disks.</p>\n\n<p>In this talk we will travel into the future, introducing the oVirt\nincremental backup API for starting and ending backups, and the\novirt-imageio API for downloading changed blocks. Finally, we will travel\nback to the past, and show how to restore raw guest data into new disks.</p>\n\n<p>Audience:\nBackup vendors and virtualization developers, interested in utilizing\nincremental backup API. Also, oVirt administrators and users interested in\npeeking into the future of oVirt.</p>\n\n<p>Session summary:\nPeek into the future of oVirt backup API.</p>",
+  "persons": [
+    "Eyal Shenitzky",
+    "Nir Soffer"
+  ]
+}

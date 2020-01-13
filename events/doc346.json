@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 30,
+  "room": "UD2.119",
+  "title": "Past, Present and Future of DRLM project",
+  "subtitle": "",
+  "track": "Backup and Recovery",
+  "abstract": "<p>Brief introduction to DRLM project, it's features and news in the 2.3.x release and the presentation of the new DRLM version 3 architecture and its development state.</p>",
+  "description": "<p>This talk is going to explain our vision on the future of the DRLM project, that will continue evolving in DRLM 2.x while the new DRLMv3 is being developed.</p>\n\n<p>For DRLMv3 we've prepared a complete development environment on Docker to provide an easy and fast way to contribute to the project.</p>\n\n<p>In this session we'll show all interesting new features on DRLMv2, a DRLMv3 preview of what is developed at time of this presentation, and how easy is to have a complete DRLMv3 development\nenvironment with a couple of commands.</p>\n\n<p>We don't want to spoil anything, but this talk may be of interest for developers looking for a FLOSS project to contribute to ;).</p>",
+  "persons": [
+    "Didac Oliveira"
+  ]
+}

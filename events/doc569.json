@@ -1,0 +1,13 @@
+{
+  "start": 1577892000000,
+  "duration": 30,
+  "room": "AW1.125",
+  "title": "C and JS as intermediary languages",
+  "subtitle": "Running Nim on everything from microcontrollers to web-sites",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "<p>Nim is an interesting new language whose design is focused around the concept of a small core and great extensibility through a powerful macro system and multiple compilation targets. In this talk I want to showcase how Nim compiles to both C/C++ and JavaScript, and what this means for how easy interoperability and targeting many different platforms can be. Showcasing how the same language can be used for programming anything from the tiniest resource scarce microcontrollers to web-sites or web-technology based desktop applications (like Electron) to normal desktop applications and server applications.</p>",
+  "description": "",
+  "persons": [
+    "Peter Munch-Ellingsen"
+  ]
+}

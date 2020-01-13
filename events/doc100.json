@@ -1,0 +1,13 @@
+{
+  "start": 1577886300000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Designing functional objects with functional objects",
+  "subtitle": "OpenSCAD: Past, present and/or future",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "<p>Reflecting on OpenSCAD's 10 years of history and what we've learned and discovered along the way. Discussion on opportunities and potential avenues forward, and some stories from the trenches.</p>",
+  "description": "",
+  "persons": [
+    "Marius Kintel"
+  ]
+}

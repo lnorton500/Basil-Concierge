@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 30,
+  "room": "UB2.252A (Lameere)",
+  "title": "Advanced debugging techniques of Go code",
+  "subtitle": "",
+  "track": "Go",
+  "abstract": "<p>In an ideal world, you would write Go code, compile it, and then it would work perfectly the first time. But unfortunately it doesn't work in this manner. There are many different books and articles about how to write good code in go, but not so many how to debug code efficiently. In my talk I'll try to cover such important topic.\nGo is a new programming language with best tools for development. In my talk I'll cover how to efficiently using these tools to debug your code. I\u2019ll start from history of debuggers, later I'll show you how to debug go itself, if you need to find bug in language. Than I can demonstrate  how to effectively debug microservices using docker and k8s, what\u2019s remote debugging and how to apply it to application which already has been deployed. Debugging unit tests and not only code. Some tricks of debugging command line applications.</p>",
+  "description": "<p>My talk is about:\n- compare go debuggers (delve, gdb) in real world applications;\n- how to effectively debug inside containers (using remote-debuggers)\n- how to use Mozilla rr to record and play you golang app (https://rr-project.org/)\n- how to use dig into slices using gdb\nI'm using the term docker and k8s to show how to debug applications in different environments without lot's of details of k8s, rather showing tips/tricks to speed up you microservices.</p>",
+  "persons": [
+    "Andrii Soldatenko"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 25,
+  "room": "K.3.201",
+  "title": "GRUB upstream and distros cooperation",
+  "subtitle": "",
+  "track": "Distributions",
+  "abstract": "<p>The presentation will discuss current state of GRUB upstream development and cooperation with distributions.</p>",
+  "description": "<p>The first half of presentation will be focusing on last year, current and future development efforts. The second half will discuss cooperation between GRUB upstream and distros. In general it will show current progress in the project and main pain points. One of the goals of the presentation is to solicit some help from the community. Maintainers are quite busy and they are not able to solve all issues themselves. So, help from others is greatly appreciated. At the end of presentation Q&amp;A session is planned.</p>",
+  "persons": [
+    "Daniel Kiper"
+  ]
+}

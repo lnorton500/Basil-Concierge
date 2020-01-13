@@ -1,0 +1,13 @@
+{
+  "start": 1577871600000,
+  "duration": 15,
+  "room": "UD2.208 (Decroly)",
+  "title": "Build your own ENUM server using CGRateS",
+  "subtitle": "",
+  "track": "Real Time Communications",
+  "abstract": "<p>In this talk, Teo will explain how you can use CGRateS as an ENUM server together with other subsystems to achieve advanced ENUM functionality as number portability or least cost routing.\nCGRateS is a battle-tested Enterprise Billing Suite with support for various prepaid and postpaid billing modes.</p>",
+  "description": "<p>In this talk, Teo will explain how you can use CGRateS as an ENUM server together with other subsystems to achieve advanced ENUM functionality as number portability or least cost routing.\nAs part of the recipe for such implementation, there will be few major CGRateS components exemplified: AttributeService ( combined with FilterService) which will be used to replace data from events arrives in CGRateS based on filters and SupplierService which can be used to select your desired provider based on different strategies such as least cost, highest cost, weight, load distribution or a mixed ( in case a two providers have the same cost if supplier was configured it can fall through on weight strategy automatically)\nCGRateS is a battle-tested Enterprise Billing Suite with support for various prepaid and postpaid billing modes.</p>",
+  "persons": [
+    "Teofil Voivozeanu"
+  ]
+}

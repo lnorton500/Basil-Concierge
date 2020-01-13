@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "The HIPPEROS RTOS",
+  "subtitle": "A Song of Research and Development",
+  "track": "Microkernels and Component-based OS",
+  "abstract": "<p>HIPPEROS is an upcoming open source RTOS that was developed at ULB and by a former spin-off company of ULB.\nThe talk will be a presentation followed by an open discussion about the main architecture principles of the HIPPEROS kernel and OS, what platforms and architectures we support and our agenda regarding open source.</p>",
+  "description": "<p>This multitasking RTOS is specifically designed to take advantage of multi-core platforms for critical, hard real-time applications that must be predictable. It targets high-end embedded platforms that exhibit heterogeneous parallelism. The HIPPEROS kernel is designed from scratch in order to support recent process models present in the real-time systems research literature.\nThe RTOS is based on a micro-kernel with an asymmetric master/slave architecture. It allows to natively support parallel processor architectures, by dedicating one core to the heavy operations of the kernel (scheduling, memory management, etc.) and the other cores can then execute user mode application and serve real-time tasks with very few interferences.</p>\n\n<p>The OS kernel was designed and implemented by a team made of people from the ULB PARTS laboratory (http://parts.ulb.ac.be/).\nThe goal was to create a spin-off company around the topic of Real-Time Operating Systems, including the creation of a new micro-kernel for high-end embedded systems with an innovative software architecture, backed-up by research (both theoretical and applied), designed, developed and maintained with \"good\" (and agile) software design methodology.\nWithin this business, a side objective was to maintain strong links with universities and the research world, by validating the OS design in an academic environment and continuous research activities.</p>\n\n<p>Currently, the company is under liquidation. The state of the project is frozen but we started an ongoing initiative aiming to open source the code base. This would allow external contributions and therefore continuing maintenance and development of new features.\nHIPPEROS could then become a test ground for academics and industrials that aim to try new ideas regarding the reliability and efficiency of their systems. With no such undertaking, the code base might just disappear, therefore cancelling out the 7-year team effort.</p>",
+  "persons": [
+    "Antonio Paolillo"
+  ]
+}

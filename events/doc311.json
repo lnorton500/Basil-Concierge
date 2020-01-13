@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Boosting Python with Rust",
+  "subtitle": "The case of Mercurial",
+  "track": "Python",
+  "abstract": "<p>While working on the Mercurial version control system, we hit our heads against the limits of Python's performance. In this talk we will see how Python and Rust can cohabit to play off of each other's strenghts to improve a big open-source project, and what advances have been made in bridging the two languages.</p>",
+  "description": "",
+  "persons": [
+    "Rapha\u00ebl Gom\u00e8s"
+  ]
+}

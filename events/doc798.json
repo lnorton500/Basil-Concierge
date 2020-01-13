@@ -1,0 +1,13 @@
+{
+  "start": 1577870400000,
+  "duration": 15,
+  "room": "UD2.208 (Decroly)",
+  "title": "Janus as a WebRTC \"enabler\"",
+  "subtitle": "Having fun with RTP and external applications",
+  "track": "Real Time Communications",
+  "abstract": "<p>This talk will cover several aspects related to Janus as a WebRTC \"enabler\" for non-WebRTC applications. In particular, it will focus on the RTP management in Janus, namely how to use it as input/output to interact with external applications for different use cases.</p>",
+  "description": "<p>Janus is an open source and general purpose WebRTC server. Its modular nature makes it easy to implement heterogeneous multimedia applications based on WebRTC, whether it's for conferencing, talking to a SIP infrastructure, broadcast a stream or interacting with an IoT device. One of its strongest points is the ability to seamlessly involve plain RTP within the context of a WebRTC communication, whether it's for feeding media to a WebRTC endpoint, or use a WebRTC stream somewhere else: this makes Janus a good WebRTC \"enabler\" for platforms that may not be aware of, or be compliant with, the WebRTC specification.</p>\n\n<p>This talk will cover the different features Janus provides implementers with, when it comes to RTP. In particular, it will introduce the Streaming plugin (RTP- and RTSP-to-WebRTC broadcaster), the SIP/NoSIP plugins (for legacy VoIP integration) and the so-called RTP forwarders (to relay media coming from WebRTC sources as plain RTP to external endpoints), and explain how these different components can be used together in different scenarios, whether it's just to increase scalability or to implement a complex and rich multimedia application. Besides, it will spend a few words on how simulcast, SRTP and recordings can be part of the picture.</p>",
+  "persons": [
+    "Lorenzo Miniero"
+  ]
+}

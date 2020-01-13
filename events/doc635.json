@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 55,
+  "room": "K.4.401",
+  "title": "Open Source Hardware for Industrial use",
+  "subtitle": "OSHW model has benefits for SOC vendors, industrial manufacturers and end users",
+  "track": "Hardware Enablement",
+  "abstract": "<p>Olimex is designing Open Source Hardware Linux computers since 2012.\nThey are adopted by hundreds of manufacturers all around the world and prove the Open Source business model is sustainable.\nThe lecture is about the advantages which OSHW bring to the industrial vendors and what drives their decision to use our boards.\nWe will explain the benefits for the SOC vendors to have OSHW designs with their ICs, the end user benefits and how OSHW helps us to excel our products and make them better and better.</p>",
+  "description": "",
+  "persons": [
+    "Tsvetan Usunov"
+  ]
+}

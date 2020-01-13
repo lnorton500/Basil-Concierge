@@ -1,0 +1,13 @@
+{
+  "start": 1577876100000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "LibrePCB Status Update",
+  "subtitle": "The progress of LibrePCB within the last two years",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "<p>An overview about what's new in LibrePCB since the last presentation at FOSDEM 2018, and a short live demonstration to see LibrePCB in action.</p>",
+  "description": "",
+  "persons": [
+    "Urban Bruhin"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577895600000,
+  "duration": 35,
+  "room": "H.1309 (Van Rijn)",
+  "title": "Hint, Hint, Font Loading Matters!",
+  "subtitle": "Fonts are lovely but can slow down our loads. How can we make them faster?",
+  "track": "Web Performance",
+  "abstract": "<p>We all love fonts. From Google Fonts to Typekit, Hoefler&amp;Co and more, they give character and tone to our websites. The down side of fonts is that they can really slow down our loads. In this talk we'll learn about common pitfalls like critical requests depth and how to use resource hints to play tricks with latency to load web applications faster. We'll walk through a network profile to understand what's going on in the browser and how to make it faster.</p>",
+  "description": "",
+  "persons": [
+    "Sia Karamalegos"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "Keep Calm and Use Nerves",
+  "subtitle": "",
+  "track": "Erlang, Elixir and Friends",
+  "abstract": "<p>Intended as a introduction to Nerves, the IoT platform for the BEAM, this talk is a journey through the land of library ecosystems, device drivers and pixel manipulators, in search for the holy grail: a stable and maintainable IoT device.</p>",
+  "description": "<p>The Nerves project (https://nerves-project.org/) is a framework for building IoT devices with Elixir. In this talk I will explain how a Nerves project is structured and then move on to show and demonstrate one of the projects that I did with it, focussing on the development experience and the state of the Nerves ecosystem.</p>",
+  "persons": [
+    "Arjan Scherpenisse"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577882400000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "What's in my food ? Open Food Facts, the Wikipedia of Food",
+  "subtitle": "Mixing mobile crowdsourcing, ai, opensource and opendata to improve food transparency",
+  "track": "Lightning Talks",
+  "abstract": "<p>Open Food Facts is a collaborative and crowdsourced database of food products from the whole planet, licensed under the Open Database License (ODBL). It was launched in 2012, and today it is powered by 27000 contributors who have collected data and images for over 1 million products in 178 countries (and growing strong\u2026)\nThis is the opportunity to learn more about Open Food Facts, and the latest developments of the project.</p>",
+  "description": "<p>Scan a product using your phone, take a picture, and you're already part of the Open Food Facts revolution !</p>\n\n<p>In this talk we'll show how Open Food Facts leverages open source technologies such as Perl, Python, TensorFlow, MongoDB, Java, Swift, React and Flutter as well as the great power of communities to open data of public interest for health &amp; science, as well as unforeseen applications in your daily life.</p>\n\n<p>We will also introduce you to Open Beauty Facts, for freeing your cosmetic cupboard: shampoos, toothpastes, lipsticks, etc.</p>\n\n<p>How does it work?\nUsing our Android or iPhone app, you can easily scan the barcode of products from your home or local store.\nYou can either check them out (thanks to the decoding and comparison tools) or contribute pictures of their labels, assisted by our label-reading AI.\nThe same can also be done from the website, where additional tools are available to fill in the product details from the labels, navigate or vizualise the database based in various ways, or access the APIs and raw data to make your own tools and analysis.</p>\n\n<p>Open Food Facts is developed and managed by a community of open source, open data and food enthusiasts and is organised as a non-profit association. All its creations are open:\n- the collected data is published as Open Data,\n- the software running the server(s) is open source and reusable (it was also used to create the Open Beauty Facts database),\n- the mobile applications are open source as well.</p>",
+  "persons": [
+    "Pierre Slamich"
+  ]
+}

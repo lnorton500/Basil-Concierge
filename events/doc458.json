@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 35,
+  "room": "H.1301 (Cornil)",
+  "title": "Bridge the physical world: Kotlin/Native on Raspberry Pi",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "<p>With Kotlin/Native, we can now compile Kotlin code to run on various platforms, including Raspberry Pi. This cross-platform ability has drawn the attention of many developers. Through the process of building a hand game robot which can play rock paper scissors with human beings, this talk aims to show you the possibility of using Kotlin to control GPIO pins on a Raspberry Pi and other experiments such as performing machine learning operations in Kotlin using TensorFlow backend, thanks to the interoperability with C libraries.</p>",
+  "description": "",
+  "persons": [
+    "Qian Jin"
+  ]
+}

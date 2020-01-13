@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 25,
+  "room": "UB5.132",
+  "title": "Introducing HPC with a Raspberry Pi cluster",
+  "subtitle": "A practical use of and good excuse to build Raspberry Pi Clusters",
+  "track": "HPC, Big Data, and Data Science",
+  "abstract": "<p>This talk will discuss the development of a RaspberryPi cluster for teaching an introduction to HPC.</p>\n\n<p>The motivation for this was to overcome four key problems faced by new HPC users:</p>\n\n<ol>\n<li>The availability of a real HPC system and the effect running training courses can have on the real system, conversely the availability of spare resources on the real system can cause problems for the training course.</li>\n<li>A fear of using a large and expensive HPC system for the first time and worries that doing something wrong might damage the system.</li>\n<li>That HPC systems are very abstract systems sitting in data centres that users never see, it is difficult for them to understand exactly what it is they are using.</li>\n<li>That new users fail to understand resource limitations, in part because of the vast resources in modern HPC systems a lot of mistakes can be made before running out of resources. A more resource constrained system makes it easier to understand this.</li>\n</ol>\n\n\n<p>The talk will also discuss some of the technical challenges in deploying an HPC environment to a Raspberry Pi and attempts to keep that environment as close to a \"real\" HPC as possible. The issue to trying to automate the installation process will also be covered.</p>",
+  "description": "",
+  "persons": [
+    "Colin Sauze"
+  ]
+}

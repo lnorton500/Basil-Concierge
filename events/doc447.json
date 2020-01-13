@@ -1,0 +1,13 @@
+{
+  "start": 1577870100000,
+  "duration": 40,
+  "room": "H.1301 (Cornil)",
+  "title": "Useful coroutine patterns for Android applications",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "<p>Kotlin Coroutines are a great match for implementing common features in Android applications. In this presentation, we will go through a number of patterns that solves the pattern we often encounter when implementing traditional asynchronous features.</p>",
+  "description": "<p>Coroutines can help us build robust solution for asynchronous work in Android applications, but it can also be difficult to learn what pattern should be used in different scenarios. When should you use launch instead of async, or when should you use a Channel instead of Flow, or maybe both? What use is a conflated channel and why is the catch() operator important? All this and some more will be covered in this talk.</p>",
+  "persons": [
+    "Erik Hellman"
+  ]
+}

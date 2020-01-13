@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 50,
+  "room": "Janson",
+  "title": "Generation gaps",
+  "subtitle": "",
+  "track": "History",
+  "abstract": "<p>For as long as computers have been around, roughly every 10-15 years, the whole industry underwent a reset and reinvented itself anew\u2026 until the early 1990s, when somehow, the industry skipped a generation. Instead, it looked backwards, and adopted an older model of computing. The cost has been very high and is holding back the development of the entire field.</p>",
+  "description": "<p>This talk looks at how we turned to the past instead of the future, what we missed out on as a result, and how to move forward. It follows on from the above proposal, but takes a different tack and should stand alone. It looks at where personal computers might have \u2013 but didn\u2019t \u2013 go in the 1980s and 1990s. At a sampling of advanced OS technologies that never caught on \u2013 Plan 9, Inferno, Taos, Oberon \u2013 and the cool stuff we lost out on as a result.</p>\n\n<p>It will end with trying to identify the next such generation gap, and why we should consider starting afresh rather than adapting current tech for the next gen.</p>",
+  "persons": [
+    "Liam Proven"
+  ]
+}

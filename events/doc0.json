@@ -1,0 +1,13 @@
+{
+  "start": 1577871000000,
+  "duration": 25,
+  "room": "Janson",
+  "title": "Welcome to FOSDEM 2020",
+  "subtitle": "",
+  "track": "Keynotes",
+  "abstract": "<p>FOSDEM welcome and opening talk.</p>",
+  "description": "<p>Welcome to FOSDEM 2020!</p>",
+  "persons": [
+    "FOSDEM Staff"
+  ]
+}

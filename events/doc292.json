@@ -1,0 +1,17 @@
+{
+  "start": 1577890800000,
+  "duration": 25,
+  "room": "UA2.220 (Guillissen)",
+  "title": "DEBATE: Should licenses be designed to advance general social goals?",
+  "subtitle": "",
+  "track": "Legal and Policy Issues",
+  "abstract": "<p>We have seen several licenses proposed as \"open source\" that\ncarry some obligation or restriction related to ethics or\nother social goals. Is this a good direction for FOSS license drafting?</p>",
+  "description": "<p>Affirmative position: FOSS licenses should advance social goals</p>\n\n<ol>\n<li>First Affirmative Constructive (1AC) = 7 minutes\na. Cross-examination of First Affirmative by Second Negative = 3 minutes</li>\n<li>First Negative Constructive (1NC)  = 7 minutes\na. Cross-examination of First Negative by First Affirmative = 3 minutes</li>\n<li>Second Affirmative Constructive (2AC)  = 7 minutes\na. Cross-examination of Second Affirmative by First Negative = 3 minutes</li>\n<li>Second Negative Constructive (2NC)  = 7 minutes\na. Cross-examination of Second Negative by Second Affirmative = 3 minutes</li>\n<li>First Negative Rebuttal (1NR)  = 3 minutes</li>\n<li>First Affirmative Rebuttal (1AR)  = 3 minutes</li>\n<li>Second Negative Rebuttal (2NR)  = 3 minutes</li>\n<li>Second Affirmative Rebuttal (2AR)  = 3 minutes</li>\n</ol>",
+  "persons": [
+    "John Sullivan",
+    "Molly de Blanc",
+    "James Vasile",
+    "Josh Simmons",
+    "Dashiell Renaud"
+  ]
+}

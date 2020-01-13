@@ -1,0 +1,13 @@
+{
+  "start": 1577901000000,
+  "duration": 20,
+  "room": "UB2.147",
+  "title": "Correlation analysis in automated testing",
+  "subtitle": "",
+  "track": "Testing and Automation",
+  "abstract": "<p>Correlation Analysis is a statistical method that is used to discover if there\nis a relationship between two variables, and how strong that relationship might\nbe. A correlation coefficient is a numerical measure of such correlation.\nAccording to the Cauchy\u2013Schwarz inequality it has a value between +1 and \u22121,\nwhere 1 is total positive linear correlation, 0 is no linear correlation, and \u22121\nis total negative linear correlation. One of the axioms of automated testing is\nthat tests are independent and in spite of that correlation coefficient should\nbe equal to 0. But often it isn't. In this work, we are going to present\na method of evaluation of tests suites quality based on correlation coefficient\nand finding their weak points. Using PC Engines open-source firmware regression\ntest results, which are based on over 140 automated tests run with 2 flavors of\nsoftware on 4 different platforms, we will show how its quality can be described\nnumerically, and how that results can be used to optimize test criteria.</p>",
+  "description": "<p>As far as automated testing is considered all the tests can have only two\nexpected output values - pass or fail. Originally Pearson's correlation\ncoefficient is the covariance of the two variables divided by the product of\ntheir standard deviations - the first question was how to do it for Boolean\nvariables. We assumed that the only value that matters can be a failure of a\ntest. During the lecture, we will present how mathematical analysis can reveal\npotential flaws in test criteria by targeting cases that have a large chance to\nfail simultaneously.</p>",
+  "persons": [
+    "\u0141ukasz Wcis\u0142o"
+  ]
+}

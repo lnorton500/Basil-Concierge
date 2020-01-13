@@ -1,0 +1,13 @@
+{
+  "start": 1577870400000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Introduction to SpatioTemporal Asset Catalogs (STAC)",
+  "subtitle": "Introducing the new cloud-native cataloging specification for geospatial data: STAC",
+  "track": "Geospatial",
+  "abstract": "<p>The talk introduces STAC, the SpatioTemporal Asset Catalog specification. It aims to enable a cloud-native geospatial future by providing a common layer of metadata for better search and discovery. It is an emerging open standard to catalog and expose geospatial data from different sources either in a static or dynamic way.</p>\n\n<p>We\u2019ll cover the core set of metadata fields for STAC Catalogs, Collections, and Items first, along with available extensions for describing different types of data (EO, SAR, Point Cloud, etc.). With the basics of STAC in hand, the talk will go through the Open Source ecosystem for working with STAC metadata: validators, graphical user interfaces and client command line tools and libraries for search, access, and exploitation.</p>",
+  "description": "<p>The SpatioTemporal Asset Catalog (STAC) specification is an emerging standard to catalog and expose geospatial data from different sources. It aims to enable a cloud-native geospatial future by providing a common layer of metadata for better search and discovery.</p>\n\n<p>This talk gives a detailed overview of STAC and the way it allows for static and dynamic implementations at the same time. The simple concept of static catalogs living alongside the data on cloud file storage (e.g., AWS S3, GCS) by adding small JSON files is highlighted before talking through the dynamic searchable APIs built on top of the new OGC API \u2013 Features standard.</p>\n\n<p>The talk will cover the core set of metadata fields for STAC Catalogs, Collections, and Items, along with available extensions for describing different types of data (EO, SAR, Point Cloud, etc.). With the basics of STAC in hand, the talk will go through the Open Source ecosystem for working with STAC metadata: validators, graphical user interfaces and client command line tools and libraries for search, access, exploitation and API generation.</p>\n\n<p>The specification is an open standard developed on GitHub by a wide range of organizations with a strong focus on extensibility to support various domains. It encourages interested parties to extend the specification for their needs for a future of interoperable discovery and work with geospatial data. An ecosystem of Open Source tooling is evolving around the specification.</p>",
+  "persons": [
+    "Matthias Mohr"
+  ]
+}

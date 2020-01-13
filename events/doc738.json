@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 10,
+  "room": "UB5.132",
+  "title": "Towards reproducible Jupyter notebooks",
+  "subtitle": "",
+  "track": "HPC, Big Data, and Data Science",
+  "abstract": "<p>Jupyter has become a tool of choice for researchers willing to share a narrative and supporting code that their peers can re-run.  This talk is about Jupyter\u2019s Achille\u2019s heel: software deployment.  I will present Guix-Jupyter, which aims to make notebook self-contained and to support reproducible deployment.</p>",
+  "description": "<p>Jupyter has become a tool of choice for researchers in data science and others fields.  Jupyter Notebooks allow them to share a narrative and supporting code that their peers can re-run, which is why it is often considered a good tool for reproducible science.</p>\n\n<p>However, Jupyter Notebooks do not describe their software dependencies, which significantly hinder reproducibility: What if your peer runs different Python version?  What if your notebook depends on a library that your peer hasn\u2019t installed?  What will happen if you try to run your notebook in a few years?</p>\n\n<p>All these issues are being addressed by tools such as Binder and its friend repo2docker.  These solutions, though, do not address what we think is the core issue: that notebooks lack information about their software dependency.</p>\n\n<p>In this talk I will present our take on this problem, Guix-Jupyter. Guix-Jupyter allows users to annotate their notebook with information about their run-time environment.  Those annotations are interpreted and Guix takes care of deploying the dependencies described.  Furthermore, Guix-Jupyter ensures that code runs in an isolated environment (a container) as a way to maximize reproducibility.</p>\n\n<p>Guix-Jupyter is work-in-progress and we are eager to share our approach and get your feedback!</p>",
+  "persons": [
+    "Ludovic Court\u00e8s"
+  ]
+}

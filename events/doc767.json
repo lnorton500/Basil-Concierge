@@ -1,0 +1,13 @@
+{
+  "start": 1577871000000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Surfing the Tsunami - News from the IntelliJ IDEA Community",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>With releases of Java coming thick and fast every 6 months, it's a full time job staying on top of the features. If your IDE can help you here, it's one less thing to worry about.  IntelliJ IDEA Community had three releases this year, each on improved the support for modern versions of Java, but that's not the only thing on offer.</p>\n\n<p>Join this session to see what's new in IntelliJ IDEA Community (the free one!). This is not limited to just supporting new language features, which some of us might not get to use for ages, but better support for things developers do every day, and improved performance and stability, because an all-singing, all-dancing IDE is all well and good, but if it's not usable those features mean nothing.</p>",
+  "description": "",
+  "persons": [
+    "Trisha Gee"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577890500000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Developer Workspace As Code - Is Developer Heaven in the Cloud?",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>Developer workspaces are assembled using outdated wiki pages and usually require weeks to \"get right\". What if the IDE and workspace setup (in the broadest sense) lived directly with the code?</p>",
+  "description": "<p>In the age of devops many things live with the source code. We compose our applications from Kubernetes/OpenShift objects, CI/CD pipelines and IDEs have their configuration in dot files, all defined along with the source code of our precious applications. But how do you define the common development environment/workspace for your developers? Let's take a look at the devfile - a declarative format for specifying the developer workspace with all the tools the developers need to code, build, test and debug the applications and how it enables Eclipse Che to be the next-gen Kubernetes-native IDE for developer teams.</p>",
+  "persons": [
+    "Lukas Krejci"
+  ]
+}

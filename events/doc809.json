@@ -1,0 +1,13 @@
+{
+  "start": 1577885700000,
+  "duration": 15,
+  "room": "UD2.208 (Decroly)",
+  "title": "HOMER 2020",
+  "subtitle": "Meet the latest HOMER and its ground breaking features, and learn about our project vision for the future of HEP and RTC monitoring",
+  "track": "Real Time Communications",
+  "abstract": "<p>HOMER 2020: The future of the HEP Stack</p>",
+  "description": "<p>Meet the latest HOMER and its ground breaking features, and learn about our project vision for the future of HEP and OSS RTC monitoring tool and technologies</p>",
+  "persons": [
+    "Lorenzo Mangani"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577895300000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Integration Processes",
+  "subtitle": "Data flowing the easy way",
+  "track": "Geospatial",
+  "abstract": "<p>To run our software we need a flow of data going through it. Usually we write scripting pieces to make that workflow of data moving from one component to the next. Integration Processes are the \"glue\" between these software pieces. Automating the data flows, adding conditional steps, handling credentials on a secure way,... That's usually a tedious and repetitive task lots of developers do again and again. With Integration Processes frameworks we can make it simpler and reuse expertise from other developers. We could even build entire workflows without throwing a single line of code.</p>",
+  "description": "<p>Apache Camel is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data. Based on Enterprise Integration Patterns to help you solve your integration problem by applying best practices out of the box. Camel is one of the the most active project in the Apache Foundation and is the base of many other FOSS projects.</p>\n\n<p>Syndesis is an open source project that helps non-developers create complex integrations easily on a graphic interface.</p>",
+  "persons": [
+    "Mar\u00eda Arias de Reyna"
+  ]
+}

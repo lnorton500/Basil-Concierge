@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "Open Source Firmware Testing at Facebook",
+  "subtitle": "If you don't test your firmware, your firmware fails you",
+  "track": "Hardware Enablement",
+  "abstract": "<p>We talked extensively about LinuxBoot, a Linux-based environment intended to be integrated into the firmware on the boot ROM. This time we want to talk about how do we test LinuxBoot before it goes to production. We will talk about ConTest, an open-source continuous and on-demand system testing framework that we designed to be modular, validating, and infrastructure-agnostic, and how it is helping us validate open source firmware on our datacenter platforms.</p>",
+  "description": "<p>With LinuxBoot we became vendors of our own system firmware. In order to go to production we need a reliable quality assurance process, and firmware testing was a necessity. In this talk we are presenting ConTest (short for Continuous Testing), a modular framework aimed at automating system testing workflows, like firmware validation and provisioning. ConTest has several goals in mind: being open source and community-driven; validate as much as possible at compile time and at job submission time, to minimize unnecessary operations and run-time failures; being lightweight and infrastructure-agnostic, so it can run in Facebook\u2019s datacenters as well as on a Raspberry Pi; being composable, thanks to an interface-and-plugins architecture; being user-oriented so that it\u2019s not necessary to know the internals to use it effectively; and being metrics and events driven, so that users can gain valuable insights about their jobs, more than just success rate (e.g. micro-benchmarking and trend analysis).</p>\n\n<p>ConTest is aimed at anyone who need to automate system-level testing. Various plugins are provided out of the box, with examples on how to use them. The users can combine them like building blocks using a simple job description format based on JSON, and test scenarios of variable complexity. When default plugins are not enough, for example in order to talk to a custom service, users can develop new plugins, and plug them just like if they were part of the core framework. Open-sourcing your own plugins is always appreciated!</p>",
+  "persons": [
+    "Andrea Barberio"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Crowdfunding to advance open document editors",
+  "subtitle": "A status report",
+  "track": "Open Document Editors",
+  "abstract": "<p>Productivity software like LibreOffice has long been sustained by the commercial activities of community members as well as the contributions of countless volunteers. That's also driven standards engagement, like the work around Open Document Format (ODF). But the cloud is slowly strangling the desktop support business, and spare-time volunteers may not be enough for complex, mature software. The Document Foundation has been innovating to sustain LibreOffice and ODF; this talk will describe the COSM and TDC projects, and ask whether similar approaches might sustain other open source desktop software.</p>",
+  "description": "",
+  "persons": [
+    "Simon Phipps"
+  ]
+}

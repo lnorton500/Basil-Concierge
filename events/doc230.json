@@ -1,0 +1,13 @@
+{
+  "start": 1577899200000,
+  "duration": 30,
+  "room": "K.3.401",
+  "title": "Reverse engineering a VIC-20 expansion cartridge",
+  "subtitle": "",
+  "track": "Retrocomputing",
+  "abstract": "<p>Going from seeing an image of a cartridge that I would have loved to have had for my VIC-20 to working out how it was built and then making my own.</p>",
+  "description": "<p>Starting with a brief overview of the VIC-20 and the capabilities, to then looking at the \"vixen\" 16KiB RAM expansion, the initial view of the internals made available on the internet to going to a full implementation.</p>\n\n<p>The initial overview will go through some of the identification of the components, the technologies involved (such as SRAM and DRAM) and the VIC-20 expansion bus. It will show what sort of technologies could go into implementing this sort of expansion and then how these can be discounted either by the age of the technology or the component complexity.</p>\n\n<p>Techniques for further reversing a circuit from the physical device and how the actual device circuit was then discovered, followed by the implementation and testing will be shown.</p>",
+  "persons": [
+    "Ben Dooks"
+  ]
+}

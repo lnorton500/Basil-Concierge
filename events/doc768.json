@@ -1,0 +1,13 @@
+{
+  "start": 1577872500000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "From Oracle to Apache - News from the NetBeans Community",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>NetBeans is now a top level Apache project! How did it get to Apache and what's the state of the donation process? What are the new features and how can you get involved? Join this session to find out!</p>",
+  "description": "",
+  "persons": [
+    "Geertjan Wielenga"
+  ]
+}

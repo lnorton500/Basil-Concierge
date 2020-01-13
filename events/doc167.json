@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 5,
+  "room": "AW1.125",
+  "title": "Welcome to the Ada DevRoom",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "<p>Welcome to the Ada Developer Room at FOSDEM 2020, which is organized\nby Ada-Belgium in cooperation with Ada-Europe.</p>",
+  "description": "<p>Ada-Belgium and Ada-Europe are non-profit organizations set up\nto promote the use of the Ada programming language and related\ntechnology, and to disseminate knowledge and experience into academia,\nresearch and industry in Belgium and Europe, resp.  Ada-Europe has\nmember-organizations, such as Ada-Belgium, in various countries,\nand direct members in many other countries.</p>",
+  "persons": [
+    "Dirk Craeynest"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 60,
+  "room": "AW1.121",
+  "title": "OpenSMTPD over the clouds",
+  "subtitle": "the story of an HA setup",
+  "track": "BSD",
+  "abstract": "<p>OpenSMTPD has gained filters support in its latest version and it is a now an smtp server that can compete with other better known mail servers and can be used to handle both incoming and outgoing mail flows in a secure way.\nIts simple configuration and its \"secure by design\" approach makes it one of the best candidates for a mail server software.</p>",
+  "description": "<p>Now that OpenSMTPD has gained filter support it can be used as a mail server with all features of other email servers.\nThis is the story of how OpenSMTPD can be setup in an high availability environment and how other OpenBSD tools can be used to achieve the goal.</p>",
+  "persons": [
+    "Giovanni Bechis"
+  ]
+}

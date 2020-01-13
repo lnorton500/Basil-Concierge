@@ -1,0 +1,13 @@
+{
+  "start": 1577890500000,
+  "duration": 40,
+  "room": "UB4.136",
+  "title": "From a Pipeline to a Government Cloud",
+  "subtitle": "How the UK government deploy a Platform-as-a-Service using Concourse, an open-source continuous thing-doer",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "<p>Since 2016, the UK Government has been running an open-source, cross-government Platform-as-a-Service (PaaS) to make it easier and cheaper to build government services. The GOV.UK PaaS is built on BOSH and Cloud Foundry, and is deployed using Concourse.</p>\n\n<p>Concourse is \"an open-source continuous thing-doer\", with abstractions that help build pipelines quickly, and for extending the behaviour of the system.</p>\n\n<p>This presentation will provide an introduction to Concourse, and then describe how the GOV.UK PaaS team use Concourse to continuously deploy a whole PaaS whilst ensuring high-availability and minimal impact to services and users.</p>",
+  "description": "<p>Toby Lorne is a site reliability engineer working at the UK Government Digital Service on the GOV.UK Platform-as-a-Service.</p>\n\n<p>This presentation is split into four parts:</p>\n\n<ol>\n<li>An introduction to Concourse:</li>\n<li>How it works</li>\n<li>The abstractions</li>\n<li><p>The design decisions, patterns, and anti-patterns</p></li>\n<li><p>An overview of the architecture and implementation of GOV.UK PaaS:</p></li>\n<li>Terraform - a tool for managing infrastructure as code</li>\n<li>BOSH - a tool for release engineering and software lifecycle management</li>\n<li>Cloud Foundry - a set of components for Platform-as-a-Service</li>\n<li><p>Prometheus &amp; Grafana - monitoring and visualisation tools</p></li>\n<li><p>A walkthrough of the pipelines used in deployment and development</p></li>\n<li><p>An examination of patterns used in the GOV.UK PaaS deployment pipeline, and how you could use these patterns in your pipelines.</p></li>\n</ol>",
+  "persons": [
+    "Toby Lorne (tlwr)"
+  ]
+}

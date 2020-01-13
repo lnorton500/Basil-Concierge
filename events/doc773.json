@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Language Server Protocol & Debug Adapter Protocol to the Rescue of Web Development in Eclipse IDE",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>The state of Web (HTML, CSS, JS...) development in Eclipse IDE used to be bad. Indeed, some internal parsers had to be maintained to follow the frequent and major changes in those standards; the developer community behind them couldn't catch up, leading tools to a pretty bad and outdated state. Fortunately, the rise of technologies like TextMate grammars, Language Servers and Debug Adapters as reusable components have allowed Eclipse ecosystem to catch up with the best tools for web development. By integrating pieces of VSCode and others and with a relatively small investment, Eclipse Wild Web Developer provides a quite comfortable and efficient tool set for a wide variety of web-based projects. In this presentation, we'll demo Wild Web Developer in practicie, explaining as we demo how the LSP/DAP world is leveraged to enable those productive workflows.</p>",
+  "description": "",
+  "persons": [
+    "Mickael Istria"
+  ]
+}

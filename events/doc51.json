@@ -1,0 +1,13 @@
+{
+  "start": 1577881200000,
+  "duration": 40,
+  "room": "H.1302 (Depage)",
+  "title": "ByteBuffers are dead, long live ByteBuffers!",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>Abstract: Direct buffers are, to date, the only way to access foreign,\noff-heap memory. Despite their success, direct buffers suffer from some\nlimitations --- stateful-ness, lack of addressing space,\nnon-deterministic deallocation to name a few --- which makes them a\nless-than-ideal choice under certain workloads. In this talk we paint\nthe path to the future: a safe, supported and efficient foreign memory\naccess API for Java. By providing a more targeted solution to the\nproblem of accessing foreign memory, not only developers will be freed\nby the above limitations - but they will also enjoy improved\nperformances, as the new API is designed from the ground-up with JIT\noptimizations in mind - and all without sacrificing memory access safety.</p>",
+  "description": "",
+  "persons": [
+    "Maurizio Cimadamore"
+  ]
+}

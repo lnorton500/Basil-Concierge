@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 30,
+  "room": "AW1.120",
+  "title": "r2cloud - Decode satellite signals on Raspberry PI",
+  "subtitle": "",
+  "track": "Free Software Radio",
+  "abstract": "<ol>\n<li>Java for digital signal processing\n\n<ul>\n<li>why java?</li>\n<li>how to do digital signal processing in Java. Some examples</li>\n<li>decoding LRPT (with images), BPSK (with real data)</li>\n</ul>\n</li>\n<li> Working base station network\n\n<ul>\n<li>how it differs from satnogs</li>\n<li>testing, code coverage. Enterprise approach for building communication software</li>\n</ul>\n</li>\n<li> Plans. Q&amp;A</li>\n</ol>",
+  "description": "",
+  "persons": [
+    "Andrey Rodionov"
+  ]
+}

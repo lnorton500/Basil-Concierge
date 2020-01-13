@@ -1,0 +1,13 @@
+{
+  "start": 1577885700000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Shenandoah 2.0",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>Shenandoah GC landed in JDK12 about a year ago, giving OpenJDK\nanother low-pause garbage collector. It has undergone substantial\nchanges since then. Specifically we have a new barrier scheme, and have\neliminated the extra forwarding pointer word per object, thus\nsubstantially reducing memory footprint. After giving a general\nintroduction to OpenJDK GC landscape and Shenandoah GC, this talk\nfocuses on those recent changes in Shenandoah and what's in it for you.</p>",
+  "description": "",
+  "persons": [
+    "Roman Kennke"
+  ]
+}

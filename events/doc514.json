@@ -1,0 +1,14 @@
+{
+  "start": 1577890800000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "File sharing & storage for human rights organizations",
+  "subtitle": "A design research case study",
+  "track": "Open Source Design",
+  "abstract": "<p>Least Authority is presenting a design research project that looks at open source file storage and sharing solutions for human rights organizations. We will present the project, the first phase of our research process, and outlook on next steps that involve adapting our open source tools.</p>",
+  "description": "<p>Least Authority's mission is to build and strengthen ethical and usable technology solutions that advance digital security and support privacy as a fundamental human right. We support open source projects, such as Tahoe-LAFS, Gridsync, Magic Folders and Magic Wormhole. This session presents a design research project, where we investigate file storing/file sharing needs of human rights organisations. As an outcome of this research, we are exploring how we can adapt our open source tools to best meet use cases and usability requirements of human rights organisations. This presentation will focus on the research process and the development of findings with the purpose of making open source tools available to meet human rights organizations\u2019 needs. The project is funded by the Open Technology Fund.</p>",
+  "persons": [
+    "Allon Bar",
+    "Abigail Garner"
+  ]
+}

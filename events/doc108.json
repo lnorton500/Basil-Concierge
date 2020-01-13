@@ -1,0 +1,13 @@
+{
+  "start": 1577898300000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Horizon EDA - Version 1.0",
+  "subtitle": "",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "<p>This talk covers my motivation for starting a new EDA package in 2016 and the main ideas behind horizon as well as what has changed in the last year. I'll also go into my short- and long-term plans for the project.</p>",
+  "description": "<p>Horizon EDA is a from-scratch EDA package with focus on useful parts management, rule-driven design and good usability. It has already proven its suitability for medium-complexity projects in the board design for my master thesis and in various hobby projects.</p>\n\n<p>This talk covers my motivation for starting a new EDA package in 2016 and the main ideas behind horizon as well as what has changed in the last year. I'll also go into my short- and long-term plans for the project.</p>",
+  "persons": [
+    "Lukas Kramer"
+  ]
+}

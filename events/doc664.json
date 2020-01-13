@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 10,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Close lid to encrypt",
+  "subtitle": "Hard disk encryption in Linux suspend mode",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "<p>Today, hard disk encryption only protects user's data when their machine is shut down.\n\"Close lid to encrypt\" aims to enhance this protection also to suspend mode.</p>",
+  "description": "<p>Hard disk encryption is a necessity for everyone, who fears the physical theft or seizure of their device. However, your data is still only protected while the machine is shut down. But most people rarely shutdown their devices anymore. Usually, you just close the lid of your notebook and you're on your way.</p>\n\n<p>\"Close lid to encrypt\" aims to improve the privacy of your data. When you close the lid of your notebook, it goes into sleep/suspend mode. All  processes are frozen and don't need to access your hard disk anymore. We use this opportunity to clean the keys of your encrypted devices and suspend them as well. Therefore, the data on your hard drive is protected.\nWhen resuming your computer, you must re-enter the password of your encrypted volumes. But then you're just where you've been working before.</p>\n\n<p>To make all this work, we rely on a small kernel patch, the cryptsetup project, initramfs and cgroups2. \"Close lid to encrypt\" right now focuses on Debian and it derivatives and we plan to bring all code upstream. This effort is funded by the German Prototypefund.</p>\n\n<p>In this 20 minute presentation, I will thoroughly explain the problem and our approach to solving it. Of course, I will also explain the limits of our approach.\nFurthermore, I will demonstrate our already working prototype and answer your question.</p>",
+  "persons": [
+    "Tim Dittler"
+  ]
+}

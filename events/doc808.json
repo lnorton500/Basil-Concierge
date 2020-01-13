@@ -1,0 +1,13 @@
+{
+  "start": 1577884200000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Wazo Platform",
+  "subtitle": "An Open Source Project to build your own IP Telecom Platform",
+  "track": "Real Time Communications",
+  "abstract": "<p>Learn what is Wazo Platform. How it evolved from Wazo and Xivo. What it is the vision for this Open Source project. How we leverage Asterisk, Kamailio and RTPEngine in this vision. How to get involved.</p>",
+  "description": "",
+  "persons": [
+    "Mathias Wolff"
+  ]
+}

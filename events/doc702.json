@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 30,
+  "room": "UB2.252A (Lameere)",
+  "title": "Build real-world gaming hardware with TinyGo",
+  "subtitle": "Make toys and other contraptions that run on Go",
+  "track": "Go",
+  "abstract": "<p>Learn the multiples and fun possibilities of using Go on microcontrollers like Arduino to make gaming related hardware.</p>",
+  "description": "<p>After a brief overview of the new features of TinyGo (http://tinygo.org), we'll move onto some cool and easy to make smart-toys that run Go. From classic PONG and a \"Simon says\" device to a pocket gaming console, and some other surprises. We'll end with an Open LED Race competition and the possibility to win hardware and make your our TinyGo device.</p>\n\n<p>This talk will feature bright lights and sounds, maybe lasers too.</p>",
+  "persons": [
+    "Daniel Esteban"
+  ]
+}

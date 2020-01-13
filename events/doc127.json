@@ -1,0 +1,13 @@
+{
+  "start": 1577900400000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "MySQL 8.0: Secure your MySQL Replication Deployment",
+  "subtitle": "",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "<p>Data protection is an extensive and hot topic. Making sure that\nwhoever accesses your data has identity well established and is\nauthorized can be a complex and hard task. Moreover, nowadays\ndata tends to move around quickly between different instances of the\nsame service, different services and different data consumers.  This\noften implies that data traverses different administrative domains. It\nis key that MySQL handles, stores and replicates data complying\nwith the security requirements that business and regulations demand.</p>\n\n<p>This session showcases the new developments in MySQL 8.0 that tighten\nrelated replication security setups, and reduce the attack surface of\nthe different replication topologies. We will talk about secure\ninter-server communication, encryption of replication data at rest\nand the new features that make the replication applier run under a\nspecific security context. Come and learn about security related\nreplication features in MySQL 8.0.</p>",
+  "description": "",
+  "persons": [
+    "Pedro Figueiredo"
+  ]
+}

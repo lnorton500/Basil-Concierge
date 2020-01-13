@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Proposal to inspect and highlight styles in Writer",
+  "subtitle": "",
+  "track": "Open Document Editors",
+  "abstract": "<p>Styles are the essence of a text processor. And while experts love to unleash the power of LibreOffice Writer, it\u2019s at the same time a major source of nuisance. In particular when you receive documents from other people, it can be quite difficult to understand the applied formatting and to fix issues around. This talk presents two ideas for an improved feedback.</p>",
+  "description": "",
+  "persons": [
+    "Heiko Tietze"
+  ]
+}

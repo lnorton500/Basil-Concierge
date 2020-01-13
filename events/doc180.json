@@ -1,0 +1,13 @@
+{
+  "start": 1577903400000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "Ada-TOML: a TOML Parser for Ada",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "<p>The world of generic structured data formats is full of contenders:\nthe mighty XML, the swift JSON, the awesome YAML, ...  Alas, there\nis no silver bullet: XML is very verbose, JSON is not convenient for\nhumans to write, YAML is known to be hard to parse, and so on.</p>\n\n<p>TOML is yet another format whose goal is to be a good configuration\nlanguage: obvious semantics, convenient to write and easy to parse\nin general-purpose programming languages.</p>\n\n<p>In this talk, I'll shortly describe the TOML format and show a few\nuse cases in the real world.  I'll then present the ada-toml library\nitself: its high-level architecture and examples.</p>",
+  "description": "",
+  "persons": [
+    "Pierre-Marie de Rodat"
+  ]
+}

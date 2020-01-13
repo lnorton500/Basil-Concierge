@@ -1,0 +1,14 @@
+{
+  "start": 1577894400000,
+  "duration": 50,
+  "room": "K.1.105 (La Fontaine)",
+  "title": "Address Space Isolation in the Linux Kernel",
+  "subtitle": "",
+  "track": "Containers and Security",
+  "abstract": "<p>Security is a big problem especially in the cloud of container workloads. This presentation investigates improving security in the Linux kernel itself. The first target is securing sensitive application data, for instance, private keys.</p>",
+  "description": "<p>Address space isolation has been used to protect the kernel and userspace programs from each other since the invention of the virtual memory.</p>\n\n<p>Assuming that kernel bugs and therefore exploits are inevitable it might be worth isolating parts of the kernel to minimize damage that these exploits can cause. Moreover, restricted mappings in the kernel mode may improve mitigation of hardware speculation vulnerabilities.</p>\n\n<p>There are several ongoing efforts to use restricted address spaces in Linux kernel for various use cases:\n* speculation vulnerabilities mitigation in KVM\n* support for memory areas visible only in a single owning context\n* hardening of the Linux containers</p>\n\n<p>We are going to present the approach for the implementation of restricted mappings in the Linux kernel and how this implementation would be used with various use-cases.</p>\n\n<p>We are also going to take a closer look at possibility to assign an address space to the Linux namespaces, so that tasks running in namespace A have different view of kernel memory mappings than the tasks running in namespace B. For instance, by keeping all the objects in a network namespace private, we can achieve levels of isolation equivalent to running a separated network stack.</p>",
+  "persons": [
+    "James Bottomley",
+    "Mike Rapoport"
+  ]
+}

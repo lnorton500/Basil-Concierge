@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 420,
+  "room": "UB4.228",
+  "title": "Open Source Hardware and Soldering Workshop",
+  "subtitle": "",
+  "track": "Workshops",
+  "abstract": "<p>Open Source Hardware room with two day soldering workshops.</p>\n\n<p>Day 2 soldering workshop will be dedicated to Surface Mount Technology and is good for beginners which have no experience with SMT technology.</p>\n\n<p>Beside the soldering workshop we will show our latest OSHW boards we work on, you are welcome to join and show your own OSHW projects too.</p>",
+  "description": "<p>We will solder Binary Watch PCB made exclusively with SMT components.</p>\n\n<p>During the soldering workshop we will introduce the electronic components used in the PCB and how to identify them and how components with polarity is to be recognized.</p>\n\n<p>We will teach you the basics of SMT soldering, how to print solder paste with stencil, how to reflow using hot air, how good and bad solder joints look like and what is cold solder joint.\nAt the end of the workshop you will build your own binary watch.</p>",
+  "persons": [
+    "Tsvetan Usunov"
+  ]
+}

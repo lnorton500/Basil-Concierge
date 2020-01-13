@@ -1,0 +1,13 @@
+{
+  "start": 1577879700000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "ngspice open source circuit simulator",
+  "subtitle": "dev update and electrothermal simulation",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "<p>An update of the development activities will be presented leading to ngspice-32. Its interface to KiCad has been extended, PSPICE device model compatibility and OpAmp convergence are improved, several bugs have been fixed.</p>\n\n<p>The VBIC bipolar model and the VDMOS power MOS model now incorporate the self heating effect.</p>\n\n<p>This will lead to the second part of the talk: ngspice may be very well used to simulate thermal device behavior. Heat generation, transport and temperatures are translated into electrical signals. Thus we simulate two circuits: The electrical circuit with its power losses, and the thermal circuit withany resulting device heating, its feedback on the electrical behavior, and the external cooling measures that need to be provided. Some ciruit examples will be given.</p>",
+  "description": "",
+  "persons": [
+    "Holger Vogt"
+  ]
+}

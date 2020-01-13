@@ -1,0 +1,13 @@
+{
+  "start": 1577899800000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Collabora Office Android app gory details",
+  "subtitle": "How we tweaked LibreOffice & the Online to get an Android app",
+  "track": "Open Document Editors",
+  "abstract": "<p>The LibreOffice Android app consists of the LibreOffice core as the native code and Java part that takes care of compositing of the tiles, input handling, etc.  It is hard to maintain, because everything that has been implemented in LibreOfficeKit for the Online has to be ported to Java - which is a huge amount of work.</p>\n\n<p>For the Collabora Office Android app, we have tried a new approach - to build on top of work pioneered by Tor Lillqvist for iOS: Using the native code for the rendering, the Online JavaScript for the composition of tiles, input handling, etc. and only a thin Java layer to instantiate a WebView where the JS lives.</p>\n\n<p>Come and see the current state!  And don't worry, all the work is contributed back to the LibreOffice code too :-)</p>",
+  "description": "",
+  "persons": [
+    "Jan Holesovsky"
+  ]
+}

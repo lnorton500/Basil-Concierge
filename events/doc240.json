@@ -1,0 +1,15 @@
+{
+  "start": 1577894700000,
+  "duration": 40,
+  "room": "K.4.201",
+  "title": "Ask LLVM developers Anything Panel",
+  "subtitle": "",
+  "track": "LLVM",
+  "abstract": "<p>Ever wondered how the LLVM project and community works?\nWant to get some advice on how to most effectively contribute?\nNow is your chance at FOSDEM to ask experienced developers directly.  This\npanel will host a number of experienced LLVM developers, answering any\nrelevant questions from the audience.</p>",
+  "description": "<p>In case questions from the audience do not fill the entire slot, a set of\nprepared questions focussed on how to get started working with and contributing\nto LLVM will be raised for the panelists to answer.</p>\n\n<p>The panel will consist of at least the following 2 experienced contributors to\nLLVM, and will be expanded with other experienced contributors who are planning\nto come to the dev room:\n- Kristof Beyls\n- Peter Smith</p>",
+  "persons": [
+    "Kristof Beyls",
+    "Peter Smith",
+    "Nick Desaulniers"
+  ]
+}

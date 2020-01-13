@@ -1,0 +1,13 @@
+{
+  "start": 1577893500000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Bach.java",
+  "subtitle": "Lightweight Java Build Tool for modular projects",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>I present \"Bach.java\" - a lightweight build tool for Java. Bach.java uses jshell/java to build\nmodular Java projects. It supports a \"zero installation\" run mode, convention over configuration\npragmatism, simple properties file to tweak defaults, and an API to build custom projects.</p>\n\n<p>In the spirit of R\u00e9mix Forax, who wrote: \"No need to be a maven to be able to use a build tool\",\nBach.java is targeted to coders of small to mid-size Java projects, who want to focus on their\nideas and modules instead of learning and taming a build tool.</p>",
+  "description": "",
+  "persons": [
+    "Christian Stein"
+  ]
+}

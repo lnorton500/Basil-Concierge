@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Using OpenAPI to Maximise Your Pulp 3 Experience",
+  "subtitle": "",
+  "track": "Infra Management Devroom",
+  "abstract": "<p>Pulp (https://pulpproject.org) enables users to organize and distribute software. Now that Pulp 3.0 is generally available, it\u2019s time to integrate it into your software delivery workflows. While the REST API is the primary integration point, it is the OpenAPI schema definition of that API that enables users to build client libraries in various languages. These clients simplify the integration with Pulp 3.</p>\n\n<p>This talk will provide a brief introduction to OpenAPI. This will be followed by a demonstration of how to use the Pulp\u2019s OpenAPI schema to generate a Python client for Pulp\u2019s REST API. The Python client will then be used to perform various workflows in Pulp 3.</p>",
+  "description": "",
+  "persons": [
+    "Dennis Kliban"
+  ]
+}

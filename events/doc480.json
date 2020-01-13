@@ -1,0 +1,13 @@
+{
+  "start": 1577874900000,
+  "duration": 15,
+  "room": "H.1308 (Rolin)",
+  "title": "Run ZFS in userspace",
+  "subtitle": "How we used ZFS in userspace for storage engine cStor",
+  "track": "Software Defined Storage",
+  "abstract": "<p>While running in user space ZFS utilizes a user space binary called ztest.\nIn cStor, we followed a similar approach to create a binary called \u2018zrepl\u2019 that is part of cStor. It has been built using the libraries similar to what is used for ztest and contains transactional, pooled storage layers.\ncStor uses ZFS behind the scenes by running it in the user space. This talk we will discuss in detail how we used ZFS in userspace for storage engine cStor and highlight a few challenges that our team faced while building this data engine.</p>",
+  "description": "",
+  "persons": [
+    "Harshita Sharma"
+  ]
+}

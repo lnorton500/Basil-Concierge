@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Make Online yours",
+  "subtitle": "How to customize Collabora Online",
+  "track": "Open Document Editors",
+  "abstract": "<p>Collabora Online - The driving force behind putting LibreOffice in the cloud -is quite flexible in the means that you can alter to your personal taste without the need to change other core components.</p>",
+  "description": "<p>Collabora Online - The driving force behind putting LibreOffice in the cloud - is quite flexible in the means that you can alter to your personal taste without the need to change other core components.\nTag along and see how can you customize Online's look and feel without a sweat and using mainly CSS, SVG! Don't know much about web technologies? No problem! There is no requirement to be eligible to attend, as I'll be talking in a casual fashion and with examples and hopefully illustrate each step of the way.</p>",
+  "persons": [
+    "Pedro Pinto Silva"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 30,
+  "room": "UD2.218A",
+  "title": "WolfBoot",
+  "subtitle": "Secure boot and remote updates",
+  "track": "Internet of Things",
+  "abstract": "<p>Firmware updates in IoT pose a new set of security risks. Secure bootloaders can be handy to deploy new versions of the firmware on those devices that are only reachable through a remote connection.</p>\n\n<p>wolfBoot is a portable, GPL, OS-agnostic, secure bootloader solution for 32-bit microcontrollers, relying on wolfCrypt for firmware authentication, providing secure firmware update mechanisms.</p>\n\n<p>Due to the minimalist design of the bootloader and the tiny HAL API, wolfBoot is completely independent from any OS or bare-metal application, and can be easily ported and integrated in existing embedded software projects to provide a secure firmware update mechanism.</p>\n\n<p>This presentation will focus on the implementation details and the design choices of the project, and the porting done to ARM Cortex-M and RISCV32 microcontrollers.</p>",
+  "description": "",
+  "persons": [
+    "Daniele Lacamera"
+  ]
+}

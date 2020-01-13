@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 25,
+  "room": "K.3.201",
+  "title": "Homebrew: Features and Funding",
+  "subtitle": "",
+  "track": "Distributions",
+  "abstract": "<p>A talk about the Homebrew package manager and how we've been working with our users to introduce new features to subsets of users, encouraging users to donate to the project and communicating both these to as many users as possible without being annoying.</p>",
+  "description": "",
+  "persons": [
+    "Mike McQuaid"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577903400000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "libratbag",
+  "subtitle": "A way to configure your input devices",
+  "track": "Graphics",
+  "abstract": "<p>This talk will give an update on the progress being done in libratbag as well as present the new projects we have planned. If there's time I will also show how you should be able to write your own driver and debug existing drivers. This is a talk about libratbag updates, planned projects and a code demo.</p>",
+  "description": "",
+  "persons": [
+    "Filipe La\u00edns"
+  ]
+}

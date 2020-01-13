@@ -1,0 +1,13 @@
+{
+  "start": 1577886300000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Geo-spatial queries on multi-petabyte weather data archives",
+  "subtitle": "",
+  "track": "Geospatial",
+  "abstract": "<p>Geo-spatial queries on multi-petabyte weather data archives\nJohn Hanley, Nicolau Manubens, Tiago Quintino, James Hawkes, Emanuele Danovaro</p>\n\n<p>Weather forecasts produced by ECMWF and environment services by the Copernicus programme act as a vital input for many downstream simulations and applications. A variety of products, such as ECMWF reanalyses and archived forecasts, are additionally available to users via the MARS archive and the Copernicus data portal. Transferring, storing and locally modifying large volumes of such data prior to integration currently presents a significant challenge to users. The key aim for ECMWF effort in H2020 Lexis project is to provide tools for data query and pre-processing close to data archives, facilitating fast and seamless application integration by enabling precise and efficient data delivery to the end-user.</p>\n\n<p>ECMWF aims to implement a set of services to efficiently select, retrieve and pre-process meteorological multi-dimensional data by allowing multi-dimensional queries including spatio-temporal and domain-specific constraints. Those services are exploited by Lexis partners to design complex workflows to mitigate the effect of natural hazards and investigate the water-food-energy nexus.</p>\n\n<p>This talk will give a general overview of Lexis project and its main aims and objectives. It will present the pilot applications exploiting ECMWF data as the main driver of complex workflows on HPC and cloud computing resources. In particular, it will focus on how ECMWF's data services will provide geospatial queries on multi-dimensional peta-scale datasets and how this will improve overall workflow performance and enable access to new data for the pilot users.</p>\n\n<p>This work is supported by the Lexis project and has been partly funded by the European Commission's ICT activity of the H2020 Programme under grant agreement number: 825532.</p>",
+  "description": "",
+  "persons": [
+    "Emanuele Danovaro"
+  ]
+}

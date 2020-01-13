@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Linphone Instant Messaging Encryption",
+  "subtitle": "Protocols' extension to existing SIP standards, implementation challenges and future extensions",
+  "track": "Real Time Communications",
+  "abstract": "<p>For many years, Linphone has been one of the most active free communication software. Originally focused on voice, aditionnal functionalities were rapidly added like video, group chat and presence. All of these communication modes imply privacy.</p>\n\n<p>To achieve a good level of privacy, users must be able to ensure that their communications can only be displayed to the receiver of those communications, especially no-one from server infrastructure crossed by the messages shall be in the position of compromising secrecy of the communication. Basically, this is what end-to-end encryption is aiming to achieve.</p>\n\n<p>Linphone does implement end-to-end encryption for voice and video communications thanks to ZRTP (rfc 6189). However, for messaging, security was only performed using point-to-point cyphering, based on SIP TLS. To bring users of instant messaging features the same level of security, we decided to implement end-to-end encryption mechanisms for messaging too, including group chat.  Linphone Instant Messaging Encryption follows state-of-the-art methods for forward secrecy and MitM detection.</p>\n\n<p>This discussion will focus on protocols' extension to existing SIP standards, implementation challenges and future extensions.</p>",
+  "description": "",
+  "persons": [
+    "Elisa Nectoux"
+  ]
+}

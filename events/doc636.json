@@ -1,0 +1,15 @@
+{
+  "start": 1577887200000,
+  "duration": 55,
+  "room": "K.4.401",
+  "title": "FOSDEM Video Box",
+  "subtitle": "A bespoke HDMI capture device for conferences.",
+  "track": "Hardware Enablement",
+  "abstract": "<p>A bespoke OSHW HDMI video capture solution is being developed for use at FOSDEM and other open source conferences. This talk will explain the what, why, how and hopefully when.</p>",
+  "description": "<p>FOSDEM is unique in that it has 750+ talks on two days, with more than 28 parallel tracks. All are captured and streamed out live, and a sanitised version of each talk is re-encoded for separate viewing after the event. For each track, there are (at least) two capture boxes, one for the speakers' laptop (which also feeds the projector), and at least one for a camera. This means FOSDEM has close to 60 video capture boxes deployed.</p>\n\n<p>The FOSDEM video boxes are also used at several other conferences, and we are in active contact with several more, as each conference basically has the same problem to solve, albeit at a smaller scale than FOSDEM.</p>\n\n<p>Today, our capture boxes are an amalgamation of many different devices tied together, and while the whole is working surprisingly well, it is far from ideal. Some bits are non-free, some bits are hard or even impossible to control, and the result is bulky and, relatively speaking, expensive. Sourcing the exact same components again to expand the current array of boxes is nigh impossible, and the bulk of these boxes means that deployment is more of a hassle than it could be.</p>\n\n<p>To solve almost all of our issues, we are creating a bespoke HDMI capture solution by tying a HDMI-to-parallel-RGB decoder chip to the camera input of the venerable Allwinner A20 SoC. The Allwinner A20 was chosen due to its feature set, large community (linux-sunxi), its advanced upstream support and the availability of OSHW board designs. We were lucky to find a suitable board in the Olimex Lime2 (which is OSHW), which exposes all the necessary IO pins on pinheaders.</p>\n\n<p>Capturing 1280x720@50Hz, encoding it to h.264 for local storage and streaming over the network, while displaying the captured frames directly to HDMI or VGA (projector) and a status LCD, while also capturing (and passing through) audio is a challenge on this cheap, low power but open hardware. It forces us to make use of a wide array of SoC HW blocks, not all of which previously had driver support, and we are close to saturate the available memory and bus bandwidth.</p>\n\n<p>So while a good part of this talk is about describing the bigger problem we are trying to solve, this project very much is an issue of hardware enablement.</p>",
+  "persons": [
+    "Mark Van den Borre",
+    "Luc Verhaegen",
+    "Gerry Demaret"
+  ]
+}

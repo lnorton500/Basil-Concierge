@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 50,
+  "room": "Janson",
+  "title": "Over Twenty Years Of Automation",
+  "subtitle": "",
+  "track": "History",
+  "abstract": "<p>Over the past twenty years, the automation landscape has changed dramatically.\nAs our hunger for complex technical infrastructure increased, and our inability to keep up with these demands faltered, we've outsourced a lot of the work to third-parties and cloud providers.\nWe'll step backwards and show where we came from, and where we're going.\nIf we don't understand this future, and step up to the challenge, then we eventually won't control our own computers anymore.\nWe'll discuss this timeline from a tools perspective and showcase many live demos of the past, present, and what will be possible in the future.\nThis presentation will contain many demos and interactive examples. I will showcase some modern ideas I have with my Free Software project called mgmtconfig.</p>",
+  "description": "",
+  "persons": [
+    "James Shubin"
+  ]
+}

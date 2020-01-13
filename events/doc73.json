@@ -1,0 +1,14 @@
+{
+  "start": 1577893200000,
+  "duration": 40,
+  "room": "H.1308 (Rolin)",
+  "title": "Fast QUIC sockets for cloud networking",
+  "subtitle": "Using vector packet processing for QUIC acceleration and offload",
+  "track": "Software Defined Networking",
+  "abstract": "<p>QUIC was introduced by Google to move the transport protocol implementation out of the kernel, and is now being standardized in the IETF. It provides both encryption and multiplexing, and will be the default transport for HTTP/3. In this talk we'll present the work we've done investigating whether QUIC would benefit from vectorized packet processing, the impact it has on performance and how it can be consumed by external applications.</p>\n\n<p>VPP (vector packet processing) is a fast network data plane, part of the Linux Foundation FD.io project providing fast network functions on top of DPDK. It provides an optimized support of TCP &amp; UDP allowing significant performance improvements. In this presentation, we'll discuss:</p>\n\n<ul>\n<li>How we took advantage of the open source protocol implementation quicly and vpp's hoststack, to implement fast QUIC sockets.</li>\n<li>How this can be consumed by external applications and to what ends.</li>\n<li>What this enables regarding hardware and software offloads.</li>\n</ul>",
+  "description": "",
+  "persons": [
+    "Nathan Skrzypczak",
+    "Aloys Augustin"
+  ]
+}

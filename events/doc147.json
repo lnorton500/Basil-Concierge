@@ -1,0 +1,14 @@
+{
+  "start": 1577901600000,
+  "duration": 30,
+  "room": "AW1.120",
+  "title": "Open Edge Hardware and Software for Natural Language Translation and Understanding",
+  "subtitle": "",
+  "track": "Coding for Language Communities",
+  "abstract": "<p>The last half decade has seen a major increase in the accuracy of deep learning methods for natural language translation and understanding. However many users still interact with these systems through proprietary models served on specialized cloud hardware. In this talk we discuss co-design efforts between researchers in natural language processing and computer architecture to develop an open-source software/hardware system for natural language translation and understanding across languages. With this system, users can access state-of-the-art models for translation, speech, and classification, and also run these models efficiently on edge device open-hardware designs.</p>\n\n<p>Our work combines two open-source development efforts, OpenNMT and FlexNLP.  The OpenNMT project is a multi-year collaborative project for creating an ecosystem for neural machine translation and neural sequence learning. Started in December 2016 by the Harvard NLP group and SYSTRAN, the project has since been used in many research and industry applications. The project includes highly configurable model architectures and training procedures, efficient model serving capabilities for use in real world applications, and extensions to tasks such as text generation, tagging, summarization, image to text, and speech to text. FlexNLP is an open-source fully retargetable hardware accelerator targeted for natural language processing. Its hardware design is targeted to key NLP computational functions such as attention mechanisms and layer normalization that are often overlooked by today\u2019s CNN or RNN hardware accelerators. FlexNLP\u2019s rich instruction set architecture and microarchitecture enable a diverse set of computations and operations that are paramount for end-to-end inference on state-of-the-art attention-based NLP models. Together they provide an open pipeline for both model training and edge device deployment.</p>",
+  "description": "",
+  "persons": [
+    "Alexander Rush",
+    "Thierry Tambe"
+  ]
+}

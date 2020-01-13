@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 5,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Intro",
+  "subtitle": "Monitoring and Observability Devroom",
+  "track": "Monitoring and Observability",
+  "abstract": "<p>Introduction and welcome to the monitoring and observability devroom</p>",
+  "description": "",
+  "persons": [
+    "Richard Hartmann"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577875500000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "OpenBeans IDE - Creating an Apache NetBeans Distribution",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>A talk about how OpenBeans, an Apache NetBeans IDE distribution was possible due to pkgsrc, the NetBSD package management framework.</p>",
+  "description": "<p>OpenBeans IDE started in Nov 2018 under the name CoolBeans. This was an Apache NetBeans IDE 'distribution' which repackaged the Apache NetBeans modules, plus some other modules that were still not available yet (such as the C/C++ support modules, JavaEE modules, native notifications on macOS/Windows, etc).</p>\n\n<p>CoolBeans was open sourced under the plain ISC license under the OpenBeans name.</p>\n\n<p>OpenBeans produces Windows installers as well as macOS disk images for end users. It does this using pkgsrc from NetBSD, which seems to be a very good match for distribution-like projects.</p>",
+  "persons": [
+    "Emilian Bold"
+  ]
+}

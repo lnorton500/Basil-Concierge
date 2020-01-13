@@ -1,0 +1,14 @@
+{
+  "start": 1577874600000,
+  "duration": 10,
+  "room": "K.3.201",
+  "title": "Welcome to game development devroom",
+  "subtitle": "",
+  "track": "Game Development",
+  "abstract": "<p>Welcome to FOSDEM game development devroom! We'll present what this is all about and invite you to participate.</p>",
+  "description": "",
+  "persons": [
+    "Julian Murgia",
+    "George Marques"
+  ]
+}

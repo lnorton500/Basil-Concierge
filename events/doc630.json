@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "Continuous Integration for Open Hardware Projects",
+  "subtitle": "",
+  "track": "Hardware Enablement",
+  "abstract": "<p>While it is standard to deploy every single code commit using CI systems and deploy new code automatically we are only at the beginning of automation for designing hardware. In this talk I will share the experience with continuous integration tools in FOSSASIA hardware projects, and specifically our Pocket Science Lab. I will outline opportunities and challenges for implementing CI processes for hardware.</p>",
+  "description": "<p>While it is standard to deploy every single code commit using CI systems and deploy new code automatically we are only at the beginning of automation for designing hardware. In this talk I will share the experience with continuous integration tools in FOSSASIA hardware projects, and specifically our Pocket Science Lab. I will outline opportunities and challenges for implementing CI processes for hardware.</p>\n\n<p>With PSlab apart from the firmware we have connected CI processes to our hardware repository. This means each design change can be automatically build into a digital prototype. Electronics materials are largely standardized and with KiCad we are even able to create package lists and Gerber files automatically. Furthermore we deploy to Kitspace using a yaml file. Here any user can order all components and the board through a one-click process. Every version could easily be built here.</p>",
+  "persons": [
+    "Mario Behling"
+  ]
+}

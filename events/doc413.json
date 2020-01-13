@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 50,
+  "room": "Janson",
+  "title": "Why the GPL is great for business",
+  "subtitle": "Debunking the current business licensing discussion",
+  "track": "Freedom",
+  "abstract": "<p>In the past few years we saw a lot of discussions around free software licenses and why they are bad for companies. This talk debunks this claim and shows how free software licenses are actually great for startups if done right.</p>",
+  "description": "<p>In the last few years we saw a lot of discussion in the open source and free software startup space around licenses. Several companies stepped forward and claimed that it\u2019s not possible to build a working company on top of a free software product. Some changed the license of their product to proprietary license like the Commons Clause or the Business Source License. They claim that this is needed to \u2018save\u2019 free software. This talk describes why this is fundamentally wrong. It\u2019s possible to build a working startup and company on top of a free software product. This talk discusses how companies like Red Hat, SUSE and Nextcloud manages to have a 100% free software product including a big contributor community but is still able to pay developers and grow.</p>",
+  "persons": [
+    "Frank Karlitschek"
+  ]
+}

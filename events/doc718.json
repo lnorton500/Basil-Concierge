@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 40,
+  "room": "UB4.136",
+  "title": "Continuous Delivery starts with Continuous Infrastructure",
+  "subtitle": "",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "<p>Most organisations start their journey towards Continuous Delivery with their development teams, or often their web or mobile teams. I\u2019ve seen many of these journeys fail because \u201cops\u201d was not included in the picture.  The organisation assumed DevOps didn\u2019t need ops. So the team didn\u2019t adapt, didn\u2019t provide the right stacks, couldn\u2019t support the tools. I\u2019ve started a number of successful journeys with the ops teams doing Continuous Delivery of their infrastructure as code. They changed their mindset, allowing them to understand, support and onboard the development teams.  This talk will document that approach with some supporting cases and examples.</p>\n\n<p>Taking one step further we'll showcase a on how to do Continuous Delivery of your Infrastructure as Code,    obviously with Open Source tools</p>",
+  "description": "",
+  "persons": [
+    "Kris Buytaert"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577903400000,
+  "duration": 30,
+  "room": "K.3.401",
+  "title": "Arcade game port to ZX Spectrum",
+  "subtitle": "A reverse engineering exercise",
+  "track": "Retrocomputing",
+  "abstract": "<p>Reverse engineering an Arcade game and re-implementing it into an 8 bit system is an engineering exercise, where compromises have to be made in order to accomplish the goal, since the capabilities of the target machine are severely under powered when compared with the source machine.</p>\n\n<p>The processes of accomplishing this and all it involves, will be presented.</p>",
+  "description": "<p>Making an Arcade Game remake (reverse engineering) into an 8 bit system is an engineering exercise, where compromises have to be made in order to accomplish the goal, since the capabilities of the target machine are severely under powered when compared with the source machine.</p>\n\n<p>Starting with graphic capabilities, passing through CPU limitations (clock speed and architecture) and ending with multimedia capabilities, every single one, needs to be addressed with a suitable compromise.\nSome ingenious \"hacks\" and extreme optimization need to be applied, to use the 8 bit hardware capabilities in a convenient way to overcome the huge handy cap between architectures.</p>\n\n<p>For practical and example purposes, the reverse engineering of the Arcade game \"Magical Drop II\" will be presented, and how it became \"Extruder\" ZX Spectrum game.</p>\n\n<p>The software was developed in Zilog Z80 Assembly, and several tips and tricks will be shown, that facilitate and help the conversion process.</p>",
+  "persons": [
+    "Rui Martins"
+  ]
+}

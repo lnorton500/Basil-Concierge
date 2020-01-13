@@ -1,0 +1,13 @@
+{
+  "start": 1577877300000,
+  "duration": 30,
+  "room": "K.4.601",
+  "title": "Be secure with Rust & Intel SGX",
+  "subtitle": "",
+  "track": "Hardware-aided Trusted Computing",
+  "abstract": "<p>Intel Software Guard Extensions (SGX) makes software secure from the outside. Rust makes it secure from the inside. This workshop will introduce you to Rust and the Fortanix\u00ae Enclave Development Platform (EDP) for Rust: how it works, what you can do with it, and why Rust is such a good fit for SGX.</p>",
+  "description": "",
+  "persons": [
+    "Jethro G. Beekman"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "start": 1577874600000,
+  "duration": 40,
+  "room": "UB4.136",
+  "title": "Mario\u2019s adventures in Tekton land",
+  "subtitle": "Testing, releasing and deploying Tekton with Tekton",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "<p>In this talk, the speakers will present their experiences about using Tekton - a cloud-native pipeline system - to test, release and continuously deploy itself.</p>",
+  "description": "<p>Tekton is a Kubernetes-native, lightweight, easy to manage CI/CD pipelines engine. Pipeline building blocks can be reused, version controlled and curated in a catalogue that embeds best practices. Tekton, hosted by the CD Foundation, aspires to be the common denominator in CI/CD, modelling what Kubernetes has become in cloud-native application development. The Tekton team wanted to make sure that the project is going in the right direction by \"dogfooding\" i.e. by using Tekton to run its own automation \"plumbing\". The initial continuous integration setup embedded most of the testing pipelines in bash scripts. The speakers replaced this with Tekton, hence improving the readability of the pipelines and the reproducibility of CI runs. Eventually, they moved onto continuously delivering Tekton and its pipelines via Tekton. In this talk, the speakers will tell their experiences about using a cloud-native pipeline system to test, release and continuously deploy itself.</p>",
+  "persons": [
+    "Andrea Frittoli",
+    "Vincent Demeester"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 30,
+  "room": "H.1309 (Van Rijn)",
+  "title": "A VM journey from VMware to Kubernetes",
+  "subtitle": "",
+  "track": "Virtualization and IaaS",
+  "abstract": "<p>Kubernetes became primary platform for managing containerized applications.\nIn connection with KubeVirt, it can manage both containers and virtual machines in a single cluster to enable mixed workloads and so give second breath to existing legacy workloads based on virtual machines which might not be feasible to containerize for either technical or business reasons.</p>\n\n<p>Consolidation of so far distinct clusters for VMs and containers is the next logical step.\nCome to see an end to end conversion of a VMware virtual machine into Kubernetes.</p>",
+  "description": "<p>Conversion of a virtual machine from VMware to Kubernetes will be presented.</p>\n\n<p>An attendee will learn:\n- briefly about KubeVirt (virtualization add-on for Kubernetes)\n- how to convert an existing VM to Kubernetes\n- implementation aspects (deep-dive)\n- about ongoing development and how to participate</p>",
+  "persons": [
+    "Marek Libra"
+  ]
+}

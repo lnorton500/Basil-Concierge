@@ -1,0 +1,13 @@
+{
+  "start": 1577890200000,
+  "duration": 30,
+  "room": "AW1.125",
+  "title": "The best of both worlds?",
+  "subtitle": "Static and dynamic typing in the Crystal programming language",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "<p>Long has raged the war between static and dynamic typing proponents. Dynamic typing promises speedy development, less verbose code, and happier developers. Static typing promises to find bugs earlier, help you fix them when they're found, and ease refactoring. Crystal is a statically typed language, but with several novel features aimed in a different direction: the perfect compromise between the two. In this talk I will cover the history and basics of Crystal, and explore the type system which makes Crystal unique.</p>",
+  "description": "",
+  "persons": [
+    "Steph Hobbs"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Podman - The Powerful Container Multi-Tool",
+  "subtitle": "An use case driven hands-on to the container management tool Podman",
+  "track": "Containers",
+  "abstract": "<p>Podman is the container management tool of your choice when it comes to boosting\nday-to-day development tasks around containers. The journey of Podman started as\na drop-in replacement for docker, but nowadays it\u2019s even more than just that.\nFor example, Podman is capable of managing pods, running containers without\nbeing root and supports fine granular configuration possibilities.</p>",
+  "description": "<p>In this presentation, we will deep dive into the exciting world of Podman. We\ndiscover how Podman fits into the containers ecosystem, learn about the\narchitecture behind the project and utilize practical examples for daily\ndevelopment tasks.</p>\n\n<p>For example, we will learn how rootless containers work technically, how to\nsafely share resources within multiple containers and which benefits a\ndaemon-less container management tool like Podman provides. All these exciting\nfeatures will be explained by utilizing live demos which leaves room for an open\ndiscussion at the end of the talk.</p>",
+  "persons": [
+    "Sascha Grunert"
+  ]
+}

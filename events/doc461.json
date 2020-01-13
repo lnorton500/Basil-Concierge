@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "WebMIDI",
+  "subtitle": "The garlic bread of the music industry",
+  "track": "JavaScript",
+  "abstract": "<p>The connection between Web and MIDI seems as likely as the joining of Garlic with Bread! Yet, we now have the power to create music from the web browser! Either by generating MIDI files for later manipulation, or as live instruments, WebMIDI provides us with the power to build some amazing online music applications.</p>",
+  "description": "<p>In this short form talk, Steven will cover the internal details of the MIDI protocol, and its related file format, to show how music is represented by computers. This details both the recording and playback of music within the browser, and external application. It comes complete with live demos, synthesized sounds, and occasional music jokes!</p>",
+  "persons": [
+    "Steven Goodwin"
+  ]
+}

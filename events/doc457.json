@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "Multiplatform Kotlin Library Development",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "<p>Multiplatform Kotlin facilitates code-sharing by making platform-agnostic portions of the standard library available in common code that is written once but can run on any target. As Multiplatform development really starts to take off over the next year, there must also be a robust ecosystem of third party libraries available to application developers.</p>\n\n<p>I\u2019ll talk through what it looks like to create such a library, with lessons from my experiences building one of the early libraries in the mobile Multiplatform space. We'll talk about how to find shared abstractions around different platform APIs, how to handle the fast-paced evolution of this environment, and what this all felt like as a first-time library developer. When we're done, you\u2019ll be ready to leverage the growing ecosystem as well as make your own contributions.</p>",
+  "description": "",
+  "persons": [
+    "Russell Wolf"
+  ]
+}

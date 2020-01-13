@@ -1,0 +1,13 @@
+{
+  "start": 1577889600000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "ALTER TABLE improvements in MariaDB Server",
+  "subtitle": "Optimized or instantaneous schema changes, including ADD/DROP COLUMN",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "<p>ALTER TABLE in MySQL used to copy the table contents row by row. We can do much better; in the best case, allow instantaneous schema changes, even for nontrivial changes, such as ADD COLUMN\u2026AFTER and DROP COLUMN. This talk describes how ALTER TABLE has been improved over the years for the InnoDB storage engine in MySQL 5.1, 5.5, 5.6, 5.7, and MariaDB Server 10.2, 10.3, 10.4, 10.5, mostly by the presenter.</p>",
+  "description": "<p>The talk enumerates different classes of ALTER TABLE operations: (1) ones not involving other than metadata, (2) operations that can be performed instantly by introducing a backward-compatible data file format change and 'faking' the operation (ADD or DROP COLUMN), (3) operations that can avoid rebuilding a table, and (4) operations that must rebuild the table, and variants of (3) and (4) that allow concurrent modifications to the table. We also show how ALTER TABLE can be executed concurrently on multiple nodes in statement-based replication. Finally, we show the theoretical limits of what kind of ALTER TABLE operations can be supported without rebuilding the table, by introducing an optional validation step and on-demand conversion of records in previous schema versions of the table.</p>",
+  "persons": [
+    "Marko M\u00e4kel\u00e4"
+  ]
+}

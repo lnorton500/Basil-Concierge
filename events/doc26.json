@@ -1,0 +1,13 @@
+{
+  "start": 1577893200000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Indexing Encrypted Data Using Bloom Filters",
+  "subtitle": "",
+  "track": "Lightning Talks",
+  "abstract": "<p>Bloom filters are a probabilistic data structure that tell us where things are not.  They also utilize one way hash functions to build a probabilistic representation of an object.  This talk will address how this structure can be used to provide an index into encrypted data that can be made publicly available with minimal risk.</p>",
+  "description": "<p>Talk will cover how bloom filters are constructed, the Flat Bloofi indexing implementation and how to take the properties to be indexed and create Bloom filters, and then how to associate the bloom filter with the encrypted object in the index.</p>\n\n<p>The result is an extremely fast index that can retrieve data items containing partial keys.</p>\n\n<p>After this talk participants will be able to provide search capabilities across a collection of encrypted objects.</p>\n\n<p>Code examples will be provided.</p>",
+  "persons": [
+    "Claude Warren"
+  ]
+}

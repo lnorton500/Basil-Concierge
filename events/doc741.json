@@ -1,0 +1,13 @@
+{
+  "start": 1577884500000,
+  "duration": 10,
+  "room": "UB5.132",
+  "title": "Sharing Reproducible Results in a Container",
+  "subtitle": "A container you can build anywhere",
+  "track": "HPC, Big Data, and Data Science",
+  "abstract": "<p>Containers do a great job separating out different parts of a system, making sure that they don't interact unless we want them to. What happens when a colleague hands us a project they've written and we're supposed to host it for them? They're not programmers, they're scientists. Who knows what they have in their program? How can we keep it up to date and deployed with a minimum of fuss?\nCome and see how we've solved this problem with Guix, from rebuilding or replacing the dependencies with modern versions like a pro, having only the bare minimum required software in the container, deploying in an artisanally crafted container like a hero, and upgrading and rolling back when ready.</p>",
+  "description": "",
+  "persons": [
+    "Efraim Flashner"
+  ]
+}

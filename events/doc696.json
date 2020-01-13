@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "Building an Open-Source based audio streaming platform",
+  "subtitle": "",
+  "track": "Open Media",
+  "abstract": "<p>Learn how Radiofrance leverage open-source software to transport, encode, deliver and monitor audio stream in the cloud. You will get a global infrastructure overview on a platform that serve audio stream at scale.</p>",
+  "description": "<p>What we will talk about:\nHow we chose our audio streaming protocol (HLS and Icecast).\nHow to transport audio from corporate SI to the cloud with the protocol SRT.\nHow we use Liquidsoap as streaming server to implement high availability logic, encode and mux our stream.\nHow we monitor our system with Prometheus and Grafana.\nHow to scale an audio streaming platform for 80 radios and 200K+ concurrent listeners.</p>",
+  "persons": [
+    "Maxime Bugeia"
+  ]
+}

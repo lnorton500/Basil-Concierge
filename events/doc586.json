@@ -1,0 +1,13 @@
+{
+  "start": 1577887800000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "actinia: geoprocessing in the cloud",
+  "subtitle": "",
+  "track": "Geospatial",
+  "abstract": "<p>With a rapidly increasing wealth of Earth Observation (EO) and geodata, the demand for scalable geoprocessing solutions is growing as well. Following the paradigm of bringing the algorithms to the data, we developed the cloud based geoprocessing platform actinia (<a href=\"https://actinia.mundialis.de\">https://actinia.mundialis.de</a> and <a href=\"https://github.com/mundialis/actinia_core\">https://github.com/mundialis/actinia_core</a>). This free and open source solution is able to ingest and analyse large volumes of data in parallel. actinia provides a HTTP REST API around GRASS GIS functionality, extended by ESA SNAP and user scripts written in Python. Core functionality includes the processing of raster and vector data as well as time series of satellite images. The backend is connected to the full Landsat and Copernicus Sentinel archives. actinia is an OSGeo Community Project since 2019 and a backend of the <a href=\"https://openeo.org\">openEO.org</a> API (EU H2020 project).</p>",
+  "description": "",
+  "persons": [
+    "Markus Neteler"
+  ]
+}

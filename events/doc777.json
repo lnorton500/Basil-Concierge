@@ -1,0 +1,13 @@
+{
+  "start": 1577886000000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Projectional Editing and Its Implications",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "<p>Let\u2019s shake some of the dogmas that constrain our programming worldview. In this session, I would like to take you to an alternative world - a world where programming languages are not parsed, a world where languages can be downloaded from the Internet and plugged easily into your IDE. A world where you have the power to customize the languages that you use. You\u2019ll see that projectional editing in JetBrains MPS gives you incredible freedom in how you express your thoughts. It allows you to choose notations that best fit the task at hand. Your code can be edited as text, tables, diagrams, a form, or a combination of those. This is especially useful for Domain-specific languages and we\u2019ll see real-life examples from domains such as the insurance industry, embedded software development, bioinformatics, enterprise systems and legislation. We\u2019ll also discuss the downsides and integration challenges that projectional editors face. My goal is that you\u2019ll leave this session inspired, enriched and motivated to try something new.</p>",
+  "description": "",
+  "persons": [
+    "V\u00e1clav Pech"
+  ]
+}

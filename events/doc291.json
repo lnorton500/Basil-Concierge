@@ -1,0 +1,18 @@
+{
+  "start": 1577887200000,
+  "duration": 50,
+  "room": "UA2.220 (Guillissen)",
+  "title": "DEBATE: The 4 Freedoms and OSD are outdated and no longer relevant in 2020",
+  "subtitle": "",
+  "track": "Legal and Policy Issues",
+  "abstract": "<p>Are the FSF's 4 Freedoms and the OSI's Open Source Definition out\nof date in 2020 and should be replaced.</p>",
+  "description": "<p>Affirmative position: OSD/FSD is now irrelevant</p>\n\n<ol>\n<li>First Affirmative Constructive (1AC) = 7 minutes\na. Cross-examination of First Affirmative by Second Negative = 3 minutes</li>\n<li>First Negative Constructive (1NC)  = 7 minutes\na. Cross-examination of First Negative by First Affirmative = 3 minutes</li>\n<li>Second Affirmative Constructive (2AC)  = 7 minutes\na. Cross-examination of Second Affirmative by First Negative = 3 minutes</li>\n<li>Second Negative Constructive (2NC)  = 7 minutes\na. Cross-examination of Second Negative by Second Affirmative = 3 minutes</li>\n<li>First Negative Rebuttal (1NR)  = 3 minutes</li>\n<li>First Affirmative Rebuttal (1AR)  = 3 minutes</li>\n<li>Second Negative Rebuttal (2NR)  = 3 minutes</li>\n<li>Second Affirmative Rebuttal (2AR)  = 3 minutes</li>\n</ol>",
+  "persons": [
+    "Neil McGovern",
+    "Andrew Katz",
+    "Matt Jarvis",
+    "Luis Villa",
+    "Frank Karlitschek",
+    "Amanda Brock"
+  ]
+}

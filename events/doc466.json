@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "ReactJs, Redux & Apollo - state management in SUSI.AI",
+  "subtitle": "The event mainly talks about patterns of state management with React using Redux & Apollo and their comparision",
+  "track": "JavaScript",
+  "abstract": "<p>The talk will be mainly around the state managements techniques and patterns used in ReactJs and throw light on the coding patterns for Redux and Apollo.\nI will be discussing about the the common patterns of the same and talk about the advantages and disadvantages of both. Lastly and most importantly, will\ntalk about an Open Source Voice Assistant - SUSi.AI implemented using ReactJs and Redux and the app architecture.</p>",
+  "description": "<p>Minutes of the event</p>\n\n<p>00:00 - 00:01 - Basic introduction of myself and what I do.\n00:01 - 00: 04 - It will start with the brief introduction of ReactJs and the need of state management (both local and global).\n00:04 - 00:06 - Tell about the solutions in the market like Redux, MobX, Apollo.\n00:06 - 00:15 - Discuss about the commonly used coding patterns using them with examples and the best practices for them.\n00:15 - 00:20 - Talk about how we are making SUSI.AI - An Open Source Voice Assistant for the web and how is the app architectured to build an immersive and real time experience.</p>\n\n<p>Last 5 mins for the Q&amp;A session.</p>",
+  "persons": [
+    "Akshat Garg"
+  ]
+}

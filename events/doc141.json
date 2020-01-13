@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 25,
+  "room": "AW1.120",
+  "title": "Wikibase Ecosystem",
+  "subtitle": "taking Wikidata further",
+  "track": "Collaborative Information and Content Management Applications",
+  "abstract": "<p>Wikidata, Wikimedia's knowledge base, has been very successful since its inception 7 years ago. Wikidata's general purpose data about the world is powering everything from Wikipedia to your digital personal assistant. Its linked, machine readable data is collected and maintained by a community of over 20000 people. But not all data should and can be in Wikidata. Instead we are taking the software powering Wikidata, Wikibase, to new places. We empower communities and institutions all around the world who want to collect structured, machine-readable data about a topic area of their choice to run their own Wikibase. These Wikibase instances are then connected to form a thriving ecosystem. In this talk we'll go over what Wikibase is, where it's coming from and what it is enabling right now.</p>",
+  "description": "",
+  "persons": [
+    "Lydia Pintscher"
+  ]
+}

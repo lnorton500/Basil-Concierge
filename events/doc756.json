@@ -1,0 +1,13 @@
+{
+  "start": 1577882100000,
+  "duration": 25,
+  "room": "UB5.230",
+  "title": "Growing Sustainable Contributions Through Ambassador Networks",
+  "subtitle": "",
+  "track": "Community devroom",
+  "abstract": "<p>Open Source Program Offices are utilizing ambassador programs more and more. We'll talk about why we decided to implement ambassador programs, how we implemented them, got buy-in (from a time and budget standpoint), and more.</p>\n\n<p>We'll both talk about how we use this program in our respective companies to scale and reach thousands of developers internally. We'll also throw in a few case studies and lessons learned throughout our (ongoing) journeys.</p>",
+  "description": "<p>Comcast and Indeed are committed to fostering open source contributions to the external projects that we depend on. One type of program that both companies use is an Open Source Ambassador Program to help new and experienced individuals contribute to open source projects that they use.</p>\n\n<p>During this talk we\u2019ll go over what an ambassador program is, how we decided to use them in our organizations, the path to buy-in and budget approval, how they were implemented, results we saw, and lessons learned. We\u2019ll present specific case studies of how our Ambassador Programs helped with specific campaigns and how that fosters open source sustainability.</p>\n\n<p>At Indeed we\u2019ll compare results from Hacktoberfest in 2018 and 2019, and the results that we saw before and after implementing the Open Source Ambassador Program.</p>\n\n<p>At Comcast, the Open Source Ambassador working group was formed in 2018 where ambassadors focus on Open Source practices, raising awareness, compliance and strategy. The aim of the OSAP is to foster discussion across the various Comcast tech offices and understand Open Source needs and issues across the organization.</p>",
+  "persons": [
+    "Alison Yu and Shilla Saebi"
+  ]
+}

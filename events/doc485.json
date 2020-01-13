@@ -1,0 +1,13 @@
+{
+  "start": 1577886600000,
+  "duration": 35,
+  "room": "H.1308 (Rolin)",
+  "title": "Explicitly Supporting Stretch Clusters in Ceph",
+  "subtitle": "",
+  "track": "Software Defined Storage",
+  "abstract": "<p>Ceph is an open source distributed object store, network block device, and file system designed for reliability, performance, and scalability. While Ceph is designed for use in a single data center, users have deployed \u201cstretch\u201d clusters across multiple data centers for many years, and deploying Ceph to back Red Hat\u2019s OpenShift Container Storage product required us to support that workload explicitly and well \u2014 in particular, in the face of netsplits.\nThis requires improvements to our \u201cmonitor\u201d leader elections and to the \u201cOSD\u201d peering process to keep data available without breaking our data integrity guarantees. This talk presents the whole cycle of that work from an algorithm and programmer perspective: the dangers we identified, the changes we needed, the architecture changes to support faster test iteration and coding, and the results.</p>",
+  "description": "",
+  "persons": [
+    "Gregory Farnum"
+  ]
+}

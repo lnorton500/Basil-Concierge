@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "FOSS in Animation",
+  "subtitle": "The state of Free and Open Source software in the Animation and VFX Industry",
+  "track": "Open Media",
+  "abstract": "<p>The Animation industry has always been ruled by proprietary software, mainly from Autodesk, Adobe and The Foundry. But recently we noticed a rise of interest in software like Blender or Krita. Alongside them, initiatives like the Academy Software Foundation are popping. Last but not least, more and more studios publish the sources of their in-house software. During this conference, we'll explain how a typical production pipeline works. Then, we'll discuss how open source impacts animation productions and what we can expect for the future. As a conclusion, I'll explain how studios collaborate more together through free and open-source software.</p>",
+  "description": "",
+  "persons": [
+    "Frank Rousseau"
+  ]
+}

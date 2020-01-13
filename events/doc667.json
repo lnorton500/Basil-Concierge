@@ -1,0 +1,13 @@
+{
+  "start": 1577871000000,
+  "duration": 10,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Decentralized object storage",
+  "subtitle": "An open source decentralized object storage",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "<p>A presentation of the architecture of Storj decentralized object storage.\nStorj is a company that has built a completely open source decentralized object storage written in Go.\nCurrently Storj is in the lat beta release before releasing the production version of the decentralized object storage network.</p>",
+  "description": "<p>A presentation of the architecture of Storj decentralized object storage.\nStorj is a company that has built a completely open source decentralized object storage written in Go.\nCurrently Storj is in the lat beta release before releasing the production version of the decentralized object storage network.</p>\n\n<p>The network is formed by a big community of operators, named Storj Node Operators, who offer storage space and network bandwidth to the network.\nStorj incentives the Storj Node Operators for their contributed storage space and network bandwidth.</p>\n\n<p>The network is AWS S3 compatible and is pursuing to achieve the same or even better service layer agreements than AWS S3 at a cheaper price in terms of storage and bandwidth, all thanks to the great community of Storage Node Operators.\n23.-\nIn this event, I will expose the architecture of the network and the challenges that decentralized network storage presents in comparison with the ones that are not exposed to a centralized one.</p>\n\n<p>I will comment how the confidentially, durability, retrievability and upload/download speed is maintained.</p>",
+  "persons": [
+    "Ivan Fraixedes"
+  ]
+}

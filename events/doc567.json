@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "RaptorJIT: a fast, dynamic systems programming language",
+  "subtitle": "Forking LuaJIT to target heavy-duty server applications",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "<p>RaptorJIT is a Lua implementation suitable for high-performance low-level system programming. With the project scope reduced to the systems programming domain we want RaptorJIT fit one use case and excel at it, and we\u2019re not afraid of radical change.</p>\n\n<p>This talk will be about our efforts to reduce the project\u2019s complexity to improve maintain-ablility and pave the way for new features. A story about porting the LuaJIT interpreter from assembly to C, ruthless trade-offs, and ambitious performance targets in an expressive language.</p>\n\n<p>Topics include: predictable performance in JIT compilers, always-on profilers, memory safety in low-level programming</p>",
+  "description": "",
+  "persons": [
+    "Max Rottenkolber"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "BSP generator for 3000+ ARM microcontrollers",
+  "subtitle": "",
+  "track": "Hardware Enablement",
+  "abstract": "<p>For embedded developers using alternative programming languages, but also for anyone using third party driver frameworks such as libopencm3, one of the main pain points to start using a microcontroller is to make a Board Support Package.</p>\n\n<p>Things like linker script or startup code (crt0) not only require skills, but also information that are not always easily accessible.</p>\n\n<p>In this talk we will present a tool that generates linker script, startup code, and low level hardware binding for 3000+ ARM microcontrollers using information extracted from archives provided as part of the ARM Cortex Microcontroller Software Interface Standard (CMSIS).</p>",
+  "description": "",
+  "persons": [
+    "Fabien Chouteau"
+  ]
+}

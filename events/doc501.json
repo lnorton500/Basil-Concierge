@@ -1,0 +1,14 @@
+{
+  "start": 1577892600000,
+  "duration": 30,
+  "room": "H.1309 (Van Rijn)",
+  "title": "Running virtual machines out of thin air",
+  "subtitle": "",
+  "track": "Virtualization and IaaS",
+  "abstract": "<p>How to run virtual machines in oVirt without copying their disks.</p>",
+  "description": "<p>Have you ever wanted to run your virtual machine in oVirt without copying its hugh disks?\nTired of checking the slow transfer progress? We did, and we have a good plan to avoid the wait!</p>\n\n<p>In this talk we show how oVirt can start virtual machine without copying the disks,\nusing external disk via NBD or other protocols supported by qemu.\nOnce the virtual machine is running, copy the disks in the background to oVirt storage.\nThis minimizes downtime to seconds instead of minutes, and can be used in many scenarios\nsuch as importing virtual machines from other systems (even from foreign systems via virt-v2v),\npreviewing backups before restore, and provisioning a virtual machines.</p>\n\n<p>Audience:\nVirtualization administrators or developers interested in oVirt architecture and would like a peek into future development.</p>",
+  "persons": [
+    "Nir Soffer",
+    "Daniel Erez"
+  ]
+}

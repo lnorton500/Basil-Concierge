@@ -1,0 +1,13 @@
+{
+  "start": 1577902800000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Concept Programming, from ideas to code",
+  "subtitle": "",
+  "track": "Lightning Talks",
+  "abstract": "<p>Programming is the art of turning ideas into code.\nIdeas and code do not live in the same space. Any translation is lossy.\nConcept programming is a cross-language approach that focuses on this translation process, and helps identify often overlooked classes of issues.</p>",
+  "description": "<p>Programming is the art of turning ideas into code.\nIdeas and code do not live in the same space. Consequently, any translation is lossy. But this loss is not immediately visible. For example, how does your programming language coerce you into coding a concept as simple as \"maximum\" or list in a way that is generally full of warts?\nConcept programming is a cross-language approach that focuses on this translation process, and helps identify often overlooked classes of issues. It separates the \"concept space\" and the \"code space\", and focuses on how the mechanics in one space translate (or not) into the other.</p>\n\n<p>It introduces a few core ideas:\n- Syntactic noise is the difference in look between code and concept. For example, in Lisp, you write (+ 1 2)\n- Semantic noise is the difference in behavior between code and concept. For example, in C, text is null-terminated.\n- Bandwidth is the amount of the concept space covered by the code. For example, the \"+\" operator has higher bandwidth in C++ than in C\n- Signal/noise ratio is the amount of code that does not carry any useful concept. For example, curly braces and semi-colons in C.</p>",
+  "persons": [
+    "Christophe de Dinechin"
+  ]
+}

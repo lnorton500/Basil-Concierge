@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Immutable deployments: the new classic way for service deployment",
+  "subtitle": "Adopt the new immutable infrastructure paradigm using your old toolbox.",
+  "track": "Infra Management Devroom",
+  "abstract": "<p>Immutable infrastructure paradigm is often associated with relative new concept like containers and orchestrators like kubernetes. In this talk will be illustrate how to obtain the same result but using most of the classic concepts, tools and simple cloud platforms.</p>",
+  "description": "<p>In particular will be shown the usage of:</p>\n\n<ul>\n<li>Terraform for the orchestration</li>\n<li>Packer for the creation of the instance image</li>\n<li>Simple shell scripts for the provisioning</li>\n<li>DigitalOcean as cloud platform</li>\n</ul>\n\n\n<p>The illustrated approach is based on lessons learned in almost two years of using this methodology on a production service.</p>",
+  "persons": [
+    "Matteo Valentini"
+  ]
+}

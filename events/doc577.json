@@ -1,0 +1,13 @@
+{
+  "start": 1577874300000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "GeoNetwork Basics",
+  "subtitle": "",
+  "track": "Geospatial",
+  "abstract": "<p>GeoNetwork Basics\nWelcome to GeoNetwork, a leading web service for keeping track of the spatial information used by your organization.</p>\n\n<p>Jody is an experienced open source community member, digging into what this technology offers, and how it is used. This presentation shares these findings with you, and touches on what makes GeoNetwork succeed:</p>\n\n<p>We look at what GeoNetwork is for, the business challenge it is faced with, and the amazing technical approach taken by the technology.\nFor context we look at the core layer publishing workflow to see what is required\nWe peek under the hood at how the editor works, and discover the central super-power of GeoNetwork\nLook at examples of how GeoNetwork has been extended by organizations to see what is possible with this technology</p>\n\n<p>Attend this presentation for an informative tour of the GeoNetwork ecosystem.</p>",
+  "description": "",
+  "persons": [
+    "Jody Garnett"
+  ]
+}

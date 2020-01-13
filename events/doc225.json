@@ -1,0 +1,14 @@
+{
+  "start": 1577890500000,
+  "duration": 5,
+  "room": "K.3.401",
+  "title": "Welcome to the Retrocomputing DevRoom 2020",
+  "subtitle": "",
+  "track": "Retrocomputing",
+  "abstract": "<p>A quick introduction to the 3rd edition of the retro-computing devroom.</p>",
+  "description": "",
+  "persons": [
+    "Pau Garcia Quiles (pgquiles)",
+    "Fran\u00e7ois Revol (mmu_man)"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577886900000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Nextcloud Talk",
+  "subtitle": "A real-time communication platform for teams",
+  "track": "Real Time Communications",
+  "abstract": "<p>Real-Time communication happens often in teams these days: at work, in your sports club, your Free Software project and in many other places. For a long time this was, and in many areas often still is, dominated by centralized and proprietary tools. While there are many great Free Software projects out there which fill the gap, Nextcloud Talk is unique as it ingrates in a complete collaboration platform. You can have your files, calendar, contacts, project plan and any other data in the same place where the communication takes place, all nicely integrated. You can edit collaboratively office documents (text, spreadsheets, presentations,...) or markdown files while having a chat, video- or audio call for example. This talk will introduce you to some of the unique features Nextcloud Talk can offer to your teams.</p>",
+  "description": "<p>Nextcloud Talk is part of the Nextcloud collaboration platform. A complete Free Software and on-premise cloud solution which allows you to manage all kind of data and work collaboratively on it, both in one Nextcloud instance and even across different Nextcloud instances. Nextcloud Talk is based on WebRTC and offers a nicely integrated tool for text-, video- and audio-chats. As Nextcloud Talk is a first-class citizen in the Nextcloud platform it is well integrated with all the other components. You can share documents from Nextcloud Files into a room and every user will directly be able to see, sync and edit the files. You can work on a document with your team while have a call or chat, and many more things are possible. While you can find for every single task great Free Software tools these days. The uniqueness of Nextcloud Talk is the integration in one collaboration platform so that all the different areas can work nicely together, integrated in a way which often even outperform proprietary competitors. This talk will introduce the audience to all the possibilities of Nextcloud Talk and will show them how they can reach a new level of productivity for their group with the collaboration platform Nextcloud.</p>",
+  "persons": [
+    "Bj\u00f6rn Schie\u00dfle"
+  ]
+}

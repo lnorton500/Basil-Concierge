@@ -1,0 +1,13 @@
+{
+  "start": 1577881500000,
+  "duration": 30,
+  "room": "K.4.601",
+  "title": "EActors: an actor-based programming framework for Intel SGX",
+  "subtitle": "",
+  "track": "Hardware-aided Trusted Computing",
+  "abstract": "<p>In this talk I will present EActors, an actor framework that is tailored to SGX and offers a more seamless, flexible and efficient use of trusted execution \u2013 especially for applications demanding multiple enclaves. EActors disentangles the interaction with enclaves and, among them, from costly execution mode transitions. It features lightweight fine-grained parallelism based on the concept of actors, thereby avoiding costly SGX SDK provided synchronisation constructs. Finally, EActors offers a high degree of freedom to execute actors, either untrusted or trusted, depending on security requirements and performance demands.</p>",
+  "description": "",
+  "persons": [
+    "Vasily A. Sartakov"
+  ]
+}

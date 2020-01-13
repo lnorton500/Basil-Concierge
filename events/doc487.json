@@ -1,0 +1,14 @@
+{
+  "start": 1577892000000,
+  "duration": 25,
+  "room": "H.1308 (Rolin)",
+  "title": "Management of Storage on OpenShift",
+  "subtitle": "Managing storage was never so easy",
+  "track": "Software Defined Storage",
+  "abstract": "<p>This talk will walk-through how users can deploy storage on OpenShift and manage it all from the browser. With just a few clicks and almost zero questions asked, we will demonstrate how anyone can deploy &amp; manage storage like never before. From beginners to experts, this session has fun bits for every storage enthusiast.</p>",
+  "description": "<p>Goal is to enable every participant to set up their own storage cluster and manage it from the comforts of their browser.\nNo hefty configurations, just a few clicks to get going.</p>\n\n<p><em>Key Takeaways</em>\n- Operator Lifecycle Manager Overview\n- Storage Operators Overview\n- Container Storage in OpenShift\n- Rook, Ceph\n- Management Console for Storage</p>",
+  "persons": [
+    "Ankush Behl",
+    "Umanga Chapagain"
+  ]
+}

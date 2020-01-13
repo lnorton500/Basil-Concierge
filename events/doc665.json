@@ -1,0 +1,13 @@
+{
+  "start": 1577869800000,
+  "duration": 10,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Open and federated identities with ID4me",
+  "subtitle": "An alternative to \"sign in with Facebook\"",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "<p>Online identities are the cornerstone on which data-based capitalism is built - so, Google, Facebook and other OTTs are trying to dominate them and close them into silos. The ID4me platform extends OpenID Connect to create an open and federated architecture that allows any number of providers to interoperate, and gives back control to users, and a role to community service providers.</p>",
+  "description": "<p>In the last years, the Internet has been increasingly centralized into the hands of GAFAM and other over-the-top companies that built walled gardens in fields like messaging and social networks. More and more of these companies have user data monetization and targeted advertising as a core revenue stream; thus, tracking people across their Internet activities is necessary to their existence.</p>\n\n<p>This is why they have also built closed identity systems that supply single-sign-on and very easy sign up for new websites and services, at the expense of privacy and user control. As managing hundreds of separate accounts is inconvenient and insecure, and as alternatives such as password managers are not easy enough for the average Internet user, clicking on \u201csign in with Google\u201d or \u201csign in with Facebook\u201d has become a very common choice.</p>\n\n<p>We think that this is bad for the Internet in general, and thus we are creating a platform that allows anyone to provide identities, creating an open, public and federated single-sign-on and data management system. We are extending OpenID Connect just a bit, the bit that is necessary to break the silos and allow interoperability; and we are basing the system on the DNS, the widely available and already federated naming directory of the Internet.</p>\n\n<p>The talk will explain how the system works and encourage participation and contributions.</p>",
+  "persons": [
+    "Vittorio Bertola"
+  ]
+}

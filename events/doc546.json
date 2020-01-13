@@ -1,0 +1,13 @@
+{
+  "start": 1577876700000,
+  "duration": 30,
+  "room": "AW1.121",
+  "title": "NetBSD - Not Just For Toasters",
+  "subtitle": "",
+  "track": "BSD",
+  "abstract": "<p>NetBSD may seem like an exotic choice for an operating system. But it is actually a decent desktop OS for developers and a rock-solid server OS, in the cloud as well as on old hardware. Come for the freedom from systemd, stay for the great packages, modern features and enthusiastic community!</p>",
+  "description": "<p>In this talk, I will give reasons why adopting NetBSD makes sense, show some cool hardware that you can run NetBSD on, and talk about new features in the upcoming NetBSD 9 release.</p>",
+  "persons": [
+    "Benny Siegert"
+  ]
+}

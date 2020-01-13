@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "OpenTelemetry: an XKCD 927 Success Story",
+  "subtitle": "",
+  "track": "Erlang, Elixir and Friends",
+  "abstract": "<p>Learn how distributed tracing can revolutionize the way you troubleshoot errors and performance issues, in both monolithic and distributed micro-service architectures.</p>\n\n<p>OpenTelemetry is an industry standard for distributed tracing, merging the tech and communities of OpenCensus and OpenTracing.</p>",
+  "description": "<ul>\n<li>Introduce the concepts of application tracing and the state of the ecosystem (Spans, Traces, Context Propagation, OpenTracing, OpenCensus, OpenTelemetry)</li>\n<li>Explain how this is different and complementary to Erlang\u2019s built-in tracing tools</li>\n<li>Show what insights can be more easily gained from trace data as opposed to logs and metrics</li>\n<li>Give an overview of the tools and vendors available to start using this technology today</li>\n</ul>",
+  "persons": [
+    "Greg Mefford"
+  ]
+}

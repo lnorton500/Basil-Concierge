@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Civil society needs Free Software hackers",
+  "subtitle": "",
+  "track": "Lightning Talks",
+  "abstract": "<p>More and more traditionally processes in our society now incorporate, and are influenced by software.</p>",
+  "description": "<p>Processes that decide for example: Who will be able to go to which university? Who will be invited for a job interview? How long does someone have to go to jail?</p>\n\n<p>Therefore many organisation which work for people's rights are now confronted with the problems proprietary software creates for society.  The pupils associations, the unions, human right organisations, or environmental organisations -- all of them need to understand how software works to do their work in our society.</p>\n\n<p>To continue to fulfil their role, civil society needs to understand how processes are implemented in software, they need to be able to challenge the assumptions, the values, and the way programmers designed them, and have a better understanding how you could change them.</p>\n\n<p>In short: in a world in which more and more of our live is controlled by software, civil society organisations need us as Free Software hackers to support them doing their job.</p>",
+  "persons": [
+    "Matthias Kirschner"
+  ]
+}

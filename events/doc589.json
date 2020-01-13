@@ -1,0 +1,13 @@
+{
+  "start": 1577892300000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Creating GPX tracks from cycle routes in OpenStreetMaps",
+  "subtitle": "Using the OverpassAPI to download and process cycle routes from OpenStreetMaps",
+  "track": "Geospatial",
+  "abstract": "<p>Across Europe, there are many regional, national and international cycle routes; they provide safe ways for families and friends to travel and explore by bike. They can however, be hard to follow: overgrown vegetation can hide directions, signs are subject to vandalism and sometimes it is just easy to miss a turn.</p>\n\n<p>Having freely available GPX tracks for cycle routes means people can better plan their journey and avoid wrong turns when following the route. OpenStreetMaps is the best source of information for cycle routes and these relations can easily be downloaded using the OverpassAPI.</p>\n\n<p>In this talk I will present an Open Source tool to download GPX tracks of cycle routes, and a website for people to download the generated GPX files. I will discuss some of the nuances of how cycle routes are stored as relations and what processing needs to be performed in order to create a continuous route. In addition, I will speak about how the tool can be used to identify inconsistencies in OpenStreetMaps data.</p>",
+  "description": "",
+  "persons": [
+    "Henry Miskin"
+  ]
+}

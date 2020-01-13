@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 25,
+  "room": "UB5.132",
+  "title": "Interactive applications on HPC systems",
+  "subtitle": "Jupyterhub, Galaxy, RStudio, XPRA",
+  "track": "HPC, Big Data, and Data Science",
+  "abstract": "<p>Exploratory data analysis has increased the demand for interactive tools. In the same way, workshops and other teaching events often benefit from immediate and on-demand access to preconfigured, interactive environments.</p>\n\n<p>For low resource requirements these interactive environments can be run on workstations. However, as user count and resource demand increase, these setups become more complex. While these frameworks typically provide good support for cloud based deployments in container orchestrations, it is often preferable to deploy them on existing compute infrastructure that provides access to both software packages and the data to be analysed. The deployment on HPC batch systems specifically brings challenges on how to handle authentication, user identities, and job submissions.</p>\n\n<p>The architecture of these applications can be considered as following the master -- minion paradigm in most cases. One central component manages user access and acts as a gateway. It launches one or multiple per-user instances of a compute component, that provides the actual user environment.</p>\n\n<p>We want to demonstrate how we provide applications like Galaxy, Jupyterhub, and RStudio to scientists of the Vienna Biocenter. The presentation will focus on the similarities and pitfalls of these deployments. We run the web application gateway based on our standardized container environment. The compute components run as SLURM jobs on the CLIP batch environment (CBE). Specific focus will be placed on the integration of web-based Single-Sign-On, and how we address the management of user identities for starting jobs on the batch system. Sources and configuration examples on the specific setup will be provided.</p>\n\n<p>After the operator\u2019s perspective, we will pan to the end-users view. Beginners and workshop situations typically prefer a static, pre-configured setup of the user session. Contrary to that, advanced users will want to customize their execution environment as much as possible. We will explore how scientists can tailor the setup to their individual needs.</p>\n\n<p>Finally, we will summarize the setups of the applications in a high-level comparison from both the operators and the end-users perspective.</p>",
+  "description": "",
+  "persons": [
+    "Erich Birngruber"
+  ]
+}

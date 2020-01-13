@@ -1,0 +1,13 @@
+{
+  "start": 1577887500000,
+  "duration": 40,
+  "room": "H.1302 (Depage)",
+  "title": "JMC & JFR - 2020 Vision",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "<p>JDK Flight Recorder provides production time profiling and diagnostics\nvia a compact events-based infrastructure inside the Hotspot JVM\nitself. JDK Mission Control is a stand-alone application that provides\nreal-time monitoring information for Hotspot JVMs, as well as tools to\nread, automatically analyze and visualize flight recording data\nproduced by JDK Flight Recorder.</p>\n\n<p>When this talk is presented, JMC 7.1.0 has (hopefully) been out for a\nlittle while. This presentation talks about what is new and the\nroadmap for the upcoming JMC 8. We will also discuss recent changes in\nthe project, such as the move to Skara. Towards the end we will demo\nhow JDK Flight Recorder and JMC core libraries can be used to diagnose\napplications deployed in container orchestration platforms.</p>",
+  "description": "",
+  "persons": [
+    "Jie Kang"
+  ]
+}
