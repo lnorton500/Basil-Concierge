@@ -5,7 +5,7 @@
   "title": "Preserve kubernetes state using heptio velero",
   "subtitle": "",
   "track": "Backup and Recovery",
-  "abstract": "<p>Stateful applications like databases needs to preserve their state as they need to save client data of one session for use in next session in persistent storage. Managing state in Kubernetes is difficult because the system\u2019s dynamism is too chaotic for most databases to handle. So backup of data is very important especially in case of node failures, disk failures etc.\nVelero is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes.\nIn this talk, I will elaborate on why, how and when to use velero for your Kubernetes cluster and volumes.</p>",
+  "abstract": "Stateful applications like databases needs to preserve their state as they need to save client data of one session for use in next session in persistent storage. Managing state in Kubernetes is difficult because the system\u2019s dynamism is too chaotic for most databases to handle. So backup of data is very important especially in case of node failures, disk failures etc.\nVelero is an open source tool to safely backup and restore, perform disaster recovery, and migrate Kubernetes cluster resources and persistent volumes.\nIn this talk, I will elaborate on why, how and when to use velero for your Kubernetes cluster and volumes.",
   "description": "",
   "persons": [
     "Harshita Sharma"

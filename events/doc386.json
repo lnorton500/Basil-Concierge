@@ -5,8 +5,8 @@
   "title": "How (Not) To Containerise Securely",
   "subtitle": "Lessons Learned the Hard Way",
   "track": "Containers",
-  "abstract": "<p>This talk details low level exploitable issues with container and Kubernetes deployments. We focus on lessons learned, and show attendees how to ensure that they do not fall victim to avoidable attacks.</p>",
-  "description": "<p>Andy has made mistakes. He's seen even more. And in this talk he details the best and the worst of the container and Kubernetes security problems he's experienced, exploited, and remediated.</p>\n\n<p>See how to bypass security controls, exploit insecure defaults, evade detection, and root clusters externally (and more!) in this interactive and highly technical appraisal of the container and cluster security landscape.</p>",
+  "abstract": "This talk details low level exploitable issues with container and Kubernetes deployments. We focus on lessons learned, and show attendees how to ensure that they do not fall victim to avoidable attacks.",
+  "description": "Andy has made mistakes. He's seen even more. And in this talk he details the best and the worst of the container and Kubernetes security problems he's experienced, exploited, and remediated.\n\nSee how to bypass security controls, exploit insecure defaults, evade detection, and root clusters externally (and more!) in this interactive and highly technical appraisal of the container and cluster security landscape.",
   "persons": [
     "Andrew Martin"
   ]

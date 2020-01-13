@@ -5,7 +5,7 @@
   "title": "Pattern Based Code Generation for GPUs",
   "subtitle": "",
   "track": "Graphics",
-  "abstract": "<p>Automatic, pattern-based code generation for Mesa's compiler infrastructure has been a long standing dream. Nearly a decade ago experiments were conducted using systems like BURS and lburg. Each of these attempts encountered various insurmountable road blocks. In the intervening years, both software and GPU architectures have changed significantly. These changes have enabled a code-generator generator to be a reality. The design and implementation of one system will be presented. In addition to the successes, various difficulties and rough edges will be detailed.</p>",
+  "abstract": "Automatic, pattern-based code generation for Mesa's compiler infrastructure has been a long standing dream. Nearly a decade ago experiments were conducted using systems like BURS and lburg. Each of these attempts encountered various insurmountable road blocks. In the intervening years, both software and GPU architectures have changed significantly. These changes have enabled a code-generator generator to be a reality. The design and implementation of one system will be presented. In addition to the successes, various difficulties and rough edges will be detailed.",
   "description": "",
   "persons": [
     "Ian Romanick"

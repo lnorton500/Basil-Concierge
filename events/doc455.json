@@ -5,7 +5,7 @@
   "title": "Confessions of a Serial K\u2013otlin Multiplatform\u2013er",
   "subtitle": "__just don\u2019t \ud835\ude8e\ud835\udea1\ud835\ude99\ud835\ude8e\ud835\ude8c\ud835\ude9d too much__",
   "track": "Kotlin",
-  "abstract": "<h3>What is <em>Multiplatform</em>?</h3>\n\n<ol>\n<li><p> <strong>HELL</strong></p>\n\n<ul>\n<li><p>harder to develop, no documentation</p></li>\n<li><p>just a trend, failed in the past</p></li>\n<li><p>not suitable for performant apps that feel \u201cnative\u201d<br/>\n </p></li>\n</ul>\n</li>\n<li><p> <strong>HEAVEN</strong></p>\n\n<ul>\n<li><p>simpler to develop, removes platform barriers</p></li>\n<li><p>write half the code, ship in half the time</p></li>\n<li><p>only need to hire \u201cgeneralists\u201d instead of \u201cspecialists\u201d<br/>\n </p></li>\n</ul>\n</li>\n<li><p> <strong>OTHER</strong>  \u2714\ufe0e</p>\n\n<ul>\n<li>elaborate in 25 minutes or less:<br/>\n<em>________________________________</em><br/>\n <br/>\n </li>\n</ul>\n</li>\n</ol>",
+  "abstract": "<h3>What is <em>Multiplatform</em>?</h3>\n\n<ol>\n<li> <strong>HELL</strong>\n\n<ul>\n<li>harder to develop, no documentation</li>\n<li>just a trend, failed in the past</li>\n<li>not suitable for performant apps that feel \u201cnative\u201d<br/>\n </li>\n</ul>\n</li>\n<li> <strong>HEAVEN</strong>\n\n<ul>\n<li>simpler to develop, removes platform barriers</li>\n<li>write half the code, ship in half the time</li>\n<li>only need to hire \u201cgeneralists\u201d instead of \u201cspecialists\u201d<br/>\n </li>\n</ul>\n</li>\n<li> <strong>OTHER</strong>  \u2714\ufe0e\n\n<ul>\n<li>elaborate in 25 minutes or less:<br/>\n<em>________________________________</em><br/>\n <br/>\n </li>\n</ul>\n</li>\n</ol>",
   "description": "",
   "persons": [
     "Eugenio Marletti"

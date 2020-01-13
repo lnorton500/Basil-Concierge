@@ -5,7 +5,7 @@
   "title": "Minimalistic typed Lua is here",
   "subtitle": "Minimalistic typed Lua is here",
   "track": "Minimalistic, Experimental and Emerging Languages",
-  "abstract": "<p>In this talk I will present a typed dialect of Lua with a minimalistic implementation. I will discuss the design choices that went into the design, implementation and development approach. We will also discuss whether Lua's minimalism is retained and ponder on the nature of the resulting dialect. This is a sequel for last year talk in which I discussed the challenges on typing dynamic languages and Lua in particular, presenting the results achieved since then.</p>",
+  "abstract": "In this talk I will present a typed dialect of Lua with a minimalistic implementation. I will discuss the design choices that went into the design, implementation and development approach. We will also discuss whether Lua's minimalism is retained and ponder on the nature of the resulting dialect. This is a sequel for last year talk in which I discussed the challenges on typing dynamic languages and Lua in particular, presenting the results achieved since then.",
   "description": "",
   "persons": [
     "Hisham Muhammad"

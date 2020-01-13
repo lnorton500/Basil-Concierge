@@ -5,8 +5,8 @@
   "title": "Weblate: open-source continuous localization platform",
   "subtitle": "How to bring your project closer to its users with localization platform that doesn\u2019t bother anyone with manual work.",
   "track": "Lightning Talks",
-  "abstract": "<p>You will learn how to localize your project easily with little effort, open-source way. No repetitive work, no manual work with translation files anymore. Weblate is unique for its tight integration to VCS. Set it up once and start engaging the community of translators. More languages translated means more happy users of your software. Be like openSUSE, Fedora, and many more, and speak your users' language now thanks to Weblate!</p>",
-  "description": "<p>I will show you the main perks of Weblate and the setup of the project. If you have a project with open repo and you want to start translating it, take your git:// link, and we will set it up right on the spot. FOSDEM is a great time and place to found your translating community.</p>",
+  "abstract": "You will learn how to localize your project easily with little effort, open-source way. No repetitive work, no manual work with translation files anymore. Weblate is unique for its tight integration to VCS. Set it up once and start engaging the community of translators. More languages translated means more happy users of your software. Be like openSUSE, Fedora, and many more, and speak your users' language now thanks to Weblate!",
+  "description": "I will show you the main perks of Weblate and the setup of the project. If you have a project with open repo and you want to start translating it, take your git:// link, and we will set it up right on the spot. FOSDEM is a great time and place to found your translating community.",
   "persons": [
     "V\u00e1clav Zbr\u00e1nek"
   ]

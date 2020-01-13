@@ -5,7 +5,7 @@
   "title": "zbus: yet another D-Bus library",
   "subtitle": "The why, how & WTH of creating a pure D-Bus Rust crate",
   "track": "Rust",
-  "abstract": "<p>In this talk, I will present zbus, a D-Bus crate written from scratch. D-Bus is an inter-process communication mechanism, available and used on almost all modern Linux desktops and many embedded systems. I will start with why I felt the need to take this huge undertaking on my shoulders, followed by the design goals, the challenges faced and how I overcame them during the development.</p>",
+  "abstract": "In this talk, I will present zbus, a D-Bus crate written from scratch. D-Bus is an inter-process communication mechanism, available and used on almost all modern Linux desktops and many embedded systems. I will start with why I felt the need to take this huge undertaking on my shoulders, followed by the design goals, the challenges faced and how I overcame them during the development.",
   "description": "",
   "persons": [
     "Zeeshan Ali"

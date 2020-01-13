@@ -5,8 +5,8 @@
   "title": "Insights into the Eclipse Open Source Project - News from the Eclipse Platform and IDE Project",
   "subtitle": "",
   "track": "Free Tools and Editors",
-  "abstract": "<p>Join this talk to learn about the current status of the Eclipse IDE Open Source projects. We'll talk about new developments, our improvements in the development process, performance improvements, and new features in the Eclipse IDE.</p>",
-  "description": "<p>In this talk, we'll demo the new features of the Eclipse IDE and show the improvements of the latest, best, and fastest Eclipse IDE ever.</p>",
+  "abstract": "Join this talk to learn about the current status of the Eclipse IDE Open Source projects. We'll talk about new developments, our improvements in the development process, performance improvements, and new features in the Eclipse IDE.",
+  "description": "In this talk, we'll demo the new features of the Eclipse IDE and show the improvements of the latest, best, and fastest Eclipse IDE ever.",
   "persons": [
     "Lars Vogel"
   ]

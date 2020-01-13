@@ -5,8 +5,8 @@
   "title": "Making a robot controller from scratch",
   "subtitle": "With NuttX, IoT.js, WebThing and more",
   "track": "Internet of Things",
-  "abstract": "<p>Technical barrier to target low cost micro controllers can be too high for many developers already used to high level API. But did you know that those devices can support many operating systems like NuttX inspired by POSIX (same for Linux), but it goes even behind than C APIs, even JavaScript runtimes like IoT.js can be supported too. IoT.js can also support JS community modules such as Generic-sensor-lite to support sensors and actuators or webthing-iotjs to enable REST API for embedded applications.</p>",
-  "description": "<p>A Robot demonstration running on IoT.js will be explained from porting task to support new STM32F7 board, generate PWM signal to handle servo motors and also providing REST API for \"Web Of Things (WoT)\" applications. To illustrate \"Digital Twins\" concept the robot can interact with a WebVR application using A-Frame framework bridged to Mozilla webthing protocol.</p>",
+  "abstract": "Technical barrier to target low cost micro controllers can be too high for many developers already used to high level API. But did you know that those devices can support many operating systems like NuttX inspired by POSIX (same for Linux), but it goes even behind than C APIs, even JavaScript runtimes like IoT.js can be supported too. IoT.js can also support JS community modules such as Generic-sensor-lite to support sensors and actuators or webthing-iotjs to enable REST API for embedded applications.",
+  "description": "A Robot demonstration running on IoT.js will be explained from porting task to support new STM32F7 board, generate PWM signal to handle servo motors and also providing REST API for \"Web Of Things (WoT)\" applications. To illustrate \"Digital Twins\" concept the robot can interact with a WebVR application using A-Frame framework bridged to Mozilla webthing protocol.",
   "persons": [
     "Philippe Coval"
   ]

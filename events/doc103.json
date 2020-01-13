@@ -5,7 +5,7 @@
   "title": "Sparselizard: a general purpose multiphysics FEM library",
   "subtitle": "Mechanics, fluids, electricity, magnetics, EM and more",
   "track": "Open Source Computer Aided Modeling and Design",
-  "abstract": "<p>This presentation describes sparselizard: a fast, general, robust and user-friendly finite element c++ library with high potential for low-maintenance integration to open-source simulation tools. It is demonstrated with a large range of validated examples that the library has the ability to simulate heavily nonlinear multiphysics problems involving at least mechanic, fluid, electric, magnetic and electromagnetic physics. Its robustness, speed and user-friendliness are also demonstrated.</p>",
+  "abstract": "This presentation describes sparselizard: a fast, general, robust and user-friendly finite element c++ library with high potential for low-maintenance integration to open-source simulation tools. It is demonstrated with a large range of validated examples that the library has the ability to simulate heavily nonlinear multiphysics problems involving at least mechanic, fluid, electric, magnetic and electromagnetic physics. Its robustness, speed and user-friendliness are also demonstrated.",
   "description": "",
   "persons": [
     "Alexandre Halbach"

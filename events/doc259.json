@@ -5,7 +5,7 @@
   "title": "HOWTO build a product with OP-TEE",
   "subtitle": "",
   "track": "Hardware-aided Trusted Computing",
-  "abstract": "<p>OP-TEE is an open source implementation of the GPD TEE specifications. However deploying OP-TEE inside\na real world product requires more than just the integration into the system, since the integrator needs\nto ensure that all security requirements are met. This talk will outline a common set of these requirements\nand show the necessary changes based on NXP i.MX6 platforms.</p>",
+  "abstract": "OP-TEE is an open source implementation of the GPD TEE specifications. However deploying OP-TEE inside\na real world product requires more than just the integration into the system, since the integrator needs\nto ensure that all security requirements are met. This talk will outline a common set of these requirements\nand show the necessary changes based on NXP i.MX6 platforms.",
   "description": "",
   "persons": [
     "Rouven Czerwinski"

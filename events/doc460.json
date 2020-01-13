@@ -5,7 +5,7 @@
   "title": "Designing a DSL with Kotlin",
   "subtitle": "",
   "track": "Kotlin",
-  "abstract": "<p>Kotlin is one of those \u201cnew\u201d JVM languages that are currently rocking the boat. Although it\u2019s made a great impact on Android, it\u2019s equally good on the server side. As Domain-Specific Languages are constrained by the language they run on, Kotlin frees developers from Java fluent builders to propose something better.</p>\n\n<p>Using the Vaadin web framework as an example, I\u2019ll demo how one could design its own DSL with Kotlin.</p>",
+  "abstract": "Kotlin is one of those \u201cnew\u201d JVM languages that are currently rocking the boat. Although it\u2019s made a great impact on Android, it\u2019s equally good on the server side. As Domain-Specific Languages are constrained by the language they run on, Kotlin frees developers from Java fluent builders to propose something better.\n\nUsing the Vaadin web framework as an example, I\u2019ll demo how one could design its own DSL with Kotlin.",
   "description": "",
   "persons": [
     "Nicolas Frankel"

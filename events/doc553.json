@@ -5,7 +5,7 @@
   "title": "Graphing FreeBSD disk utilization with Prometheus",
   "subtitle": "Writing a Prometheus gstat_exporter",
   "track": "BSD",
-  "abstract": "<p>All in a days work: How to write a Prometheus gstat_exporter and integrate it in a Grafana Dashboard</p>",
+  "abstract": "All in a days work: How to write a Prometheus gstat_exporter and integrate it in a Grafana Dashboard",
   "description": "",
   "persons": [
     "Thomas Steen Rasmussen"

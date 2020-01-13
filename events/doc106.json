@@ -5,7 +5,7 @@
   "title": "Gmsh",
   "subtitle": "",
   "track": "Open Source Computer Aided Modeling and Design",
-  "abstract": "<p>Gmsh (http://gmsh.info) is an open source finite element mesh generator with built-in pre- and post-processing facilities. Under continuous development for the last two decades, it has become the de facto standard for open source finite element mesh generation, with a large user community in both academia and industry. In this talk I will present an overview of Gmsh, and highlight recent developments including the support for constructive solid geometry, new robust and parallel meshing algorithms, flexible solver integration and a new multi-language Application Programming Interface in C++, C, Python and Julia.</p>",
+  "abstract": "Gmsh (http://gmsh.info) is an open source finite element mesh generator with built-in pre- and post-processing facilities. Under continuous development for the last two decades, it has become the de facto standard for open source finite element mesh generation, with a large user community in both academia and industry. In this talk I will present an overview of Gmsh, and highlight recent developments including the support for constructive solid geometry, new robust and parallel meshing algorithms, flexible solver integration and a new multi-language Application Programming Interface in C++, C, Python and Julia.",
   "description": "",
   "persons": [
     "Christophe Geuzaine"

@@ -5,7 +5,7 @@
   "title": "Testing DoH and DoT servers, compliance and performance",
   "subtitle": "",
   "track": "DNS",
-  "abstract": "<p>Of course, encrypting DNS is necessary for privacy and security, like\nfor every other Internet protocol. That's why DoT and DoH deployment\nis very important, so that users could safely go to a resolver they\ntrust. Now, it is time to assert the technical compliance and\nperformance of these trusted resolvers. We will talk about the things\nthat could and should be tested against DoT and DoH servers and how to\nimplement it. We will then discuss performance measurements, specially\nwith the opportunities brought by parallelism (both in DoT and DoH)\nand the challenges they create for measurements.\nThis talk will be inspired by the development of a tool which is, at\nthis stage, in a very alpha state.</p>",
+  "abstract": "Of course, encrypting DNS is necessary for privacy and security, like\nfor every other Internet protocol. That's why DoT and DoH deployment\nis very important, so that users could safely go to a resolver they\ntrust. Now, it is time to assert the technical compliance and\nperformance of these trusted resolvers. We will talk about the things\nthat could and should be tested against DoT and DoH servers and how to\nimplement it. We will then discuss performance measurements, specially\nwith the opportunities brought by parallelism (both in DoT and DoH)\nand the challenges they create for measurements.\nThis talk will be inspired by the development of a tool which is, at\nthis stage, in a very alpha state.",
   "description": "",
   "persons": [
     "St\u00e9phane Bortzmeyer"

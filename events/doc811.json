@@ -5,7 +5,7 @@
   "title": "Modern VoIP in Modern Infrastructures",
   "subtitle": "Designing and implementing VoIP architectures in the cloud and container era",
   "track": "Real Time Communications",
-  "abstract": "<p>In the last years we have seen huge changes in IT infrastructures and concepts. VoIP architectures too are evolving towards Software Defined Telecoms. In this talk we'll see how VoIP solutions are being shaped by the Cloud, the open points and share some thoughts about its future.</p>\n\n<p>This is co-authored by Giacomo Vacca and Federico Cabiddu.</p>",
+  "abstract": "In the last years we have seen huge changes in IT infrastructures and concepts. VoIP architectures too are evolving towards Software Defined Telecoms. In this talk we'll see how VoIP solutions are being shaped by the Cloud, the open points and share some thoughts about its future.\n\nThis is co-authored by Giacomo Vacca and Federico Cabiddu.",
   "description": "",
   "persons": [
     "Giacomo Vacca"

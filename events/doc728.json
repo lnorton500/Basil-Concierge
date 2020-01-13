@@ -5,7 +5,7 @@
   "title": "Deployment to hardware",
   "subtitle": "A multi pipeline challenge",
   "track": "Continuous Integration and Continuous Deployment",
-  "abstract": "<p>Our project takes a fun, road-following app which leverages a basic neural network and deploys it to real hardware with an OStree update system. This has meant managing a variety of different CI-runners; GPU, aarch64 and x86_64. These have variety of different dependencies, drivers and have interfaces with a number of services and caches.</p>\n\n<p>I will focus on how we constructed and developed our CI pipelines to build, test and integrate a number of disparate components to produce images and push updates into an OStree server to be deployed over the air onto our hardware.</p>",
+  "abstract": "Our project takes a fun, road-following app which leverages a basic neural network and deploys it to real hardware with an OStree update system. This has meant managing a variety of different CI-runners; GPU, aarch64 and x86_64. These have variety of different dependencies, drivers and have interfaces with a number of services and caches.\n\nI will focus on how we constructed and developed our CI pipelines to build, test and integrate a number of disparate components to produce images and push updates into an OStree server to be deployed over the air onto our hardware.",
   "description": "",
   "persons": [
     "William Salmon"

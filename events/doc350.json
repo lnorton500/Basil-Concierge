@@ -5,7 +5,7 @@
   "title": "oVirt-Plugin for Bareos",
   "subtitle": "Backing up oVirt using Bareos",
   "track": "Backup and Recovery",
-  "abstract": "<p>Backing up virtual machines in larger environments is usually not a simple task. With the new oVirt-Plugin for Bareos you can now easily backup and restore your oVirt virtual machines.\nThis talk will give a short introduction how Bareos backs up oVirt virtual machines.</p>",
+  "abstract": "Backing up virtual machines in larger environments is usually not a simple task. With the new oVirt-Plugin for Bareos you can now easily backup and restore your oVirt virtual machines.\nThis talk will give a short introduction how Bareos backs up oVirt virtual machines.",
   "description": "",
   "persons": []
 }

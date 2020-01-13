@@ -5,8 +5,8 @@
   "title": "Openoffice Build system",
   "subtitle": "A walk through building OpenOffice",
   "track": "Open Document Editors",
-  "abstract": "<p>This talk will be about the OpenOffice Build system. We will talk about how it works today's, issues with it. And the talk will highlight current development in this field plus where it might moves in the future. (plans of development)</p>\n\n<p>Sheduled length will be 20 min +question</p>",
-  "description": "<p>Currently the build system is a mixture of dmake, gmake, ant and other tools. After a short going through I like to describe the vision we have for the future build system we are working towards.</p>",
+  "abstract": "This talk will be about the OpenOffice Build system. We will talk about how it works today's, issues with it. And the talk will highlight current development in this field plus where it might moves in the future. (plans of development)\n\nSheduled length will be 20 min +question",
+  "description": "Currently the build system is a mixture of dmake, gmake, ant and other tools. After a short going through I like to describe the vision we have for the future build system we are working towards.",
   "persons": [
     "Peter Kovacs"
   ]

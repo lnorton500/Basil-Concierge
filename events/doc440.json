@@ -5,7 +5,7 @@
   "title": "Quality diagrams with PyCirkuit",
   "subtitle": "",
   "track": "Lightning Talks",
-  "abstract": "<p>I'd like to present PyCirkuit, a little python application acting as a front-end to circuit-macros and dpic language, allowing the creation of high quality graphics and circuit diagrams to be included into LaTeX and other documents.</p>",
+  "abstract": "I'd like to present PyCirkuit, a little python application acting as a front-end to circuit-macros and dpic language, allowing the creation of high quality graphics and circuit diagrams to be included into LaTeX and other documents.",
   "description": "",
   "persons": [
     "Orestes Mas"

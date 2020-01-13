@@ -5,7 +5,7 @@
   "title": "The Confidential Consortium Framework",
   "subtitle": "A framework to build secure, highly available, and performant applications that focus on multi-party compute and data",
   "track": "Hardware-aided Trusted Computing",
-  "abstract": "<p>The Confidential Consortium Framework is an open-source framework for building permissioned confidential multi-party services. It leverages hardware trusted execution environments to provide strong confidentiality, integrity, and high performance. CCF implements consortium-based programmable and auditable governance mechanism.</p>",
+  "abstract": "The Confidential Consortium Framework is an open-source framework for building permissioned confidential multi-party services. It leverages hardware trusted execution environments to provide strong confidentiality, integrity, and high performance. CCF implements consortium-based programmable and auditable governance mechanism.",
   "description": "",
   "persons": [
     "Amaury Chamayou"

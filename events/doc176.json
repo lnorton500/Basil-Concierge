@@ -5,8 +5,8 @@
   "title": "Alire: Ada Has a Package Manager",
   "subtitle": "",
   "track": "Ada",
-  "abstract": "<p>Alire (Ada LIbrary REpository) is a package manager project for the\nAda/SPARK community.  The goal of a package manager is to facilitate\ncollaboration within the community and to lower the barrier of entry\nfor beginners.</p>",
-  "description": "<p>In this talk we will present the Alire project, what it can do for\nyou and how you can contribute and give more visibility to your\nAda/SPARK projects.</p>\n\n<p>We will also provide a tutorial to show how to use Alire to create\na library and then publish it for others to use.</p>",
+  "abstract": "Alire (Ada LIbrary REpository) is a package manager project for the\nAda/SPARK community.  The goal of a package manager is to facilitate\ncollaboration within the community and to lower the barrier of entry\nfor beginners.",
+  "description": "In this talk we will present the Alire project, what it can do for\nyou and how you can contribute and give more visibility to your\nAda/SPARK projects.\n\nWe will also provide a tutorial to show how to use Alire to create\na library and then publish it for others to use.",
   "persons": [
     "Fabien Chouteau",
     "Pierre-Marie de Rodat",

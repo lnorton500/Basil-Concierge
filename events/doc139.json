@@ -5,8 +5,8 @@
   "title": "Bringing Collabora Online to your web app",
   "subtitle": "Its easy to add rich document collaboration to your web app",
   "track": "Collaborative Information and Content Management Applications",
-  "abstract": "<p>The Collabora Online code-base can bring the power of LibreOffice into\nan iframe inside your web app. Come and hear how this works, how to integrate\nsecure, collaborative document editing with your software, and about all the\nlatest greatest work going on there.</p>",
-  "description": "<p>Collabora Online uses a WOPI-like protocol, and it is rather simple to integrate.\nCome hear about the total of three REST methods you need for a simple\nintegration, as well as the wealth of options to control how collaboration works.</p>\n\n<p>Hear about some of our integrations into Nextcloud, Kolab,\nMattermost, Moodle, ownCloud, and many more.</p>\n\n<p>See the internals of Collabora Online, and how you can get involved with\nbuilding, debugging, and developing it, and checkout some of the new features\nfor Mobile and PC browser that we've been working on to make life better\nfor our users.</p>",
+  "abstract": "The Collabora Online code-base can bring the power of LibreOffice into\nan iframe inside your web app. Come and hear how this works, how to integrate\nsecure, collaborative document editing with your software, and about all the\nlatest greatest work going on there.",
+  "description": "Collabora Online uses a WOPI-like protocol, and it is rather simple to integrate.\nCome hear about the total of three REST methods you need for a simple\nintegration, as well as the wealth of options to control how collaboration works.\n\nHear about some of our integrations into Nextcloud, Kolab,\nMattermost, Moodle, ownCloud, and many more.\n\nSee the internals of Collabora Online, and how you can get involved with\nbuilding, debugging, and developing it, and checkout some of the new features\nfor Mobile and PC browser that we've been working on to make life better\nfor our users.",
   "persons": [
     "Michael Meeks"
   ]

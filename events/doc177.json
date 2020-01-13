@@ -5,8 +5,8 @@
   "title": "Protect Sensitive Data with Ada Keystore",
   "subtitle": "",
   "track": "Ada",
-  "abstract": "<p>Storing passwords and secret configuration is a challenge for an\napplication.  Ada Keystore is a library that stores arbitrary content\nby encrypting them in secure keystore (AES-256, HMAC-256).</p>",
-  "description": "<p>The talk presents the project and shows how to use the Ada Keystore\nlibrary to get or store secret information in a secure manner.\nThe presentation explains how the Ada features such as types, protected\ntypes, tasks, pre/post conditions have helped during the development\nof this project.</p>",
+  "abstract": "Storing passwords and secret configuration is a challenge for an\napplication.  Ada Keystore is a library that stores arbitrary content\nby encrypting them in secure keystore (AES-256, HMAC-256).",
+  "description": "The talk presents the project and shows how to use the Ada Keystore\nlibrary to get or store secret information in a secure manner.\nThe presentation explains how the Ada features such as types, protected\ntypes, tasks, pre/post conditions have helped during the development\nof this project.",
   "persons": [
     "Stephane Carrez"
   ]

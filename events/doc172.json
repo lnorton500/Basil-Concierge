@@ -5,7 +5,7 @@
   "title": "Programming ROS2 Robots with RCLAda",
   "subtitle": "",
   "track": "Ada",
-  "abstract": "<p>The Robot Operating System (ROS) is one of the chief frameworks\nfor service robotics research and development.  The next iteration\nof this framework, ROS2, aims to improve critical shortcomings of\nits predecessor like deterministic memory allocation and real-time\ncharacteristics.</p>\n\n<p>RCLAda is a binding to the ROS2 framework that enables the programming\nof ROS2 nodes in pure Ada with seamless integration into the ROS2\nworkflow.</p>",
+  "abstract": "The Robot Operating System (ROS) is one of the chief frameworks\nfor service robotics research and development.  The next iteration\nof this framework, ROS2, aims to improve critical shortcomings of\nits predecessor like deterministic memory allocation and real-time\ncharacteristics.\n\nRCLAda is a binding to the ROS2 framework that enables the programming\nof ROS2 nodes in pure Ada with seamless integration into the ROS2\nworkflow.",
   "description": "",
   "persons": [
     "Alejandro Mosteo"

@@ -5,7 +5,7 @@
   "title": "Channel Equalization using GNU Radio",
   "subtitle": "compensating for impairments in the wireless channel, and extensions to existing GNU Radio functionality",
   "track": "Free Software Radio",
-  "abstract": "<p>We examine the use of equalizers in wireless communication systems, how these are implemented in GNU Radio, and how the existing GR equalizer functionality can be extended with a new OOT using training-based adaptation.  The theory of multipath channels, ISI, and how to overcome with adaptive equalization will be reviewed and shown with interactive flowgraphs.</p>",
+  "abstract": "We examine the use of equalizers in wireless communication systems, how these are implemented in GNU Radio, and how the existing GR equalizer functionality can be extended with a new OOT using training-based adaptation.  The theory of multipath channels, ISI, and how to overcome with adaptive equalization will be reviewed and shown with interactive flowgraphs.",
   "description": "",
   "persons": [
     "Josh Morman"

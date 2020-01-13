@@ -5,8 +5,8 @@
   "title": "rav1e - 0.3.0 and after",
   "subtitle": "What we did so far and what will do in the future",
   "track": "Open Media",
-  "abstract": "<p>rav1e is an opensource Av1 encoder.</p>\n\n<p>We'll see what makes it fairly unique beside the choice of using Rust as main development language.</p>",
-  "description": "<p>We'll see what we did in the past releases, what design choices we took and what we plan to do in the next two releases.</p>\n\n<p>By February we will have the release 0.2.0 and the release 0.3.0 out. I'll present what's coming in the release 0.4.0 and 0.5.0.</p>\n\n<p>This will include some performance evaluation and describing some of the features are currently unique in rav1e.</p>",
+  "abstract": "rav1e is an opensource Av1 encoder.\n\nWe'll see what makes it fairly unique beside the choice of using Rust as main development language.",
+  "description": "We'll see what we did in the past releases, what design choices we took and what we plan to do in the next two releases.\n\nBy February we will have the release 0.2.0 and the release 0.3.0 out. I'll present what's coming in the release 0.4.0 and 0.5.0.\n\nThis will include some performance evaluation and describing some of the features are currently unique in rav1e.",
   "persons": [
     "Luca Barbato"
   ]

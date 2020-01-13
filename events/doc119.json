@@ -5,7 +5,7 @@
   "title": "SELinux fun with MySQL and friends",
   "subtitle": "",
   "track": "MySQL, MariaDB and Friends",
-  "abstract": "<p>SELinux (Security Enhanced Linux) provides enhanced security mechanism for more advanced access control and auditing. It allows your application software and your system users to only access the resources it's been preconfigured to allow. Of course when you want to move your data- or log files to a non-standard location these policies will stop MySQL from starting.</p>\n\n<p>The easy way out is obviously to set SELinux to disabled or permissive. But someone once said: \"Every time you disable SELinux a kitten dies\". We'll show you a few ways how you can find out if it actually is SELinux that is blocking you and how to update the policies to properly keep you system secured.</p>",
+  "abstract": "SELinux (Security Enhanced Linux) provides enhanced security mechanism for more advanced access control and auditing. It allows your application software and your system users to only access the resources it's been preconfigured to allow. Of course when you want to move your data- or log files to a non-standard location these policies will stop MySQL from starting.\n\nThe easy way out is obviously to set SELinux to disabled or permissive. But someone once said: \"Every time you disable SELinux a kitten dies\". We'll show you a few ways how you can find out if it actually is SELinux that is blocking you and how to update the policies to properly keep you system secured.",
   "description": "",
   "persons": [
     "Matthias C",

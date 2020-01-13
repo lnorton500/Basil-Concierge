@@ -5,8 +5,8 @@
   "title": "Zyre: p2p messaging to fuck the cloud",
   "subtitle": "Pieter Hintjens last IOT project",
   "track": "Internet of Things",
-  "abstract": "<p>Pieter Hintjens last IOT project, running OpenWRT and the Zyre p2p library.</p>",
-  "description": "<p>Zyre has the potential to change the cloud paradigm, with auto-discovery inside the LAN, and without any requirement of an internet connectivity.</p>\n\n<p>Your TV can then discover your fridge.</p>\n\n<p>3 years ago, I was working with Pieter Hintjens, main author of ZeroMQ and organiser of the IOT devroom, on a demo setup for his last conference at IOT Munich.</p>\n\n<p>When he came back from Munich, he was diagnosed with terminal lung cancer.</p>\n\n<p>We demonstrated a pile of OpenWRT routers blinking LED lamps in an orchestrated way.</p>\n\n<p>Most of my work included assembling the hardware, writing OpenWRT packages, making a CI/CD for the devices.</p>\n\n<p>I will show how to build OpenWRT packages with new cluster technologies, like Kubernetes.</p>",
+  "abstract": "Pieter Hintjens last IOT project, running OpenWRT and the Zyre p2p library.",
+  "description": "Zyre has the potential to change the cloud paradigm, with auto-discovery inside the LAN, and without any requirement of an internet connectivity.\n\nYour TV can then discover your fridge.\n\n3 years ago, I was working with Pieter Hintjens, main author of ZeroMQ and organiser of the IOT devroom, on a demo setup for his last conference at IOT Munich.\n\nWhen he came back from Munich, he was diagnosed with terminal lung cancer.\n\nWe demonstrated a pile of OpenWRT routers blinking LED lamps in an orchestrated way.\n\nMost of my work included assembling the hardware, writing OpenWRT packages, making a CI/CD for the devices.\n\nI will show how to build OpenWRT packages with new cluster technologies, like Kubernetes.",
   "persons": [
     "Benjamin Henrion (zoobab)"
   ]

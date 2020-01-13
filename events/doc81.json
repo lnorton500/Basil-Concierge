@@ -5,8 +5,8 @@
   "title": "State of djbdnscurve6",
   "subtitle": "IPv6 LLU address support",
   "track": "DNS",
-  "abstract": "<p>The fehQlibs and djbdnscurve6 provide both a DNS library which support IPv6 LLU addresses. The inclusion and use of IPv6 LLU addresses is discussed. While the typical Unix /etc/resolv.conf is applied system-wide and the Microsoft Window's pendent works interface-dependent, here application specific DNS settings can be used.</p>",
-  "description": "<p>Overview:\n1. Background and heritage on fehQlibs and djbdnscurve6\n2. Application specific DNS resolver settings\n3. Integration of IPv6 LLU addresses - benefits\n4. Integration of IPv6 LLU addresses - recipe\n5. Outlook and future challenges</p>",
+  "abstract": "The fehQlibs and djbdnscurve6 provide both a DNS library which support IPv6 LLU addresses. The inclusion and use of IPv6 LLU addresses is discussed. While the typical Unix /etc/resolv.conf is applied system-wide and the Microsoft Window's pendent works interface-dependent, here application specific DNS settings can be used.",
+  "description": "Overview:\n1. Background and heritage on fehQlibs and djbdnscurve6\n2. Application specific DNS resolver settings\n3. Integration of IPv6 LLU addresses - benefits\n4. Integration of IPv6 LLU addresses - recipe\n5. Outlook and future challenges",
   "persons": [
     "Erwin Hoffmann (feh)"
   ]

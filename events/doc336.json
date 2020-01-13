@@ -5,7 +5,7 @@
   "title": "Creating Word Clouds with OpenOffice",
   "subtitle": "Text mining and visualization in Writer",
   "track": "Open Document Editors",
-  "abstract": "<p>OpenOffice Writer offers all features needed for basic frequency analysis and visualization. We'll see how to do automated text analysis and simple word clouds without using specialized external tools.</p>",
+  "abstract": "OpenOffice Writer offers all features needed for basic frequency analysis and visualization. We'll see how to do automated text analysis and simple word clouds without using specialized external tools.",
   "description": "",
   "persons": [
     "Andrea Pescetti"

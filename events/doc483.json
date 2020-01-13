@@ -5,8 +5,8 @@
   "title": "Rook Cloud Native Storage for Kubernetes",
   "subtitle": "Overview and what is new about Rook",
   "track": "Software Defined Storage",
-  "abstract": "<p>What is Rook and the architecture of Rook + the storage run in Kubernetes.\nWe'll also take a look at new features added to Rook.</p>",
-  "description": "<p>The talk will give an overview of what Rook can do and what is new since last years talk about Rook Ceph storage.\nThe overview will be about what Rook is and the architecture.\nThe second part is going to show newly added features to Rook.</p>\n\n<p>Agenda:\n* What is Rook\n* Architecture of Rook\n* New features\n  * Ceph\n  * New Storage Backend: Yugabyte\n  * EdgeFS\n  * Upcoming</p>\n\n<p>Target audience are people interested in Rook, Ceph and Kubernetes.</p>",
+  "abstract": "What is Rook and the architecture of Rook + the storage run in Kubernetes.\nWe'll also take a look at new features added to Rook.",
+  "description": "The talk will give an overview of what Rook can do and what is new since last years talk about Rook Ceph storage.\nThe overview will be about what Rook is and the architecture.\nThe second part is going to show newly added features to Rook.\n\nAgenda:\n* What is Rook\n* Architecture of Rook\n* New features\n  * Ceph\n  * New Storage Backend: Yugabyte\n  * EdgeFS\n  * Upcoming\n\nTarget audience are people interested in Rook, Ceph and Kubernetes.",
   "persons": [
     "Alexander Trost"
   ]

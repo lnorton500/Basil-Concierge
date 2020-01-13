@@ -5,7 +5,7 @@
   "title": "Secret History of Prometheus Histograms",
   "subtitle": "",
   "track": "Monitoring and Observability",
-  "abstract": "<p>Representing distributions in a metrics-based monitoring system is both important and hard. Doing it right unlocks many powerful use cases that would otherwise require expensive event processing. Prometheus offers the somewhat weirdly named Histogram and Summary metric types for distributions. How have they become what they are today with all their weal and woe? To help understand the present, let's shed light on the past. Studying this piece of Prometheus's history will also allow a glimpse of the bigger picture, why certain things are the way they are in Prometheus, and which parts of the original vision are still awaiting fulfillment.</p>",
+  "abstract": "Representing distributions in a metrics-based monitoring system is both important and hard. Doing it right unlocks many powerful use cases that would otherwise require expensive event processing. Prometheus offers the somewhat weirdly named Histogram and Summary metric types for distributions. How have they become what they are today with all their weal and woe? To help understand the present, let's shed light on the past. Studying this piece of Prometheus's history will also allow a glimpse of the bigger picture, why certain things are the way they are in Prometheus, and which parts of the original vision are still awaiting fulfillment.",
   "description": "",
   "persons": [
     "Bj\u00f6rn Rabenstein (Beorn)"

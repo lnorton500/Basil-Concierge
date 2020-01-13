@@ -5,8 +5,8 @@
   "title": "Erlang and Elixir on IoT devices using AtomVM",
   "subtitle": "Boost your IoT project with functional languages",
   "track": "Internet of Things",
-  "abstract": "<p>This talk will present AtomVM, a tiny portable virtual machine that allows Elixir and Erlang code to run on microcontrollers with less than 500KB of RAM such as the ESP32 or several STM32.</p>",
-  "description": "<p>Erlang and Elixir are really good at handling network packets, running concurrent processes, dealing with faults, writing testable software and enabling rapid development.\nAll this features are relevant for any language or framework that aims to IoT devices, therefore Erlang and Elixir might be good choice for IoT devices. However the BEAM, which is the standard Erlang and Elixir VM, cannot fit on those devices. AtomVM aims to overcome this limitation, by implementing a tiny virtual machine from scratch.</p>\n\n<p>This talk aims to present AtomVM and to show how a functional language such as Elixir might boost development of IoT projects.</p>",
+  "abstract": "This talk will present AtomVM, a tiny portable virtual machine that allows Elixir and Erlang code to run on microcontrollers with less than 500KB of RAM such as the ESP32 or several STM32.",
+  "description": "Erlang and Elixir are really good at handling network packets, running concurrent processes, dealing with faults, writing testable software and enabling rapid development.\nAll this features are relevant for any language or framework that aims to IoT devices, therefore Erlang and Elixir might be good choice for IoT devices. However the BEAM, which is the standard Erlang and Elixir VM, cannot fit on those devices. AtomVM aims to overcome this limitation, by implementing a tiny virtual machine from scratch.\n\nThis talk aims to present AtomVM and to show how a functional language such as Elixir might boost development of IoT projects.",
   "persons": [
     "Davide Bettio"
   ]

@@ -5,8 +5,8 @@
   "title": "unwind(8)",
   "subtitle": "A privilege-separated, validating DNS recursive nameserver for every laptop",
   "track": "DNS",
-  "abstract": "<p>DNS is easy. You type fosdem.org in your browser's address bar, hit enter and you will be greeted by your favorite open-source event's start page. Actually...</p>",
-  "description": "<p>We will introduce unwind(8) - an always-running, validating DNS recursive nameserver, answering queries on localhost (127.0.0.1). We will explain its privilege-separated design and show that it is secure to run this daemon by default. We will then show how its novel approach of observing changes in network location and actively probing the quality of the local network improve the user experience in DNS resolution. The focus will be on laptops that move through many networks, some good, some bad, some outright hostile.</p>\n\n<p>We will compare unwind(8) to prior solutions and show how its design enables it to run without user intervention.</p>",
+  "abstract": "DNS is easy. You type fosdem.org in your browser's address bar, hit enter and you will be greeted by your favorite open-source event's start page. Actually...",
+  "description": "We will introduce unwind(8) - an always-running, validating DNS recursive nameserver, answering queries on localhost (127.0.0.1). We will explain its privilege-separated design and show that it is secure to run this daemon by default. We will then show how its novel approach of observing changes in network location and actively probing the quality of the local network improve the user experience in DNS resolution. The focus will be on laptops that move through many networks, some good, some bad, some outright hostile.\n\nWe will compare unwind(8) to prior solutions and show how its design enables it to run without user intervention.",
   "persons": [
     "Florian Obser"
   ]

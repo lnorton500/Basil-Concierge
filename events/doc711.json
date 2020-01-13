@@ -5,7 +5,7 @@
   "title": "Deep Learning For Gophers",
   "subtitle": "",
   "track": "Go",
-  "abstract": "<p>The software has not eaten the world yet, but infact has changed the way it was before. That software has given us, the human a new superpower which is the power of artificial neural networks. The goal of those networks is to help us answer the question : \u201cGiven X, predict Y with Z% accuracy\u201d. This is where Deep Learning comes into picture. Let\u2019s build a basic building block of deep learning :  neural network.</p>",
+  "abstract": "The software has not eaten the world yet, but infact has changed the way it was before. That software has given us, the human a new superpower which is the power of artificial neural networks. The goal of those networks is to help us answer the question : \u201cGiven X, predict Y with Z% accuracy\u201d. This is where Deep Learning comes into picture. Let\u2019s build a basic building block of deep learning :  neural network.",
   "description": "",
   "persons": [
     "Rashmi Nagpal"

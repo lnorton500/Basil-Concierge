@@ -5,7 +5,7 @@
   "title": "Progress of Rust and WASM in 2019",
   "subtitle": "The year in review",
   "track": "Rust",
-  "abstract": "<p>There was a huge progress in Rust tools for WebAssembly in the last year. Let's review some of the most noticeable changes. The talk is mostly about wasm-bindgen.</p>",
+  "abstract": "There was a huge progress in Rust tools for WebAssembly in the last year. Let's review some of the most noticeable changes. The talk is mostly about wasm-bindgen.",
   "description": "",
   "persons": [
     "Ilya Baryshnikov"

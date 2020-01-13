@@ -5,8 +5,8 @@
   "title": "Whats new in ProxySQL 2.0?",
   "subtitle": "Exploring the latest features in ProxySQL 2.0",
   "track": "MySQL, MariaDB and Friends",
-  "abstract": "<p>ProxySQL, the high performance, high availability, protocol-aware proxy for MySQL is now GA in version 2.0. This version introduces several new features, like causal reads using GTID, better support for AWS Aurora, native support for Galera Cluster, LDAP authentication and SSL for client connections.</p>\n\n<p>This session provides an overview of the most important new features.</p>",
-  "description": "<p>Slide agenda:</p>\n\n<ul>\n<li>Supported OSes &amp; Packaging</li>\n<li>Query Cache Tunables</li>\n<li>GTID Causal Reads</li>\n<li>Native Galera Support</li>\n<li>Amazon Aurora Features</li>\n<li>LDAP Integration</li>\n<li>SSL, Audit Log &amp; Security</li>\n<li>JSON Support</li>\n<li>Performance Enhancements</li>\n<li>MySQL 8</li>\n</ul>",
+  "abstract": "ProxySQL, the high performance, high availability, protocol-aware proxy for MySQL is now GA in version 2.0. This version introduces several new features, like causal reads using GTID, better support for AWS Aurora, native support for Galera Cluster, LDAP authentication and SSL for client connections.\n\nThis session provides an overview of the most important new features.",
+  "description": "Slide agenda:\n\n<ul>\n<li>Supported OSes &amp; Packaging</li>\n<li>Query Cache Tunables</li>\n<li>GTID Causal Reads</li>\n<li>Native Galera Support</li>\n<li>Amazon Aurora Features</li>\n<li>LDAP Integration</li>\n<li>SSL, Audit Log &amp; Security</li>\n<li>JSON Support</li>\n<li>Performance Enhancements</li>\n<li>MySQL 8</li>\n</ul>",
   "persons": [
     "Nick Vyzas"
   ]

@@ -5,7 +5,7 @@
   "title": "Vita: high-speed traffic encryption on x86_64 with Snabb",
   "subtitle": "Coming to your cloud with XDP, AVF, and Kubernetes integration",
   "track": "Software Defined Networking",
-  "abstract": "<p>Vita is a high-performance IPsec VPN gateway designed with medium and large network operators in mind. It is written in a high-level language (Lua) using the Snabb networking toolkit and achieves high performance via networking in userspace, i.e. bypassing the kernel network stack.</p>\n\n<p>This talk will discuss Vita and how it was developed using Snabb. Topics include: fast software networking using a dynamic, high-level language; cryptographic ciphers implemented in software software accelerated by x86 extensions; modern cryptography; limiting complexity; multi-core scaling; YANG enabled control planes; minimalist NIC drivers.</p>",
+  "abstract": "Vita is a high-performance IPsec VPN gateway designed with medium and large network operators in mind. It is written in a high-level language (Lua) using the Snabb networking toolkit and achieves high performance via networking in userspace, i.e. bypassing the kernel network stack.\n\nThis talk will discuss Vita and how it was developed using Snabb. Topics include: fast software networking using a dynamic, high-level language; cryptographic ciphers implemented in software software accelerated by x86 extensions; modern cryptography; limiting complexity; multi-core scaling; YANG enabled control planes; minimalist NIC drivers.",
   "description": "",
   "persons": [
     "Max Rottenkolber"

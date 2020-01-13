@@ -5,8 +5,8 @@
   "title": "A Mozilla IoT Forecast thats Sunny and Clear -- No Clouds!",
   "subtitle": "WebThings by Mozilla",
   "track": "Mozilla",
-  "abstract": "<p>WebThings (by Mozilla) is an open source smart home implementation to improve privacy, security, and interoperability.</p>",
-  "description": "<p>Want to manage your own private smart home? Want your connected things to be interoperable across brands, securely accessible and controllable over the web? Come see how to run your entire smart home on the edge, in your own home, no clouds required! This talk demonstrates how to run the WebThings Gateway on a Raspberry Pi (or in a Docker container on your favorite platform) to manage IoT devices that you build or buy. You'll also learn how to build your own \"web things\", in minutes, using open source WebThings framework libraries.</p>",
+  "abstract": "WebThings (by Mozilla) is an open source smart home implementation to improve privacy, security, and interoperability.",
+  "description": "Want to manage your own private smart home? Want your connected things to be interoperable across brands, securely accessible and controllable over the web? Come see how to run your entire smart home on the edge, in your own home, no clouds required! This talk demonstrates how to run the WebThings Gateway on a Raspberry Pi (or in a Docker container on your favorite platform) to manage IoT devices that you build or buy. You'll also learn how to build your own \"web things\", in minutes, using open source WebThings framework libraries.",
   "persons": [
     "Kathy Giori"
   ]

@@ -5,7 +5,7 @@
   "title": "GNU Mes",
   "subtitle": "Scheme-only bootstrap and beyond",
   "track": "Minimalistic, Experimental and Emerging Languages",
-  "abstract": "<p>Last year GNU Mes brought the Reduced Binary Seed bootstrap to GNU Guix: gcc, glibc and binutils were removed and the size of the bootstrap binaries went down from 250MB to 130MB.  This year we introduce the Scheme-only bootstrap: Awk, Bash, Core Utilities, Grep, Gzip, Make, Sed, Tar are replaced by Gash and Gash Core Utils, halving the size of the Guix bootstrap seed again, to 60MB.</p>",
+  "abstract": "Last year GNU Mes brought the Reduced Binary Seed bootstrap to GNU Guix: gcc, glibc and binutils were removed and the size of the bootstrap binaries went down from 250MB to 130MB.  This year we introduce the Scheme-only bootstrap: Awk, Bash, Core Utilities, Grep, Gzip, Make, Sed, Tar are replaced by Gash and Gash Core Utils, halving the size of the Guix bootstrap seed again, to 60MB.",
   "description": "",
   "persons": [
     "Jan Nieuwenhuizen (janneke)"

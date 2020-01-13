@@ -5,7 +5,7 @@
   "title": "Percona Backup for MongoDB: Status and Plans",
   "subtitle": "Open Source solution for consistent backups of multi-shard MongoDB",
   "track": "Backup and Recovery",
-  "abstract": "<p>A brief overview of the current state of backup tool, architecture, existing features, and the roadmap.</p>",
+  "abstract": "A brief overview of the current state of backup tool, architecture, existing features, and the roadmap.",
   "description": "",
   "persons": [
     "Mykola Marzhan"

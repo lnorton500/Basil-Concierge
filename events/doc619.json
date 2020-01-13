@@ -5,8 +5,8 @@
   "title": "The GDB Text User Interface",
   "subtitle": "",
   "track": "Debugging Tools",
-  "abstract": "<p>GDB has had a curses-based interface for many years.  Come see what new features are available and how it can improve your debugging experience.</p>",
-  "description": "<p>This talk will cover GDB's text user interface (the \"TUI\").  In particular we'll discuss the benefits of the rewrite, the new features that are available, and how you can easily extend it yourself.  A fun demo will be included.</p>",
+  "abstract": "GDB has had a curses-based interface for many years.  Come see what new features are available and how it can improve your debugging experience.",
+  "description": "This talk will cover GDB's text user interface (the \"TUI\").  In particular we'll discuss the benefits of the rewrite, the new features that are available, and how you can easily extend it yourself.  A fun demo will be included.",
   "persons": [
     "Tom Tromey"
   ]

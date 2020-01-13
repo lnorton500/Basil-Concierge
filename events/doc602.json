@@ -5,8 +5,8 @@
   "title": "Integrating new major components on fast and slow moving distributions",
   "subtitle": "How latest GNOME desktop was integrated into latest SUSE / openSUSE releases",
   "track": "Distributions",
-  "abstract": "<p>Upgrading big components in Linux distributions is hard. But integrating them while minimizing regressions (for stable distributions) and not slowing down release pace (for rolling releases) requires a lot of process and tooling.</p>\n\n<p>Let's deep dive in those.</p>",
-  "description": "<p>Over the previous months, openSUSE and SUSE teams have worked together on integrating latest GNOME release (3.34) in their various distributions, while minimizing duplicated work and sharing as much code as possible.</p>\n\n<p>We'll describe how it was done for the 3 differents flavors of distributions:\n- openSUSE Tumbleweed (rolling release)\n- SUSE Linux Enterprise 15 SP2 (Enterprise release)\n- openSUSE Leap 15.2 (stable release)</p>",
+  "abstract": "Upgrading big components in Linux distributions is hard. But integrating them while minimizing regressions (for stable distributions) and not slowing down release pace (for rolling releases) requires a lot of process and tooling.\n\nLet's deep dive in those.",
+  "description": "Over the previous months, openSUSE and SUSE teams have worked together on integrating latest GNOME release (3.34) in their various distributions, while minimizing duplicated work and sharing as much code as possible.\n\nWe'll describe how it was done for the 3 differents flavors of distributions:\n- openSUSE Tumbleweed (rolling release)\n- SUSE Linux Enterprise 15 SP2 (Enterprise release)\n- openSUSE Leap 15.2 (stable release)",
   "persons": [
     "Frederic Crozat"
   ]

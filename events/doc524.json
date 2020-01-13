@@ -5,7 +5,7 @@
   "title": "RTFM",
   "subtitle": "",
   "track": "PostgreSQL",
-  "abstract": "<p>Reading the manual before starting a new work is always a good practice.</p>\n\n<p>However some situations like pressure for delivery or lack of attention may lead to wrong assumptions that cause unpredictable results or even disasters.</p>\n\n<p>The talk, in a semi serious way, will walk the audience through some of corner cases caused by the lack of the good practice of RTFM.</p>",
+  "abstract": "Reading the manual before starting a new work is always a good practice.\n\nHowever some situations like pressure for delivery or lack of attention may lead to wrong assumptions that cause unpredictable results or even disasters.\n\nThe talk, in a semi serious way, will walk the audience through some of corner cases caused by the lack of the good practice of RTFM.",
   "description": "",
   "persons": [
     "Federico Campoli"

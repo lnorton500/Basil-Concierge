@@ -5,7 +5,7 @@
   "title": "The TTM memory manager",
   "subtitle": "A general overview and an update on graphics memory  management in the kernel",
   "track": "Graphics",
-  "abstract": "<p>TTM is the memory manager in the Linux kernel used by graphics drivers with dedicated VRAM.</p>\n\n<p>It was added to the mainline kernel in June 2009 and has seen numerous changes and we are now more or less running into a dead-end with it's design.</p>\n\n<p>This talk outlines TTMs current functionality, what design problems we ran into and what can we do to fix this.</p>",
+  "abstract": "TTM is the memory manager in the Linux kernel used by graphics drivers with dedicated VRAM.\n\nIt was added to the mainline kernel in June 2009 and has seen numerous changes and we are now more or less running into a dead-end with it's design.\n\nThis talk outlines TTMs current functionality, what design problems we ran into and what can we do to fix this.",
   "description": "",
   "persons": [
     "Christian K\u00f6nig"

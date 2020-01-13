@@ -5,7 +5,7 @@
   "title": "G1: To infinity and beyond",
   "subtitle": "",
   "track": "Free Java",
-  "abstract": "<p>Abstract: G1 has been around for quite some time now and since JDK 9 it\nis the default garbage collector in OpenJDK. The community working on G1\nis quite big and the contributions over the last few years have made a\nsignificant impact on the overall performance. This talk will focus on\nsome of these features and how they have improved G1 in various ways. We\nwill also take a brief look at what features we have lined up for the\nfuture.</p>",
+  "abstract": "Abstract: G1 has been around for quite some time now and since JDK 9 it\nis the default garbage collector in OpenJDK. The community working on G1\nis quite big and the contributions over the last few years have made a\nsignificant impact on the overall performance. This talk will focus on\nsome of these features and how they have improved G1 in various ways. We\nwill also take a brief look at what features we have lined up for the\nfuture.",
   "description": "",
   "persons": [
     "Stefan Johansson"

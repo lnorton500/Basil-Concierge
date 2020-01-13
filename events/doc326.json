@@ -5,8 +5,8 @@
   "title": "The Pythran compiler, 7 years later",
   "subtitle": "",
   "track": "Python",
-  "abstract": "<p>7 years ago, a first file was commited in the Pythran git repo in order to create a compiler from Python to C++. The project now has hundreds of downloads per day on PyPI and has moved to a cross-platform compiler for scientific programs. This talks walks through the initial ideas, sorting out the good and the bad ones and compares the approach with other major Pythran compilers for scientific programs, most notably Cython, Pypy and Numba.</p>",
-  "description": "<p>Relevant topics include :</p>\n\n<ul>\n<li>Numpy compatibility</li>\n<li>Abstraction level</li>\n<li>Backward compatibility with Python</li>\n<li>Taking advantage of hardware</li>\n<li>Translating or optimizing</li>\n<li>Community interaction</li>\n<li>Multi-platform support</li>\n<li>Benchmarking</li>\n</ul>",
+  "abstract": "7 years ago, a first file was commited in the Pythran git repo in order to create a compiler from Python to C++. The project now has hundreds of downloads per day on PyPI and has moved to a cross-platform compiler for scientific programs. This talks walks through the initial ideas, sorting out the good and the bad ones and compares the approach with other major Pythran compilers for scientific programs, most notably Cython, Pypy and Numba.",
+  "description": "Relevant topics include :\n\n<ul>\n<li>Numpy compatibility</li>\n<li>Abstraction level</li>\n<li>Backward compatibility with Python</li>\n<li>Taking advantage of hardware</li>\n<li>Translating or optimizing</li>\n<li>Community interaction</li>\n<li>Multi-platform support</li>\n<li>Benchmarking</li>\n</ul>",
   "persons": [
     "Serge Guelton (serge-sans-paille)"
   ]

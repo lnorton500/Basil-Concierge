@@ -5,7 +5,7 @@
   "title": "Web compatibility and ML",
   "subtitle": "Improving webcompat issue triaging using ML",
   "track": "Mozilla",
-  "abstract": "<p>In 2019, Mozilla's Open Innovation and WebCompat team joined forces to improve the process of gathering web compatibility issues. One of the experiments was to introduce machine learning capabilities in the triaging process and automate some steps. This talk is about the early steps and how we got some hands on experience with machine learning, what we've achieved so far and potential next steps.</p>",
+  "abstract": "In 2019, Mozilla's Open Innovation and WebCompat team joined forces to improve the process of gathering web compatibility issues. One of the experiments was to introduce machine learning capabilities in the triaging process and automate some steps. This talk is about the early steps and how we got some hands on experience with machine learning, what we've achieved so far and potential next steps.",
   "description": "",
   "persons": [
     "Nemo"

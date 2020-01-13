@@ -5,7 +5,7 @@
   "title": "Improving BIND 9 Code Quality",
   "subtitle": "Why is concurrent programming so hard?",
   "track": "DNS",
-  "abstract": "<p>BIND 9 consists of a huge and old codebase. In this talk, I would like you to show all the available tools that we use on regular basis to improve, refactor and make the BIND 9 code safer. I'll show the examples of various Google/LLVM Sanitizers, cppcheck, LLVM scan-build and semantic patching using coccinelle.</p>",
+  "abstract": "BIND 9 consists of a huge and old codebase. In this talk, I would like you to show all the available tools that we use on regular basis to improve, refactor and make the BIND 9 code safer. I'll show the examples of various Google/LLVM Sanitizers, cppcheck, LLVM scan-build and semantic patching using coccinelle.",
   "description": "",
   "persons": [
     "Ond\u0159ej Sur\u00fd"

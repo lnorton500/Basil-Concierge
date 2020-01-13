@@ -5,8 +5,8 @@
   "title": "Benefits of porting Godot Engine to Vulkan",
   "subtitle": "List of benefits observed from porting Godot Engine to Vulkan",
   "track": "Game Development",
-  "abstract": "<p>Godot 4.0 is in the process of being ported from OpenGL to a Vulkan rendering API.\nThis new technology provides new challenges and benefits for improving quality and performance,\nwhich will be explained and compared during this presentation.</p>",
-  "description": "<p>Godot 4.0 is in the process of being ported from OpenGL to a Vulkan rendering API.\nThis new technology provides new challenges and benefits for improving quality and performance,\nwhich will be explained and compared during this presentation.</p>",
+  "abstract": "Godot 4.0 is in the process of being ported from OpenGL to a Vulkan rendering API.\nThis new technology provides new challenges and benefits for improving quality and performance,\nwhich will be explained and compared during this presentation.",
+  "description": "Godot 4.0 is in the process of being ported from OpenGL to a Vulkan rendering API.\nThis new technology provides new challenges and benefits for improving quality and performance,\nwhich will be explained and compared during this presentation.",
   "persons": [
     "Juan Linietsky"
   ]

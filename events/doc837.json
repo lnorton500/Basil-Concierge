@@ -5,8 +5,8 @@
   "title": "TinyGo: Fast, Small, Concurrent: Choose Three",
   "subtitle": "TinyGo on microcontrollers",
   "track": "Internet of Things",
-  "abstract": "<p>This talk will show using live demos why TinyGo (http://tinygo.org) the Go compiler for \"small places\" is a excellent choice for next generation IoT and embedded devices.</p>",
-  "description": "<p>This talk will show using live demos why TinyGo (http://tinygo.org) the Go compiler for \"small places\" is a excellent choice for next generation IoT and embedded devices.</p>",
+  "abstract": "This talk will show using live demos why TinyGo (http://tinygo.org) the Go compiler for \"small places\" is a excellent choice for next generation IoT and embedded devices.",
+  "description": "This talk will show using live demos why TinyGo (http://tinygo.org) the Go compiler for \"small places\" is a excellent choice for next generation IoT and embedded devices.",
   "persons": [
     "Ron Evans"
   ]

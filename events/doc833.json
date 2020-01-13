@@ -5,7 +5,7 @@
   "title": "Kubernetes of Things",
   "subtitle": "Case-study building sensors and actors as CRDs",
   "track": "Internet of Things",
-  "abstract": "<p>Kubernetes allows to extend its API surface with custom objects called CustomResources (CR) whose JSON contents is described via OpenAPI schemas. The REST API allows realtime notification of changes sent out to multiple listeners. This sounds like the ingredients necessary to build an open IoT platform. This talk is about using CustomResources for Kubernetes as Things, i.e. namespaced objects representing sensors and actors. It is based on a case-study implementing this idea following an example of a deep sea station with valves and pumps, a controller controlling the air pressure in the station.</p>",
+  "abstract": "Kubernetes allows to extend its API surface with custom objects called CustomResources (CR) whose JSON contents is described via OpenAPI schemas. The REST API allows realtime notification of changes sent out to multiple listeners. This sounds like the ingredients necessary to build an open IoT platform. This talk is about using CustomResources for Kubernetes as Things, i.e. namespaced objects representing sensors and actors. It is based on a case-study implementing this idea following an example of a deep sea station with valves and pumps, a controller controlling the air pressure in the station.",
   "description": "",
   "persons": [
     "Stefan Schimanski"

@@ -5,7 +5,7 @@
   "title": "KDE on FreeBSD",
   "subtitle": "",
   "track": "BSD",
-  "abstract": "<p>The state of KDE (the Plasma desktop and applications) on FreeBSD, what works, what needs better support lower in the stack. How do we get rid of HAL?</p>",
+  "abstract": "The state of KDE (the Plasma desktop and applications) on FreeBSD, what works, what needs better support lower in the stack. How do we get rid of HAL?",
   "description": "",
   "persons": [
     "Adriaan de Groot"

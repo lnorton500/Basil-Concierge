@@ -5,8 +5,8 @@
   "title": "IoT Updates with IPv6 Multicast",
   "subtitle": "Updating a Billion Nodes from One Tiny Server",
   "track": "Internet of Things",
-  "abstract": "<p>Could we update a billion IoT nodes from just one tiny virtual server?</p>\n\n<p>Could a server that is behind a completely closed inbound firewall, using no caching, no CDNs and which never accepts any inbound traffic communicate at massive scale?</p>\n\n<p>How can we handle flow control, with no feedback mechanism?</p>",
-  "description": "<p>Lets find out!</p>",
+  "abstract": "Could we update a billion IoT nodes from just one tiny virtual server?\n\nCould a server that is behind a completely closed inbound firewall, using no caching, no CDNs and which never accepts any inbound traffic communicate at massive scale?\n\nHow can we handle flow control, with no feedback mechanism?",
+  "description": "Lets find out!",
   "persons": [
     "Brett Sheffield"
   ]

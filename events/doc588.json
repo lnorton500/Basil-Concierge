@@ -5,8 +5,8 @@
   "title": "Apache Spark on planet scale",
   "subtitle": "Using Apache Spark to process OpenStreetMap data",
   "track": "Geospatial",
-  "abstract": "<p>Apache Spark is an open-source distributed general-purpose cluster-computing framework with implicit data parallelism. OpenStreetMap is a huge database of features, found on Earth surface. Working with that database is hard, so Spark is a natural solution to solve OSM size-caused processing issues. I'm going to show how to load OSM data to Spark, run processing algorithms like extract/merge or render and how using Spark improves development process and cuts processing times greatly.</p>",
-  "description": "<p>Will show, how to use Spark OSM DataSource to load data to the Spark DataFrame and how to use Spark for OSM data merge/extract, simple analysis, rendering etc. Talk will also mention multithreaded OSM PBF parser, that can be used independently of Spark or other processing library.</p>",
+  "abstract": "Apache Spark is an open-source distributed general-purpose cluster-computing framework with implicit data parallelism. OpenStreetMap is a huge database of features, found on Earth surface. Working with that database is hard, so Spark is a natural solution to solve OSM size-caused processing issues. I'm going to show how to load OSM data to Spark, run processing algorithms like extract/merge or render and how using Spark improves development process and cuts processing times greatly.",
+  "description": "Will show, how to use Spark OSM DataSource to load data to the Spark DataFrame and how to use Spark for OSM data merge/extract, simple analysis, rendering etc. Talk will also mention multithreaded OSM PBF parser, that can be used independently of Spark or other processing library.",
   "persons": [
     "Denis Chaplygin"
   ]

@@ -5,7 +5,7 @@
   "title": "Gneiss: A Nice Component Framework in SPARK",
   "subtitle": "",
   "track": "Microkernels and Component-based OS",
-  "abstract": "<p>Gneiss is an abstraction layer for component based environments that aims to\nprovide a foundation for formally provable components. It enables the creation\nof platform independent, asynchronous components in SPARK and provides\nfunction contracts that allow to prove the correct interaction with the\nunderlying platform.</p>",
+  "abstract": "Gneiss is an abstraction layer for component based environments that aims to\nprovide a foundation for formally provable components. It enables the creation\nof platform independent, asynchronous components in SPARK and provides\nfunction contracts that allow to prove the correct interaction with the\nunderlying platform.",
   "description": "",
   "persons": [
     "Johannes Kliemann"

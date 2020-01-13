@@ -5,7 +5,7 @@
   "title": "Can anyone need Veripeditus?",
   "subtitle": "Reviving a Python AR gaming framework",
   "track": "Game Development",
-  "abstract": "<p>Veripeditus is a framework for teh creation of mobile augemented reality games in Python, designed, but not limited to, use in education. The project is currently sleeping due to various reasons. We would like to find out whether its technology is still current and if there is value in reviving it.</p>",
+  "abstract": "Veripeditus is a framework for teh creation of mobile augemented reality games in Python, designed, but not limited to, use in education. The project is currently sleeping due to various reasons. We would like to find out whether its technology is still current and if there is value in reviving it.",
   "description": "",
   "persons": [
     "Dominik George"

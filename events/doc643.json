@@ -5,8 +5,8 @@
   "title": "Phantom OS",
   "subtitle": "Orthogonal Persistence-based OS Intro and Design Concepts",
   "track": "Microkernels and Component-based OS",
-  "abstract": "<p>Phantom OS is an Operating system based on the orthogonal persistence. Application does not feel OS shutdown and restart. Even abrupt restart. It is guaranteed that application will be restarted in consistent state.</p>",
-  "description": "<ul>\n<li><p>As long as you have reference to any variable, it\u2019s state is the same between OS reboots. You don\u2019t have (though you can) save program state to files.</p></li>\n<li><p>Managed code. Native Phantom applications are running in a bytecode machine. (But it is worth to mention that Phantom has simple Posix compatibility subsystem too.)</p></li>\n<li><p>Global address space. Phantom OS is an application server. All applications can communicate directly, by sharing objects.</p></li>\n<li><p>Phantom OS persistence is achieved not by serializing data to files, but by running all applications in a persistent RAM. You can (and it will be true) think of Phantom memory subsystem as of a persistent paging engine</p></li>\n</ul>",
+  "abstract": "Phantom OS is an Operating system based on the orthogonal persistence. Application does not feel OS shutdown and restart. Even abrupt restart. It is guaranteed that application will be restarted in consistent state.",
+  "description": "<ul>\n<li>As long as you have reference to any variable, it\u2019s state is the same between OS reboots. You don\u2019t have (though you can) save program state to files.</li>\n<li>Managed code. Native Phantom applications are running in a bytecode machine. (But it is worth to mention that Phantom has simple Posix compatibility subsystem too.)</li>\n<li>Global address space. Phantom OS is an application server. All applications can communicate directly, by sharing objects.</li>\n<li>Phantom OS persistence is achieved not by serializing data to files, but by running all applications in a persistent RAM. You can (and it will be true) think of Phantom memory subsystem as of a persistent paging engine</li>\n</ul>",
   "persons": [
     "Dmitry Zavalishin"
   ]

@@ -5,7 +5,7 @@
   "title": "A Brief Survey through Genode's ARMv8 Playground",
   "subtitle": "",
   "track": "Microkernels and Component-based OS",
-  "abstract": "<p>The Genode project has evolved over the past decade into a versatile toolkit for general-purpose computing. Even though support for ARM embedded devices is an inherent part of it since the very beginning, the focus of the past years was more x86-Architecture centered. Sculpt, the desktop incarnation of Genode, being the prime example. Recently, Genode's ARMv8 port ignited extensive development efforts to support more sophisticated workloads on top of modern embedded and mobile devices.</p>\n\n<p>The talk provides an overview about the current ARMv8 Genode landscape, its ambitions and potential. It will live demonstrate recent achievements from device support up to hardware-assisted virtualization on top of the NXP i.MX8 SoC.</p>",
+  "abstract": "The Genode project has evolved over the past decade into a versatile toolkit for general-purpose computing. Even though support for ARM embedded devices is an inherent part of it since the very beginning, the focus of the past years was more x86-Architecture centered. Sculpt, the desktop incarnation of Genode, being the prime example. Recently, Genode's ARMv8 port ignited extensive development efforts to support more sophisticated workloads on top of modern embedded and mobile devices.\n\nThe talk provides an overview about the current ARMv8 Genode landscape, its ambitions and potential. It will live demonstrate recent achievements from device support up to hardware-assisted virtualization on top of the NXP i.MX8 SoC.",
   "description": "",
   "persons": [
     "Stefan Kalkowski"

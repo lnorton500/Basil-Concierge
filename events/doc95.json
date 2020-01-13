@@ -5,8 +5,8 @@
   "title": "Open-source design ecosystems around FreeCAD",
   "subtitle": "",
   "track": "Open Source Computer Aided Modeling and Design",
-  "abstract": "<p>A walk through the different ways in which people from different areas and backgrounds use a same application (FreeCAD), and the impact this has on their workflows, and even on FreeCAD development</p>",
-  "description": "<p>The FreeCAD project gathers a community of developers and users coming from a very large array of specialties: Makers, mechanical engineers, civil engineers, electronics engineers, architects, opticians, graphic designers, etc. All these people using the same software is a unique opportunity to explore and build cross-discipline workflows, and have people coming from one field learn unusual ways from other fields. This constant interchange of paradigms also influences FreeCAD development itself, and connects it to other fields and applications too, to create larger ecosystems. In this talk, we will show some examples of how this happens in different areas.</p>",
+  "abstract": "A walk through the different ways in which people from different areas and backgrounds use a same application (FreeCAD), and the impact this has on their workflows, and even on FreeCAD development",
+  "description": "The FreeCAD project gathers a community of developers and users coming from a very large array of specialties: Makers, mechanical engineers, civil engineers, electronics engineers, architects, opticians, graphic designers, etc. All these people using the same software is a unique opportunity to explore and build cross-discipline workflows, and have people coming from one field learn unusual ways from other fields. This constant interchange of paradigms also influences FreeCAD development itself, and connects it to other fields and applications too, to create larger ecosystems. In this talk, we will show some examples of how this happens in different areas.",
   "persons": [
     "Yorik van Havre",
     "Brad Collette"

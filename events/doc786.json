@@ -5,7 +5,7 @@
   "title": "Grafana: Successfully correlate metrics, logs, and traces",
   "subtitle": "",
   "track": "Monitoring and Observability",
-  "abstract": "<p>This talk presents current capabilities of Grafana to integrate metrics, logs and traces and shows how to setup both Grafana and application code to be able to correlate all 3 in Grafana. It assumes some familiarity with Grafana to follow the How To steps but should be suitable for beginner users. Afterwards it shows future direction of Grafana in context of \"Experiences\", for even more seamless experience when correlating data from multiple data sources.</p>",
+  "abstract": "This talk presents current capabilities of Grafana to integrate metrics, logs and traces and shows how to setup both Grafana and application code to be able to correlate all 3 in Grafana. It assumes some familiarity with Grafana to follow the How To steps but should be suitable for beginner users. Afterwards it shows future direction of Grafana in context of \"Experiences\", for even more seamless experience when correlating data from multiple data sources.",
   "description": "<ul>\n<li>Quick intro to observability, alerting > metrics > logs > traces.</li>\n<li>How to instrument sample 3 tiered app (metrics, logging, traces).</li>\n<li>How to setup Grafana to observe the sample app.\n\n<ul>\n<li>Setup metrics, logging and tracing data source</li>\n<li>Setup integrations between data sources.</li>\n</ul>\n</li>\n<li>Live demo of Grafana UI, going from metric to logs to trace when debugging.</li>\n<li>Future of Grafana and look at \"Experiences\".</li>\n</ul>",
   "persons": [
     "Andrej Ocenas"

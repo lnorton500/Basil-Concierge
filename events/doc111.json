@@ -5,7 +5,7 @@
   "title": "Finite element modeling with the deal.II software library",
   "subtitle": "",
   "track": "Open Source Computer Aided Modeling and Design",
-  "abstract": "<p>The finite element method has been the method of choice to simulate the deformation of solids as well as the flow of many kinds of fluids for nearly 70 years now. In the case of solids, it provides a general framework to describe how a body reacts to external stimuli by modeling how deformation affects the internally stored energy. While most software that implements the method used to be homegrown for a particular purpose, the 2000s have seen the emergence of large and professionally developed. open source software libraries that provide a broad range of functionality that makes the implementation of such codes straightforward. I will give an overview of one of these libraries, deal.II, and how and where it is used.</p>",
+  "abstract": "The finite element method has been the method of choice to simulate the deformation of solids as well as the flow of many kinds of fluids for nearly 70 years now. In the case of solids, it provides a general framework to describe how a body reacts to external stimuli by modeling how deformation affects the internally stored energy. While most software that implements the method used to be homegrown for a particular purpose, the 2000s have seen the emergence of large and professionally developed. open source software libraries that provide a broad range of functionality that makes the implementation of such codes straightforward. I will give an overview of one of these libraries, deal.II, and how and where it is used.",
   "description": "",
   "persons": [
     "Wolfgang Bangerth"

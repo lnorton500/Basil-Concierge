@@ -5,8 +5,8 @@
   "title": "Porting Go to NetBSD/arm64",
   "subtitle": "",
   "track": "Go",
-  "abstract": "<p>An introduction to calling conventions, thread-local storage, signal handling and how they relate to Go, in the context of my new port of Go to NetBSD/arm64.</p>",
-  "description": "<p>Running a weird operating system comes at the cost of having to adjust software to run on it.\nGo is probably one of the hardest projects to adjust.\nDoing so required learning the guts of:\n- ARM64 calling conventions\n- signal handling\n- thread-local storage\n- a lot of Go-specifics</p>\n\n<p>Which will be discussed in this lecture.</p>",
+  "abstract": "An introduction to calling conventions, thread-local storage, signal handling and how they relate to Go, in the context of my new port of Go to NetBSD/arm64.",
+  "description": "Running a weird operating system comes at the cost of having to adjust software to run on it.\nGo is probably one of the hardest projects to adjust.\nDoing so required learning the guts of:\n- ARM64 calling conventions\n- signal handling\n- thread-local storage\n- a lot of Go-specifics\n\nWhich will be discussed in this lecture.",
   "persons": [
     "Maya Rashish"
   ]

@@ -5,8 +5,8 @@
   "title": "Sourcehut & aerc meetup",
   "subtitle": "Email enthusiasts meet up to enthuse about email",
   "track": "BOFs (Track A - in J.1.106)",
-  "abstract": "<p>Members of the closely linked <a href=\"https://sourcehut.org\">Sourcehut</a> and <a href=\"https://aerc-mail.org\">aerc</a> communities meet up to put faces to names and discuss the present and future of both projects, and to collect stickers.</p>",
-  "description": "<p><a href=\"https://sourcehut.org\">Sourcehut</a> is a free/libre project hosting platform with sophisticated git hosting, mailing lists, continuous integration, and more. We'll be discussing the remaining tasks for the alpha, planning and seeking feedback for the beta, and showing off cool stuff added in the past year.</p>\n\n<p><a href=\"https://aerc-mail.org\">aerc</a> is a FOSS email client for your terminal designed especially for software developers which integrates nicely into the mailing list workflow endorsed by Sourcehut. Early in its development, you'll have a chance to discuss what you'd like to see in your dream email client and speculate wildly on the lofty goals it aims to achieve.</p>",
+  "abstract": "Members of the closely linked <a href=\"https://sourcehut.org\">Sourcehut</a> and <a href=\"https://aerc-mail.org\">aerc</a> communities meet up to put faces to names and discuss the present and future of both projects, and to collect stickers.",
+  "description": "<a href=\"https://sourcehut.org\">Sourcehut</a> is a free/libre project hosting platform with sophisticated git hosting, mailing lists, continuous integration, and more. We'll be discussing the remaining tasks for the alpha, planning and seeking feedback for the beta, and showing off cool stuff added in the past year.\n\n<a href=\"https://aerc-mail.org\">aerc</a> is a FOSS email client for your terminal designed especially for software developers which integrates nicely into the mailing list workflow endorsed by Sourcehut. Early in its development, you'll have a chance to discuss what you'd like to see in your dream email client and speculate wildly on the lofty goals it aims to achieve.",
   "persons": [
     "Drew DeVault"
   ]

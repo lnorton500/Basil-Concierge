@@ -5,7 +5,7 @@
   "title": "The consequences of sync_binlog != 1.",
   "subtitle": "",
   "track": "MySQL, MariaDB and Friends",
-  "abstract": "<p>Have you ever needed to get some additional write throughput from MySQL ?  If yes, you probably found that setting sync_binlog to 0 (and trx_commit to 2) gives you an extra performance boost.  As all such easy optimisation, it comes at a cost.  This talk explains how this tuning works, presents its consequences and makes recommendations to avoid them.  This will bring us to the details of how MySQL commits transactions and how those are replicated to slaves.  Come to this talk to learn how to get the benefit of this tuning the right way and to learn some replication internals.</p>",
+  "abstract": "Have you ever needed to get some additional write throughput from MySQL ?  If yes, you probably found that setting sync_binlog to 0 (and trx_commit to 2) gives you an extra performance boost.  As all such easy optimisation, it comes at a cost.  This talk explains how this tuning works, presents its consequences and makes recommendations to avoid them.  This will bring us to the details of how MySQL commits transactions and how those are replicated to slaves.  Come to this talk to learn how to get the benefit of this tuning the right way and to learn some replication internals.",
   "description": "",
   "persons": [
     "Jean-Fran\u00e7ois Gagn\u00e9"

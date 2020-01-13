@@ -5,7 +5,7 @@
   "title": "The moldability of mpv",
   "subtitle": "Deploying diverse media setups in our museum",
   "track": "Open Media",
-  "abstract": "<p>Many museums around the world use commercial closed source solutions to present media and interact with their visitors. Biodiversity museum Naturalis has decided to present most of their interactive content using open source software. In this presentation we talk about our experiences with mpv as the go to tool for a diverse selection of media setups in our brand new museum and how we made it work with show controllers, Arduino devices and open source content and config management tools.</p>",
+  "abstract": "Many museums around the world use commercial closed source solutions to present media and interact with their visitors. Biodiversity museum Naturalis has decided to present most of their interactive content using open source software. In this presentation we talk about our experiences with mpv as the go to tool for a diverse selection of media setups in our brand new museum and how we made it work with show controllers, Arduino devices and open source content and config management tools.",
   "description": "",
   "persons": [
     "David Heijkamp"

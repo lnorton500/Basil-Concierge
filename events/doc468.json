@@ -5,7 +5,7 @@
   "title": "Let's Get Func-y",
   "subtitle": "",
   "track": "JavaScript",
-  "abstract": "<p>a.k.a. a web app is just multiple functions stacked on top of each other, wearing a trenchcoat.\nLet's get back to basics, for a minute. No frameworks, no libraries; just pure and plain ol' JavaScript.\nIn a nutshell, this talk is going to explain all the delightful ways to write functional code with Javascript and how it can be applied to your application to optimize performance.\nWe're going to focus on keywords like 'immutability' and 'state'.\nIf we're feeling adventurous, we'll even throw in a closure or two.</p>",
+  "abstract": "a.k.a. a web app is just multiple functions stacked on top of each other, wearing a trenchcoat.\nLet's get back to basics, for a minute. No frameworks, no libraries; just pure and plain ol' JavaScript.\nIn a nutshell, this talk is going to explain all the delightful ways to write functional code with Javascript and how it can be applied to your application to optimize performance.\nWe're going to focus on keywords like 'immutability' and 'state'.\nIf we're feeling adventurous, we'll even throw in a closure or two.",
   "description": "",
   "persons": [
     "Jemima Abu"

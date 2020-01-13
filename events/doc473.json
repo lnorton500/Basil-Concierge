@@ -5,8 +5,8 @@
   "title": "Serverless.com framework",
   "subtitle": "Doing serverless in the open source way",
   "track": "JavaScript",
-  "abstract": "<p>Who told that everything about serverless computing should be proprietary?\nDo you want deploy your functions and infrastructure in the open source way?\nDo you want to have modular, JS-based tool for it?\nCome and learn about Serverless.com - open source multicloud tool which support Kubeless, AWS Lambdas, Azure functions and many more!</p>",
-  "description": "<p>2- minutes talk covering topics:\n- what is the serverless computing?\n- why is it important to have an open-source deployment tool?\n- how serverless framework working\n- advantages, weak moments and lesson learned</p>",
+  "abstract": "Who told that everything about serverless computing should be proprietary?\nDo you want deploy your functions and infrastructure in the open source way?\nDo you want to have modular, JS-based tool for it?\nCome and learn about Serverless.com - open source multicloud tool which support Kubeless, AWS Lambdas, Azure functions and many more!",
+  "description": "2- minutes talk covering topics:\n- what is the serverless computing?\n- why is it important to have an open-source deployment tool?\n- how serverless framework working\n- advantages, weak moments and lesson learned",
   "persons": [
     "Kirill Kolyaskin"
   ]

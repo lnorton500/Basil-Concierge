@@ -5,8 +5,8 @@
   "title": "Lumen",
   "subtitle": "Elixir in the browser",
   "track": "Erlang, Elixir and Friends",
-  "abstract": "<p>Lumen is an alternative compiler, interpreter and runtime to the BEAM designed for WebAssembly.  Lumen allows Erlang and Elixir to run in the browser.</p>",
-  "description": "<p>The Lumen project is a reimplementation of the BEAM in Rust.  Using Rust, Lumen is able to leverage the cutting edge tools of the Rust WASM ecosystem.  Compiling Elixir and Erlang from source to LLVM IR, the Lumen compiler is able to do whole program optimizations allowing for dead-code elimination of parts of the user application, OTP, and the runtime itself.  Eliminating the dead code makes shipping OTP size-competitive with JavaScript frameworks, while retaining the benefits of thousands of concurrent processes and supervision trees.</p>",
+  "abstract": "Lumen is an alternative compiler, interpreter and runtime to the BEAM designed for WebAssembly.  Lumen allows Erlang and Elixir to run in the browser.",
+  "description": "The Lumen project is a reimplementation of the BEAM in Rust.  Using Rust, Lumen is able to leverage the cutting edge tools of the Rust WASM ecosystem.  Compiling Elixir and Erlang from source to LLVM IR, the Lumen compiler is able to do whole program optimizations allowing for dead-code elimination of parts of the user application, OTP, and the runtime itself.  Eliminating the dead code makes shipping OTP size-competitive with JavaScript frameworks, while retaining the benefits of thousands of concurrent processes and supervision trees.",
   "persons": [
     "Luke Imhoff"
   ]

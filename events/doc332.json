@@ -5,7 +5,7 @@
   "title": "LibreOffice lockdown and encryption improvements",
   "subtitle": "",
   "track": "Open Document Editors",
-  "abstract": "<p>LibreOffice has builtin support for working with encrypted documents since a long time (with some recent improvements adding OpenPGP support). Further support for more fine-grained control of <em>what</em> a user can do with access-restricted documents was though missing.\nCome and see what recent improvements we implemented for LibreOffice 6.4 and 6.5, to permit fine-grained access controls to individual LibreOffice documents, matching the feature set of MS Rights Management Solution.</p>",
+  "abstract": "LibreOffice has builtin support for working with encrypted documents since a long time (with some recent improvements adding OpenPGP support). Further support for more fine-grained control of <em>what</em> a user can do with access-restricted documents was though missing.\nCome and see what recent improvements we implemented for LibreOffice 6.4 and 6.5, to permit fine-grained access controls to individual LibreOffice documents, matching the feature set of MS Rights Management Solution.",
   "description": "",
   "persons": [
     "Thorsten Behrens"

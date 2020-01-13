@@ -5,7 +5,7 @@
   "title": "The State of (Full) Text Search in PostgreSQL 12",
   "subtitle": "",
   "track": "PostgreSQL",
-  "abstract": "<p>How to navigate the rich but confusing field of (Full) Text Search in PostgreSQL. A short introduction will explain the concepts involved, followed by a discussion of functions, operators, indexes and collation support in Postgres in relevance to searching for text. Examples of usage will be provided, along with some stats demonstrating the differences.</p>",
+  "abstract": "How to navigate the rich but confusing field of (Full) Text Search in PostgreSQL. A short introduction will explain the concepts involved, followed by a discussion of functions, operators, indexes and collation support in Postgres in relevance to searching for text. Examples of usage will be provided, along with some stats demonstrating the differences.",
   "description": "",
   "persons": [
     "Jimmy Angelakos"

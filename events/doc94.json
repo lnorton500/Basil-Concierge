@@ -5,7 +5,7 @@
   "title": "LibrePCB Status Update",
   "subtitle": "The progress of LibrePCB within the last two years",
   "track": "Open Source Computer Aided Modeling and Design",
-  "abstract": "<p>An overview about what's new in LibrePCB since the last presentation at FOSDEM 2018, and a short live demonstration to see LibrePCB in action.</p>",
+  "abstract": "An overview about what's new in LibrePCB since the last presentation at FOSDEM 2018, and a short live demonstration to see LibrePCB in action.",
   "description": "",
   "persons": [
     "Urban Bruhin"

@@ -5,8 +5,8 @@
   "title": "Introducing HTTPX",
   "subtitle": "",
   "track": "Python",
-  "abstract": "<p>HTTPX is a next generation HTTP client, that supports HTTP/2 and HTTP/1.1.</p>\n\n<p>It can be used in high-performance async web frameworks, using either asyncio or trio, and is able to support making large numbers of requests concurrently.</p>\n\n<p>This talk will introduce HTTPX, demonstrate some of its features, and talk through the motivation and aims for the project.</p>",
-  "description": "<p>The talk will cover:</p>\n\n<ul>\n<li>Why HTTPX exists &amp; what new functionality HTTPX brings to the table.</li>\n<li>How and where HTTPX differs from the existing <code>Requests</code> package.</li>\n<li>Examples of making parallel HTTP requests.</li>\n<li>Examples of making HTTP/2 requests.</li>\n<li>Examples of making requests directly to a web application, rather than over the network.</li>\n<li>Using Asyncio vs using Trio.</li>\n<li>A quick architecture overview.</li>\n</ul>",
+  "abstract": "HTTPX is a next generation HTTP client, that supports HTTP/2 and HTTP/1.1.\n\nIt can be used in high-performance async web frameworks, using either asyncio or trio, and is able to support making large numbers of requests concurrently.\n\nThis talk will introduce HTTPX, demonstrate some of its features, and talk through the motivation and aims for the project.",
+  "description": "The talk will cover:\n\n<ul>\n<li>Why HTTPX exists &amp; what new functionality HTTPX brings to the table.</li>\n<li>How and where HTTPX differs from the existing <code>Requests</code> package.</li>\n<li>Examples of making parallel HTTP requests.</li>\n<li>Examples of making HTTP/2 requests.</li>\n<li>Examples of making requests directly to a web application, rather than over the network.</li>\n<li>Using Asyncio vs using Trio.</li>\n<li>A quick architecture overview.</li>\n</ul>",
   "persons": [
     "Tom Christie"
   ]

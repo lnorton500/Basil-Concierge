@@ -5,8 +5,8 @@
   "title": "Online: wrestling web Copy/Paste to usability",
   "subtitle": "Defeating the API and implementation disasters in copy/paste",
   "track": "Open Document Editors",
-  "abstract": "<p>Overcoming the synchronous web copy/paste API's limitations in real\nbrowsers is extremely non-trivial. Come &amp; hear how we provide rich\ncopy/paste support across browsers, inside our app and hear a bit\nabout how this mess should be fixed.</p>",
-  "description": "<p>Collabora has been working to provide a good user-experience for Collabora\nOnline - bringing LibreOffice to the web, and a particularly\nchallenging aspect of this has been copy/paste. One of our challenges\nis that by design we keep our document data on the server, which is at\nthe end of an asynchronous web-socket. Another challenge is the\nimpossibly baroque and arguably mis-designed set of clipboard APIs\nthat we have to work with.</p>\n\n<p>Hear a story of how we defeated the issues, as well as the somewhat\nsad UX compromises we were forced to make for the hard cases.</p>",
+  "abstract": "Overcoming the synchronous web copy/paste API's limitations in real\nbrowsers is extremely non-trivial. Come &amp; hear how we provide rich\ncopy/paste support across browsers, inside our app and hear a bit\nabout how this mess should be fixed.",
+  "description": "Collabora has been working to provide a good user-experience for Collabora\nOnline - bringing LibreOffice to the web, and a particularly\nchallenging aspect of this has been copy/paste. One of our challenges\nis that by design we keep our document data on the server, which is at\nthe end of an asynchronous web-socket. Another challenge is the\nimpossibly baroque and arguably mis-designed set of clipboard APIs\nthat we have to work with.\n\nHear a story of how we defeated the issues, as well as the somewhat\nsad UX compromises we were forced to make for the hard cases.",
   "persons": [
     "Michael Meeks"
   ]

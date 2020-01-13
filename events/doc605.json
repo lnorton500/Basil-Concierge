@@ -5,7 +5,7 @@
   "title": "cargo deny",
   "subtitle": "Fearlessly update your dependencies",
   "track": "Rust",
-  "abstract": "<p>A talk about https://github.com/EmbarkStudios/cargo-deny, why we created it, and how it helps us manage our dependencies in the long term.</p>",
+  "abstract": "A talk about https://github.com/EmbarkStudios/cargo-deny, why we created it, and how it helps us manage our dependencies in the long term.",
   "description": "",
   "persons": [
     "Jake Shadle"

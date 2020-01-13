@@ -5,7 +5,7 @@
   "title": "Threat Modelling for Developers",
   "subtitle": "",
   "track": "Security",
-  "abstract": "<p>What threats do we need to take into account when building a system? A key method for answering this question is an approach called threat modelling, whereby security problems can be anticipated during the design phase. This talk discusses major threat-modelling approaches, and includes concrete examples of how to apply them to software-intensive systems.</p>",
+  "abstract": "What threats do we need to take into account when building a system? A key method for answering this question is an approach called threat modelling, whereby security problems can be anticipated during the design phase. This talk discusses major threat-modelling approaches, and includes concrete examples of how to apply them to software-intensive systems.",
   "description": "",
   "persons": [
     "Arne Padmos"

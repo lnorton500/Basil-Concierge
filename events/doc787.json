@@ -5,7 +5,7 @@
   "title": "Jaegertracing in Ceph",
   "subtitle": "An interesting case of distributed tracing",
   "track": "Monitoring and Observability",
-  "abstract": "<p>Jaeger and Opentracing provide ready to use tracing services for distributed systems and are becoming widely used de-facto standard because of their ease of use. Making use of these libraries, Ceph, can reach to a much-improved monitoring state, supporting visibility to its background distributed processes. This would, in turn, add up to the way Ceph is being debugged, \u201cmaking Ceph more transparent\u201d in identifying abnormalities.\nIn this session, the audience will get to learn about using distributed tracing in large scale distributed systems like Ceph, an overview of Jaegertracing in Ceph and how someone can use it for debugging Ceph.</p>",
+  "abstract": "Jaeger and Opentracing provide ready to use tracing services for distributed systems and are becoming widely used de-facto standard because of their ease of use. Making use of these libraries, Ceph, can reach to a much-improved monitoring state, supporting visibility to its background distributed processes. This would, in turn, add up to the way Ceph is being debugged, \u201cmaking Ceph more transparent\u201d in identifying abnormalities.\nIn this session, the audience will get to learn about using distributed tracing in large scale distributed systems like Ceph, an overview of Jaegertracing in Ceph and how someone can use it for debugging Ceph.",
   "description": "",
   "persons": [
     "Deepika Upadhyay"

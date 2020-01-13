@@ -5,7 +5,7 @@
   "title": "ROS2: The evolution of Robot Operative System",
   "subtitle": "",
   "track": "Embedded, Mobile and Automotive",
-  "abstract": "<p>In FOSDEM 2013, Open Robotics introduced an overview of the Robot Operating System (ROS), an open software integration framework for robots created in 2007. After more than a decade of great success, powering from Robocup teams to NASA robots in space, ROS2 was born to break any limitation detected previously by roboticians all around the globe. It's an exciting time.</p>\n\n<p>This talk will explain the design changes and technical motivations that lead to the creation of ROS2 giving a quick overview of new features present on it: multi-platform, embedded devices, real time, etc.</p>",
+  "abstract": "In FOSDEM 2013, Open Robotics introduced an overview of the Robot Operating System (ROS), an open software integration framework for robots created in 2007. After more than a decade of great success, powering from Robocup teams to NASA robots in space, ROS2 was born to break any limitation detected previously by roboticians all around the globe. It's an exciting time.\n\nThis talk will explain the design changes and technical motivations that lead to the creation of ROS2 giving a quick overview of new features present on it: multi-platform, embedded devices, real time, etc.",
   "description": "",
   "persons": [
     "Jose Luis Rivero"

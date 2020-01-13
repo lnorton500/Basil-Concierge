@@ -5,7 +5,7 @@
   "title": "Lexemes in Wikidata",
   "subtitle": "structured lexicographical data for everyone",
   "track": "Coding for Language Communities",
-  "abstract": "<p>Wikidata, Wikimedia's knowledge base, has been collecting general purpose data about the world for 7 years now. This data powers Wikipedia but also many applications outside Wikimedia, like your digital personal assistant. In recent years Wikidata's community has also started collecting lexicographical data in order to provide a large data set of machine-readable data about words in hundreds of languages. In this talk we will explore how Wikidata enables thousands of volunteers to describe their languages and make it available as a source of data for systems that do automated translation, text generation and more.</p>",
+  "abstract": "Wikidata, Wikimedia's knowledge base, has been collecting general purpose data about the world for 7 years now. This data powers Wikipedia but also many applications outside Wikimedia, like your digital personal assistant. In recent years Wikidata's community has also started collecting lexicographical data in order to provide a large data set of machine-readable data about words in hundreds of languages. In this talk we will explore how Wikidata enables thousands of volunteers to describe their languages and make it available as a source of data for systems that do automated translation, text generation and more.",
   "description": "",
   "persons": [
     "Lydia Pintscher"

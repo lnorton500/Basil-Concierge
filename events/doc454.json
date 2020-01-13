@@ -5,8 +5,8 @@
   "title": "Improve your Android app with coroutines",
   "subtitle": "Application level integration of kotlinx coroutines",
   "track": "Kotlin",
-  "abstract": "<p>Koltinx Coroutines library implementation for higl level programmation.</p>\n\n<p>Presentation of application development with Jetbrains kotlinx library.</p>",
-  "description": "<p>Demonstration of kotlinx Coroutines framework use for application development.</p>\n\n<p>Coroutines helped a lot to improve VLC app performances on Android.\nThis talk is a feedback on this conversion and a collection of good practices.</p>\n\n<p>We will see how it helped make the app more performant and maintainable.\nEspecially the benefit of structured concurrency and how it greatly helps solving most asynchronism problems.\nUse your components lifecycle to scope asynchronous jobs.\nGet rid of callback APIs with Flow API.\nAnd some more examples of how to dismiss the GUI frameworks limitations with coroutines</p>",
+  "abstract": "Koltinx Coroutines library implementation for higl level programmation.\n\nPresentation of application development with Jetbrains kotlinx library.",
+  "description": "Demonstration of kotlinx Coroutines framework use for application development.\n\nCoroutines helped a lot to improve VLC app performances on Android.\nThis talk is a feedback on this conversion and a collection of good practices.\n\nWe will see how it helped make the app more performant and maintainable.\nEspecially the benefit of structured concurrency and how it greatly helps solving most asynchronism problems.\nUse your components lifecycle to scope asynchronous jobs.\nGet rid of callback APIs with Flow API.\nAnd some more examples of how to dismiss the GUI frameworks limitations with coroutines",
   "persons": [
     "Geoffrey M\u00e9tais"
   ]

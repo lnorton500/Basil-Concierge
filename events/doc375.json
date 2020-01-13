@@ -5,8 +5,8 @@
   "title": "Gofish - a Go library for Redfish and Swordfish",
   "subtitle": "",
   "track": "Infra Management Devroom",
-  "abstract": "<p>Gofish is a Golang library for interacting with Redfish and Swordfish enabled devices.</p>",
-  "description": "<p>Gofish is a Golang library for interacting with Redfish and Swordfish enabled devices. This presentation will give an overview of the current state of the library and how it can be used to manage compute and storage resources using a common, standard API.</p>",
+  "abstract": "Gofish is a Golang library for interacting with Redfish and Swordfish enabled devices.",
+  "description": "Gofish is a Golang library for interacting with Redfish and Swordfish enabled devices. This presentation will give an overview of the current state of the library and how it can be used to manage compute and storage resources using a common, standard API.",
   "persons": [
     "Sean McGinnis"
   ]

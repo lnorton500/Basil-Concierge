@@ -5,7 +5,7 @@
   "title": "Open CASCADE Technology - an introduction and overview",
   "subtitle": "",
   "track": "Open Source Computer Aided Modeling and Design",
-  "abstract": "<p>Open Cascade Technology is a framework for B-Rep modeling. The presentation highlights key features available in the toolkits.\nThe following topics are covered:\n- What is OCCT?\n- License\n- OCCT in numbers\n- History\n- Modeling data\n- Modeling algorithms\n- Visualization\n- Data exchange</p>",
+  "abstract": "Open Cascade Technology is a framework for B-Rep modeling. The presentation highlights key features available in the toolkits.\nThe following topics are covered:\n- What is OCCT?\n- License\n- OCCT in numbers\n- History\n- Modeling data\n- Modeling algorithms\n- Visualization\n- Data exchange",
   "description": "",
   "persons": [
     "Alexander Malyshev"

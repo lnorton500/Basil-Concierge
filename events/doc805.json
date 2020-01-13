@@ -5,8 +5,8 @@
   "title": "WebRTC for Android",
   "subtitle": "Creating a serverless communication app",
   "track": "Real Time Communications",
-  "abstract": "<p>Develop a serverless communication app Android by leveraging the WebRTC protocol</p>",
-  "description": "<p>I will share my experience of developing a serverless communication app for android using the WebRTC protocol using the official WebRTC library.</p>",
+  "abstract": "Develop a serverless communication app Android by leveraging the WebRTC protocol",
+  "description": "I will share my experience of developing a serverless communication app for android using the WebRTC protocol using the official WebRTC library.",
   "persons": [
     "Mohammad Murad"
   ]

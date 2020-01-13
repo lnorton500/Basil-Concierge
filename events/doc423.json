@@ -5,8 +5,8 @@
   "title": "The year of the virtual Linux desktop",
   "subtitle": "",
   "track": "Miscellaneous",
-  "abstract": "<p>We made the Linux desktop work in VR. Join me to hear about the history and future of xrdesktop and the FOSS XR landscape.</p>",
-  "description": "<p>With tracked controllers, heads and hands, AR and VR introduced the requirement for a new set of user interactions. In this talk you will learn about existing implementations and how the classical UX model with keyboard and mouse translates to these new concepts. I will highlight the technical aspect of these requirements and how they were solved in xrdesktop. Featuring 3D window management and synthesis for traditional input, xrdesktop is a software stack that integrates VR in the GNOME and KDE desktop environments. You will also get an overview of the history and status of Open Source in AR and VR.</p>",
+  "abstract": "We made the Linux desktop work in VR. Join me to hear about the history and future of xrdesktop and the FOSS XR landscape.",
+  "description": "With tracked controllers, heads and hands, AR and VR introduced the requirement for a new set of user interactions. In this talk you will learn about existing implementations and how the classical UX model with keyboard and mouse translates to these new concepts. I will highlight the technical aspect of these requirements and how they were solved in xrdesktop. Featuring 3D window management and synthesis for traditional input, xrdesktop is a software stack that integrates VR in the GNOME and KDE desktop environments. You will also get an overview of the history and status of Open Source in AR and VR.",
   "persons": [
     "Lubosz Sarnecki"
   ]

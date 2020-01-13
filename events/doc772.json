@@ -5,8 +5,8 @@
   "title": "Eclipse Loves LSP - Achieving More with Less",
   "subtitle": "",
   "track": "Free Tools and Editors",
-  "abstract": "<p>Eclipse and Language Server Protocol - what, why, how and most important visible results for users thanks to it.</p>",
-  "description": "<p>Brief description of how it all started. Followed by examples of the success stories benefiting almost every Eclipse user by getting better tools while minimizing the burden on Eclipse developers.</p>",
+  "abstract": "Eclipse and Language Server Protocol - what, why, how and most important visible results for users thanks to it.",
+  "description": "Brief description of how it all started. Followed by examples of the success stories benefiting almost every Eclipse user by getting better tools while minimizing the burden on Eclipse developers.",
   "persons": [
     "Alexander Kurtakov"
   ]

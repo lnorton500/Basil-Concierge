@@ -5,7 +5,7 @@
   "title": "RoboSat.pink: Deep Learning Computer Vision patterns extraction at scale",
   "subtitle": "",
   "track": "Geospatial",
-  "abstract": "<p>RoboSat.pink, a Deep Learning Computer Vision framework for GeoSpatial Imagery,\nallow you to perform at scale:</p>\n\n<ul>\n<li>DataSet Quality Analysis</li>\n<li>Change Detection highlight</li>\n<li>Features extraction</li>\n</ul>\n\n\n<p>This presentation will focus on the latests enhancements of RoboSat.pink,\nand mainly on:</p>\n\n<ul>\n<li>How we increase again pattern recognition accuracy, even with unconsistents labels</li>\n<li>How we speed up the whole process, and allow to scale even on large areas</li>\n<li>New hot features</li>\n</ul>",
+  "abstract": "RoboSat.pink, a Deep Learning Computer Vision framework for GeoSpatial Imagery,\nallow you to perform at scale:\n\n<ul>\n<li>DataSet Quality Analysis</li>\n<li>Change Detection highlight</li>\n<li>Features extraction</li>\n</ul>\n\n\nThis presentation will focus on the latests enhancements of RoboSat.pink,\nand mainly on:\n\n<ul>\n<li>How we increase again pattern recognition accuracy, even with unconsistents labels</li>\n<li>How we speed up the whole process, and allow to scale even on large areas</li>\n<li>New hot features</li>\n</ul>",
   "description": "",
   "persons": [
     "Olivier Courtin"

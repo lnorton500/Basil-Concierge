@@ -5,8 +5,8 @@
   "title": "Protecting plaintext secrets in configuration files",
   "subtitle": "",
   "track": "Security",
-  "abstract": "<p>Applications and services rely on configuration data in order to be customized and we will talk about how to keep them in a safer place other than plaintext configuration files.</p>",
-  "description": "<p>The configparser module is Python's standard configuration file parser and many projects rely on it to achieve easy configuration with plaintext files. OpenStack Common Libraries (Oslo) has an alternative called oslo.config with additional sources of input like command line arguments or environment variables. With the addition of a feature called source drivers last year, we are now able to increase the security of configuration values storing them in a safer place.</p>\n\n<p>This talk focuses on the new source driver that integrates Oslo.Config and Castellan, another Olso module specialized in talking to secret managers, and how we can store our sensitive configuration data using HashiCorp Vault.</p>",
+  "abstract": "Applications and services rely on configuration data in order to be customized and we will talk about how to keep them in a safer place other than plaintext configuration files.",
+  "description": "The configparser module is Python's standard configuration file parser and many projects rely on it to achieve easy configuration with plaintext files. OpenStack Common Libraries (Oslo) has an alternative called oslo.config with additional sources of input like command line arguments or environment variables. With the addition of a feature called source drivers last year, we are now able to increase the security of configuration values storing them in a safer place.\n\nThis talk focuses on the new source driver that integrates Oslo.Config and Castellan, another Olso module specialized in talking to secret managers, and how we can store our sensitive configuration data using HashiCorp Vault.",
   "persons": [
     "Mois\u00e9s Guimar\u00e3es"
   ]

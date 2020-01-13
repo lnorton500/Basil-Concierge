@@ -5,8 +5,8 @@
   "title": "DeOldify",
   "subtitle": "Colorizing images and videos with AI",
   "track": "Lightning Talks",
-  "abstract": "<p>DeOldify is a Deep Learning project for colorizing and restoring old images and videos.</p>\n\n<p>In this presentation, you will learn what's behind DeOldify, how it achieves good results and if they are historically accurate.\nYou will also learn how to run the model yourself on your computer or Colab to colorize pictures/videos that you have.</p>",
-  "description": "<p>DeOldify is a Deep Learning project for colorizing and restoring old images and videos.</p>\n\n<p>In this presentation, you will learn what's behind DeOldify, how it achieves good results and if they are historically accurate.\nYou will also learn how to run the model yourself on your computer or Colab to colorize pictures/videos that you have.</p>",
+  "abstract": "DeOldify is a Deep Learning project for colorizing and restoring old images and videos.\n\nIn this presentation, you will learn what's behind DeOldify, how it achieves good results and if they are historically accurate.\nYou will also learn how to run the model yourself on your computer or Colab to colorize pictures/videos that you have.",
+  "description": "DeOldify is a Deep Learning project for colorizing and restoring old images and videos.\n\nIn this presentation, you will learn what's behind DeOldify, how it achieves good results and if they are historically accurate.\nYou will also learn how to run the model yourself on your computer or Colab to colorize pictures/videos that you have.",
   "persons": [
     "Alexandre Vicenzi"
   ]

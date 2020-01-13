@@ -5,7 +5,7 @@
   "title": "HelenOS in the Year of the Pig",
   "subtitle": "",
   "track": "Microkernels and Component-based OS",
-  "abstract": "<p>This is going to be an all-encompassing update talk for HelenOS developments that happened in the Year of the Pig (since the last FOSDEM).</p>",
+  "abstract": "This is going to be an all-encompassing update talk for HelenOS developments that happened in the Year of the Pig (since the last FOSDEM).",
   "description": "",
   "persons": [
     "Jakub Jerm\u00e1\u0159"

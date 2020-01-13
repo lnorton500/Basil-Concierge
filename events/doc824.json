@@ -5,8 +5,8 @@
   "title": "How to build Webthings?",
   "subtitle": "Interact with Mozilla IoT gateway",
   "track": "Internet of Things",
-  "abstract": "<p>Mozilla Webthing is a smart home platform built with Privacy by Design. It is an implementation of Web of Things concepts specified by W3C. The presentation explains how to create new things and interact with gateway using addon adapters.</p>",
-  "description": "<p>Mozilla's WebThing schemas specify many IoT devices. They are also flexible enough to describe any devices using generic types. Standalone devices can be interacted with using WebThings REST API or using the Mozilla gateway. The gateway is designed to be extensible using addon adapters. A couple of my contributions involving sensors and virtual things will be demonstrated. Recipes will be shared to build your own adapters using your favorite language (Js, Python, etc). The addons can easily be deployed on your RaspberryPi for self-hosted home automation.</p>",
+  "abstract": "Mozilla Webthing is a smart home platform built with Privacy by Design. It is an implementation of Web of Things concepts specified by W3C. The presentation explains how to create new things and interact with gateway using addon adapters.",
+  "description": "Mozilla's WebThing schemas specify many IoT devices. They are also flexible enough to describe any devices using generic types. Standalone devices can be interacted with using WebThings REST API or using the Mozilla gateway. The gateway is designed to be extensible using addon adapters. A couple of my contributions involving sensors and virtual things will be demonstrated. Recipes will be shared to build your own adapters using your favorite language (Js, Python, etc). The addons can easily be deployed on your RaspberryPi for self-hosted home automation.",
   "persons": [
     "Christian Paul"
   ]

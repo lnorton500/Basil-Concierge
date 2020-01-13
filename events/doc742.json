@@ -5,8 +5,8 @@
   "title": "Putting Artificial Intelligence back into people's hands",
   "subtitle": "Toward an accessible, transparent and fair AI",
   "track": "HPC, Big Data, and Data Science",
-  "abstract": "<p>Artificial intelligence is now widespread for critical tasks such as crime recidivism risk assessment, credit risk scoring, job application review or disease detection. Because it has more and more impact on our lives, it becomes essential to make auditable AI software so that everyone can benefit from it and participate in its development.</p>\n\n<p>This talk will present the methods that can be used to build fairness into artificial intelligence and explain how to control its progress thanks to the four freedoms of Free Software.</p>",
-  "description": "<p>The talk is divided in three parts:</p>\n\n<ul>\n<li>How to make accessible Artificial Intelligences?</li>\n<li>Can AI be transparent and accurate?</li>\n<li>How to build fairness into AI?</li>\n</ul>\n\n\n<p>For each part the context will be presented as well as possible solutions.</p>",
+  "abstract": "Artificial intelligence is now widespread for critical tasks such as crime recidivism risk assessment, credit risk scoring, job application review or disease detection. Because it has more and more impact on our lives, it becomes essential to make auditable AI software so that everyone can benefit from it and participate in its development.\n\nThis talk will present the methods that can be used to build fairness into artificial intelligence and explain how to control its progress thanks to the four freedoms of Free Software.",
+  "description": "The talk is divided in three parts:\n\n<ul>\n<li>How to make accessible Artificial Intelligences?</li>\n<li>Can AI be transparent and accurate?</li>\n<li>How to build fairness into AI?</li>\n</ul>\n\n\nFor each part the context will be presented as well as possible solutions.",
   "persons": [
     "Vincent Lequertier"
   ]
