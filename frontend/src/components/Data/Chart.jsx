@@ -46,7 +46,7 @@ class Chart extends Component {
             <div className="chart">
                 <ApexCharts options={this.state.options} series={data} type="radialBar" className="chart-div" height="300px" />
                 <div className="chart-data">
-                    <p className="chart-value">{this.props.value.toFixed(0)}%</p>
+                    <p className="chart-value">{this.props.value}%</p>
                     <p className="chart-name">{this.props.name}</p>
                 </div>
             </div>

@@ -17,16 +17,6 @@ class UserCatagories extends Component {
         this.updateScores = this.updateScores.bind(this);
     }
 
-    getRandomColor() {
-        var letters = '0123456789ABCDEF';
-        var color = '#';
-        for (var i = 0; i < 6; i++) {
-            color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
-    }
-
-
     componentDidMount() {
         this.updateScores();
         this.interval = setInterval(() => this.updateScores(), 2000);
@@ -38,7 +28,7 @@ class UserCatagories extends Component {
 
     updateScores() {
         axios
-            .get("http://127.0.0.1:8080/catagories/all")
+            .get("http://localhost:8080/catagories/all")
             .then(res => {
                 this.setState({
                     isLoaded: true,
@@ -54,14 +44,14 @@ class UserCatagories extends Component {
 
     render() {
         const { error, isLoaded, catagories } = this.state;
-        if (!isLoaded)
-            return <div className="sidebar"></div>
-        console.log(catagories)
+
+        if (error) return ("Error" + { error });
+        if (!isLoaded) return <div className="sidebar"></div>
         return (
             <div className="sidebar">
                 {catagories.map((i, key) => (
                     <Chart
-                        id={key}
+                        key={key}
                         name={i.name}
                         value={i.score}
                         color={i.color}></Chart>

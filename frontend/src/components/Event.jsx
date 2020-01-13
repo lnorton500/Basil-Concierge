@@ -1,4 +1,3 @@
-import { EventInterested } from './Events/EventInterested';
 import React, { Component } from 'react';
 
 import Info from './Events/EventInfo';
@@ -41,7 +40,7 @@ class Event extends Component {
                         <i className="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <Info show={this.state.showDescription} key={this.state.key} />
+                <Info show={this.state.showDescription} id={this.state.event._id} />
             </div >
         );
     }
