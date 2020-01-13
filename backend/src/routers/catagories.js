@@ -10,11 +10,4 @@ router.get("/all", function (request, response) {
     );
 });
 
-router.get("/:cat", function (request, response) {
-    api.catagories.get(request.body.cat,
-        error => response.json(error),
-        result => response.json(result)
-    );
-});
-
 module.exports = router;
