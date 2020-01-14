@@ -5,7 +5,7 @@
   "title": "Open source UEFI and TianoCore",
   "subtitle": "",
   "track": "Open Source Firmware, BMC and Bootloader",
-  "abstract": "Historically, the UEFI forum has been a bit rubbish at interacting with open source development, but this is improving.\n\nThis talk gives a background on <em>why</em> (both the rubbish and the improvement) and what is being done.\n\nAlso, a brief update on news for the TianoCore/EDK2 project.",
+  "abstract": "Historically, the UEFI forum has been a bit rubbish at interacting with open source development, but this is improving.\n\nThis talk gives a background on why (both the rubbish and the improvement) and what is being done.\n\nAlso, a brief update on news for the TianoCore/EDK2 project.",
   "description": "After much lawyerly fun, the UEFI Self-Certification Testsuite (SCT) was released under an OSI license (BSD2) at the end of 2018.\nWe will explain why this is useful, and how this has helped with the addition of UEFI support in U-Boot, as well as helped improving EDK2 code quality.\n\nWe have a new process, referred to as \"code first\" for drafting changes to the UEFI spefication in public.\nThis will give an overview of the process, as well as one of the first exercises of it - the definition of audio APIs (for accessibility or, you know, DOOM).\n\nAlso, an update on changes in the EDK2 reference implementation, including dropping the CLA and upcoming RISC-V support.",
   "persons": [
     "Leif Lindholm"

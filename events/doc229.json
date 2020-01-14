@@ -6,7 +6,7 @@
   "subtitle": "How web technologies make it easy to emulate Minitel",
   "track": "Retrocomputing",
   "abstract": "Using web technologies, one can easily emulate the Minitel ecosystem, not only the iconic french terminal but also its servers. This easiness has been made possible due to ES6 and websockets.",
-  "description": "<ul>\n<li>Brief history of the Minitel</li>\n<li>Minitel + VideoTex + X25 vs Browser + HTML + TCP/IP</li>\n<li>Technical aspects of Minitel emulation (ES6 + websockets)</li>\n<li>Creation of a VideoTex page (live demo)</li>\n<li>Surfing on Minitel (live demo)</li>\n</ul>",
+  "description": "\nBrief history of the Minitel\nMinitel + VideoTex + X25 vs Browser + HTML + TCP/IP\nTechnical aspects of Minitel emulation (ES6 + websockets)\nCreation of a VideoTex page (live demo)\nSurfing on Minitel (live demo)\n",
   "persons": [
     "Fr\u00e9d\u00e9ric Bisson"
   ]

@@ -5,7 +5,7 @@
   "title": "VSCode Extension for OpenShift Developers",
   "subtitle": "",
   "track": "Free Tools and Editors",
-  "abstract": "IDE based extension to run the instance of OpenShift on the local machine.\n\nEasy to use all OpenShift related command in VSCode to create, building, and deploying an application on OpenShift.\n\nKey points:\n\n<ol>\n<li>OpenShift VSCode IDE base extension and it's Dependency.</li>\n<li>Ease installation of extension from VSCode Market Place.</li>\n<li>How to create Project, application, component, Services, Storage and more in OpenShift VSCode extension (Demo)</li>\n</ol>\n\n\nLink: https://github.com/redhat-developer/vscode-openshift-tools",
+  "abstract": "IDE based extension to run the instance of OpenShift on the local machine.\n\nEasy to use all OpenShift related command in VSCode to create, building, and deploying an application on OpenShift.\n\nKey points:\n\n\nOpenShift VSCode IDE base extension and it's Dependency.\nEase installation of extension from VSCode Market Place.\nHow to create Project, application, component, Services, Storage and more in OpenShift VSCode extension (Demo)\n\n\n\nLink: https://github.com/redhat-developer/vscode-openshift-tools",
   "description": "",
   "persons": [
     "Sudhir Verma"

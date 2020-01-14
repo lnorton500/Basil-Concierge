@@ -5,8 +5,8 @@
   "title": "X11 and Wayland: A tale of two implementations",
   "subtitle": "Implementing the hikari window manager/compositor",
   "track": "BSD",
-  "abstract": "In this talk I will outline my journey implementing my X11 window manager\n<code>hikari</code> and the corresponding Wayland compositor shortly after. <code>hikari</code> is a\nstacking window manager/compositor with some tiling capabilities. It is still\nmore or less work in progress and currently targets FreeBSD only but will be\nported to Linux and other operating systems supporting Wayland once it has\nreached some degree of stability and feature completeness.",
-  "description": "This talk covers:\n\n<ul>\n<li>a brief explanation regarding differences between X and Wayland</li>\n<li>some of <code>hikari</code>'s design goals and motivation</li>\n<li>choice of programming language</li>\n<li>an overview of libraries that were used</li>\n<li>tools for ensuring code quality and robustness</li>\n<li>obstacles</li>\n<li>resources that helped me to implement the whole thing</li>\n</ul>",
+  "abstract": "In this talk I will outline my journey implementing my X11 window manager\nhikari and the corresponding Wayland compositor shortly after. hikari is a\nstacking window manager/compositor with some tiling capabilities. It is still\nmore or less work in progress and currently targets FreeBSD only but will be\nported to Linux and other operating systems supporting Wayland once it has\nreached some degree of stability and feature completeness.",
+  "description": "This talk covers:\n\n\na brief explanation regarding differences between X and Wayland\nsome of hikari's design goals and motivation\nchoice of programming language\nan overview of libraries that were used\ntools for ensuring code quality and robustness\nobstacles\nresources that helped me to implement the whole thing\n",
   "persons": [
     "raichoo"
   ]

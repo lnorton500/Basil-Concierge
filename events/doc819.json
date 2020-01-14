@@ -6,7 +6,7 @@
   "subtitle": "Building composable IOT toolsets with Docker, Node-Red and OpenOCD",
   "track": "Internet of Things",
   "abstract": "We will demonstrate how to quickly develop simple tools to: check for a GPIO state, communicate with an I2C OLED screen or gdb into a running firmware.",
-  "description": "Thanks to <a href=\"https://hub.docker.com/r/multiarch/qemu-user-static/\">multiarch/qemu-user-static</a>, it is now trivially easy to build arm32 docker images from any workstation or server. These images can be shared on public repositories like any other x86 image.\n\nSingle board computers such as the Raspberrry Pis have built in Linux primitives for basic manipulations of GPIOs and ports (I2C, UART, SPI) such as <code>/sys/class/gpio</code> or <code>/dev/i2c*</code>.\n\nNode-RED allows to visually develop simple workflows that can leverage the kernel primitives but also other packages like OpenOCD.\n\nMost of the presentation will be live with just a few stops on GitHub or the Docker Hub. No slides should be necessary.",
+  "description": "Thanks to multiarch/qemu-user-static, it is now trivially easy to build arm32 docker images from any workstation or server. These images can be shared on public repositories like any other x86 image.\n\nSingle board computers such as the Raspberrry Pis have built in Linux primitives for basic manipulations of GPIOs and ports (I2C, UART, SPI) such as /sys/class/gpio or /dev/i2c*.\n\nNode-RED allows to visually develop simple workflows that can leverage the kernel primitives but also other packages like OpenOCD.\n\nMost of the presentation will be live with just a few stops on GitHub or the Docker Hub. No slides should be necessary.",
   "persons": [
     "Dimitri del Marmol (ddm)"
   ]

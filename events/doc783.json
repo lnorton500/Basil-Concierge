@@ -5,7 +5,7 @@
   "title": "Unit Testing with JUnit Jupiter - How to Use the new JUnit Jupiter Platform",
   "subtitle": "",
   "track": "Free Tools and Editors",
-  "abstract": "Starting with the new <a href=\"https://junit.org/\">JUnit Jupiter Platform</a> which is available for longer time there are much more options than with JUnit 4 or TestNG. This lecture will show the differences of JUnit Jupiter platform and how it can be used to write better unit- and or integration tests.",
+  "abstract": "Starting with the new JUnit Jupiter Platform which is available for longer time there are much more options than with JUnit 4 or TestNG. This lecture will show the differences of JUnit Jupiter platform and how it can be used to write better unit- and or integration tests.",
   "description": "It will be shown how to migrate to JUnit Jupiter platform and which things should be considered/changed based on the differences between JUnit Jupiter and JUnit 4/TestNG and which things have been changed in comparison to TestNG/JUnit 4. Furthermore things like dynamic tests will be taken a short overview and things like extensions will also taken into account.",
   "persons": [
     "Karl Heinz Marbaise"

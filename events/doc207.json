@@ -5,7 +5,7 @@
   "title": "Java & Games",
   "subtitle": "A rivalrous case-study from porting Doom 3",
   "track": "Game Development",
-  "abstract": "According to the interwebs, Java is one of the most popular programming languages in the multiverse.<br/>\nAnd yet, when it comes to games, its popularity seems to dwindle.\n\nWhy though...<br/>\nIs it really not suited for game development?<br/>\nIs the language as bad as the critics claim??<br/>\nIs GC...EVIL!?\n\nI have this side-project of porting Doom 3 from C/C++ to Java. And even though Doom 3 is a ~15 year old game, it is still a massive AAA code-base. So I believe my experiences there can adequately answer a lot of the questions that come to mind when you think of Java &amp; Games.\n\nDuring this talk, I will try to convince you that Java is a very viable game prototyping/development tool.<br/>\nEither that, or will add more fuel to the flame...",
+  "abstract": "According to the interwebs, Java is one of the most popular programming languages in the multiverse.\nAnd yet, when it comes to games, its popularity seems to dwindle.\n\nWhy though...\nIs it really not suited for game development?\nIs the language as bad as the critics claim??\nIs GC...EVIL!?\n\nI have this side-project of porting Doom 3 from C/C++ to Java. And even though Doom 3 is a ~15 year old game, it is still a massive AAA code-base. So I believe my experiences there can adequately answer a lot of the questions that come to mind when you think of Java &amp; Games.\n\nDuring this talk, I will try to convince you that Java is a very viable game prototyping/development tool.\nEither that, or will add more fuel to the flame...",
   "description": "",
   "persons": [
     "Mahmoud Abdelghany"

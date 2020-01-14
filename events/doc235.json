@@ -6,7 +6,7 @@
   "subtitle": "",
   "track": "LLVM",
   "abstract": "GCC is the default toolchain to build C/C++ packages in Fedora. Meanwhile OpenMandrivia already builds most of its package with the LLVM toolchain, the Debian archive is regularly rebuilt with with a recent verion of clang... So could we try that for Fedora?\n\nThis talk describes an on-going effort to achieve that goal while keeping the same compiler feature set as GCC.",
-  "description": "Subtopics of the talk include:\n\n<ul>\n<li>Creating a clang-based buildroot and use it to rebuild the fedora user-land (and more?)</li>\n<li>Support for missing security features such as -fstack-clash-protection or -D<em>FORTIFY</em>SOURCE=2</li>\n<li>Add missing features for the annobin tool within lld</li>\n<li>Python3 compatibity</li>\n<li>Package size</li>\n</ul>",
+  "description": "Subtopics of the talk include:\n\n\nCreating a clang-based buildroot and use it to rebuild the fedora user-land (and more?)\nSupport for missing security features such as -fstack-clash-protection or -DFORTIFYSOURCE=2\nAdd missing features for the annobin tool within lld\nPython3 compatibity\nPackage size\n",
   "persons": [
     "Serge Guelton (serge-sans-paille)"
   ]

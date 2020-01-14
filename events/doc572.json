@@ -5,7 +5,7 @@
   "title": "Async await in Nim",
   "subtitle": "A demonstration of the flexibility metaprogramming can bring to a language",
   "track": "Minimalistic, Experimental and Emerging Languages",
-  "abstract": "The most basic API for async IO that is high level uses callbacks, but working with those becomes convoluted very quickly. A great solution is <a href=\"https://en.wikipedia.org/wiki/Async/await\">async await</a>, but implementing it in a language is a complex endeavour. That is unless your language is flexible enough with strong enough metaprogramming support to make it possible to implement it without modifications to the compiler. Nim is one such language and its async await implementation is entirely implemented inside the standard library. In this talk I will describe how async await in Nim works, both at the syntax level and the event loop level.",
+  "abstract": "The most basic API for async IO that is high level uses callbacks, but working with those becomes convoluted very quickly. A great solution is async await, but implementing it in a language is a complex endeavour. That is unless your language is flexible enough with strong enough metaprogramming support to make it possible to implement it without modifications to the compiler. Nim is one such language and its async await implementation is entirely implemented inside the standard library. In this talk I will describe how async await in Nim works, both at the syntax level and the event loop level.",
   "description": "",
   "persons": [
     "Dominik Picheta"

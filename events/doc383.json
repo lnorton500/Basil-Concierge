@@ -6,7 +6,7 @@
   "subtitle": "",
   "track": "Containers",
   "abstract": "Today, the task of running containers involves a lot of technologies and levels of abstraction, and it can be difficult to understand, or just to keep up. How do CRI-O and containerd overlap ? Does Kata containers compete with Firecracker ? Is there any relationship between OCI and CRI ? How many different meanings can \"container runtime\" have ?\n\nIn this talk, we will navigate this treacherous sea of overlapping technologies and acronyms that take care of running container workloads, below Kubernetes all the way down to the Linux kernel. We will present at a high-level how these technologies, interfaces and levels of abstraction combine and overlap, and hopefully clarify which are spec vs. implementation, which are complementary, and which are alternative solutions.",
-  "description": "This talk will cover the following points:\n\n<ul>\n<li>The world used to be simple: the case of Docker</li>\n<li>Interfaces: OCI and CRI</li>\n<li>More puzzle pieces: Podman, Containerd and CRI-O</li>\n<li>Workload isolation: Kata Containers, GVisor and Firecracker</li>\n<li>Q&amp;A</li>\n</ul>",
+  "description": "This talk will cover the following points:\n\n\nThe world used to be simple: the case of Docker\nInterfaces: OCI and CRI\nMore puzzle pieces: Podman, Containerd and CRI-O\nWorkload isolation: Kata Containers, GVisor and Firecracker\nQ&amp;A\n",
   "persons": [
     "Thierry Carrez"
   ]

@@ -6,7 +6,7 @@
   "subtitle": "",
   "track": "Erlang, Elixir and Friends",
   "abstract": "Learn how distributed tracing can revolutionize the way you troubleshoot errors and performance issues, in both monolithic and distributed micro-service architectures.\n\nOpenTelemetry is an industry standard for distributed tracing, merging the tech and communities of OpenCensus and OpenTracing.",
-  "description": "<ul>\n<li>Introduce the concepts of application tracing and the state of the ecosystem (Spans, Traces, Context Propagation, OpenTracing, OpenCensus, OpenTelemetry)</li>\n<li>Explain how this is different and complementary to Erlang\u2019s built-in tracing tools</li>\n<li>Show what insights can be more easily gained from trace data as opposed to logs and metrics</li>\n<li>Give an overview of the tools and vendors available to start using this technology today</li>\n</ul>",
+  "description": "\nIntroduce the concepts of application tracing and the state of the ecosystem (Spans, Traces, Context Propagation, OpenTracing, OpenCensus, OpenTelemetry)\nExplain how this is different and complementary to Erlang\u2019s built-in tracing tools\nShow what insights can be more easily gained from trace data as opposed to logs and metrics\nGive an overview of the tools and vendors available to start using this technology today\n",
   "persons": [
     "Greg Mefford"
   ]

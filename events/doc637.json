@@ -6,7 +6,7 @@
   "subtitle": "Lessons learned from building a custom hardware platform.",
   "track": "Hardware Enablement",
   "abstract": "The lecture describes a journey (and bunch of bragging stories) of designing and implementing an extendable hardware platform utilizing OSHW and OSS.",
-  "description": "We talk about:\n\n<ul>\n<li>business requirements and how they affected the choice of hardware platform (Olimex Lime2)</li>\n<li>hardware bugs how they are related to tight deadlines</li>\n<li>what is actually needed to build a custom shield</li>\n<li>maintaining and administering the whole platform</li>\n</ul>",
+  "description": "We talk about:\n\n\nbusiness requirements and how they affected the choice of hardware platform (Olimex Lime2)\nhardware bugs how they are related to tight deadlines\nwhat is actually needed to build a custom shield\nmaintaining and administering the whole platform\n",
   "persons": [
     "Priit Laes"
   ]

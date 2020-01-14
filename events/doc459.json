@@ -5,7 +5,7 @@
   "title": "Dissecting the inline keyword in Kotlin",
   "subtitle": "A deep-dive into the internal working of the inline keyword",
   "track": "Kotlin",
-  "abstract": "Kotlin has a keyword called <code>inline</code>. While being mostly auto-suggested by the IDE, this little optimization forms the backbone for features like coroutines and APIs for sequences and collections and a lot more!",
+  "abstract": "Kotlin has a keyword called inline. While being mostly auto-suggested by the IDE, this little optimization forms the backbone for features like coroutines and APIs for sequences and collections and a lot more!",
   "description": "Java 8 introduced the concept of lambdas, while this was done at the language level, using bytecode instructions introduced in Java 7. Kotlin, tries to make this lambda functionality available for application targeting even Java 6! How does it do it? What optimizations does it do to make this compatibility happen?\n\nHow does this feature form the backbone for features like coroutines and APIs for collections and sequences.\n\nHow it doesn't stop there and introduces the concept of Inline classes, which enable Kotlin to have unsigned integers.\n\nHow all of this is done, by just adding one keyword support in Kotlin!",
   "persons": [
     "Suraj Shah"

@@ -6,7 +6,7 @@
   "subtitle": "Workflow for building strongly typed APIs",
   "track": "Go",
   "abstract": "Kubernetes is built using Golang. CustomResourceDefinitions are the primary extension points for bringing custom data into a Kubernetes cluster. This hands-on talk is about the workflow of API definitions in Golang, generation of OpenAPI schemas as part of the CRD, client and informer generation and how to use these to process data in real-time using logic implemented in Golang controllers.",
-  "description": "This hands-on talk is an introduction to the creation of CustomResource based API extensions for Kubernetes clusters. Following an example project we will\n\n<ul>\n<li>define API objects live on stage</li>\n<li>turn that into CRD definitions with OpenAPI schema</li>\n<li>install the CRD into a Kubernetes cluster</li>\n<li>generate typed Golang clients and informers</li>\n<li>build Golang based realtime logic reacting to changes to the CustomResource objects.</li>\n</ul>\n\n\nThe talk does not require any knowledge about Kubernetes, just some Golang experience for unterstanding API type definitions.",
+  "description": "This hands-on talk is an introduction to the creation of CustomResource based API extensions for Kubernetes clusters. Following an example project we will\n\n\ndefine API objects live on stage\nturn that into CRD definitions with OpenAPI schema\ninstall the CRD into a Kubernetes cluster\ngenerate typed Golang clients and informers\nbuild Golang based realtime logic reacting to changes to the CustomResource objects.\n\n\n\nThe talk does not require any knowledge about Kubernetes, just some Golang experience for unterstanding API type definitions.",
   "persons": [
     "Stefan Schimanski"
   ]

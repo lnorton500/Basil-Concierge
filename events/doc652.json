@@ -6,7 +6,7 @@
   "subtitle": "",
   "track": "Mozilla",
   "abstract": "How the Firefox team changed how we thought about shipping features and replaced a process biased towards those who had the loudest voices and the luxury of time with a process that is more inclusive and allows us to reduce risk to Firefox users when we ship.",
-  "description": "In this talk you'll learn how the Firefox team changed how we ship new features in the browser, and adopted industry best practices including gradual deployments and feature flags.\n\nWhy?\n\n<ul>\n<li>Listening to our most vocal users may bias us towards the needs of an unrepresentative group of users</li>\n<li>When you release a browser to millions of users on a heterogeneous set of platforms, you're testing in production</li>\n<li>Avoiding dot releases</li>\n</ul>\n\n\nI'll talk about what we learned and how it's shaped how we release Firefox at Mozilla.",
+  "description": "In this talk you'll learn how the Firefox team changed how we ship new features in the browser, and adopted industry best practices including gradual deployments and feature flags.\n\nWhy?\n\n\nListening to our most vocal users may bias us towards the needs of an unrepresentative group of users\nWhen you release a browser to millions of users on a heterogeneous set of platforms, you're testing in production\nAvoiding dot releases\n\n\n\nI'll talk about what we learned and how it's shaped how we release Firefox at Mozilla.",
   "persons": [
     "Emma Humphries"
   ]

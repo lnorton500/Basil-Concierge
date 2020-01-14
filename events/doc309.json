@@ -5,7 +5,7 @@
   "title": "How to fail successfully and reliably",
   "subtitle": "And look good while doing it",
   "track": "Testing and Automation",
-  "abstract": "<ul>\n<li>Introduction</li>\n<li>Activity: what's \"failure\", anyway?</li>\n<li>Impact of failure\n  Resources spent before failure is made\n  Resources spent to detect failure\n  Resources spent after failure is detected</li>\n<li>So what is \"fail fast\"?\n*The art and science of satisficing</li>\n<li>Activity: how would you design to fail in these scenarios?</li>\n<li>Documentation - the power of story-telling</li>\n<li>Summary: the successful way to fail fast</li>\n<li>Q/A</li>\n</ul>",
+  "abstract": "\nIntroduction\nActivity: what's \"failure\", anyway?\nImpact of failure\n  Resources spent before failure is made\n  Resources spent to detect failure\n  Resources spent after failure is detected\nSo what is \"fail fast\"?\n*The art and science of satisficing\nActivity: how would you design to fail in these scenarios?\nDocumentation - the power of story-telling\nSummary: the successful way to fail fast\nQ/A\n",
   "description": "",
   "persons": [
     "Saleem Siddiqui"
