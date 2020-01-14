@@ -1,9 +1,0 @@
-.sidebar {
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background: lightgray; }
-  .sidebar .chart {
-    border-bottom: 1px slategray solid; }

@@ -15,7 +15,6 @@ class Event extends Component {
             interested: false
         }
 
-
         this.toggleDisplay = this.toggleDisplay.bind(this);
         this.eventInterested = this.eventInterested.bind(this);
     }
@@ -27,18 +26,16 @@ class Event extends Component {
     }
 
     eventInterested() {
-        console.log(this.state.event._id);
-
         this.props.onInterested(this.state.event._id)
     }
 
     render() {
         var barIcon = "arrow " + this.state.showDescription ? "open" : "";
-        var eventClass = this.state.showDescription ? "event-bar open" : "event-bar"
-
+        var eventBarClass = this.state.showDescription ? "event-bar open" : "event-bar"
+        var info = this.state.showDescription ? <Info show={this.state.showDescription} id={this.state.event._id} /> : <></>;
         return (
             <div className="event" >
-                <div className={eventClass} onClick={this.toggleDisplay}>
+                <div className={eventBarClass} onClick={this.toggleDisplay}>
                     <h3>{this.state.event.title}</h3>
 
                     <Interested interested={this.state.interested} interestedEvent={this.eventInterested} />
@@ -47,7 +44,7 @@ class Event extends Component {
                         <i className="fas fa-chevron-down"></i>
                     </div>
                 </div>
-                <Info show={this.state.showDescription} id={this.state.event._id} />
+                {info}
             </div >
         );
     }

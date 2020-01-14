@@ -9,7 +9,7 @@ class CalenderButton extends Component {
                 <div className="icon">
                     <i className="far fa-calendar-alt"></i>
                 </div>
-                Download Calender Events
+                Save Events
             </div>
         );
     }

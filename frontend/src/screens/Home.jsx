@@ -10,11 +10,11 @@ class Home extends Component {
         super(props);
         this.state = {
             error: null,
-            interested: [],
             isLoaded: false,
-            events: [],
             limit: 20,
-            start: 0
+            start: 0,
+            interested: [],
+            events: [],
         }
 
         this.loadContent = this.loadContent.bind(this);
@@ -62,19 +62,19 @@ class Home extends Component {
     }
 
     downloadCalender() {
+        this.setState({ interested: [] })
+
         var ids = this.state.interested.join(",")
         window.open("https://watsonibm.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
-        this.setState({ interested: [] })
     }
 
     render() {
         const { error, isLoaded, events } = this.state;
 
-
         if (error)
-            return <div>Error: {error.message}</div>;
+            return <div className="screen">Error: {error.message}</div>;
         else if (!isLoaded)
-            return <div>Loading</div>;
+            return <div className="screen">Loading</div>;
         else {
             return (
                 <div className="screen">
