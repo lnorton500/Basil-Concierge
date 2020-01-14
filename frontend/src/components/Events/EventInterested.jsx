@@ -16,6 +16,8 @@ class EventInterested extends Component {
         this.setState(prevState => {
             return { interested: !prevState.interested };
         });
+
+        this.props.interestedEvent()
     }
 
     render() {

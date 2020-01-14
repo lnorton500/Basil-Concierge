@@ -49,3 +49,20 @@
     width: 18%;
     height: 100vh;
 }
+
+.calender-button {
+    $background: rgb(126, 196, 219);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    padding: 10px;
+    border-radius: 5px;
+    background: $background;
+    border: 3px solid darken($background, 20%);
+
+    .icon {
+        display: inline;
+        padding-right: 5px;
+    }
+}

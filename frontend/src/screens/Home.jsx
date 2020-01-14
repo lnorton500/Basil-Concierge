@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import { Waypoint } from 'react-waypoint';
 import axios from "axios";
 
-import Event from '../components/Event';
+import Event from '../components/Events/Event';
+import CalenderButton from '../components/CalenderButton';
 
 class Home extends Component {
     constructor(props) {
         super(props);
         this.state = {
             error: null,
+            interested: [],
             isLoaded: false,
             events: [],
             limit: 20,
@@ -16,7 +18,8 @@ class Home extends Component {
         }
 
         this.loadContent = this.loadContent.bind(this);
-        this.loadContent = this.loadContent.bind(this);
+        this.eventInterested = this.eventInterested.bind(this);
+        this.downloadCalender = this.downloadCalender.bind(this);
     }
 
     componentDidMount() {
@@ -47,10 +50,26 @@ class Home extends Component {
             });
     }
 
+    eventInterested(eventID) {
+        this.setState({
+            interested: [...this.state.interested, eventID]
+        })
+
+    }
+
+    componentDidUpdate() {
+        console.log(this.state.interested)
+    }
+
+    downloadCalender() {
+        var ids = this.state.interested.join(",")
+        window.open("https://watsonibm.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
+        this.setState({ interested: [] })
+    }
+
     render() {
         const { error, isLoaded, events } = this.state;
 
-        console.log(events)
 
         if (error)
             return <div>Error: {error.message}</div>;
@@ -61,15 +80,17 @@ class Home extends Component {
                 <div className="screen">
                     <div className="heading"><h1>Home</h1> </div>
                     <div className="content">
+                        {/* <a href="webcal://watsonibm.eu-gb.mybluemix.net/api/cal/" download target="_blank">DOWNLOAD FILE</a> */}
                         <div className="events">
                             {events.map((event, _i) => (
-                                <Event key={_i} event={event} />
+                                <Event key={_i} event={event} onInterested={this.eventInterested} />
                             ))}
                             <Waypoint
                                 onEnter={this.loadContent}
                                 topOffset="50px" />
                         </div>
                     </div>
+                    <CalenderButton show={this.state.interested.length > 0} download={this.downloadCalender} />
                 </div>
             );
         }

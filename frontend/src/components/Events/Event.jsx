@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Info from './Events/EventInfo';
-import Interested from './Events/EventInterested';
+import Info from './EventInfo';
+import Interested from './EventInterested';
 
-import "../styles/css/event.css"
+import "../../styles/css/event.css"
 
 class Event extends Component {
     constructor(props) {
@@ -17,12 +17,19 @@ class Event extends Component {
 
 
         this.toggleDisplay = this.toggleDisplay.bind(this);
+        this.eventInterested = this.eventInterested.bind(this);
     }
 
     toggleDisplay() {
         this.setState(prevState => {
             return { showDescription: !prevState.showDescription };
         });
+    }
+
+    eventInterested() {
+        console.log(this.state.event._id);
+
+        this.props.onInterested(this.state.event._id)
     }
 
     render() {
@@ -34,7 +41,7 @@ class Event extends Component {
                 <div className={eventClass} onClick={this.toggleDisplay}>
                     <h3>{this.state.event.title}</h3>
 
-                    <Interested interested={this.state.interested} />
+                    <Interested interested={this.state.interested} interestedEvent={this.eventInterested} />
 
                     <div className={barIcon}>
                         <i className="fas fa-chevron-down"></i>
