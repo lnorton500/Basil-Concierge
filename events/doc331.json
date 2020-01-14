@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "coverity and oss-fuzz issue solving",
+  "subtitle": "common patterns for solving reported issues",
+  "track": "Open Document Editors",
+  "abstract": "",
+  "description": "",
+  "persons": [
+    "Caol\u00e1n McNamara"
+  ]
+}

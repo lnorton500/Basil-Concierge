@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Discover Static Code Analysis in Python with Coala Framework",
+  "subtitle": "",
+  "track": "Python",
+  "abstract": "We, as developer, aim to provide code that, almost matches our team code style, looks better and behaves right. Static code analysis (SCA) tools are one of the way to achieves that. But, with multi-programming languages projects and all kinds of code related needs, It's difficult to address all thoses usecases without dealing with a vast majority of SCA tools.\n\nCoala is a \u2014 language agnostic \u2014 static code analysis framework that provides a common command-line interface for linting and fixing all your code.\n\nIt is written in Python and supports way over 50 languages in addition to language independent routines. So, instead of building new analysis tools from scratch you can now build your own custom logic and let let coala deal with the rest.\n\nThis talk introduces the audience to the Coala Framework and guides them through how the can use it to build routines to do almost anything you want with your code.",
+  "description": "AUDIENCE\n\nPython Developers\n\nLEVEL\n\nBeginner / Intermediate / Advanced\n\nNotes\n\nThis talk is for python developers with any level of experience.\n\nAt the en of the talk, the attendees will learn :\n\n\nSome Basics concepts of static code analysis\nThe purpose and usage of Coala Framework\nHow to create custom routines either lint, or fix their code\n\n\n\nAbstract\n\nWe, as developer, aim to provide code that, almost matches our team code style, looks better and behaves right. Static code analysis (SCA) tools are one of the way to achieves that. But, with multi-programming languages projects and all kinds of code related needs, It's difficult to address all thoses usecases without dealing with a vast majority of SCA tools.\n\nCoala is a \u2014 language agnostic \u2014 static code analysis framework that provides a common command-line interface for linting and fixing all your code.\n\nIt is written in Python and supports way over 50 languages in addition to language independent routines. So, instead of building new analysis tools from scratch you can now build your own custom logic and let let coala deal with the rest.\n\nThis talk introduces the audience to the Coala Framework and guides them through how the can use it to build routines to do almost anything you want with your code.\n\nAgenda\n\n\nStatic Code Analysis : Quick overview\nIntroduction to Coala and Coala-bears\nCoala-bears : How to build your own coala routines\nGoing Further : What's next ?\nQ &amp; A\n",
+  "persons": [
+    "Lionel Lonkap Tsamba"
+  ]
+}

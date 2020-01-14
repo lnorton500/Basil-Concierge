@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 30,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Knocking Down the Nest",
+  "subtitle": "secushareBOX - p2p & encrypted IoT and beyond...",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "More and more people are inviting corporate-controlled networked devices into their homes. Can we make truly \"smart devices\" which we control, and communicate directly with, instead of through the cloud? We're building a privacy-preserving and peer-to-peer IoT platform: secushareBOX",
+  "description": "Lightbulbs, thermostats, video cameras, maybe even toasters; People are putting all kinds of networked devices in their homes these days. The majority of these devices can only be controlled through proprietary and centralized cloud based services, with the data and metadata being ingested by surveillance machine.\n\nLet's build a better \"Internet of Things\".\n\nsecushareBOX is a peer-to-peer and privacy-preserving project for remote system management, including embedded devices. Conceived as an alternative to the centralized pattern so common to IoT platforms; With secushareBOX you communicate directly with your devices, and manage access control with your peers and other systems as modeled in a social graph. Using GNUnet as our underlying p2p framework, we inherit an active network of nodes with which we are able to route our traffic in a manner which preserves our metadata, and utilizes end-to-end encryption for all connections.\n\nThis talk will introduce the ideals, and concepts of the project. Followed with a demo of the current state, and discussion of our future plans.",
+  "persons": [
+    "Devan Carpenter"
+  ]
+}

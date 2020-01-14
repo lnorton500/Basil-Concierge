@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "Incrementality and deck functions",
+  "subtitle": "Simple protocols and efficient constructions in symmetric cryptography",
+  "track": "Security",
+  "abstract": "Protocols in symmetric cryptography are often built from block ciphers, with a fixed input and output size, while variable sizes are handled through their modes of use. Incrementality, namely, the ability to efficiently compute the output for increasing inputs, or to request longer outputs, is often a property of the implementation rather than an explicit feature of a mode.\n\nA doubly-extendable cryptographic keyed (or deck) function is a new kind of object that makes incrementality an integral part of its definition. Writing modes for various applications, such as authenticated encryption of a network channel or disk encryption with a wide block cipher, on top of a deck function turns out to be a simple exercise and leads to less error-prone implementations than on top of a block cipher. We illustrate this with the session-supporting authenticated encryption modes SANE and SANSE. (Sessions naturally protect a continuous flow of messages or a client-server dialog.)\n\nWhile a deck function can be constructed from existing primitives, like a block cipher, we show two more natural ways of making a deck function in practice.\n\n\nThe first one is based on the well-known permutation-based duplex construction, of which a nice instantiation is the Strobe protocol framework. Strobe was showcased in Noise+Strobe=Disco as an advantageous replacement to all kinds of primitives in the Noise protocol framework, resulting in much simpler specifications and a lighter implementation. Xoodyak, our candidate to the NIST Lightweight Cryptography competition, is another example.\nThe second one is based on the recent Farfalle construction, which relies on the parallel application of a permutation. Farfalle's inherent parallelism yields deck functions that are at the same time simple and efficient on a wide range of platforms. In particular, we point out the nice performance of Kravatte and Xoofff, two deck functions based on the Keccak-p and the Xoodoo permutation, respectively. It is worth noting that Kravatte and Xoofff are much faster than AES-128 in software, and at least competitive with and often faster than AES-128 using dedicated AES instructions on the more recent Intel and AMD processors!\n",
+  "description": "",
+  "persons": [
+    "Gilles Van Assche"
+  ]
+}

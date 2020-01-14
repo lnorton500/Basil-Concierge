@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 45,
+  "room": "H.1308 (Rolin)",
+  "title": "A 'Thin Arbiter' for glusterfs replication",
+  "subtitle": "",
+  "track": "Software Defined Storage",
+  "abstract": "Maintaining consistency in replication is a challenging problem involving locking of nodes, quorum checks and reconciliation of state, all of which impact performance of the I/O path if not done right. In a distributed system, a minimum of 3 nodes storing metadata is an imperative to achieve consensus and prevent the dreaded split-brain state. Gluster has had solutions like the trusted 3-way replication or the ' 2 replica + 1 arbiter' configuration to achieve this.\n\nThe latest in the series is a 'Thin Arbiter (TA)' which is more minimalist the existing '1 arbiter', targeted at container platforms and cloud deployments. A TA node can be deployed outside a gluster cluster and can be shared with multiple gluster volumes. It requires zilch storage space and does not affect I/O path latencies in the happy case. This talk describes the design, working and deployment of TA and the potential gotchas one needs to be aware of while choosing this solution.\n\nThe intended audience is sysadmins/dev-ops personnel who might want to try out the thin-arbiter volume and troubleshoot any operational issues that may arise.",
+  "description": "The Thin Arbiter (TA) is different from normal arbitration logic in the sense that  even if only one file is bad in one of the copies of the replica, it marks that entire replica unavailable (despite it having other files in it that  are healthy), until it is healed and syncs up to the other good copy.  While this might seem like a very bad idea for a highly available system,  it works very well to prevent split-brains due to intermittent network disconnects rather than a whole node going off-line indefinitely. In talking about this feature, my talk will cover:\n\n\nIntroduction to how synchronous replication in gluster works.\nThe role of quorum in preventing split-brains.\nBriefly describe the working of replica 3 and arbiter volumes.\nThe basic idea behind thin-arbiter based replication.\nExplain the state machine behind the thin-arbiter transaction model.\nDescribe how it can be installed and used.\n",
+  "persons": [
+    "Ravishankar N."
+  ]
+}

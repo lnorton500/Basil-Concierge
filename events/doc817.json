@@ -1,0 +1,11 @@
+{
+  "start": 1577869200000,
+  "duration": 10,
+  "room": "UD2.218A",
+  "title": "How many engineers does it take to change an IOT light bulb?",
+  "subtitle": "Welcome to the IOT devroom 2020",
+  "track": "Internet of Things",
+  "abstract": "Welcome to the IOT devroom",
+  "description": "How many engineers does it take to change an IOT light bulb?\n\nLet's discuss the Philips Hue architecture.\n\n\"Our new cloud \"maintains a permanent, open socket connection into every Hue home, 24x7, everywhere in the world to obtain real-time performance\"\n\"- Holy fcking what?\"",
+  "persons": []
+}

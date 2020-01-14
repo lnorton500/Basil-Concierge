@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 55,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Infrastructure testing, it's a real thing!",
+  "subtitle": "",
+  "track": "Infra Management Devroom",
+  "abstract": "Software developers have been testing their code for years. Why is it still not a common thing for infrastructure and operations people? We are in an era where it is expected everyone moves fast. Moving too fast can negatively affect our customers so it's vital that we ensure the changes we make to our infrastructure are tested like other code changes would be.\n\nIn this talk, Paul is going to demonstrate some of the methods for testing infrastructure code. The talk will demonstrate how to establish fast feedback loops that provisions infrastructure, as well as being able to check that the code adheres to company policies, and has not drifted from the plan of record as specified in our infrastructure as code repository.",
+  "description": "Software developers have been testing their code for years. Why is it still not a common thing for infrastructure and operations people? We are in an era where it is expected everyone moves fast. Moving too fast can negatively affect our customers so it's vital that we ensure the changes we make to our infrastructure are tested like other code changes would be.\n\nIn this talk, Paul is going to demonstrate some of the methods for testing infrastructure code. The talk will demonstrate how to establish fast feedback loops that provisions infrastructure, as well as being able to check that the code adheres to company policies, and has not drifted from the plan of record as specified in our infrastructure as code repository.",
+  "persons": [
+    "Paul Stack"
+  ]
+}

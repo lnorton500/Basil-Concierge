@@ -1,0 +1,13 @@
+{
+  "start": 1577901600000,
+  "duration": 25,
+  "room": "UD2.218A",
+  "title": "lognplot - logging and plotting data from micro's",
+  "subtitle": "Tracing data on a modern laptop",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "Embedded systems are hard to debug. Complex systems have a lot of variables.\nWhen debugging those systems, we often log data into some files, and visualize\nthem later on, using excel, matplotlib or something else.\n\nThis talk is about tracing and logging. What are the options we have as embedded\nsoftware developers? I will present the lognplot tool, a project to plot incoming data\non the fly.",
+  "description": "Embedded systems are hard to debug. Complex systems have a lot of variables.\nWhen debugging those systems, we often log data into some files, and visualize\nthem later on, using excel, matplotlib or something else.\n\nThis talk is about tracing and logging. What are the options we have as embedded\nsoftware developers? I will present the lognplot tool, a project to plot incoming data\non the fly. There are two implementations, one in python, and one in rust\nwith gtk-rs. The data is stored internally in a zoomable format, allowing\nlarge sets of data to be browsed easily.\n\nDuring the talk you will learn how to draw a chart, and how to aggregate\nlarge sets of data into summaries.\n\nI will demo a STM32 serial wire viewer output connected to this tool\nto enable live tracing of an embedded system.",
+  "persons": [
+    "Windel Bouwman"
+  ]
+}

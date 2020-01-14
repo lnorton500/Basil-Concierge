@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 60,
+  "room": "H.3242",
+  "title": "Apache Camel BoF",
+  "subtitle": "Meeting of the Apache Camel community",
+  "track": "BOFs (Track B - in H.3242)",
+  "abstract": "Apache Camel is a free software integration framework from the Apache Software Foundation. This meetup is for anyone wishing to meet and discuss Apache Camel development, share experiences and meet in meat space other folk in the Apache Camel community.",
+  "description": "Apache Camel has been around and its used quite widely for in all sorts of software integration projects. Camel version 3 was recently released and the community has kicked of several sub-projects: Camel K - a serverless, cloud native integration on top of Kubernetes, Camel Quarkus - low memory, fast startup support utilizing Quarkus, and Camel Kafka Connector - for running Camel inside of Kafka. Let's meet and discuss these initiatives or just talk and exchange ideas around Camel. Anyone wishing to share can present on any topic relating to Apache Camel is welcome to do so, though please be mindful of the time - we have one hour in this session and would like that everyone would have the chance to participate.",
+  "persons": [
+    "Zoran Regvart"
+  ]
+}

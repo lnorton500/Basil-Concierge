@@ -1,0 +1,14 @@
+{
+  "start": 1577893800000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Grafana-As-Code: Fully reproducible Grafana dashboards with Grafonnet",
+  "subtitle": "",
+  "track": "Monitoring and Observability",
+  "abstract": "Grafana configuration can nowadays be fully done as code, which enables code review, code reuse, and in general better workflows when working with dashboards.\n\nThis talk will present Grafonnet, a Jsonnet library to generate Grafana dashboards and some tips and tricks about how to use it efficiently and how to manage fully your grafana instances from code. We will also explore how Jsonnet and Grafonnet enable collaboration on dashboards, using Mixins and explain how to push dashboards to Grafana, either using Kubernetes, or direct to the Grafana API.",
+  "description": "\nPresentation of Grafana provisioning as code features\nPresentation of Grafonnet\nHow to make reusable components with jsonnet\nHow to include raw json\nHow to link both (jsonnet -m to generate a folder)\nHow to make PR efficient (generate grafana snapshots on merge requests)\nJsonnet Mixins\n",
+  "persons": [
+    "Julien Pivotto",
+    "Malcolm Holmes"
+  ]
+}

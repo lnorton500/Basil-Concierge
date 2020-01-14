@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Introducing HTTPX",
+  "subtitle": "",
+  "track": "Python",
+  "abstract": "HTTPX is a next generation HTTP client, that supports HTTP/2 and HTTP/1.1.\n\nIt can be used in high-performance async web frameworks, using either asyncio or trio, and is able to support making large numbers of requests concurrently.\n\nThis talk will introduce HTTPX, demonstrate some of its features, and talk through the motivation and aims for the project.",
+  "description": "The talk will cover:\n\n\nWhy HTTPX exists &amp; what new functionality HTTPX brings to the table.\nHow and where HTTPX differs from the existing Requests package.\nExamples of making parallel HTTP requests.\nExamples of making HTTP/2 requests.\nExamples of making requests directly to a web application, rather than over the network.\nUsing Asyncio vs using Trio.\nA quick architecture overview.\n",
+  "persons": [
+    "Tom Christie"
+  ]
+}

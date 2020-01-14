@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 50,
+  "room": "Janson",
+  "title": "Blender, Coming of Age",
+  "subtitle": "18 years of Blender open source projects",
+  "track": "History",
+  "abstract": "The presentation is going to be audiovisual and entertaining; based on a number of short videos I want to tell the story of Blender. Starting in late 90s, how Blender became open source, going over the big milestones for Blender, end ending with the fast growth of our project and the interest of the film and game industry. Blender now is a more mature project now, which involves a different dynamics than it used to be. How are we going to tackle the challenges of the industry, while not losing the community that brought us this far?",
+  "description": "",
+  "persons": [
+    "Ton Roosendaal"
+  ]
+}

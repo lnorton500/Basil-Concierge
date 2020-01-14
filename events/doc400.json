@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 25,
+  "room": "UD2.218A",
+  "title": "How to integrate secure elements",
+  "subtitle": "A visually annotated summary of Opensource compatible secure elements with instructions to integrate",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "In this half hour we study aspects of physically and cryptographically secure hardware (often termed secure element or SE) and the integration into existing circuits. We illustrate utility of such integration by inspecting a cryptocurrency wallet design, and explain the difficulty presented by nondisclosure agreements (NDA) common to industry closed adversaries. We examine several hardware devices, study their parts under a close range circuit camera, and suggest instructions on their use.",
+  "description": "Building secure applications involves research of new technology while leveraging well known practices, for example when using ECDSA to secure systems with low power devices.\n\nIn this half hour lecture, we study an in depth example of using cryptoaccelerated hardware to research such secure applications.\n\nWe review common cryptography practices.\n\n\nApplied security paradigms\nAsymetric public key exchange\nEncryption and signing algorithms\nChallenges of low power computing\nNoncomputational security features\n...for example mechanical UI constructs\n\n\n\nWe proposes new hardware supported techniques.\n\n\nOpen FPGA platforms\nNDA unencumbered SE\nCircumventing black boxes\nBenchmark measurements\nHardened serial interfaces\n\n\n\nWe end by viewing a number of real device hardware circuits under a close range microscope, and possibly offer a device petting zoo to encourage exploration of hardware.",
+  "persons": [
+    "Michael Schloh von Bennewitz"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Will somebody *please* tell me what's going on?",
+  "subtitle": "Managing change in Python projects",
+  "track": "Python",
+  "abstract": "How does one manage and document change in Python projects, be that new features or deprecation or removal of a feature? Let's explore some of the tools a Python developer can keep in their toolbox for just this purpose.",
+  "description": "Software rarely stands still (unless it's TeX). Things are added, things are removed, things break and are then hopefully fixed. Managing this, from both the developer and user perspective, can be tough. In this talk we examine and compare some of the tools that one can use to make this process easier, such as 'debtcollector', 'reno' and 'towncrier', and contrast these with alternatives used in other projects. This talk would mainly be of interest to developers of open source libraries, though the same tooling can be used for any Python library or application that wishes to maintain stable interfaces and/or document changes in their product.",
+  "persons": [
+    "Stephen Finucane"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 30,
+  "room": "K.4.201",
+  "title": "Modern strace",
+  "subtitle": "",
+  "track": "Debugging Tools",
+  "abstract": "strace is a diagnostic, debugging and instructional utility for Linux. It is used to monitor and tamper with interactions between processes and the Linux kernel, which include system calls, signal deliveries, and changes of process state. In this talk the maintainer of strace will describe new features implemented since FOSDEM 2018.",
+  "description": "Several interesting features were implemented within strace project since FOSDEM 2018, including:\n\n\nseccomp-assisted system call filtering\nsystem call return status filtering\nPTRACE_GET_SYSCALL_INFO API support\nnew options: -DD, -DDD, -X, -z, -Z\n\n\n\nIn this talk the maintainer of strace will describe these new features and demonstrate what kinds of problems they help to solve.",
+  "persons": [
+    "Dmitry Levin"
+  ]
+}

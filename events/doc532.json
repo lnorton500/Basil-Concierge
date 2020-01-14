@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 30,
+  "room": "AW1.120",
+  "title": "gr-satellites latests developments",
+  "subtitle": "",
+  "track": "Free Software Radio",
+  "abstract": "gr-satellites is a GNU Radio out-of-tree module with the goal of decoding every Amateur satellite. Currently it supports more than 80 different satellites. After GNU Radio 3.8 was released last summer, gr-satellites is seeing a lot of development and important changes. A refactored version, which will be released as gr-satellites 3.0 is on the works. This version brings more modularity to avoid code duplication, more flexibility in the input and output that the user can employ, and the idea to improve its integrability with other tools. Satellites are defined using a YAML file and the GNU Radio flowgraph is constructed on the fly by a Python script by connecting so called \"component\" blocks. Advanced users can also use the components directly in their own flowgraphs. This talk gives an overview of the gr-satellites 3.0 development progress.",
+  "description": "",
+  "persons": [
+    "Daniel Est\u00e9vez"
+  ]
+}

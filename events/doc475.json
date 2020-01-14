@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "How to create Javascript-powered Smartglasses",
+  "subtitle": "(no soldering knowledge required)",
+  "track": "JavaScript",
+  "abstract": "After having worked at an AR-focused company with the Vuzix, a Google Glass-like product, Ruben had a lot of fun with the hardware and really wanted to have one at home to play around with. Unfortunately, they are too expensive to get one just for hobby purposes.\n\nThis session will cover what was required to build his own wearable, the pitfalls, the compromises, and the sheer joy of saying \"Screw it, I'll build it myself!\".",
+  "description": "With the use of a Raspberry Pi, Vufine and a lot of Javascript, I've managed to cobble a hobby project together where I essentially have my own Javascript-powered smartglasses. The main reason why I built it is because I want to prototype ideas on what you could with the platform, but I think it's an interesting example to showcase how you can use Javascript and all out of the box. While the focus of the talk is how the stack works and everything is connected to each other, I also want to highlight what you can get out of hobby projects.",
+  "persons": [
+    "Ruben van der Leun"
+  ]
+}

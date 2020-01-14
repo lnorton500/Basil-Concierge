@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "Spunky: a Genode Kernel in Ada/SPARK",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "The Genode OS framework is an open-source tool kit for building highly\nsecure component-based operating systems scaling from embedded devices\nto dynamic desktop systems.  It runs on a variety of microkernels\nlike SeL4, NOVA, and Fiasco OC as well as on Linux and the Muen SK.\nBut the project also features its own microkernel named \"base-hw\"\nwritten in C++ like most of the Genode framework.\n\nSpunky is a pet project of mine.  Simply put it's an approach to\nre-implement the design of the \"base-hw\" kernel first in Ada and\nlater in SPARK with the ultimate goal to prove its correctness.\nIt is also an opportunity to learn how Genode can benefit from Ada\nand SPARK in general and promote the use of safety-oriented languages\nin the project.",
+  "description": "",
+  "persons": [
+    "Martin Stein"
+  ]
+}

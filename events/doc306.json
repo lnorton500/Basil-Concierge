@@ -1,0 +1,13 @@
+{
+  "start": 1577898000000,
+  "duration": 10,
+  "room": "UB2.147",
+  "title": "Testing apps with third-party API integrations",
+  "subtitle": "",
+  "track": "Testing and Automation",
+  "abstract": "As reliance on third-party services becomes more prevalent in our ecosystem, developers need cost-effective, secure and reliable ways to mock these services. In this talk, we will briefly examine strategies and best practices for testing apps that make heavy use of third-party API integrations.",
+  "description": "With such a short session, I want to focus on the bits that are the most useful for developers today. Whether you\u2019re working in a hip startup or traditional company with legacy code, you\u2019re likely going to need ways to mock services for both dev/staging environments and testing. So this will include a (very short) demo of Unmock, the fuzz testing library that I maintain, with references to other tools like Nock and PollyJS. After this session, audience members should walk away with practical ways to improve their testing practices for REST APIs and third-party integrations.",
+  "persons": [
+    "Carolyn Stransky (carostran)"
+  ]
+}

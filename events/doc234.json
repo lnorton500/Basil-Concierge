@@ -1,0 +1,13 @@
+{
+  "start": 1577877300000,
+  "duration": 40,
+  "room": "K.4.201",
+  "title": "Benchmarking LLVM using Embench",
+  "subtitle": "",
+  "track": "LLVM",
+  "abstract": "Dhrystone and Coremark have been the defacto standard microcontroller benchmark suites for the last thirty years, but these benchmarks no longer reflect the needs of modern embedded systems. Embench\u2122 was explicitly designed to meet the requirements of modern connected embedded systems. The benchmarks are free, relevant, portable, and well implemented.\n\nIn this talk we will present the results of benchmarking Clang/LLVM for various IoT class architectures using Embench. We shall look at\n- how code size and speed varies across architectures when compiling with Clang/LLVM.\n- how Clang/LLVM performance has evolved over time\n- how Clang/LLVM compares against other compilers, notably GCC\n- the effectiveness of various compilation techniques (LTO, Combined Elimination, Profile Guided Optimization)\n\nThe aim is not to show which architecture or compiler is best, but to gain insight into the detail of the compilation process, so that all compilers and architectures can learn from each other.",
+  "description": "",
+  "persons": [
+    "Jeremy Bennett"
+  ]
+}

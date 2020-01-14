@@ -1,0 +1,13 @@
+{
+  "start": 1577889600000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Encrypt your collaboration with CryptPad",
+  "subtitle": "Real demo !",
+  "track": "Lightning Talks",
+  "abstract": "We'll show a real demonstration of how you can encrypt your data and collaborate with others in real-time using the CryptPad Open Source project.\nThis demonstration will include real-time Wysiwyg, Text, Kanban, Spreadsheet, File storage and Teams features allowing to share your documents securely with your friends and co-workers.",
+  "description": "The Internet business model is about \"surveillance capitalism\" and every day our data is being used to target us with more and more invading advertisements, and every day data is being leaked by Internet business and cloud providers.\n\nCryptPad is using end-to-end encryption to protect your data, while including innovative algorithms to allow collaboration between users. With CryptPad, the cloud hoster cannot read your data and if data leaks, hackers only get encrypted data which they cannot read without the keys.\n\nStart ditching proprietary privacy invading cloud services for an free software privacy protecting alternative.\n\nCome join the 20000 weekly users of the cryptpad.fr main instance and the 300 other instances available, including the German Pirate Party and C3 Wien instances.\n\nCome join us restoring our privacy.",
+  "persons": [
+    "Ludovic Dubost"
+  ]
+}

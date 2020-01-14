@@ -1,0 +1,14 @@
+{
+  "start": 1577869200000,
+  "duration": 30,
+  "room": "UB2.252A (Lameere)",
+  "title": "The State of Go",
+  "subtitle": "What's new since Go 1.12",
+  "track": "Go",
+  "abstract": "Go 1.14 is planned to be released in February 2019 and this talk covers what's coming up with it.\n\nWe'll talk about new features and fixes in Go, new proposals for Go 2. All of the new things you might have missed.",
+  "description": "This has been a staple talk of the Go devroom, opening the stage every year, and has always been a successful one.",
+  "persons": [
+    "Francesc Campoy",
+    "Maartje Eyskens"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "State of Node.js Core",
+  "subtitle": "",
+  "track": "JavaScript",
+  "abstract": "Node.js is now over a decade old. With Node.js 12 just entering into long-term support, and Node.js 13 being released, let us take a look at the new features, breaking changes, and what is next.",
+  "description": "",
+  "persons": [
+    "Bethany Griggs"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "start": 1577871000000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Introduction to the devroom and the Open Source Design collective",
+  "subtitle": "",
+  "track": "Open Source Design",
+  "abstract": "A brief introduction to the Open Source Design collective.",
+  "description": "Every year we take some time to introduce the Open Source Design collective, what we do, where to find us and how to get involved.",
+  "persons": [
+    "Bernard Tyers",
+    "Amit Nambiar"
+  ]
+}

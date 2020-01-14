@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 60,
+  "room": "J.1.106",
+  "title": "TinyGo",
+  "subtitle": "TinyGo on microcontrollers and WebAssembly",
+  "track": "BOFs (Track A - in J.1.106)",
+  "abstract": "",
+  "description": "",
+  "persons": [
+    "Ron Evans"
+  ]
+}

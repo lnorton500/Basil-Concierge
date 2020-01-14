@@ -1,0 +1,13 @@
+{
+  "start": 1577891700000,
+  "duration": 30,
+  "room": "H.2213",
+  "title": "Open CASCADE Technology - an introduction and overview",
+  "subtitle": "",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "Open Cascade Technology is a framework for B-Rep modeling. The presentation highlights key features available in the toolkits.\nThe following topics are covered:\n- What is OCCT?\n- License\n- OCCT in numbers\n- History\n- Modeling data\n- Modeling algorithms\n- Visualization\n- Data exchange",
+  "description": "",
+  "persons": [
+    "Alexander Malyshev"
+  ]
+}

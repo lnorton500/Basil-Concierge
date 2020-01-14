@@ -1,0 +1,14 @@
+{
+  "start": 1577903400000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "Opening Intel Server firmware based on OpenBMC example",
+  "subtitle": "",
+  "track": "Open Source Firmware, BMC and Bootloader",
+  "abstract": "Have you ever heard of Board Management Controller? It has been black box firmware to manage servers since last century \u2026 now it\u2019s open. OpenBMC is a  Linux Foundation project with a goal to produce an open source implementation of BMC firmware stack. It is a vendor independent Linux distribution created using Yocto project that provides complete set of manageability features. Backbone technologies in OpenBMC include D-Bus and systemd. With embedded web server it provides user friendly WebUI and Redfish interface for easy server management using modern RESTful APIs. Intel as one of the founding  companies offers additional functionalities on top of OpenBMC implementation which will be presented as a part of this presentation.\n\nIn this talk we will:\n- tell you a short history and overview of OpenBMC\n- have a quick view on OpenBMC architecture (Yocto, Dbus, systemd)\n- show what\u2019s new in latest 2.7 releases and what is planned for 2.8 (Feb 2020)\n- talk about Intel specific features available in OpenBMC\n- tell you how to contribute to OpenBMC project\n- give you a guide on how to modify, build and run the project on target BMC on Intel server\n\nAudience: software engineers, validation engineer, embedded software architects, data center administrators",
+  "description": "",
+  "persons": [
+    "Maciej Lawniczak",
+    "Przemyslaw Czarnowski"
+  ]
+}

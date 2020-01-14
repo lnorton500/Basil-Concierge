@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 30,
+  "room": "AW1.120",
+  "title": "Block Header Parsing Tool",
+  "subtitle": "Implement a block parsing library",
+  "track": "Free Software Radio",
+  "abstract": "GNU Radio's value comes from many things, but one of them is a vast library of blocks, both in-tree and out-of-tree. Right now, it is hard to use these blocks in a different context than GNU Radio itself or interface with blocks automatically or programmatically.",
+  "description": "A python-based tool that can interact with GNU Radio block headers written in C++, to automatically parse them and extract information about them such as which getters/setters they have, their I/O signatures, factory signatures, etc. GRModtool can be extended with the parsing tool as one of its utilities. The parsed information can be further used for creating YAML files for the GRC.",
+  "persons": [
+    "Arpit Gupta"
+  ]
+}

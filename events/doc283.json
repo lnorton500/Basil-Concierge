@@ -1,0 +1,13 @@
+{
+  "start": 1577899800000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "The hairy issue of e2e encryption in instant messaging",
+  "subtitle": "",
+  "track": "Security",
+  "abstract": "End-to-end encryption is often regarded as the holy grail of security. But when you start implementing it soon becomes a security hell. Does it really protect against the threats it should protect against? And watch out for the pitfalls when implementing it: almost everybody fails there!",
+  "description": "Lets start with the conclusion of this talk: after twenty years of designing and analyzing high security instant messaging systems, I came to the conclusion that end-to-end encryption (e2ee) in instant messaging is snake-oil. It creates a false sense of security.\n\nFirst of all the threat model underneath e2ee has fundamental flaws, it doesn\u2019t deliver protection against the threats commonly named to justify it. And if that isn\u2019t enough, there a lot of issues that make a proper implementation very hard to get right. To name a few: key verification, one-to-many messages, store and forward and archiving.\n\nBut lets not end this talk all in black. Though we aren\u2019t there yet, there are some developments that may solve these issues. I will name those too.",
+  "persons": [
+    "Winfried Tilanus"
+  ]
+}

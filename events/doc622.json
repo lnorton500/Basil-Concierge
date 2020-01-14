@@ -1,0 +1,13 @@
+{
+  "start": 1577883900000,
+  "duration": 30,
+  "room": "K.4.201",
+  "title": "strace: fight for performance",
+  "subtitle": "",
+  "track": "Debugging Tools",
+  "abstract": "The talk gives an overview of various optimisations implemented in strace over the past several years. While most of them are quite trivial (like caching of frequently-used data or avoiding syscalls whenever possible), some of them are a bit more tricky (like usage of seccomp BPF programs for avoiding excessive ptrace stops) and/or target more specific use cases (like the infamous thread queueing patch[1], which was carried as a RHEL downstream patch for almost 10 years).\n\n[1] https://gitlab.com/strace/strace/commit/e0f0071b36215de8a592bf41ec007a794b550d45",
+  "description": "",
+  "persons": [
+    "Eugene Syromyatnikov"
+  ]
+}

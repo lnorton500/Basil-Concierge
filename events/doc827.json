@@ -1,0 +1,13 @@
+{
+  "start": 1577880600000,
+  "duration": 20,
+  "room": "UD2.218A",
+  "title": "IoT Updates with IPv6 Multicast",
+  "subtitle": "Updating a Billion Nodes from One Tiny Server",
+  "track": "Internet of Things",
+  "abstract": "Could we update a billion IoT nodes from just one tiny virtual server?\n\nCould a server that is behind a completely closed inbound firewall, using no caching, no CDNs and which never accepts any inbound traffic communicate at massive scale?\n\nHow can we handle flow control, with no feedback mechanism?",
+  "description": "Lets find out!",
+  "persons": [
+    "Brett Sheffield"
+  ]
+}

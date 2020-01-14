@@ -1,0 +1,13 @@
+{
+  "start": 1577888400000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Yjs: A CRDT framework for shared editing",
+  "subtitle": "Enable shared editing in every application",
+  "track": "Lightning Talks",
+  "abstract": "Shared editing is the ability to collaboratively edit the same text in real-time. The market for shared editing solutions is fragmented. Once you choose a solution you will be locked into using a specific editor and a specific backend. Yjs is a data synchronization framework that aims to enable shared editing in all open-source editors using any networking stack.",
+  "description": "Yjs is a data synchronization framework that is specifically designed for creating shared editing applications like Google Docs. The number of editors, that Yjs supports, is steadily growing. At this time we implemented shared-editing support for six of the most prominent open-source rich-text editors - including Quill, ProseMirror, and CodeMirror. We are currently working on integrating Yjs in Gutenberg, the new WordPress editor.\n\nSince Yjs is network agnostic and does not require a central authority to resolve sync conflicts, it is possible to use any networking stack to share document updates of the collaborative document. We created an ecosystem of modules that handle data synchronization over, for example, WebRTC, Dat Protocol, IPFS, and traditional client-server connections via WebSockets.\n\nIn this lightning talk, we want to show the huge potential of Yjs that hopefully will make it the go-to solution for creating shared editing applications on the web.",
+  "persons": [
+    "Kevin Jahns"
+  ]
+}

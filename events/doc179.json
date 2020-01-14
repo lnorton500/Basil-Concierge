@@ -1,0 +1,13 @@
+{
+  "start": 1577901600000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "On Rapid Application Development in Ada",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "In the Ada world we typically write mission critical software that\njust has to work, but in a way one could argue that a lot more software\nis mission critical than is usually admitted.\n\nWhat does it take to actually perform rapid application development\nin any language?  Can we do it in Ada and why would we do so?",
+  "description": "A quick look into some language features that can be [ab]used for\nenabling quick development of 'just a prototype' - which, as practice\nshows is often deployed into production, usually without proper\nquality controls and predictable outcome.",
+  "persons": [
+    "Tomasz Maluszycki"
+  ]
+}

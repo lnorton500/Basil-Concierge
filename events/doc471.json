@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Pushing the limits of the Web with WebAssembly",
+  "subtitle": "",
+  "track": "JavaScript",
+  "abstract": "The Web is omnipresent nowadays and meets most of the needs of our applications.\n\nFor almost 10 years, leading browsers have been working hard to push the boundaries and performance of our connected apps.\n\nThis is also the main reason why WebAssembly, the new binary standard initially implemented by Safari, Chrome, Firefox and Edge, appeared. It allows the execution, in the browser, of your favourite programming languages \u200b\u200bat almost native speed.",
+  "description": "During this session, we browse the current means implemented by browsers to optimise the execution of JavaScript code. We will outline the limitations of current solutions, the benefits provided by the WebAssembly and review its performance.\n\nEnjoy the future of the Web, now!",
+  "persons": [
+    "Jon Lopez Garcia"
+  ]
+}

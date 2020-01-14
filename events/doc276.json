@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "How Transparent Data Encryption is built in MySQL and Percona Server ?",
+  "subtitle": "",
+  "track": "Security",
+  "abstract": "How Transparent Data Encryption is built in MySQL and Percona Server ?\n- keyrings \u2013 what are they used for ? What is the difference between using a server back-end (keyringvault) versus file back-end (keyringfile). How it affects server startup and why? Why per server separation is needed in Vault Server?\n- How Master Key encryption works ? How it is build on page level ? How do we know which key we should fetch to decrypt a table ? How do we know that used key is the correct one ? How do we make sure that we can decrypt a table when we need it ?\n- What crypto algorithms are used ?\n- How Master Key rotation works ? Why is it needed ?\n- What is KEYRING encryption and what are encryption threads?\n- How binlog encryption works in 5.7 and how it works in 8.0 ?\n- How undo log/redo log encryption works ?",
+  "description": "How Transparent Data Encryption is Built in MySQL and Percona Server ?\n\nIn this presentation, we'll take a deep dive into the world of transparent data encryption for open source databases. We'll be looking at how transparent data encryption is implemented in MySQL and Percona Server for MySQL:\n- keyrings \u2013 what are they used for ? What is the difference between using a server back-end (keyringvault) versus file back-end (keyringfile). How it affects server startup and why? Why per server separation is needed in Vault Server?\n- How Master Key encryption works ? How it is build on page level ? How do we know which key we should fetch to decrypt a table ? How do we know that used key is the correct one ? How do we make sure that we can decrypt a table when we need it ?\n- How Master Key rotation works ? Why is it needed ?\nBy the end of the talk, you'll have a better understanding of the transparent data encryption and will be aware of things to take into account when interacting with encrypted databases in your applications.",
+  "persons": [
+    "Robert Golebiowski"
+  ]
+}

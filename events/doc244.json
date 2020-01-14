@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "Zink Update",
+  "subtitle": "OpenGL on Vulkan upstream in mesa",
+  "track": "Graphics",
+  "abstract": "A short update on the state of Zink, and OpenGL implementation on top of vulkan, now that it's upstream in Mesa.",
+  "description": "",
+  "persons": [
+    "Erik Faye-Lund"
+  ]
+}

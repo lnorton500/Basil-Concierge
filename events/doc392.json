@@ -1,0 +1,13 @@
+{
+  "start": 1577902200000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Extending and embedding: containerd project use cases",
+  "subtitle": "A 2020 containerd project update and description of uses",
+  "track": "Containers",
+  "abstract": "Over the past year, projects looking to extend and embed core container runtime functionality have looked to containerd and its clean API and extension points as a valuable resource. In this talk we'll look at the projects which have extended or embedded containerd for specific use cases and how containerd has enabled these uses via its design. We will also do a brief project update for the broader container ecosystem and community.",
+  "description": "As containerd reaches its fourth birthday, it has already been adopted as a container runtime underneath Kubernetes in public cloud providers and various developer tools and platforms. In this talk we'll look deeper at the architecture choices and clean API layer which has enabled further use of containerd as an embedded and extensible runtime in additional projects, like Amazon's Firecracker integration, Kata's use of the v2 shim API, and Microsoft Azure's creation of the Teleport registry feature. We'll also look at in-flight work with CERN, Google, and others around remote \"pre-seeded\" snapshotters which allow for significant speedups in container startup time with special-case clusters like CERN's compute cloud.",
+  "persons": [
+    "Phil Estes"
+  ]
+}

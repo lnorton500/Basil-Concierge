@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "Farwest Demo",
+  "subtitle": "A website/API for a document oriented database in 20 minutes",
+  "track": "Erlang, Elixir and Friends",
+  "abstract": "Farwest is an Erlang framework for building RESTful Web applications and APIs.\n\nWell written Farwest applications apply the HATEOAS principles and as a result can be interacted with using a single client. This removes entirely the need to write a separate client per API and lets servers decide how the data is best consumed by everyone.\n\nThis demo will show how to use Farwest to write a simple API to a document oriented database.",
+  "description": "",
+  "persons": [
+    "Lo\u00efc Hoguin"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "Automate your workflows with Kotlin",
+  "subtitle": "Forget everything about bash and perl!",
+  "track": "Kotlin",
+  "abstract": "From git housekeeping to releasing. From keeping a sane backlog to\nhandling internationalization and monitoring status, the life of a\ndeveloper involves more than meets the eye.\n\nThis talk will be a feedback about how we use Kotlin extensively to:\n\n\nautomate the dev workflows with command-line apps on dev\nmachines.\nachieve CI independence with kotlin runners on CI machines.\nrun Kotlin on the server using the gradle appengine plugin.\nditch bash and perl and use kscript instead.\n\n\n\nThat's a lot to cover and the goal of this talk is not to dig into\neach technology but more to inspire and show the range of possibles\nopened by Kotlin.",
+  "description": "From git housekeeping to releasing. From keeping a sane backlog to\nhandling internationalization and monitoring status, the life of a\ndeveloper involves more than meets the eye.\n\nThis talk will be a feedback about how we use Kotlin extensively to:\n\n\nautomate the dev workflows with command-line apps on dev\nmachines.\nachieve CI independence with kotlin runners on CI machines.\nrun Kotlin on the server using the gradle appengine plugin.\nditch bash and perl and use kscript instead.\n\n\n\nThat's a lot to cover and the goal of this talk is not to dig into\neach technology but more to inspire and show the range of possibles\nopened by Kotlin.",
+  "persons": [
+    "Martin Bonnin",
+    "Michel Gauzins"
+  ]
+}

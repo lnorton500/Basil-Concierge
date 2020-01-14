@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "seccomp \u2014 Your Next Layer of Defense",
+  "subtitle": "",
+  "track": "Security",
+  "abstract": "Why should you allow all possible system calls from your application when you know that you only need some? If you have ever wondered the same then this is the right talk for you. We are covering:\n\n\nWhat is seccomp in a nutshell and where could you use it.\nPractical example with Elasticsearch and Beats.\nHow to collect seccomp violations with Auditd.\n\n\n\nBecause your security approach can always use an additional layer of protection.",
+  "description": "",
+  "persons": [
+    "Philipp Krenn"
+  ]
+}

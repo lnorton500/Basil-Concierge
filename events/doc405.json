@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 50,
+  "room": "UD2.218A",
+  "title": "How Yocto extra tools help industrial project",
+  "subtitle": "Yocto is not (only) bitbake",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "Yocto is the most famous \"build system\" for embedded Linux. During this conference we'll study how to use some Yocto  features to help the development of a free industrial project. We will study the eSDK (extended cross-toolchain), Ptest and Testimage (CI), Devtool and Devshell (recipe modification). We will also learn how to be in compliance with the GPLv3 / LGPLv3 licenses thanks to the \"archiver\" class (and more).",
+  "description": "",
+  "persons": [
+    "Pierre Ficheux"
+  ]
+}

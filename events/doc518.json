@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 50,
+  "room": "H.2214",
+  "title": "Fibonacci Spirals and 21 Ways to Contribute to Postgres\u2014Beyond Code",
+  "subtitle": "",
+  "track": "PostgreSQL",
+  "abstract": "Postgres is growing like gangbusters: in popularity, in adoption, and in the size of the ecosystem. And over 400 developers contribute code to Postgres today: their expertise, design chops, and skill are big factors in the increasing popularity of Postgres. But what if you\u2019re not a developer? Are there things you can do to help grow the usage and popularity of Postgres? And are these non-code ways to contribute to Postgres important? Valued? Will they make a real difference?\n\nIf you love Postgres and want to help drive Fibonacci growth of the Postgres community, this talk is for you. I\u2019ll walk through 21 different (and important) ways to contribute to Postgres\u2014along with tips and resources for getting started.",
+  "description": "",
+  "persons": [
+    "Claire Giordano"
+  ]
+}

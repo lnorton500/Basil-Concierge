@@ -1,0 +1,13 @@
+{
+  "start": 1577883000000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Emacs Should Be Emacs Lisp - Thoughts on the Future of Emacs",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "Emacs Lisp is good, actually, and Emacs should primarily be written in Emacs Lisp.  This talk will describe a way forward.",
+  "description": "The future of the Emacs core is a frequent topic in the Emacs community.  Should the core be in C?  Or Rust?  Should Elisp continue to be the scripting language?  Or Guile?  Or Python, Perl (the \"Perfect Emacs Rewriting Language\") or JS?\n\nThis talk advocates the rarely discussed view that Emacs Lisp is good, actually, and that Emacs should be written in Emacs Lisp.  Threading, compilation, and addressing Emacs' other low-level deficiencies will be covered, with an eye toward a practical way to roll out the changes.",
+  "persons": [
+    "Tom Tromey"
+  ]
+}

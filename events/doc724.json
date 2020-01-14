@@ -1,0 +1,13 @@
+{
+  "start": 1577883900000,
+  "duration": 40,
+  "room": "UB4.136",
+  "title": "Progressive Delivery",
+  "subtitle": "Continuous Delivery the Right Way",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "Progressive Delivery makes it easier to adopt Continuous Delivery, by deploying new versions to a subset of users and evaluating their correctness and performance before rolling them to the totality of the users, and rolled back if not matching some key metrics. Canary deployments is one of the techniques in Progressive Delivery, used in companies like Facebook to roll out new versions gradually. But good news! you don't need to be Facebook to take advantage of it.\n\nWe will demo how to create a fully automated Progressive Delivery pipeline with Canary deployments and rollbacks in Kubernetes using Jenkins X, an open source platform for cloud native CI/CD in Kubernetes, and Flagger, a project that uses Istio and Prometheus to automate Canary rollouts and rollbacks.",
+  "description": "",
+  "persons": [
+    "Carlos Sanchez"
+  ]
+}

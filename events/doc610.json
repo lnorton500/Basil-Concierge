@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "K.3.401",
+  "title": "Rust techniques used in sled",
+  "subtitle": "A correctness-critical and performant Rust codebase",
+  "track": "Rust",
+  "abstract": "The sled high-performance embedded database has been under development for over 4 years. This talk will cover techniques that have been used to dramatically outperform existing databases while optimizing for long term developer happiness in a complex, correctness-critical Rust codebase.",
+  "description": "",
+  "persons": [
+    "Tyler Neely"
+  ]
+}

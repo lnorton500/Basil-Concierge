@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "GPAC 1.0 Overview",
+  "subtitle": "GPAC's past, present and future",
+  "track": "Open Media",
+  "abstract": "In this talk, we present the next release of GPAC, the complete rearchitecture of its streaming core, the many new features and possibilities of the multimedia framework. Get ready for a lot of OTT/IP streaming and broadcast, encryption, packaging and media composition!",
+  "description": "",
+  "persons": [
+    "Jean Le Feuvre"
+  ]
+}

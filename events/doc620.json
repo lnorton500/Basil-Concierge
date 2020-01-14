@@ -1,0 +1,13 @@
+{
+  "start": 1577879100000,
+  "duration": 40,
+  "room": "K.4.201",
+  "title": "Memcheck Reloaded",
+  "subtitle": "dealing with compiler-generated branches on undefined values",
+  "track": "Debugging Tools",
+  "abstract": "Valgrind's Memcheck tool reports various kinds of errors. One of the most important are those where an if-condition or a memory address uses undefined data.  Detecting that reliably on optimized code is challenging, and recent compiler development has made the problem worse.",
+  "description": "Two years ago, at FOSDEM 2018, I did a talk describing the techniques Memcheck uses to achieve a very low false positive rate.  But by 2018 both GCC and Clang were routinely emitting code with branches on uninitialised data. Surprisingly, there are situations where such code is correct.  Unfortunately Memcheck assumes that every conditional branch is important and so emits many complaints when this happens.\n\nThe worst thing was, this problem couldn't be solved using the bag of tricks we'd accumulated over Memcheck's decade-plus lifetime.  Our options didn't look good.  But in early 2019 it became clear how to fix this: enhance Valgrind's trace generation machinery to analyse more than one basic block at a time, and use that to recover the source-level &amp;&amp;-expressions, which can then be instrumented precisely.  This talk tells the story.\n\nThe implementation (appears to!) work.  If all goes well, it will ship in the upcoming 3.16 release.",
+  "persons": [
+    "Julian Seward"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577887800000,
+  "duration": 10,
+  "room": "H.2213",
+  "title": "Leveraging Open Source Designs",
+  "subtitle": "Creating a component search engine for reference designs used in practice",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "Incorporating new components into PCBs is a difficult task that often requires reading multiple datasheets and creating prototypes to get it right. The funny thing is: every engineer needs to re-read reference designs! Even though there are tens of thousands of designs with new components documented and available on Github. The reason: it is almost impossible to find a relevant project. The solution? Instead of using Github search, which only retrieves files by filename, our approach creates a local database that takes the search results from Github, and then parses the used components inside the PCB designs to index them. That way, you can easily search a component and get the most relevant designs as a reference.\n\nThis talk will give an overview of the software that was created, discusses the difficulties that were overcome and the potential for improvement in future work.\n\nCurrently 300 of an estimated 30000 KiCad-projects on GitHub have been indexed as a proof-of-concept. We expect the data to be completed at the end of December. The project was kindly supported by AISLER with a server instance. The prototype of the search engine can be accessed at https://search-dev.aisler.net The release candidate should be ready at the end of December with the full dataset.",
+  "description": "",
+  "persons": [
+    "Lasse M\u00f6nch"
+  ]
+}

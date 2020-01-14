@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 50,
+  "room": "Janson",
+  "title": "HTTP/3 for everyone",
+  "subtitle": "The next generation HTTP is coming",
+  "track": "Internet",
+  "abstract": "HTTP/3 is designed to improve in areas where HTTP/2 still has some shortcomings, primarily by changing the transport layer. HTTP/3 is the first major protocol to step away from TCP and instead it uses QUIC.",
+  "description": "HTTP/3 is the designated name for the coming next version of the protocol that is currently under development within the QUIC working group in the IETF.\n\nHTTP/3 is designed to improve in areas where HTTP/2 still has some shortcomings, primarily by changing the transport layer. HTTP/3 is the first major protocol to step away from TCP and instead it uses QUIC.\n\nDaniel Stenberg does a presentation about HTTP/3 and QUIC. Why the new protocols are deemed necessary, how they work, how they change how things are sent over the network and what some of the coming deployment challenges will be.",
+  "persons": [
+    "Daniel Stenberg"
+  ]
+}

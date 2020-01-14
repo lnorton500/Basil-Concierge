@@ -1,0 +1,13 @@
+{
+  "start": 1577892000000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "License compliance for embedded Linux devices with Buildroot",
+  "subtitle": "What your buildsystem can do to relieve your pain in fulfilling legal obligations",
+  "track": "Lightning Talks",
+  "abstract": "Producing a Linux-based electronic device requires to put together lots of open source software packages, which is a complex task.\n\nComplying to the licensing obligations for each of them is also complex, especially if you are not a lawyer. Not complying is immoral, illegal and risky.\n\nDiscover how your build system can help you!",
+  "description": "With live demos, Luca will introduce you to:\n\n\nhow Buildroot builds all the needed software components in a simple way;\nwhich are the obligations for the most common licenses;\nwhat Buildroot can (and what it cannot) do to help you in being compliant.\n",
+  "persons": [
+    "Luca Ceresoli"
+  ]
+}

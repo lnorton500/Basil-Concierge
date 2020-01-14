@@ -1,0 +1,13 @@
+{
+  "start": 1577882700000,
+  "duration": 30,
+  "room": "H.2213",
+  "title": "KiCad: Back to the Future",
+  "subtitle": "KiCad and it's role in the growing open hardware movement",
+  "track": "Open Source Computer Aided Modeling and Design",
+  "abstract": "I will talk about KiCad's role in the Open Hardware design movement and how it is remarkably similar to the early days of the Free, Libre, Open Source Software (FLOSS) movement and what it means for the future of Open Hardware.",
+  "description": "",
+  "persons": [
+    "Wayne Stambaugh"
+  ]
+}

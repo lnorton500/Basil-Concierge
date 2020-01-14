@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 50,
+  "room": "H.2214",
+  "title": "Find your slow queries, and fix them!",
+  "subtitle": "",
+  "track": "PostgreSQL",
+  "abstract": "Where, oh where, is all that time going? What in the world is that database thing doing?! This talk will help you understand what's happening (and why) and how to analyze poor query performance. We'll also go over steps and strategies to take to improve them and get the performance (and scalability!) you need.\n\nIt all starts with figuring out what queries are slow, we'll do that by going into the various PostgreSQL configuration options for logging queries and a few helpful modules for getting even more information about ongoing queries. Next we'll go over EXPLAIN and EXPLAIN ANALYZE output for select queries, what the EXPLAIN output means in terms of how the query is being executed. Lastly (this is the good part- you have to stay til the end to get it!) we'll go over ways to improve the queries, including index creation, rewriting the query to allow PG to use a different plan, and how to tune parameters for specific queries.",
+  "description": "",
+  "persons": [
+    "Stephen Frost"
+  ]
+}

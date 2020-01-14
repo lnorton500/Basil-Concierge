@@ -1,0 +1,13 @@
+{
+  "start": 1577886600000,
+  "duration": 25,
+  "room": "K.3.401",
+  "title": "Sharing memories of Python and Rust",
+  "subtitle": "The story of a lifetime inside Mercurial",
+  "track": "Rust",
+  "abstract": "The Mercurial version control system now has an option for running Rust code to improve performance. In this talk we will explore the challenges of using Rust efficiently inside a performance-sensitive Python project with more than 10 years of backwards compatiblity.",
+  "description": "",
+  "persons": [
+    "Rapha\u00ebl Gom\u00e8s"
+  ]
+}

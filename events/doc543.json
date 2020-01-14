@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 5,
+  "room": "AW1.121",
+  "title": "Welcome to the BSD devroom",
+  "subtitle": "",
+  "track": "BSD",
+  "abstract": "Welcome to the BSD devroom",
+  "description": "",
+  "persons": [
+    "Rodrigo Osorio"
+  ]
+}

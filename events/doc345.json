@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 510,
+  "room": "UB4.228",
+  "title": "Open Source Hardware and Soldering Workshop",
+  "subtitle": "",
+  "track": "Workshops",
+  "abstract": "Open Source Hardware room with two day soldering workshops.\nDay 1 soldering workshop will be dedicated to Through Hole Technology and is good for beginners which has no experience with component soldering.\n\nBeside the soldering workshop we will show our latest OSHW boards we work on, you are welcome to join and show your own OSHW projects too.",
+  "description": "With this soldering workshop we will show that assembling printed circuit boards is not hard to learn.\n\nWe designed special board with through holes components for FOSDEM - the FOSDEM MUSIC BOX which is Arduino programmable and can play music.\n\nDuring the soldering workshop we will introduce the electronic components used in the PCB and how to identify them and how components with polarity is to be recognized.\n\nWe will teach you the basics of soldering, how good and bad solder joints look like and what is cold solder joint.\nAt the end of the workshop you will build your own Music Box and could program it with Arduino IDE to play music.",
+  "persons": [
+    "Tsvetan Usunov"
+  ]
+}

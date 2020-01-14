@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Machine Learning on the Web",
+  "subtitle": "",
+  "track": "JavaScript",
+  "abstract": "Have you ever wondered how you can make machine learning applications on the web, without learning Python or R? Well, brace yourself to explore the power of JavaScript and get to know how you can use it to build a machine learning web app.",
+  "description": "Machine Learning is a new trending topic that everyone wants to be a part of. But it is a hard field to master. What if I tell you that you don\u2019t need to know another language, only JavaScript is enough?\nIn my talk Machine Learning for Web Developers, I will present the views of a web developer. How a WebDev can get started, without learning any new languages.\nThe talk will cover a basic understanding of the following topics:\n- Classification\n- Regression\n- Error Functions\n- Optimizers\nFurther on, we'll not only discuss it's uses for you, but also we'll deploy them on an application with working code snippets and understand how you can deploy it all! We'll make use of Open Source ML Libraries like TensorFlow.js and Brain.js!\nIn the end the attendees will also get to know the advantages and drawbacks of running Machine learning applications on the browser. Finally we will then look for the use-cases where it is advisable to run machine learning models on browsers.",
+  "persons": [
+    "Harshil Agrawal"
+  ]
+}

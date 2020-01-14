@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "dav1d: 1 year later",
+  "subtitle": "dav1d is a fast AV1 decoder",
+  "track": "Open Media",
+  "abstract": "dav1d is an open source decoder for the AV1 format, focused on being fast and lean.",
+  "description": "It was started a bit more than one year ago. This is a talk to see where this project is now, how fast we achieved for decoding AV1 samples and what is left to do on this project.",
+  "persons": [
+    "Jean-Baptiste Kempf"
+  ]
+}

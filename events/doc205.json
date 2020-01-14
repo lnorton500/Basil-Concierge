@@ -1,0 +1,13 @@
+{
+  "start": 1577882100000,
+  "duration": 25,
+  "room": "K.3.201",
+  "title": "Game development with OpenXR",
+  "subtitle": "",
+  "track": "Game Development",
+  "abstract": "Last year Khronos released OpenXR, an open API for using XR hardware. In this talk we will look at the practical side of creating VR applications and games with OpenXR.",
+  "description": "Since the Oculus VR development kit started a resurgence of consumer VR, game development has largely been relegated to proprietary VR APIs and runtimes. Khronos reacted by creating an open API for using XR hardware and released it OpenXR 1.0 in July 2019. Collabora implemented the OpenXR API in a runtime nicknamed Monado, built on open source VR hardware drivers. With these building blocks VR applications can now use standardized APIs and run on a FOSS stack.\n\nIn this talk, Christoph will give an overview of the feature set of the OpenXR API and the practical side of creating VR applications and games with OpenXR. We will look at low level code using the OpenXR API directly as well as an OpenXR plugin for the godot engine.",
+  "persons": [
+    "Christoph Haag"
+  ]
+}

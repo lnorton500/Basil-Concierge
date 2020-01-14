@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 30,
+  "room": "UB2.252A (Lameere)",
+  "title": "Debug code generation in Go",
+  "subtitle": "",
+  "track": "Go",
+  "abstract": "If you are interested to learn about what and how Go generates machine code, this talk is for you. By learning more about the compilation, you can either avoid unnecessary hand-crafted optimizations or learn more about the compiler to become a contributor to the Go compiler.",
+  "description": "Have you ever optimized some Go code to later realize Go compiler is already doing the same optimization automatically? Have you ever tried to understand what makes of of the Go compiler? Or, have you ever wondered how can you inspect machine code generated from Go source code? If you are interested to learn about what and how Go generates machine code, this talk is for you. By learning more about the compilation, you can either avoid unnecessary hand-crafted optimizations or learn more about the compiler to become a contributor to the Go compiler.",
+  "persons": [
+    "Jaana Dogan"
+  ]
+}

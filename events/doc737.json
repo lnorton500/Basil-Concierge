@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 25,
+  "room": "UB5.132",
+  "title": "Predictive Maintenance",
+  "subtitle": "from milliseconds to months",
+  "track": "HPC, Big Data, and Data Science",
+  "abstract": "Predictive maintenance and condition monitoring for remote heavy machinery are compelling endeavors to reduce maintenance cost and increase availability. Beneficial factors for such endeavors include the degree of interconnectedness, availability of low cost sensors, and advances in predictive analytics. This work presents a condition monitoring platform built entirely from open-source software. A real world industry example for an escalator use case from Deutsche Bahn underlines the advantages of this approach.",
+  "description": "Predictive maintenance and condition monitoring for remote heavy machinery are compelling endeavors to reduce maintenance cost and increase availability. Beneficial factors for such endeavors include the degree of interconnectedness, availability of low cost sensors, and advances in predictive analytics. This work presents a condition monitoring platform built entirely from open-source software. A real world industry example for an escalator use case from Deutsche Bahn underlines the advantages of this approach.\n\nAudio analysis is performed on miliseconds of audio data to get accurate predictions of an asset's condition. Even with this high resolution knowledge about our equipment under supervision, sensitive alarming of our customers requires a system of systems approach taking into account up to several months of data.\n\nThis talk highlights the challenges and learnings involved in building the platform and high-level aggregation for our alarming system.",
+  "persons": [
+    "Corvin Jaedicke"
+  ]
+}

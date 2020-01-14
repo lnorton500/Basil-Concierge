@@ -2,9 +2,10 @@
     position: fixed;
     right: 0px;
     top: 0px;
-    width: 18%;
-    height: 100vh;
-    overflow: scroll;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
     background: lightgray;
 
     .chart {

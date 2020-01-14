@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "The Heptapod project",
+  "subtitle": "Bringing Mercurial to GitLab",
+  "track": "Lightning Talks",
+  "abstract": "Heptapod is a friendly fork of GitLab CE that supports the Mercurial DVCS.\nToday, Bitbucket starts dropping the support for Mercurial. Heptapod can provide nice new homes for projects that have to migrate out of Bitbucket.\nWe are looking for contributors - lots of different skills can be useful.",
+  "description": "Mercurial is a free software distributed version control system (DVCS) written primarily in Python, with an intuitive command line interface and strong, safe history rewriting features.\n\nMercurial is in active development and in use at several large organisations, which\nappreciate especially its extensibility and its ability to handle very large repositories.\n\nHowever, Mercurial has been somewhat lacking public exposure in the past few years for not being a first class citizen in the prominent integrated hosting and collaboration solutions.\nThis culminated recently with Bitbucket announcing last summer its plan to drop support for Mercurial, in particular planning to stop accepting new repositories by February 1st, 2020 (that's the first day of this FOSDEM edition!).\n\nIn this talk, we will present the Heptapod project, which brings Mercurial support to GitLab Community Edition, the well-known open-source integrated platform for source collaboration and dev-ops. Lately, GitLab CE has been selected by some major free software projects, such as Debian and Gnome, to name only a few.\n\nSeveral free and open-source projects have successfully migrated from Bitbucket to Heptapod. We are willing to help more of them doing so, either by hosting them directly if possible (contact us) or by giving them a hand in the transition.\n\nHeptapod is a community-driven effort, whose development involves many programming languages: Ruby, Go, Python, Javascript and potentially Rust, but one does not need to be a expert in all of these to start contributing.\n\nWe are calling interested people to join us on our Heptapod instance (of course), there's a bit of low hanging fruit to grab there.",
+  "persons": [
+    "Georges Racinet"
+  ]
+}

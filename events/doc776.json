@@ -1,0 +1,13 @@
+{
+  "start": 1577884500000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "TerosHDL - Open Source IDE for FPGA Developers.",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "TerosHDL is an open source project focused in the development and integration of EDA tools (ghdl, VUnit...) in an IDE. It is currently based on Atom, but in the future it will be extended to other code editors such as Visual Studio Code.",
+  "description": "The goal of TerosHDL is bringing all facilities of software code tools to the HDL (VHDL and Verilog)development: linter, code completion, simulators management, automate documentation, snippets...\n\nhttps://youtu.be/tgr1KGIitIQ.\n\nWe will introduce TerosHDL 2.0 with multiple features. In the new release the architecture has been completely rebuild in order to support more tools, reduce some dependencies and clarify the code. Some of the new features include Verilog support, additional simulators, a linter and more beautiful documentation.",
+  "persons": [
+    "Carlos Alberto"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577886000000,
+  "duration": 30,
+  "room": "K.4.201",
+  "title": "strace --seccomp-bpf: a look hunder the hood",
+  "subtitle": "",
+  "track": "Debugging Tools",
+  "abstract": "strace is known to add significant overhead to any application it traces.\nEven when users are interested in a handful of syscalls, strace will by\ndefault intercept all syscalls made by the observed processes, involving\nseveral context switches per syscall.  Since strace v5.3, the\n--seccomp-bpf option allows reducing this overhead, by stopping observed\nprocesses only at syscalls of interest.  This option relies on seccomp-bpf\nand inherits a few of its limitations.\n\nIn this talk, we will describe the default behavior of ptrace and strace,\nto understand the problem --seccomp-bpf addresses.  We will then detail\nthe inner workings of the new option, as seen from ptrace (seccomp-stops)\nand bpf (syscall matching algorithms).  Finally, we'll discuss limitations\nof the new option and avenues for improvement.",
+  "description": "\nProblem addressed and ptrace default behavior\nseccomp-bpf, SECCOMP_RET_TRACE, and the new behavior\ncBPF syscall matching algorithms\nMain limitations: working together with -p and -f\nAvenues for improvements\n\n\n\nPart of this talk is covered in the following blog post:\nhttps://pchaigno.github.io/strace/2019/10/02/introducing-strace-seccomp-bpf.html.",
+  "persons": [
+    "Paul Chaignon"
+  ]
+}

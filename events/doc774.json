@@ -1,0 +1,13 @@
+{
+  "start": 1577881500000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "Flutter Development in Eclipse",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "The Eclipse IDE was once heavily used for mobile app development on Android. The Android Development Tools (ADT) for Eclipse have since been deprecated and replaced by a dedicated Android Studio. To make mobile app development possible again, we leveraged the language server protocol to provide stable support for the Dart language and the Flutter SDK in the Eclipse IDE.\n\nThis talk will provide an overview of the Dartboard project including its Dart language support as well as the Flutter development experience.",
+  "description": "",
+  "persons": [
+    "Jonas Hungershausen"
+  ]
+}

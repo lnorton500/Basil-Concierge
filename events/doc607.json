@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 20,
+  "room": "K.3.401",
+  "title": "rustdoc: beyond documentation",
+  "subtitle": "All the goodies packed in rustdoc, and more",
+  "track": "Rust",
+  "abstract": "Rust compiler comes with a few tools, rustdoc is one of them. It is THE standard rust tool to generate documentation for your crates.",
+  "description": "Rust compiler comes with a few tools, rustdoc is one of them. It is THE standard rust tool to generate documentation for your crates.\n\nYou can write documentation using \"///\" or \"//!\" patterns (which are syntaxic sugar over #[doc = \"...\"]).\n\nIt generates HTML which can used locally without a need for internet connection. The documentation search is running in JS directly in your browser. You have a source code viewer integrated. You can pick different themes (and even add one yourself). It works with javascript disabled. It provides settings to make your docs browsing more comfortable. You can generate docs with extra content (take a look at https://docs.rs/pwnies for a good example!).\n\nBut not only it generates documentation, it also adds things for each type that you didn't know was available thanks to the \"Auto-traits implementation\" and \"Blanket implementation\" sections.\n\nIn addition to generate documentation, it provides functionalities such as an integrated documentation's test runner (which themselves can be quite customized!). It also provides lints that can you deny (missingdocs, missingdoc_example).\n\nWith just all this, rustdoc is already a quite complete tool. But more will come in the future:\n\n\nmore interactive source code viewer\nautomatic link generation based on the item name\nmore output formats supported (json would be the first)\ncfgs (doctest and doc)\ndoc aliases for search (for instance, \"*\" proposes pointer in the std lib)\n",
+  "persons": [
+    "Guillaume Gomez"
+  ]
+}

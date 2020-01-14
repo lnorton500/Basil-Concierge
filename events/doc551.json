@@ -1,0 +1,13 @@
+{
+  "start": 1577889300000,
+  "duration": 45,
+  "room": "AW1.121",
+  "title": "NetBSD audio - a userland perspective",
+  "subtitle": "Discussing the usage of NetBSD's audio API in third party software",
+  "track": "BSD",
+  "abstract": "NetBSD has a rather interesting and unique native audio API, distinct from OSS, inherited from an early version of the Solaris API with extensions and improvements made over the years.\n\nIn this talk, Nia describes the advantages of using NetBSD's native audio API in comparison to other alternatives, and discusses her improvements to third-party software to encourage usage and adoption of the API.",
+  "description": "",
+  "persons": [
+    "Nia Alarie"
+  ]
+}

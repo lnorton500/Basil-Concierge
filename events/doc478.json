@@ -1,0 +1,13 @@
+{
+  "start": 1577871300000,
+  "duration": 30,
+  "room": "H.1308 (Rolin)",
+  "title": "NFS Ganesha",
+  "subtitle": "",
+  "track": "Software Defined Storage",
+  "abstract": "NFS-Ganesha is an extensible user-space NFS server that supports NFS v3, v4, v4.1, v4.2, pNFS, and 9P protocol. It has an easily pluggable architecture called FSAL (File System Abstraction Layer), which enables seamless integration with many filesystem backends (GlusterFS, Ceph, etc.). There will be a discussion on the components along with an architectural explanation of NFS Ganesha with a detailed look at how a request flows through the various layers of NFS Ganesha and see some critical aspects in using NFS Ganesha. Along with the discussion on \"your first contribution to NFS Ganesha\" the audience will be engaged in a collaborative session and with a live demo, take a detailed look at the Clustered HA implementation using pacemaker/corosync with a specific example of a distributed storage, GlusterFS.\n\nFinally, there will be an open dialogue about the inclusion of Transport Layer Security into NFS Ganesha. One major drawback seen with NFS is the lack of transmitting encrypted data packets to and from NFS Server and Client. This lack is widely frowned upon, and it seems like there is enough communication gap within the community about its development, which I hope to shorten and revive the chatter to begin progress in this course.",
+  "description": "The intentions behind this talk:\n\n-> Introduce architectural explanation of NFS Ganesha\n-> A short code walk-through to explore crucial features of NFS Ganesha\n-> Live demo of Clustered High Availability implementation using pacemaker/corosync\n-> Talk about the implementation of Transport Layer Security(TLS) into NFS Ganesha",
+  "persons": [
+    "Arjun Sharma"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 15,
+  "room": "UD2.208 (Decroly)",
+  "title": "High quality VoIP platforms with Kamailio",
+  "subtitle": "test driven development and debugging",
+  "track": "Real Time Communications",
+  "abstract": "Kamailio as widely-used Open Source SIP Server is used to implement large and complex real-time communication platforms. Ensuring a good user experience, performance and quality can be a challenge in these enviroments. The talk will present different ways how to use the power of Kamailio to support you with a modern testing and debugging workflow.",
+  "description": "Kamailio as widely-used Open Source SIP Server is used to implement large VoIP and real-time communication platforms. Ensuring a good user experience, perfomance and quality can be a challenge in these complex enviroments. The talk will present different ways how to use the power of Kamailio to support you with a modern testing and debugging workflow.\n\nKamailio contains different modules that support you to test and debug your configuration. Different usage examples based on real world problems are used to explain them in detail. A usual process to find problems in code is to use a debugger to step through your code. Due to the architecture of Kamailio this setup needs a bit more preparation. Additional the talk will show how to step through your configuration language execution process to debug complicated logic.\n\nTesting config logic that involves different modules together can be challenging due to the many involved moving parts. Kamailio can support you here with a dedicated and easy to use component testing infrastructure. This test infrastructure is based on docker container, is freely available and can help also in your setup.\n\nEnsuring a good code quality is especially important for a stable and secure VoIP server. Kamailio is using different static code analyzer and other testing methods to improve the quality of the server. The talk will give you an overview about this tools and highlight how to use them by yourself.",
+  "persons": [
+    "Henning Westerholt"
+  ]
+}

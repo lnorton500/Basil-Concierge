@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "Kotlin MP: Into the Multi-Verse",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "Kotlin Multiplatform is the new kid on the cross-platform block. The approach although is very different from what you have seen in the past. The new approach utilizes Kotlin Native to compile Kotlin language to native binaries for specific target platform which can run without a virtual machine. Thus enabling simplified code sharing across multiple platforms.\nIn this talk, you will be introduced to Kotlin/Native and demonstrate how to build a Kotlin Multiplatform app that runs on both iOS and Android using shared Kotlin code.",
+  "description": "",
+  "persons": [
+    "Nishant Srivastava"
+  ]
+}

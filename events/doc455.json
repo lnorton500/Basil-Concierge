@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "Confessions of a Serial K\u2013otlin Multiplatform\u2013er",
+  "subtitle": "__just don\u2019t \ud835\ude8e\ud835\udea1\ud835\ude99\ud835\ude8e\ud835\ude8c\ud835\ude9d too much__",
+  "track": "Kotlin",
+  "abstract": "What is Multiplatform?\n\n\n HELL\n\n\nharder to develop, no documentation\njust a trend, failed in the past\nnot suitable for performant apps that feel \u201cnative\u201d\n \n\n\n HEAVEN\n\n\nsimpler to develop, removes platform barriers\nwrite half the code, ship in half the time\nonly need to hire \u201cgeneralists\u201d instead of \u201cspecialists\u201d\n \n\n\n OTHER  \u2714\ufe0e\n\n\nelaborate in 25 minutes or less:\n________________________________\n \n \n\n\n",
+  "description": "",
+  "persons": [
+    "Eugenio Marletti"
+  ]
+}

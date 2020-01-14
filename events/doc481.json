@@ -1,0 +1,13 @@
+{
+  "start": 1577876100000,
+  "duration": 35,
+  "room": "H.1308 (Rolin)",
+  "title": "What's new in Samba ?",
+  "subtitle": "Latest news from the Samba project",
+  "track": "Software Defined Storage",
+  "abstract": "The presentation will give an overview of all the changes happening in the Samba project code, from the fileserver virtual filesystem (VFS) rewrite, the new features in the SMB3 code, the quest to remove the old SMB1 protocol and much more. Improvements in Samba scalability, clustering and the Active Directory code will be discussed.\n\nThe intended audience is anyone who uses the Samba code, creates products with Samba or is interested in the SMB protocol.",
+  "description": "The presentation will give an overview of all the changes happening in the Samba project code, from the fileserver virtual filesystem (VFS) rewrite, the new features in the SMB3 code, the quest to remove the old SMB1 protocol and much more. Improvements in Samba scalability, clustering and the Active Directory code will be discussed. I'll also cover the changes to Samba development and tooling, and how we are modernizing the code base to stay relevant in the Cloud-connected world of software defined storage.\n\nThis can be either a 30 minute talk (20 mins + 5 questions) or 60 minute talk (45+10 for questions).",
+  "persons": [
+    "Jeremy Allison"
+  ]
+}

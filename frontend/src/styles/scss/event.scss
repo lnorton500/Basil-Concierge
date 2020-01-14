@@ -1,53 +1,104 @@
 .event {
-    width: 100%;
+	width: 100%;
 
-    $background: rgb(250, 250, 250);
-    //box-shadow: 1px 1px 4px 1px darken($background, 15%);
+	$background: rgb(250, 250, 250);
+	$border: 1px solid darken($background, 10%);
+	//box-shadow: 1px 1px 4px 1px darken($background, 15%);
 
-    margin-bottom: 20px;
+	margin-bottom: 20px;
 
-    .event-bar {
-        width: 100%;
+	.event-bar {
+		width: 100%;
 
-        background: $background;
-        border-radius: 2px;
-        border: 1px solid darken($background, 10%);
-        padding: 20px;
+		background: $background;
+		border-radius: 5px;
+		border: $border;
+		padding: 20px;
 
-        display: flex;
-        justify-content: space-between;
+		&.open {
+			border-bottom-left-radius: 0px;
+			border-bottom-right-radius: 0px;
+			border-bottom: none;
+		}
 
+		display: flex;
+		justify-content: space-between;
 
-        &.open {
-            box-shadow: none;
-        }
+		h3 {
+			width: 80%;
+		}
 
-        .fa-chevron-down {
-            transform: rotate(0deg);
-            transition: transform 1s linear;
-        }
+		.fa-chevron-down {
+			transform: rotate(0deg);
+			transition: transform 1s linear;
+		}
 
-        .arrow {
-            transform: rotate(0deg);
-            transition: transform 0.25s linear;
-            transform-origin: center;
-        }
+		.arrow {
+			transform: rotate(0deg);
+			transition: transform 0.25s linear;
+			transform-origin: center;
+		}
 
-        .open {
-            transform: rotate(180deg);
-            transition: transform 0.25s linear;
-        }
-    }
+		.open {
+			transform: rotate(180deg);
+			transition: transform 0.25s linear;
+		}
+	}
 
-    .event-description {
-        width: 100%;
-        background: darken($background, 5%);
-        padding: 40px;
-        text-align: justify;
+	.event-info {
+		display: flex;
+		width: 100%;
+		background: darken($background, 5%);
 
-        p {
-            margin: 10px;
-            line-height: 1.3em;
-        }
-    }
+		box-shadow: inset 0px 2px 5px 0px darken($background, 20%);
+		padding: 40px;
+		text-align: justify;
+
+		border: $border;
+		border-top: none;
+
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+
+		.loading {
+			width: 100%;
+			font-size: 1.5em;
+			text-align: center;
+		}
+
+		.description {
+			width: 70%;
+
+			p {
+				margin: 10px;
+				line-height: 1.3em;
+			}
+
+			@import "./events/description.scss";
+		}
+
+		.details {
+			width: 30%;
+
+			.detail {
+				margin: 20px;
+				text-align: justify;
+
+				&:first-child {
+					margin-top: 0px;
+				}
+
+				h4 {
+					width: 100%;
+					font-size: 1.2em;
+				}
+
+				.address {
+					.line {
+						display: block;
+					}
+				}
+			}
+		}
+	}
 }

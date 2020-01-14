@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "Going Meta with Elixir's Macros",
+  "subtitle": "Running at compile-time and compiling at runtime",
+  "track": "Erlang, Elixir and Friends",
+  "abstract": "Compilation and execution are as different as night and day. Or are they? By blurring the lines, Elixir (and the BEAM VM) enable some very powerful and useful meta-programming techniques.\n\nIn this presentation, Marten will talk about running and generating code at compile-time, Elixir's hygienic macros, and how to compile and hot-reload altered or extra code, while your program is running!\nBesides explaining these concepts, their usefulness will be motivated using various practical real-world examples.",
+  "description": "",
+  "persons": [
+    "Wiebe-Marten Wijnja"
+  ]
+}

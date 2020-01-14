@@ -1,0 +1,13 @@
+{
+  "start": 1577881500000,
+  "duration": 40,
+  "room": "AW1.121",
+  "title": "FreeBSD and LLVM support",
+  "subtitle": "What is LLVM all about and how it integrates FreeBSD system",
+  "track": "BSD",
+  "abstract": "We will explain what is LLVM project all about and how central it is under the FreeBSD operating system, as it serves to basically build it ; first we ll go through its major components and what is supported..",
+  "description": "",
+  "persons": [
+    "David Carlier"
+  ]
+}

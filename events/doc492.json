@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 30,
+  "room": "H.1309 (Van Rijn)",
+  "title": "virtio-fs",
+  "subtitle": "A shared file system for virtual machines",
+  "track": "Virtualization and IaaS",
+  "abstract": "This talk covers the new virtio-fs shared file system that allows a host directory tree to be shared with guests.  Sharing files with the guest is required by several use cases including container VMs, File-System-as-a-Service, and traditional virtualization.  virtio-fs goes further than previous attempts by taking advantage of the co-location of the guest and host using DAX to share the host page cache.  This presentation explains how to use virtio-fs, a bit about how it works internally, and the current status.",
+  "description": "virtio-fs is a new shared file system giving access to a directory that both the host and guests can access.  Traditionally shared file systems have been used to make data available to the guest during installation, boot a guest from a directory tree on the host, or to develop code on the host and test it in-place without copying files into the guest.  New use cases including container VMs and File-System-as-a-Service have introduced new requirements that virtio-fs is designed to meet.\n\nPrevious attempts at shared file systems have included virtio-9p or simply used network file systems.  virtio-fs is unique because it is possible to access files directly from the host page cache.  This eliminates data copies and communication, resulting in lower memory footprint and higher performance for many workloads.\n\nThis presentation explains how to use virtio-fs and covers its architecture.  It includes performance benchmarks showing how various features perform and a comparison with virtio-9p.",
+  "persons": [
+    "Stefan Hajnoczi"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577880600000,
+  "duration": 30,
+  "room": "AW1.125",
+  "title": "Lisp everywhere!",
+  "subtitle": "Gurudom is around the corner",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "Minimalism matters in computing. Minimalism allows for smaller systems\nthat take less resources and consume less energy. More importantly,\nfree and open source minimalism allows for secure systems that are\neasy to understand. Minimalism is also educational and brings back the\nfun of the early days of computing where people learn to understand\nsystems from the ground up. As a co-organizer of this devroom I will\ntalk about my journey through many programming languages and ending up\nwith Scheme (a minimal Lisp). Lisp is the second oldest language in\nuse today and growing. I'll show you that once you master Lisp you can\nuse it everywhere from software deployment, the shell, the editor and\ndebugging and for programming systems and in the browser. As a matter\nof fact, Lisp is everywhere!",
+  "description": "",
+  "persons": [
+    "Pjotr Prins"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577887800000,
+  "duration": 20,
+  "room": "K.4.601",
+  "title": "Demo: SGX-LKL",
+  "subtitle": "Running unmodified Linux applications inside Intel SGX's enclaves",
+  "track": "Hardware-aided Trusted Computing",
+  "abstract": "SGX-LKL is a library OS designed to run unmodified Linux binaries inside SGX enclaves. It uses the Linux Kernel Library (LKL) and a modified version of musl to provide system support for complex applications within the enclave.  SGX-LKL has support for in-enclave user-level threading, signal handling, and paging. This demo presents an overview of SGX-LKL and demonstrates how popular applications can be ported and executed within SGX-LKL.",
+  "description": "",
+  "persons": [
+    "Thiago Zagatti"
+  ]
+}

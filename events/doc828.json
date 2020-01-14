@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 20,
+  "room": "UD2.218A",
+  "title": "IoT with CircuitPython",
+  "subtitle": "Look mam, no development environment.",
+  "track": "Internet of Things",
+  "abstract": "Introduction to CircuitPython and how to make basic IoT without a development environment.",
+  "description": "A brief history of CircuitPython\nCircuitPython vs MicroPython\n\nHello World demo:\n1. Hello World in REPL\n2. Hello World in a Python script\n3. Blink (the electronic Hello World)\n4. Cheerlights (the internet connectivity Hello World)\n5. Hide and Seek (a BLE Hello World?)\n\nCircuit Python supported hardware used for the IoT demo:\n* nRF52840 (Nordic Semiconductor) with build-in BLE\n* ATSAMD51 (Microchip) M4 with Airlift (ESP32 used as a Wifi Co-Processor)",
+  "persons": [
+    "David Glaude"
+  ]
+}

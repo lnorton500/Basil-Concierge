@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Reverse Geocoding is not easy",
+  "subtitle": "IGN 10/10 makes you feel like a geocoder",
+  "track": "Geospatial",
+  "abstract": "Having seen a dozen of different OpenStreetMap-based geocoders, I did not expect to find myself writing another one. But here I am, tasked with making a reverse geocoder better than the industry-standard Nominatim. Turns out it is a fun and not so straightforward task. Let\u2019s see what can go wrong.",
+  "description": "",
+  "persons": [
+    "Ilya Zverev"
+  ]
+}

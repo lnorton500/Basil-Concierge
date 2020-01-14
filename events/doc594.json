@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 25,
+  "room": "K.3.201",
+  "title": "What's up on Haiku?",
+  "subtitle": "R1/beta2, packaging, porting and contributing.",
+  "track": "Distributions",
+  "abstract": "What are the new features in the upcoming R1/beta2? How did the packaging system work out? How to make your software easier to port to it, and how to contribute?",
+  "description": "Haiku is a Free Software Operating System, inspired by the BeOS, which focuses on personal computing.\n\nIt's been in the making for more than 18 years now. We'll see what's coming up for the R1/beta2 release.\n\nThe packaging system has been integrated for some years now, as a different approach to software distribution. Did it live up to its promise? How well does it scale with the growing number of available packages?\n\nWhat are the specifics of Haiku that you should care about when writing portable software?\n\nHow to contribute to various parts of the system?",
+  "persons": [
+    "Fran\u00e7ois Revol (mmu_man)"
+  ]
+}

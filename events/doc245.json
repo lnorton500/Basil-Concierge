@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 55,
+  "room": "K.4.401",
+  "title": "Modernizing mesa3d.org",
+  "subtitle": "Let's bring mesa3d.org past web 1.0",
+  "track": "Graphics",
+  "abstract": "mesa3d.org is stuck on web 1.0 technology, but let's see what we can do about it.",
+  "description": "This is a Birds-Of-a-Feather session, which starts off with a short presentation as an introduction about the current state of affairs.",
+  "persons": [
+    "Erik Faye-Lund"
+  ]
+}

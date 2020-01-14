@@ -1,0 +1,14 @@
+{
+  "start": 1577871900000,
+  "duration": 40,
+  "room": "UB4.136",
+  "title": "An event based approach for CI/CD pipelines",
+  "subtitle": "What challenges are there in the communication between different tools in CI/CD ecosystems and how can they be mitigated?",
+  "track": "Continuous Integration and Continuous Deployment",
+  "abstract": "How can we listen to when new upstream software has been tested to the extent that we feel comfortable integrating it into our software? How can we communicate about new artifacts available for others to integrate? How can we see what has been integrated where? How can we achieve traceability across pipelines run on different tooling infrastructure? How can we visualize our pipelines to follow changes from source code to customer deployment?\n\nWe will describe these challenges and show how we tackled them using self-documenting integration pipelines providing traceability and visualization to benefit multiple needs in the organization. We will present based on our experience from large-scale software development.",
+  "description": "",
+  "persons": [
+    "Emelie Pettersson",
+    "Fredrik Fristedt"
+  ]
+}

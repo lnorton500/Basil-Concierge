@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "Kernel Runtime Security Instrumentation",
+  "subtitle": "LSM+BPF=KRSI",
+  "track": "Security",
+  "abstract": "KRSI (Kernel Runtime Security Instrumentation) is an ongoing effort at Google to upstream an LSM (Linux Security Module) instrumentable using eBPF (extended Berkeley Packet Filter) to the Linux kernel.\n\nKRSI allows system owners to dynamically attach eBPF programs to security hooks and write MAC and audit policies without having to reboot or patch the kernel thereby enabling a new class of system security and auditing software.\n\nThis talk presents the main concepts behind KRSI: it introduces the technologies leveraged and presents the API exposed to users.",
+  "description": "",
+  "persons": [
+    "Florent Revest"
+  ]
+}

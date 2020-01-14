@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "Processes & Grains",
+  "subtitle": "A Journey in Orleans",
+  "track": "Erlang, Elixir and Friends",
+  "abstract": "",
+  "description": "A popular way to manage long-running state in Erlang and Elixir programs is by using processes; this model is well-understood and well-supported, but remains firmly rooted within known orthodoxy. Within this session, I shall demonstrate application of the Orleans model to existing Erlang and Elixir applications, review existing work done by the community, and compare this way of programming against other models. For maximum enjoyment, the audience is advised to possess working knowledge of Erlang and Elixir. Some background knowledge in Web applications will be helpful as well. The session will be presented with live demo in Elixir.",
+  "persons": [
+    "Evadne Wu"
+  ]
+}

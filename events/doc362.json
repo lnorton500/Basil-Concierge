@@ -1,0 +1,11 @@
+{
+  "start": 1577874600000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Introducing Tanka",
+  "subtitle": "a scalable Jsonnet based tool for deploying and managing Kubernetes Infrastructure",
+  "track": "Infra Management Devroom",
+  "abstract": "Introducing Tanka, a scalable Jsonnet based tool for deploying and managing Kubernetes Infrastructure",
+  "description": "There are various tools available for managing Kubernetes resources. Whether they be Helm, Kustomize or others. Ksonnet offered a powerful approach with tremendous promise, but was discontinued by developers. In this presentation we will introduce Tanka, a drop in replacement for Ksonnet developed at Grafana labs and available on GitHub. For those not familiar with Ksonnet, we will introduce the Jsonnet language, and demonstrate its power as a way of interacting with Kubernetes. We will then demonstrate some of the enhancements we have already made to Tanka, and then explain our roadmap for the tooling, and how we believe it is already the best of breed configuration management solution for Kubernetes.",
+  "persons": []
+}

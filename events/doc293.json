@@ -1,0 +1,16 @@
+{
+  "start": 1577894400000,
+  "duration": 50,
+  "room": "UA2.220 (Guillissen)",
+  "title": "DEBATE: Does FOSS need sustainability?",
+  "subtitle": "",
+  "track": "Legal and Policy Issues",
+  "abstract": "Several prominent FOSS projects have changed their FOSS licenses to\nalternate licenses that make software available, but with additional\nrestrictions intended to help financially sustain FOSS development and\ncombat \"strip mining\" by software-as-a-service providers. Additionally,\nrecently several related organizations have jumped into the the role of\nhelping sustain open source by providing (for a fee) funding conduits,\nfundraising services, or other mechanisms to route money to maintainers.",
+  "description": "Affirmative position: FOSS benefits from sustainability efforts\n\n\nFirst Affirmative Constructive (1AC) = 7 minutes\na. Cross-examination of First Affirmative by Second Negative = 3 minutes\nFirst Negative Constructive (1NC)  = 7 minutes\na. Cross-examination of First Negative by First Affirmative = 3 minutes\nSecond Affirmative Constructive (2AC)  = 7 minutes\na. Cross-examination of Second Affirmative by First Negative = 3 minutes\nSecond Negative Constructive (2NC)  = 7 minutes\na. Cross-examination of Second Negative by Second Affirmative = 3 minutes\nFirst Negative Rebuttal (1NR)  = 3 minutes\nFirst Affirmative Rebuttal (1AR)  = 3 minutes\nSecond Negative Rebuttal (2NR)  = 3 minutes\nSecond Affirmative Rebuttal (2AR)  = 3 minutes\n",
+  "persons": [
+    "Tom Marble",
+    "Philippe Ombredanne",
+    "Luis Villa",
+    "Mehdi Medjaoui"
+  ]
+}

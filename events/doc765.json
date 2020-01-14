@@ -1,0 +1,15 @@
+{
+  "start": 1577869200000,
+  "duration": 5,
+  "room": "UD2.119",
+  "title": "Welcome to the Free Tools & Editors Room!",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "A quick introduction to the room, the sessions, and the team that put everything together. :-)",
+  "description": "",
+  "persons": [
+    "Geertjan Wielenga",
+    "Lars Vogel",
+    "Trisha Gee"
+  ]
+}

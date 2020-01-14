@@ -1,0 +1,13 @@
+{
+  "start": 1577877600000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "puavo.org",
+  "subtitle": "Linux desktops in Finnish schools",
+  "track": "Lightning Talks",
+  "abstract": "A Finnish company Opinsys has provided and maintained\nmany thousands of Linux desktops in Finnish schools for\nabout fifteen years now.  This is a short introduction\nto the technology (called Puavo) they have developed\nfor this purpose.",
+  "description": "Puavo can be used to manage Linux desktops suitable\nfor school environments.  It is a combination of web\nsoftware (Puavo Web) and a specially configured system\n(Puavo OS) using Debian GNU/Linux operating system as\nits base.  Puavo Web is built for managing user accounts\nand devices.  Puavo OS is designed for large-scale\ndeployment in primary and secondary schools.  The source\ncode for both is free software under GPLv2+ license.",
+  "persons": [
+    "Juha Erkkil\u00e4"
+  ]
+}

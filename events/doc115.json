@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "How Safe is Asynchronous Master-Master Setup?",
+  "subtitle": "",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "It is common knowledge that built-in asynchronous master-master (active-active) replication is not safe. I remember times when the official MySQL User Reference Manual stated that such an installation is not recommended for production use. Some experts repeat this claim even now.\n\nWhile this statement is generally true, I worked with thousands of shops that successfully avoided asynchronous replication limitations in active-active setups.\n\nIn this talk, I will show how they did it, demonstrate situations when asynchronous master-master replication is the best possible high availability option and beats such solutions as Galera or InnoDB Clusters. I will also cover common mistakes, leading to disasters.",
+  "description": "",
+  "persons": [
+    "Sveta Smirnova"
+  ]
+}

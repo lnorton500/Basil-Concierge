@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 45,
+  "room": "K.3.401",
+  "title": "Optimizing rav1e",
+  "subtitle": "Effective profiling techniques and optimization strategies",
+  "track": "Rust",
+  "abstract": "rav1e is a fast AV1 encoder written in rust (and plenty of assembly), released monthly.\n\nSince the 0.1.0 release we try to make sure we provide an adequate speed or quality boost compared to the previous.\n\nThis talk is about what tools are available in the rust ecosystem and what are the practices that worked best for us.",
+  "description": "The presentation will touch the following topics:\n- Exploring a codebase and profiling it effectively, both for cpu usage and memory usage.\n- Which are the optimization strategies that worked for us better (critical path analysis vs peak consumer)\n- Benchmarking and tracing\n\nI'll provide examples on what tools worked well or not so well and what currently I consider the best and most promising tools for each tasks.",
+  "persons": [
+    "Luca Barbato"
+  ]
+}

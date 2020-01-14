@@ -1,0 +1,13 @@
+{
+  "start": 1577871000000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "Tesselle image viewer",
+  "subtitle": "Ease viewing and sharing High Resolution images on the web",
+  "track": "Open Media",
+  "abstract": "Tesselle is an open source image viewer allowing anyone to open, annotate and share big images on the web. It is part of the \"Quinoa\" project family, a suite of digital storytelling tools tailored for the FORCCAST teaching program and the scientific activities of Sciences Po's m\u00e9dialab. (list tools with links ?)",
+  "description": "Tesselle is a tool for annotating and publishing large, very large, huge images!\nTo scale with High Res image, it embeds a tiling feature to seamlessly display and navigate them on the web.\nIt allows to comment on specific portions of photographs, maps or visualizations. It gives you the possibility to explore and analyse visual items in detail and precisely.\nFurthermore, Tesselle allows to export your work as a simple folder to publish anywhere on the web.\nThose features have been built to allow scholars to create stories be crafting annotations on cartographic map, artwork analysis, network vizualisations... Using image opens many usecases.\n\nIt is built using Typescript, React and Leaflet.\nAs a standalone serverless webapp, Tesselle has met some pitfalls:\n - What is the fastest way to tile an image on the front-end?\n - Are there enough tools in a browser or shall we bring WebAssembly in?\n - How to handle memory management when dealing with hundreds of tiles?\n - Can we beat a \"native\" image viewer?\n - How should we handle sharing and embedding?\n - Is IIIF an appropriate standard?\n - What are our limitations?\nThose are some of the questions we had / have to answer while building Tesselle.\n\nhttps://github.com/medialab/tesselle/",
+  "persons": [
+    "Arnaud Pichon"
+  ]
+}

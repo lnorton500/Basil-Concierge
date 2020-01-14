@@ -1,0 +1,14 @@
+{
+  "start": 1577899800000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "Cypher enhancements for sharded and federated graph databases",
+  "subtitle": "",
+  "track": "Graph Systems and Algorithms",
+  "abstract": "In this talk we will introduce enhancements to the Cypher graph query language, enabling queries spanning multiple graphs, intended for use in sharding and federation scenarios.\nWe will also present our experience with sharding the LDBC Social Network Benchmark dataset.",
+  "description": "",
+  "persons": [
+    "Tobias Johansson",
+    "Petr Janouch"
+  ]
+}

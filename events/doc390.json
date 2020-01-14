@@ -1,0 +1,13 @@
+{
+  "start": 1577899200000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Kubernetes on ARM64",
+  "subtitle": "Raspberry PI 4 Kubernetes cloud for a few Euros!!",
+  "track": "Containers",
+  "abstract": "Building a Kubernetes cloud using Raspberry PI 4.\nThe RPI4/4G offers enough memory and cpu to build an educative Kubernetes cluster.\nThe presentation will show how to put the pieces togother to get an Apache Tomcat\noperator to deploy a small web application in the build RPI4 Kubernetes cloud.",
+  "description": "We will show:\n- how to build a kernel for RPI4, use it to make a bootable SD card for a RPI4.\n- how to configure it to use the WIFI board\n- how to prepare Docker images for ARM64\n- how to join the Kubernetes master\n- how to use weave plugin to get the Kernetes internal network\n- how to build and install the operator for Apache Tomcat.\n- then run a small webapp using the operator.",
+  "persons": [
+    "Jean-Frederic Clere"
+  ]
+}

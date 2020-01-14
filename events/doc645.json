@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "A Component-based Environment for Android Apps",
+  "subtitle": "",
+  "track": "Microkernels and Component-based OS",
+  "abstract": "With 2.5 billions of active users Android is the most widely deployed mobile operating system in the world. Its vast complexity paired with a monolithic architecture regularly result in severe security issues like the infamous Stagefright bug. In this presentation we talk about an ongoing research project which aims at running Android applications on top of the component-based Genode OS framework and secure them using formally verified components. We discuss how Android applications interact, how well this matches the semantics of Genode and what it takes to support unmodified Android apps.",
+  "description": "",
+  "persons": [
+    "Alexander Senier"
+  ]
+}

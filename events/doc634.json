@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "Status of AMD platforms in coreboot",
+  "subtitle": "",
+  "track": "Hardware Enablement",
+  "abstract": "The presentation is about AMD's involvement in coreboot evolution and development. Gives a high-level overview of the engagement of the silicon vendor in the coreboot project history. The presentation may contain a little bit of technical aspects of firmware and BIOS. However, the intended audience is not only firmware and BIOS developers, but also free and libre hardware enthusiasts too. If anybody is interested in the future of famous platforms like Asus KGPE-D16, Lenovo G505S, PC Engines apu1/apu2, please attend the presentation.",
+  "description": "The history of AMD cooperation in coreboot projects reaches 2007 where the\nfirst contribution appeared for the Geode LX processors. AMD's open-source\nsupport continued for many years until now (with some break). This presentation\nwill briefly introduce the history of AMD and coreboot, the evolution of the\ncode, processors, creation of CIMX and AGESA and so on. It will also show the\ngradual change in the AMD attitude to open-source and introduction of binary\nplatform initialization. Binary blobs, very disliked by the open-source\ncommunity started to cause problems and raised the needs for workarounds to\nsupport basic processor features. Soon after that AMD stopped supporting the\ncoreboot community. Moreover, recent coreboot releases started to enforce\ncertain requirements on the features supported by the silicon code base. Aging\nplatforms kept losing interest and many of them (including fully open ones) are\nbeing dropped from the main tree. Nowadays AMD released the newest AGESA with\nthe cooperation of hired coreboot developers, but only for Google and their\nChromebooks based on Ryzen processors. These are hard times for open firmware\non AMD platforms. If you are curious about what is the present status of AMD\nboards and hardware (for example famous Asus KGPE-D16, Lenovo G505S, PC Engines\napu1/apu2) in coreboot and what future awaits them, this presentation will give\nyou a good overview.",
+  "persons": [
+    "Micha\u0142 \u017bygowski"
+  ]
+}

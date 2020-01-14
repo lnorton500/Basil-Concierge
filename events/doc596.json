@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "K.3.201",
+  "title": "GNU Guix as an alternative to the Yocto Project",
+  "subtitle": "",
+  "track": "Distributions",
+  "abstract": "This talk demonstrates how to use GNU Guix to build a root filesystem for an\nembedded device (Pine A64 LTS).  I will also try to answer the question:\ncould GNU Guix be a viable alternative to the Yocto project and what would be\nthe benefits of using GNU Guix?",
+  "description": "Working as an embedded software engineer, I've been using Yocto and Buildroot\nprojects to create root filesystems for embedded devices. While Buildroot is\nonly suitable for small embedded systems, Yocto does scale well, but is a\nreally complex tool.\n\nPlus, both tools are difficult to handle for developers without a strong\nunderstanding of Linux system integration, and on the other hand, do not\nprovide APIs and introspection tools for integrators.\n\nIn this talk, I want to explore the possibility of using GNU Guix as an\nalternative to the Yocto project to generate embedded root filesystems.\n\nWith 7 years of existence, more than 10000 packages and 4 supported\narchitectures, GNU Guix can be used as a transactional package manager and an\nadvanced distribution of the GNU operating system running on the Linux kernel.\n\nWhat would be missing to cover all Yocto features? How could the embedded\ndeveloper benefit from GNU Guix features such as its high level Scheme API,\npackage substitution mechanism, strong reliability and reproducibility?\n\nTo provide some real world application, I'll compare the process of adding\nsupport for a new board (Pine A64 LTS) on Yocto and GNU Guix. Then I'll\ncompare how to configure, build and flash a small root filesystem for\nthat same board, on the two tools.",
+  "persons": [
+    "Mathieu Othacehe"
+  ]
+}

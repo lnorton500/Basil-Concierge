@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 50,
+  "room": "K.4.601",
+  "title": "NOVA Microhypervisor on ARMv8-A",
+  "subtitle": "",
+  "track": "Microkernels and Component-based OS",
+  "abstract": "NOVA is a modern open-source microhypervisor that can host unmodified guest operating systems next to critical host applications. Although originally developed for the x86 virtualization extensions of Intel and AMD, the internals of the microhypervisor and its external API were designed with flexibility in mind, such that the code could also be ported to other architectures.\n\nIn this talk we present the first ever version of NOVA on ARMv8-A.  We will show how the NOVA abstractions map onto the ARM architecture, how modern virtualization features such as GIC and SMMU are being used, discuss the ongoing evolution of the NOVA API and how the ARM port differs from the earlier x86 version.\n\nThe talk will conclude with a short demo, an outlook into the NOVA roadmap and the formal verification efforts around the code base, as well as opportunities for collaboration with the NOVA community.",
+  "description": "",
+  "persons": [
+    "Udo Steinberg"
+  ]
+}

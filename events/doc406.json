@@ -1,0 +1,13 @@
+{
+  "start": 1577899800000,
+  "duration": 25,
+  "room": "UD2.218A",
+  "title": "The State of PTXdist",
+  "subtitle": "",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "PTXdist has been around as a build tool for embedded systems for more than 16 years now, but many new features were added in the recent time. Most importantly this includes support for kconfig diffs and layered BSPs, infrastructure for code signing and license compliance, a homepage with online documentation and a cute logo, as well as several small improvements. This talk gives an overview for new and old users over the current feature set and the core concepts behind PTXdist.",
+  "description": "",
+  "persons": [
+    "Roland Hieber"
+  ]
+}

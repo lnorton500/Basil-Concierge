@@ -1,0 +1,13 @@
+{
+  "start": 1577901600000,
+  "duration": 25,
+  "room": "K.4.401",
+  "title": "A Vulkan driver for the RPI4",
+  "subtitle": "A lesson in futility",
+  "track": "Graphics",
+  "abstract": "For the Raspberry PI 4 I started implementing a Vulkan driver. This talk will give a guide of how to approach such a task, what my expectations are and what I learned so far.",
+  "description": "With the release of Raspberry PI 4 it becomes theoretically more viable to use it in GPU heavy scenarios. Even ordinary software like Gnome Shell, Chromium and games fall into that category.\nSadly, neither Broadcom nor Raspberry PI Foundation currently provide a Vulkan driver. Since I want as much performance (and little overheating) as possible, I started writing a Vulkan driver.\nThis entails learning kernel and mesa internals as well as trying to understand Gallium. All that I have learned so far, I will try to share in this talk.",
+  "persons": [
+    "Andreas Bergmeier"
+  ]
+}

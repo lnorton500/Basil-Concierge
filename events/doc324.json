@@ -1,0 +1,13 @@
+{
+  "start": 1577899800000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "repcloud",
+  "subtitle": "A repacker for PostgreSQL in cloud",
+  "track": "Python",
+  "abstract": "repcloud is a tool for repacking postgresql databases in cloud written in python3.",
+  "description": "repcloud is a tool for repacking postgresql databases hosted in cloud.\nas pgrepack is a far better approach for repacking tables online, there are situations where is not possible to install the extension on a postgresql if it's hosted in cloud (e.g. Heroku).\nHence comes repcloud which can help in rebuilding the tables on line with the use of simple SQL and some postgreSQL magic.\nThe author will explain how the project started, the functionalities and the limitations.",
+  "persons": [
+    "Federico Campoli"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577891400000,
+  "duration": 25,
+  "room": "K.3.401",
+  "title": "Progress of Rust and WASM in 2019",
+  "subtitle": "The year in review",
+  "track": "Rust",
+  "abstract": "There was a huge progress in Rust tools for WebAssembly in the last year. Let's review some of the most noticeable changes. The talk is mostly about wasm-bindgen.",
+  "description": "",
+  "persons": [
+    "Ilya Baryshnikov"
+  ]
+}

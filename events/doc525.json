@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 90,
+  "room": "H.3242",
+  "title": "NGI Meetup",
+  "subtitle": "Meetup for Next Generation Internet",
+  "track": "BOFs (Track B - in H.3242)",
+  "abstract": "The Next Generation Internet initiative is one of the most substantial efforts in recent years to move the state of technology forward. It consists currently of over 200 projects, ranging from open hardware, middleware, web services, ActivityPub and cryptography to more fair search technology and decentralised internet tools. More projects are being added through open calls regularly. There are over twenty different talks related to this programme at FOSDEM 2020! This Birds of a Feather is for anyone interested in or involved with the Next Generation Internet initiative.",
+  "description": "",
+  "persons": [
+    "Michiel Leenaars"
+  ]
+}

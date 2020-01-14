@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "Linux Kernel Library",
+  "subtitle": "A Library Version of Linux Kernel",
+  "track": "Microkernels and Component-based OS",
+  "abstract": "LKL (Linux Kernel Library) is aiming to allow reusing the Linux kernel\ncode as extensively as possible with minimal effort and reduced\nmaintenance overhead.  It allows us to link the library with any\nprograms (which wish to call as a function call) containing Linux\nkernel code.  There are many use cases: reading/writing files without\ngeneral system calls, putting experimental protocol implementation\nwithout neither of host kernel update nor kernel module installation,\nusing customized kernel in container instance, building a unikernel\nbased on existing rumprun framework, or testing/fuzzing kernel\nimplementation in userspace execution, etc.\n\nIn this talk, we are going to present\n\n\nwhy/how/when we started this project,\nshare the outcomes using LKL\nfuzzing test with Linux filesystem\nout of tree network protocols on Android\nlkl.js\nmacOS port\ndocker integration\nfuture directions including upstreaming to Linux kernel\n",
+  "description": "",
+  "persons": [
+    "Hajime Tazaki"
+  ]
+}

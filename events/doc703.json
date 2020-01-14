@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 30,
+  "room": "UB2.252A (Lameere)",
+  "title": "Diversity, Finally",
+  "subtitle": "",
+  "track": "Go",
+  "abstract": "What if we decided to solve, once and for all, the problem of underrepresentation in the Go community of women, gender minorities, people of color, or any other group the same way we handle our problems in production, by identifying \"bugs\" and then fixing them?  Can it even be done? What if we took the engineering approach? Ronna is planning to convince you it's not a matter of if, but a matter of how, and we are going to analyze some of the statistics, find where the problems actually lay, and build a Trello card full of achievable tasks to address them.",
+  "description": "What if we decided to solve, once and for all, the problem of underrepresentation in the Go community of women, gender minorities, people of color, or any other group the same way we handle our problems in production, by identifying \"bugs\" and then fixing them?  Can it even be done? What if we took the engineering approach? Ronna is planning to convince you it's not a matter of if, but a matter of how, and we are going to analyze some of the statistics, find where the problems actually lay, and build a Trello card full of achievable tasks to address them.",
+  "persons": [
+    "Ronna Steinberg"
+  ]
+}

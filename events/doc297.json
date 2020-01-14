@@ -1,0 +1,13 @@
+{
+  "start": 1577876700000,
+  "duration": 30,
+  "room": "UB2.147",
+  "title": "Welcome to KernelCI",
+  "subtitle": "You're all welcome to the KernelCI project's new home",
+  "track": "Testing and Automation",
+  "abstract": "KernelCI is a project dedicated to testing the upstream Linux kernel.\nOriginally created by Linaro in 2014, it started a new chapter by\nbecoming a Linux Foundation project in October 2019.  Its future looks\nbright, with plenty of opportunities for new contributors to join.",
+  "description": "The chosen one\n\nThe upstream kernel testing landscape is pretty wide, rich and\ndiverse, in the same ways that the Linux kernel is.  But as there is\nonly one upstream kernel, it became clear that there should also be\none main test system associated with it.  KernelCI was chosen to\nfulfil this role, being rather neutral, versatile and based on a\ndistributed architecture.\n\nA welcoming place\n\nWhile the project now has a governing board via the Linux Foundation\nmembership, its involvement with the kernel community is only getting\nstronger.  It is of utmost importance to keep the roadmap aligned with\nexpectations from maintainers and developers to preserve the integrity\nand overall purpose of project.  In fact, it now needs to become an\neasy tool to use by anyone who wants to add tests for their subsystem\nor their hardware and for anyone to reproduce those tests locally.\n\nAn exciting year ahead\n\nThis is a new beginning for KernelCI, with many of its prior\nlimitations now being removed thanks to the framework provided by the\nLinux Foundation.  Contributors to the code, tests, hardware labs and\nnew project members will all have a great influence by joining the\nproject at this very special point in time.  Now is the time to come\nand help shape it as a successful project for the years to come.\n\nSlides: https://people.collabora.com/~gtucker/kernelci/doc/gtucker-kernelci-fosdem-2020.pdf",
+  "persons": [
+    "Guillaume Tucker"
+  ]
+}

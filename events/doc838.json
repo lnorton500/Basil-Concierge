@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 30,
+  "room": "UD2.218A",
+  "title": "Tarantool Cartridge: Framework for Distributed Apps",
+  "subtitle": "Tarantool Cartridge: Framework for Distributed Apps",
+  "track": "Internet of Things",
+  "abstract": "We will have to talk about Tarantool Cartridge: it's framework for creating distributed applications. The application will be based on Tarantool \u2013 blazing fast in-memory database and Lua application server in one.\nInstances interconnect with each other by SWIM protocol \u2013 UDP Gossip protocol. We believe that our platform can bring brand new opportunities for the IoT world: we have the aggregated solution for many potential cases in IoT.",
+  "description": "We will have to talk about Tarantool Cartridge: it's framework for creating distributed applications. The application will be based on Tarantool \u2013 blazing fast in-memory database and Lua application server in one.\nInstances interconnect with each other by SWIM protocol \u2013 UDP Gossip protocol. We believe that our platform can bring brand new opportunities for the IoT world: we have the aggregated solution for many potential cases in IoT.",
+  "persons": [
+    "Artur Barsegyan"
+  ]
+}

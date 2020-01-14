@@ -1,0 +1,13 @@
+{
+  "start": 1577877000000,
+  "duration": 20,
+  "room": "UD2.119",
+  "title": "LSP for Java and GraalVM Development",
+  "subtitle": "",
+  "track": "Free Tools and Editors",
+  "abstract": "In this session, we will explore how the Language Server Protocol, LSP, is used to aid developers. We will cover not only the Java language, but also other languages, especially those supported by the GraalVM, like JavaScript, R, Python, Ruby. This includes development in various IDEs and editors, for example the NetBeans IDE and VisualStudio Code.",
+  "description": "",
+  "persons": [
+    "Martin Entlicher"
+  ]
+}

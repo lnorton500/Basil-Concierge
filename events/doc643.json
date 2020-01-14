@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "Phantom OS",
+  "subtitle": "Orthogonal Persistence-based OS Intro and Design Concepts",
+  "track": "Microkernels and Component-based OS",
+  "abstract": "Phantom OS is an Operating system based on the orthogonal persistence. Application does not feel OS shutdown and restart. Even abrupt restart. It is guaranteed that application will be restarted in consistent state.",
+  "description": "\nAs long as you have reference to any variable, it\u2019s state is the same between OS reboots. You don\u2019t have (though you can) save program state to files.\nManaged code. Native Phantom applications are running in a bytecode machine. (But it is worth to mention that Phantom has simple Posix compatibility subsystem too.)\nGlobal address space. Phantom OS is an application server. All applications can communicate directly, by sharing objects.\nPhantom OS persistence is achieved not by serializing data to files, but by running all applications in a persistent RAM. You can (and it will be true) think of Phantom memory subsystem as of a persistent paging engine\n",
+  "persons": [
+    "Dmitry Zavalishin"
+  ]
+}

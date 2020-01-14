@@ -1,0 +1,13 @@
+{
+  "start": 1577883600000,
+  "duration": 25,
+  "room": "UD2.218A",
+  "title": "Building a low-cost test fixture",
+  "subtitle": "",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "When printed circuit boards come out of the assembly line, a test fixture is required to perform functional testing and program the firmware.\nThese fixtures, called bed of nails, are sturdy setups usually built for high volume production, and can be quite costly.\nThe goal of this talk is to describe how you can build your own low cost fixture with basic PCB design skills and off the shelves components.",
+  "description": "Functional testing of printed circuit boards (PCB) is typically done with a bed of nails fixture. The fixture holds the PCB in place over spring-loaded probes that make contact with the board\u2019s test points.\nThe probes can be connected to an acquisition system that runs functional tests and to a programmer that flashes production firmware.\nThe Internet has tutorials and DIY kits suitable for PCBs with large test points (on a 2.54 mm grid). However as PCBs get smaller and more crowded, test points have to be smaller and closer to each other.\nThe goal of this talk is to describe how to build a test fixture with tighter requirements (test points with 0.6 mm diameter and 1.27 mm spacing) on a tight budget.\n\nMain talking points:\n- Making a PCB (with Kicad) to hold the probes in place and align the device under test (DUT),\n- Using a Raspberry Pi Zero to instrument the setup and communicate with the DUT,\n- Running OpenOCD on the Raspberry Pi Zero to flash the production firmware.",
+  "persons": [
+    "Guillaume Vier"
+  ]
+}

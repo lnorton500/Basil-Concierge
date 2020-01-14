@@ -1,0 +1,13 @@
+{
+  "start": 1577885400000,
+  "duration": 30,
+  "room": "UA2.220 (Guillissen)",
+  "title": "An Introduction to the Tor Ecosystem for Developers",
+  "subtitle": "",
+  "track": "Decentralized Internet and Privacy",
+  "abstract": "Tor is a free and open-source software anonymization system that allows people around the world to use the internet safely. The Tor network itself is operated by various volunteering individuals and organizations around the globe, and the network carries around 200 Gbit/s of traffic and helps somewhere between 2,000,000 and 8,000,000 users every day. The Tor ecosystem is much larger than the anonymity system that Tor provides itself: The Tor Project, the non-profit behind the anonymity system, also develops and maintains a web browser based on Mozilla Firefox. The organization also does monitoring of the network, work on emerging anti-censorship technology, work with translators, and downstream distributions that do packaging in free software operating system distributions.\n\nIn this presentation, we will have a look at what it takes to develop and maintain an anonymity system like Tor and the various other components in the Tor ecosystem. We will look at what The Tor Project has been up to lately, primarily with a focus on core Tor itself. However, we will also have a look at some of our recent developments with anti-censorship technology. Finally, we will have a look at how the participant can contribute to the Tor project.\n\nNo prior knowledge of Tor is necessary to participate.",
+  "description": "",
+  "persons": [
+    "Alexander F\u00e6r\u00f8y"
+  ]
+}

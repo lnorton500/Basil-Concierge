@@ -1,0 +1,13 @@
+{
+  "start": 1577889600000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Migrating reSIProcate to C99 stdint types",
+  "subtitle": "",
+  "track": "Real Time Communications",
+  "abstract": "reSIProcate was developed over many years using a custom set of fixed-width data types defined in one of the headers, compat.hxx. The C99 stdint header provides a more standard solution. I talk about how we experimented with replacing the types throughout the entire stack and the consequences for users.",
+  "description": "",
+  "persons": [
+    "Izabela Bakollari"
+  ]
+}

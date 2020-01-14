@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 25,
+  "room": "UB2.252A (Lameere)",
+  "title": "Production-time Profiling for Python",
+  "subtitle": "",
+  "track": "Python",
+  "abstract": "Learn how to scrutinize your Python application in order to optimize them and make them run faster.",
+  "description": "Getting inside knowledge of how your Python application runs is critical in order to achieve the best performance. Profiling is a mean to achieve this: by gathering all the runtime information available about the execution of your program, you might be able to understand how to optimize it. However, profiling running code in production might be a real challenge as it requires the profiler to be noninvasive and having low overhead.\n\nTherefore, to profile production services, statistical profiling is the favorite analysis method. By regularly checking your program activity, you\u2019ll be able to find production code bottlenecks down to the line of code. Profiling services that are running with real workload makes sure that you are collecting valuable data and that you are not guessing what the performance barrier might be.\n\nThis talk explains how it\u2019s possible to build a statistical profiler that collects information about CPU time usage, memory allocation, and other information \u2014 all that while respecting the need for low overhead, data export format, and granularity. We\u2019ll dig into some of the operating systems and CPython internals to understand how to build the best profiler possible.",
+  "persons": [
+    "Julien Danjou"
+  ]
+}

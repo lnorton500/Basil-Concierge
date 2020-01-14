@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "GStreamer on the Magic Leap One",
+  "subtitle": "",
+  "track": "Open Media",
+  "abstract": "Magic Leap One is an augmented reality glasses. Let's run an Open Source Browser (Mozilla Servo) using GStreamer multimedia framework on it.",
+  "description": "The Magic Lean One device runs a custom OS called LuminOS, derived from Android with JAVA stripped off. Servo is Mozilla's browser written in Rust that uses GStreamer to render multimedia content.\n\nPresentation of the challenges and solutions found to make it happen:\n- GStreamer's Meson build system.\n- Stagefright-ish API in the SDK.\n- Completely new audio API, with 3D space localization.\n- OpenGL rendering, including stereoscopic SBS.\n- It's now all upstream!",
+  "persons": [
+    "Xavier Claessens"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577873400000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "Evolution of path based Geo-replication in Gluster",
+  "subtitle": "",
+  "track": "Software Defined Storage",
+  "abstract": "As data is becoming more and more important in the world, we can't afford to lose it even if there is a natural calamity. We will see how Geo-Replication came in to solve this problem for us and how it evolved over the days.\nThrough this session, the users will learn how easy it is to set up Georep for Gluster to use it for their storage and back up their data with minimal understanding of storage and linux. Having a basic Gluster knowledge will make it even more easy",
+  "description": "",
+  "persons": [
+    "Hari Gowtham"
+  ]
+}

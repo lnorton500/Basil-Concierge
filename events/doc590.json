@@ -1,0 +1,13 @@
+{
+  "start": 1577893800000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Divide and map. Now.",
+  "subtitle": "damn project",
+  "track": "Geospatial",
+  "abstract": "There is a Tasking manager by the Humanitarian OpenStreetMap Team (HOT). We use it heavily during mapathons (mapping for developing countries). The Tasking Manager serves one primary purpose: take some great area to be mapped and split it to squares a human can map in a few minutes. With this divide and map approach, we can map a lot.\n\nThere are some issues with the Tasking Manager, however. The main problem is performance -- it is slow and failing when loaded by requests.\n\nThe next is the architecture of the Tasking Manager. It is wrong, in my opinion.\n\nThe last but not least is that the Tasking Manager is not community-driven. The Tasking Manager is a product of HOT for which you can download the source code.\n\nIn the talk, I want to introduce Divide and map. Now. -- damn project. It is an alternative to the Tasking Manager that tries to fix the issues noted above.",
+  "description": "I am going to publish the full description between Dec 2019 and Jan 2020 as it is not ready yet. The damn project is not fully released yet, although parts of it are developed as opensource:\n- https://gitlab.com/qeef/damnserver\n- https://gitlab.com/qeef/damnclient\n- https://gitlab.com/qeef/damnplugin\n- https://gitlab.com/qeef/damnmanager\n\nEDIT: The project is released:\n- https://www.openstreetmap.org/user/qeef/diary/391778\n- https://www.damn-project.org/",
+  "persons": [
+    "Jiri Vlasak"
+  ]
+}

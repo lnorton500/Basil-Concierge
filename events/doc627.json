@@ -1,0 +1,13 @@
+{
+  "start": 1577894700000,
+  "duration": 30,
+  "room": "K.4.201",
+  "title": "Debugging apps running in Kubernetes",
+  "subtitle": "An overview of the tooling available",
+  "track": "Debugging Tools",
+  "abstract": "New tools are coming out to make it possible to add breakpoints and debug running code in a Kubernetes Pod. This talk will present an overview of some of these tools. We'll cover tools that make it easy to update the code that's running in a Pod (Skaffold/Ksync/Telepresence). And we'll also cover how to connect your IDE to the code and set breakpoints.",
+  "description": "\nA really brief, high level overview of k8s pods &amp; how to run an application there\nList out some the tools available that make debugging possible\nOverview of how each tool differs\nA demo of 2 different debugging tools\n",
+  "persons": [
+    "Jeff Knurek"
+  ]
+}

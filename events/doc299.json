@@ -1,0 +1,13 @@
+{
+  "start": 1577881500000,
+  "duration": 50,
+  "room": "UB2.147",
+  "title": "OpenQA with the JDP data analyses framework",
+  "subtitle": "Bug tag propagation on 2M+ test results using Julia",
+  "track": "Testing and Automation",
+  "abstract": "Overview of SUSE's Linux kernel testing in OpenQA, how we keep track of known issues, explore test results and other features of JDP. The JDP framework is written in Julia, uses Redis as a distributed data cache and Jupyter for interactive reporting. OpenQA is a large application used for testing operating systems and displaying the results.",
+  "description": "",
+  "persons": [
+    "Richard Palethorpe"
+  ]
+}

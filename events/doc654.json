@@ -1,0 +1,13 @@
+{
+  "start": 1577874600000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "You Can't Spell Accessibility Without CSS",
+  "subtitle": "",
+  "track": "Mozilla",
+  "abstract": "In this talk, we'll discuss website accessibility in the context of CSS. Things like when to use an image and when to use a background image, how to ensure proper contrast between text and background colors, maintaining a hierarchical layout in your design, when to use an outline: 0 property (almost never), and a whole bunch of other things.",
+  "description": "This talk is suited to beginner and intermedite front end developers.\nSpecific topics covered include:\n- maintaining the hierarchical structure of content,\n- creating non-obtrusive elements\n- ensuring contrast between background and text\n- using devtools to check accessibility",
+  "persons": [
+    "Jemima Abu"
+  ]
+}

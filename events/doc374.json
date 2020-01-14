@@ -1,0 +1,13 @@
+{
+  "start": 1577899800000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Mgmt Config: Autonomous Datacentres",
+  "subtitle": "Real-time, autonomous, automation",
+  "track": "Infra Management Devroom",
+  "abstract": "Mgmt is a real-time automation tool that is fast and safe. One goal of the tool is to allow users to model and manage infrastructure that was previously very difficult or impossible to do so previously.\n\nThe tool has two main parts: the engine, and the language. This presentation will have a large number of demos of the language.\n\nTo showcase this future, we'll show some exciting real-time demos that include scheduling, distributed state machines, and reversible resources.\n\nAs we get closer to a 0.1 release that we'll recommend as \"production ready\", we'll look at the last remaining features that we're aiming to land by then.\n\nFinally we'll talk about some of the future designs we're planning and discuss our free mentoring program that helps interested hackers get involved and improve their coding, sysadmin, and devops abilities.",
+  "description": "",
+  "persons": [
+    "James Shubin"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577887200000,
+  "duration": 50,
+  "room": "H.2214",
+  "title": "An ultimate guide to upgrading your PostgreSQL installation",
+  "subtitle": "",
+  "track": "PostgreSQL",
+  "abstract": "Even an experienced PostgreSQL DBA can not always say that upgrading between major versions of Postgres is an easy task, especially if there are some special requirements, such as downtime limitations or if something goes wrong. For less experienced DBAs anything more complex than dump/restore can be frustrating.\n\nIn this talk I will describe why we need a special procedure to upgrade between major versions, how that can be achieved and what sort of problems can occur. I will review all possible ways to upgrade your cluster from classical pg_upgrade to old-school slony or modern methods like logical replication. For all approaches, I will give a brief explanation how it works (limited by the scope of this talk of course), examples how to perform upgrade and some advice on potentially problematic steps. Besides I will touch upon such topics as integration of upgrade tools and procedures with other software \u2014 connection brokers, operating system package managers, automation tools, etc. This talk would not be complete if I do not cover cases when something goes wrong and how to deal with such cases.",
+  "description": "",
+  "persons": [
+    "Ilya Kosmodemiansky"
+  ]
+}

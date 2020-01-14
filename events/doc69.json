@@ -1,0 +1,14 @@
+{
+  "start": 1577884200000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "XDP and page_pool API",
+  "subtitle": "",
+  "track": "Software Defined Networking",
+  "abstract": "XDP support is an increasing trend on the network devices. XDP main goal is\nprocessing packets at the lowest point in the software stack avoiding\noverheads. Memory recycling of received buffers achieved through\nthe in kernel pagepool API plays a fundamental role in the increased performance.\nAdding XDP support on a driver can be non-trivial. In this talk we'll demonstrate\nhow porting a standard ethernet driver (mvneta/netsec) to XDP and the pagepool API can\nboost performance.\nPart of the page_pool evolution involves adding the recycling support\nin the kernel's SKB stack and leverage the increased performance\nattributes of the API.",
+  "description": "",
+  "persons": [
+    "Ilias Apalodimas",
+    "Lorenzo Bianconi"
+  ]
+}

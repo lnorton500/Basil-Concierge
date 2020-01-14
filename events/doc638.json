@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 55,
+  "room": "K.4.401",
+  "title": "Extending the lifetime of smartphones with Replicant, a fully free Android distribution",
+  "subtitle": "",
+  "track": "Hardware Enablement",
+  "abstract": "After a very quick introduction on Replicant and the smartphones ecosystem, we will look at what affects smartphones' and tablets' lifetime and how to increase it by making Replicant more sustainable.",
+  "description": "",
+  "persons": [
+    "Denis Carikli (GNUtoo)"
+  ]
+}

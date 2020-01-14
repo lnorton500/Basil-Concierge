@@ -1,0 +1,13 @@
+{
+  "start": 1577898000000,
+  "duration": 25,
+  "room": "K.4.601",
+  "title": "Introducing AUTOREV",
+  "subtitle": "An automatic reverse-engineering framework for firmware BLOBs",
+  "track": "Open Source Firmware, BMC and Bootloader",
+  "abstract": "Modern Open Source boot firmware ships with an increasing amount of BLOBs. While it's often claimed that it eases the integration,\nit makes life of Open Source developers harder, as it's not documented what is done inside BLOBs and what should be done outside of\nthe same.\n\nWe will show how to trace the MMIO access of BLOBs in firmware by using Open Source tools. As analysing the traces for possible\nbranches and loops is hard and stressful work, we created our own framework for automatic reverse engineering.\nOur framework allows to capture and analyse MMIO traces, fuzz the BLOB under test and finally generates readable code in a high level language,\nlike C, for easy analysing.\n\nDuring this talk, we will discuss the legal side, the motivation behind reverse engineering, and the benefit for the Open Source community.\nWe will explain the problems we faced, and explain the basic concept used, with examples from the real world.",
+  "description": "",
+  "persons": [
+    "Patrick Rudolph"
+  ]
+}

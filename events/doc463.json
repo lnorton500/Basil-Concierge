@@ -1,0 +1,13 @@
+{
+  "start": 1577872800000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "PWAs on steroids",
+  "subtitle": "",
+  "track": "JavaScript",
+  "abstract": "PWAs bring the best of both mobile and native apps to user. PWAs equipped with service workers provide features like offline availability, push notifications etc. Now with modern webAPIs, PWAs are beyond the browsers; in Hardware. Consider turning bulb on/off with your PWA, sounds cool? Lets learn how to, in this talk!",
+  "description": "PWAs have been limited to offline availability and push notifications for long time, I want to explain to developers there is much more to PWAs, I want to show how to interact with more device specific features with modern webAPIs like web Bluetooth, speech synthesis, speech recognition, webShare etc. With this talk I want to give attendees a compelling reason to develop PWA instead of a mobile app for there next thing. I plan to have a quick introduction to serviceworkers and then majorly explaining webAPIs, usage and implementation with demos.",
+  "persons": [
+    "Trishul Goel"
+  ]
+}

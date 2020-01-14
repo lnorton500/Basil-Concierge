@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "Boost.Geometry R-tree - speeding up geographical computation.",
+  "subtitle": "",
+  "track": "Geospatial",
+  "abstract": "",
+  "description": "",
+  "persons": [
+    "Adam Wulkiewicz"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577896800000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "Hash Join in MySQL 8",
+  "subtitle": "",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "JOIN is one of the most common operation in a database system, and for a long time, the only algorithm for executing a join in MySQL has been variations of the nested loop algorithm. But starting from MySQL 8.0.18, it is now possible to execute joins using hash join. This presentation will walk you through how we were able to implement hash join using our new iterator executor, how hash join in MySQL works, when it is used, and everything else that is worth knowing about hash join in MySQL.",
+  "description": "",
+  "persons": [
+    "Erik Fr\u00f8seth"
+  ]
+}

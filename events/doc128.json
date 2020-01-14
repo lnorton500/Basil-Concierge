@@ -1,0 +1,13 @@
+{
+  "start": 1577902200000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "Automating schema migration flow with GitHub Actions, skeema & gh-ost",
+  "subtitle": "And end-to-end schema migration automation, from design to production, at GitHub",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "Schema migration is more than running an ALTER TABLE. It is about designing, reviewing, approving, queuing, scheduling, executing, auditing, controlling and versioning the changes.\n\nAt GitHub we run multiple migrations per day, and much of this flow used to be manual, taking a significant toll from the databases team. In this session we illustrate how we automated away migration using free and open source solutions, and based on trusted development flow.",
+  "description": "Schema migration is more than running an ALTER TABLE. It is about designing, reviewing, approving, queuing, scheduling, executing, auditing, controlling and versioning the changes.\n\nAt GitHub we run multiple migrations per day, and much of this flow used to be manual, taking a significant toll from the databases team. In this session we illustrate how we automated away migration using free and open source solutions, and based on trusted development flow.\n\nWe highlight the use of the skeema tool, with GitHub Actions, git flow and gh-ost.",
+  "persons": [
+    "Shlomi Noach"
+  ]
+}

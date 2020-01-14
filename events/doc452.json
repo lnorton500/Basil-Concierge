@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "Communication Break Down | Coroutines",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "Coroutines are great, I think we all agree on that. But as the async, and possibly parallel, programming becomes easier the risk of sharing mutable variables between coroutines arises. When the boundaries are abstracted away we should rely on safe ways to communicate between our coroutines.\nIn this session I will go through safe and unsafe ways of communication between different coroutines, with the main focus on the safe ones and what differentiates them.",
+  "description": "",
+  "persons": [
+    "Bob Dahlberg"
+  ]
+}

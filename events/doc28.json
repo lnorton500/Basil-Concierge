@@ -1,0 +1,13 @@
+{
+  "start": 1577895600000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "Mandos",
+  "subtitle": "Disk encryption without passwords",
+  "track": "Lightning Talks",
+  "abstract": "Disk encryption is essential for physical computer security, but seldom used due to the trouble of remembering and typing a password at every restart. We describe Mandos, a program which solves this problem, its security model, and the underlying concepts of its design, as well as its evolution over the 10 years since its initial release.",
+  "description": "Any security system must have a clear view of its intended threat model \u2013 i.e. what threats it is actually intended to protect against; the specific choices and tradeoffs made for Mandos will be explained. Another danger of security system design is the risk of its non-use; i.e. that the system will not be used for some real or perceived drawbacks, such as complexity. The deliberate design choices of Mandos, involving low-interaction, \u201cinvisible\u201d and automatic features, will be covered.  Special emphasis will be made on the many necessary changes made since the last FOSDEM talk in 2015.",
+  "persons": [
+    "Teddy Hogeborn"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577891100000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Introducing Falconieri: Remote Provisioning Service as a Service",
+  "subtitle": "A new, modern, open source and cloud native remote provisioning service gateway.",
+  "track": "Real Time Communications",
+  "abstract": "Remote Provisioning Service is a service offered by phones vendors for easily and quickly provide a configuration for a phone.\nDespite the advantages of have a phone ready to use without any specific network configuration  (except for a internet connection), there are some drawbacks like different APIs for any vendors.\nFalconieri try to unify all the vendors specific APIs under a set of HTTP rest APIs.",
+  "description": "In this talk will be shown the motivations beoynd the creation of Falconieri and the technical choises.\nWill be illustrated also the APIs of the four currently supported vendors:\n\n\nSNOM\nGigaset\nYealink\nFanvil\n",
+  "persons": [
+    "Matteo Valentini"
+  ]
+}

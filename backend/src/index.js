@@ -15,7 +15,8 @@ app.use((req, res, next) => {
 });
 
 app.use("/", require("./routers/core"));
-app.use("/projects", require("./routers/projects"));
+app.use("/events", require("./routers/events"));
+app.use("/catagories", require("./routers/catagories"));
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);

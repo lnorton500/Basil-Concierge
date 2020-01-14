@@ -1,0 +1,13 @@
+{
+  "start": 1577895600000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Just-in-time compiling Java in 2020",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "Client compiler, server compiler, JVMCI, Graal ... What are we using today and how do they work together?\nIn this talk I'll give and overview of the Just-in-time compilers included in OpenJDK and explain how to play with them.\nI'll also address Just-in-time compiler threads and resource related issues.",
+  "description": "",
+  "persons": [
+    "Martin Doerr"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577892000000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Reducing OpenJDK Java Garbage Collection times with stack allocation",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "In this talk we'll explore ways that the JVM can reduce the object allocation rate of Java programs automatically by performing stack allocation of objects that are known to be local to a method, or in compiler terms non-escaping. The discussion is focused on employing the escape analysis optimization in the OpenJDK Hotspot C2 compiler to determine which Java objects can be stack allocated, and how this optimization can reduce pressure on the Java JVM garbage collectors.\n\nWe'll show some results on how various real world applications can benefit from such optimizations and describe the methodology of how we prototyped this in OpenJDK. Our work is only in prototype state at this moment and we are looking for more data to understand how broadly applicable this optimizations is. This work wouldn't be possible without free open source access to Java.",
+  "description": "",
+  "persons": [
+    "Nikola Grcevski"
+  ]
+}

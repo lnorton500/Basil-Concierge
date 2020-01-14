@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "How Kotlin can change developer experience with modern graphics APIs",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "Creating modern games in Kotlin forces you to use non-object oriented graphic languages and getting your hand dirty with native resource managemente. With wrappers around OpenGL and Vulkan, we make powerful graphics familiar to jvm devs and type-safe.",
+  "description": "Vulkan and OpenGL are the cross-platform standard for creating modern games and graphics. However, their respectively stateless and state-based systems have no relation to an object-oriented language like Kotlin and you have to be careful to handle native resources interacting with the API.\n\nWrappers that we have built at Kotlin Graphics allow for them to become object oriented. This talk will teach the attendees how to use our wrappers VKK and GLN for Vulkan and OpenGL respectively in order to create performant, modern graphics.\n\nGraphic power meets Kotlin expressiveness\n\nVKK and GLN bring features such as type safety through inline classes and enums, DSL constructs, extension functions, typealias, less verbosity, pure jvm allocation strategy and an easy to pick up system. Because of the type-safety guarantee, we can directly call the native methods without performing potentially expensive checks.\n\nThis allows users of Kotlin to create performant, modern games like those you could build on C or C++.",
+  "persons": [
+    "Giuseppe Barbieri"
+  ]
+}

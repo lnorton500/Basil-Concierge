@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 40,
+  "room": "UB2.147",
+  "title": "Abusing GitLab CI to Test Kernel Patches",
+  "subtitle": "",
+  "track": "Testing and Automation",
+  "abstract": "See how Red Hat\u2019s CKI project uses GitLab CI to test kernel patches as soon as they're posted to maillists.",
+  "description": "Red Hat's CKI project uses GitLab CI to organize and track its pipelines, lint, patch, and build Linux kernels, and oversee testing. It also uses a number of supporting systems to discover kernel patches and commits, maintain hardware inventory, provision hardware and VMs, run tests, and finally record and report results.\n\nSee which tricks the project is pulling to tie all these parts together, and test patches posted to several maillists, commits to 15+ git repos, builds done by other build systems, as well as weird things like stable kernel patch queue, and parts of its own software stack.\n\nMaking such extensive use of a CI system inevitably uncovers its limitations, and a list of these will also be presented along with some possible solutions.",
+  "persons": [
+    "Nikolai Kondrashov"
+  ]
+}

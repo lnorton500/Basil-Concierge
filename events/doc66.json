@@ -1,0 +1,13 @@
+{
+  "start": 1577880600000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "Endless Network Programming \u2212 An Update from eBPF Land",
+  "subtitle": "",
+  "track": "Software Defined Networking",
+  "abstract": "The Linux kernel networking capabilities have been undergoing major changes over the last years. At the heart of the performance gain, eBPF (extended Berkeley Packet Filter) and XDP (eXpress Data Path) have brought new possibilities in terms of tracing and network packet processing. eBPF is a trendy topic in the Linux world, and today it needs little introduction among the SDN and NFV community. But the technology is still under heavy development, bringing new features, more flexibility, and better performance to the users. This presentation is an update on the latest evolutions in the eBPF world!\n\nMany of those changes occur directly inside the eBPF subsystem architecture. New program types are being added. Early constraints such as the maximal number of instructions for programs, or the unavailability of loops, are changing. The internals are improved with support for debug information (BTF) or 32-bit instructions. And many new mechanisms are implemented, such as global data support, the \u201cBPF trampoline\u201d, batched map operations (in progress), XDP program chaining (in progress). Let's review all the latest trends in eBPF kernel development!\n\nBut beyond kernel code, eBPF has grown as a full ecosystem, with a variety of tools used to work with it, or to build upon it. Bpftool, a reference utility to manage eBPF programs, keeps evolving. The networking projects using eBPF keep growing in number (e.g. Katran, Suricata, Sysdig, Hubble, Libkefir) or in features (e.g. Cilium). Let's review (briefly) some of those projects that assert eBPF as one of the essential fast dataplane solutions in the Linux world.",
+  "description": "",
+  "persons": [
+    "Quentin Monnet"
+  ]
+}

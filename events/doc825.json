@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 20,
+  "room": "UD2.218A",
+  "title": "Astarte: A Data-First approach to IoT",
+  "subtitle": "Astarte: A Data-First approach to IoT",
+  "track": "Internet of Things",
+  "abstract": "Even though the IoT buzz has been around for years, ecosystems are still scattered and developers must usually patch together a number of solutions to achieve their goals. Astarte is a free software, opinionated \"blackbox\" solution which aims at empowering developers with a platform which puts Data as the first-class citizen rather than focusing on Device-to-Cloud communication, and can scale to production-tier deployments easily.",
+  "description": "Astarte enables developers to skip the details of all the plumbing in IoT data collection, and skip straight to easy-to-use mechanisms for harnessing data produced by IoT devices through analytics, AI, or simply visualisation.\nThe talk will go over Astarte's design and architecture, both from a plumbing perspective and from the daily developer usage. The live demo will show how to install Astarte in a Kubernetes Cluster, set up a Device (real or a simulator) to interact with Astarte, and build a minimal web application to interact with it - all in the timespan of the talk.",
+  "persons": [
+    "Dario Freddi"
+  ]
+}

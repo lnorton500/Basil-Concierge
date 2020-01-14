@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Foreman meets Ansible",
+  "subtitle": "",
+  "track": "Infra Management Devroom",
+  "abstract": "This talk focuses on how Ansible and Foreman integrate with each other and what\nadded value can the users get when using Ansible from Foreman. It describes two\nprimary approaches of using Ansible from Foreman. The first is a traditional\nconfiguration management approach, where hosts are kept in a predefined state,\nwhile the other works in a more remote execution fashion. The talk goes over\nseveral scenarios and demonstrates how Foreman can leverage Ansible to\neffortlessly solve the issues present in the given scenarios.",
+  "description": "This talk focuses on how Ansible and Foreman integrate with each other and what\nadded value can the users get when using Ansible from Foreman. It describes two\nprimary approaches of using Ansible from Foreman. The first is a traditional\nconfiguration management approach, where hosts are kept in a predefined state,\nwhile the other works in a more remote execution fashion. The talk goes over\nseveral scenarios and demonstrates how Foreman can leverage Ansible to\neffortlessly solve the issues present in the given scenarios.",
+  "persons": [
+    "Adam R\u016f\u017ei\u010dka"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577895600000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "Designing an ultra low-overhead multithreading runtime for Nim",
+  "subtitle": "Exposing fine-grained parallelism for 32+ cores hardware via message passing",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "While multithreading abstractions are consolidating over a couple of basic primitives around the notion of tasks and futures, under the hood implementations are vastly differing.\nThe abstraction \"details\" are significant in the current era as developers now have to find parallelism opportunities for 16+ cores on consumer CPUs.\n\nWe go over the design space of task-parallel and data-parallel multithreading runtime library and present an unique, scalable approach\nbased on message passing.",
+  "description": "",
+  "persons": [
+    "Mamy Ratsimbazafy"
+  ]
+}

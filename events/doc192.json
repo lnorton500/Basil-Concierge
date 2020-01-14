@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 30,
+  "room": "AW1.126",
+  "title": "Empowering social scientists with web mining tools",
+  "subtitle": "Why and how to enable researchers to perform complex web mining tasks",
+  "track": "Open Research Tools and Technologies",
+  "abstract": "Web mining, as represented mostly by the scraping &amp; crawling practices, is not a straightforward task and requires a variety of skills related to web technologies.\nHowever, web mining can be incredibly useful to social sciences since it enables researchers to tap into a formidable source of information about society.\n\nBut researchers may not have the possibility to invest copious amount of times into learning web technologies in and out. They usually rely on engineers to collect data from the web.\nThe object of this talk is to explain how Sciences Po's m\u00e9dialab designed &amp; developed tools to empower researchers and enable them to perform web mining tasks to answer their research questions. Here is an example of issues we will tackle during this talk:\n\n\nHow a social sciences laboratory life can be a very fruitful context for tool R&amp;D regarding webmining\nHow to create performant &amp; effective webmining tools that anyone can use (multithreading, parallelism, JS execution, complex spiders etc.)\nHow to re-localize data collection: researchers should be able to conduct their own collections without being dependent on external servers or resources\nHow to teach researchers the necessary skills: HTML, the DOM, CSS selection etc.\n\n\n\nExamples will be taken mainly from the minet CLI tool and the artoo.js bookmarklet.\n\nSpeaker\n\nGuillaume Plique is a research engineer working for SciencesPo's m\u00e9dialab. He assists social sciences researchers daily with their methods and maintain a variety of FOSS tools geared toward the social sciences community and also developers.",
+  "description": "",
+  "persons": [
+    "Guillaume Plique"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577878500000,
+  "duration": 25,
+  "room": "UB5.230",
+  "title": "Building Ethical Software Under Capitalism",
+  "subtitle": "",
+  "track": "Community devroom",
+  "abstract": "The software that is the easiest to build -- the software that is the easiest to fund the development of -- tends to serve those who are already extremely well-served. So, how do we bridge the gap between what society needs and what many people with money want to fund? Free and open source software platforms can get us part of the way there, but without some big changes, it won't be enough. Let's talk structure!",
+  "description": "We want to provide useful, intuitive, non-invasive software that all people can use, whether they personally have money for fancy customizations or not. But the software that is the easiest to build -- the software that is the easiest to fund the development of -- tends to serve those who are already extremely well-served. A technology community that primarily serves privileged people, while leaving all other users behind is not one we should expect people to spend their unpaid or volunteer time on. And for certain reprehensible functions, no one should be building the software at all, under any license. So, how do we bridge the gap between what society needs and what many people with money want to fund?\n\nThis talk will cover:\n\n* Non-profits, fundraising and community-building\n* Small businesses, co-ops and other niches\n* Possible changes to the broader landscape\n\n\nIf we want to build a better world, we will have to move beyond quick fixes and silver bullets. Free and open source software platforms can get us part of the way there, but without some big changes, it won't be enough. We need to build ethical structures for the creation of ethical software.",
+  "persons": [
+    "Deb Nicholson"
+  ]
+}

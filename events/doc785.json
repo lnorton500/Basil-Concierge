@@ -1,0 +1,13 @@
+{
+  "start": 1577869800000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Distributed Tracing for beginners",
+  "subtitle": "",
+  "track": "Monitoring and Observability",
+  "abstract": "Distributed tracing is a tool that belongs to every developer's tool belt, but what it actually can do remains a mystery to most developers.\n\nIn this slideless talk, we will introduce you to the world of distributed tracing by developing a cloud native application from scratch and applying all important distributed tracing concepts in practice, at first by hand and then by using existing libraries to automate our work.\n\nWe will deploy this application in a Kubernetes cluster and see how we can take advantage of infrastructure components like service meshes to understand the routing decisions taken for specific requests.\n\nYou will learn not only what distributed tracing is, but how it works, what it can do and what it can\u2019t. By the end of this talk, you will have working knowledge to start using distributed tracing tools with your new projects, as well as with your legacy ones.",
+  "description": "",
+  "persons": [
+    "Juraci Paix\u00e3o Kr\u00f6hling"
+  ]
+}

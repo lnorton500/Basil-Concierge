@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 20,
+  "room": "AW1.125",
+  "title": "Universal package & service discovery with Guix",
+  "subtitle": "\u0391 universal functional package manager and operating system which respects the freedom of computer users.",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "GNU Guix is a universal functional package manager and operating system which\nrespects the freedom of computer users. It focuses on bootstrappability and\nreproducibility to give the users strong guarantees on the integrity of the full\nsoftware stack they are running. It supports atomic upgrades and roll-backs\nwhich make for an effectively unbreakable system.",
+  "description": "I'll present how I intend to leverage the Guile programming language to boost\nsearchability of packages and services via intuitive user interfaces and semantics.\n\nGuix, like many other package managers, suffers from usability\nissues when it comes to the explorability of the content (that is,\npackages and services), facing the exorbitant amount of software there\nis out there.  Users should be able to discover the programs they need\nfor a specific task, without having to know them in advance.  It should\nbe easy to specify build options for the packages, e.g. \"build without\nsound\" or \"add IPFS support.\"  They should not have to waste time\nwriting their own hacks and scripts when ready-to-use services already\nexist and are just waiting to be discovered.\n\nSo how do we fix the issue of improving this discoverability, with ease\nof use?\n\nIn the context of the Next Generation Internet initiative, I've started\nworking on enhancing search, discovery and reusability of packages and\nservices.\n\n\"A universal software navigator on steroids -- for everyone.\"",
+  "persons": [
+    "Pierre Neidhardt"
+  ]
+}

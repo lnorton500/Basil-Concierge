@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 55,
+  "room": "K.4.401",
+  "title": "FreedomEV 2.0",
+  "subtitle": "From Tesla Hacking to a free mobility stack",
+  "track": "Hardware Enablement",
+  "abstract": "Last year the FreedomEV project was launched as an addon to the existing software for the older Tesla Model S and Tesla Model X cars.\n\nFreedomEV envisions a future without mass surveillance, with full control over our own car.\n\nToday we launch FreedomEV 2.0.\nMore features, more supported cars and where we are now.\n\nLet us play with our car!",
+  "description": "",
+  "persons": [
+    "Jasper Nuyens"
+  ]
+}

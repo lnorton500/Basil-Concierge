@@ -1,0 +1,13 @@
+{
+  "start": 1577889300000,
+  "duration": 20,
+  "room": "AW1.126",
+  "title": "RoboSat.pink: Deep Learning Computer Vision patterns extraction at scale",
+  "subtitle": "",
+  "track": "Geospatial",
+  "abstract": "RoboSat.pink, a Deep Learning Computer Vision framework for GeoSpatial Imagery,\nallow you to perform at scale:\n\n\nDataSet Quality Analysis\nChange Detection highlight\nFeatures extraction\n\n\n\nThis presentation will focus on the latests enhancements of RoboSat.pink,\nand mainly on:\n\n\nHow we increase again pattern recognition accuracy, even with unconsistents labels\nHow we speed up the whole process, and allow to scale even on large areas\nNew hot features\n",
+  "description": "",
+  "persons": [
+    "Olivier Courtin"
+  ]
+}

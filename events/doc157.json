@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 20,
+  "room": "AW1.121",
+  "title": "Designing a performant and scalable graph processing python package",
+  "subtitle": "",
+  "track": "Graph Systems and Algorithms",
+  "abstract": "Python has proven to be a popular choice for data scientists in\nthe domain of graph analytics. The multitude of freely available\nframeworks and python packages allow to develop applications\nquickly through ease of expressibility and reuse of code.\nWith petabytes of data generated everyday and an ever evolving\nlandscape of hardware solutions, we observe a graph processing\nframework should expose the following characteristics: ease of\nuse, scalability, interoperability across data formats, and\nportability across hardware vendors.\nWhile existing python packages have been helping to drive\napplication development, our assessment is that none of the\npackages address all the aforementioned challenges.\nWe propose a community led, open source effort, to design and\nbuild  a graph processing python library to specifically address\nthese challenges.",
+  "description": "",
+  "persons": [
+    "Vincent Cave"
+  ]
+}

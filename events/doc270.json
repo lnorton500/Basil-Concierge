@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "OSINT",
+  "subtitle": "do you really know what data you are leaking to the public?",
+  "track": "Security",
+  "abstract": "Open source intelligence. That almost sounds like a technique described in a movie plot \u2013 purely fictional right ?\nAs it turns out, it is alarmingly much more simple than you may think and in some cases we walk the fine line between intelligence and creepy stalker-like activity.\nIn this talk we'll look at some examples, and discuss practical applications from an adversarial point of view. Hopefully you'll leave with an increased appreciation for the data you may be leaking to the world.",
+  "description": "",
+  "persons": [
+    "David Busby"
+  ]
+}

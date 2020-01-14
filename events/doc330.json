@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Contributing to LibreOffice without C++ knowledge",
+  "subtitle": "",
+  "track": "Open Document Editors",
+  "abstract": "A good grasp of C++ is rather useful when it comes to improving LibreOffice. However, in the project there are vital roles and tasks that do not involve writing C++. This talk explores these other ways of contributing.",
+  "description": "",
+  "persons": [
+    "Ilmari Lauhakangas"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577898000000,
+  "duration": 25,
+  "room": "UA2.220 (Guillissen)",
+  "title": "Oracle v. Google: What are the implications for FOSS?",
+  "subtitle": "",
+  "track": "Legal and Policy Issues",
+  "abstract": "All the merits briefs for Oracle v. Google will be filed a couple weeks before FOSDEM 2020. This will be a rundown of the positions argued by various groups - how are the parties positioning the questions presented? What are the various amici arguing? Are there any positions that will be particularly impactful for FOSS groups and users?",
+  "description": "On Friday, Nov. 15, the U.S. Supreme Court agreed to hear Oracle v. Google. It is hard to overstate how impactful this decision will be on FOSS. For the first time in a generation, the Supreme Court will be evaluating how copyright and software interact - and they will be discussing it in the context of GPL-licensed Java.\n\nRight before FOSDEM, all the briefs by all parties will be due. As we sit in Brussels, the court clerks will be reading the various briefs and creating a \"bench memo\" for each justice, summarizing the arguments being advanced by both Oracle and Google, as well as the points raised by different amici.\n\nThis presentation will be a verbal \"bench memo\" for those in the FOSS community. Rather than advance a particular view, we will try to understand the scope of issues being argued, and how they may affect Free and Open Source Software in the United States - and worldwide.",
+  "persons": [
+    "Van Lindberg"
+  ]
+}

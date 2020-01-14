@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 25,
+  "room": "K.3.401",
+  "title": "Discover dependency license information with ClearlyDefined",
+  "subtitle": "License discovery and record-keeping for crates",
+  "track": "Rust",
+  "abstract": "Complying with license obligations can incur a lot of hurdles. This results in developers skipping compliance or failing to achieve correct compliance. To compound this, package authors sometimes fail to describe the license of their package clearly or omit license information of included files. ClearlyDefined is a community curated repository of discovered license information for Crates packages, among other types.\n\nThis talk will cover: the importance of the license obligations of the dependencies of your Rust package, tool, or application. How to discover the license information of those packages. And demonstrate some Cargo compatible tooling that allows automated license recordkeeping and notice file generation as a part of your CI system.",
+  "description": "",
+  "persons": [
+    "Jeff Mendoza"
+  ]
+}

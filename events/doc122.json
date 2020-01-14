@@ -1,0 +1,13 @@
+{
+  "start": 1577891400000,
+  "duration": 20,
+  "room": "H.2214",
+  "title": "Rewinding time with System Versioned Tables",
+  "subtitle": "",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "Imagine, you're given a time machine. A fairly limited one, it cannot transport you anywhere. Still, it can show you the past, what your tables looked like at any given point in time. This is exactly what the SQL:2011 standard and MariaDB 10.3+ are giving you. System versioned tables allow you to rewind time and see their content as it was in the past \u2014 all using normal SELECT statements. This talk will show how to create system versioned tables, how to use them and how not to kill the performance when doing that. It will present various new applications and use cases that became possible now. Having a time machine, what will you use it for?",
+  "description": "Imagine, you're given a time machine. A fairly limited one, it cannot transport you anywhere. Still, it can show you the past, what your tables looked like at any given point in time. This is exactly what the SQL:2011 standard and MariaDB 10.3+ are giving you. System versioned tables allow you to rewind time and see their content as it was in the past \u2014 all using normal SELECT statements. This talk will show how to create system versioned tables, how to use them and how not to kill the performance when doing that. It will present numerous different applications and use cases that became possible now. Having a time machine, what will you use it for?",
+  "persons": [
+    "Sergei Golubchik"
+  ]
+}

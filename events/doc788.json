@@ -1,0 +1,13 @@
+{
+  "start": 1577877000000,
+  "duration": 25,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Stories around ModBus",
+  "subtitle": "Why ModBus is worse than SNMP",
+  "track": "Monitoring and Observability",
+  "abstract": "Society would end if all ModBus stopped working overnight. Good thing it has zero security built in. Still, it's useful to get data out of industrial systems, be they a datacenter or a power plant.",
+  "description": "",
+  "persons": [
+    "Richard Hartmann"
+  ]
+}

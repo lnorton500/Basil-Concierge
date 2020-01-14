@@ -1,0 +1,14 @@
+{
+  "start": 1577874600000,
+  "duration": 10,
+  "room": "H.2214",
+  "title": "Welcome to the MySQL, MariaDB & Friends Devroom 2020",
+  "subtitle": "Community Welcome",
+  "track": "MySQL, MariaDB and Friends",
+  "abstract": "Welcome to the FOSDEM MySQL, MariaDB &amp; Friends Devroom 2020",
+  "description": "",
+  "persons": [
+    "Fr\u00e9d\u00e9ric Descamps",
+    "Ian Gilfillan"
+  ]
+}

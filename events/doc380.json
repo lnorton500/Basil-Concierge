@@ -1,0 +1,13 @@
+{
+  "start": 1577881200000,
+  "duration": 30,
+  "room": "UD2.208 (Decroly)",
+  "title": "Evolution of kube-proxy",
+  "subtitle": "",
+  "track": "Containers",
+  "abstract": "Kube-proxy enables access to Kubernetes services (virtual IPs backed by pods) by configuring client-side load-balancing on nodes. The first implementation relied on a userspace proxy which was not very performant. The second implementation used iptables and is still the one used in most Kubernetes clusters. Recently, the community introduced an alternative based on IPVS.\nThis talk will start with a description of the different modes and how they work. It will then focus on the IPVS implementation, the improvements it brings, the issues we encountered and how we fixed them as well as the remaining challenges and how they could be addressed. Finally, the talk will present alternative solutions based on eBPF such as Cilium.",
+  "description": "",
+  "persons": [
+    "Laurent Bernaille"
+  ]
+}

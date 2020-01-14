@@ -1,0 +1,13 @@
+{
+  "start": 1577883900000,
+  "duration": 25,
+  "room": "H.1302 (Depage)",
+  "title": "Free at Last! The Tale of Jakarta EE",
+  "subtitle": "",
+  "track": "Free Java",
+  "abstract": "In September 2017 Oracle announced that it would be migrating governance of the Java EE platform to the Eclipse Foundation, the home of MicroProfile. Two years later Jakarta EE 8 shipped, signaling the successful completion of that move. As a result, Free Java has a new home for a significant piece of the Java ecosystem. A home which is purely open source, vendor neutral, and community led.\n\nThis talk will be about how the long and painful journey from Java EE to Jakarta EE unfolded. But more importantly it will focus on how the new Jakarta EE community works, and how there is a new, open, specification process for Java APIs (other than SE) that is available for the community. We are looking forward to welcoming many of those interested in Free Java to participate in driving new innovation in Java APIs for cloud and other exciting use cases.",
+  "description": "",
+  "persons": [
+    "Mike Milinkovich"
+  ]
+}

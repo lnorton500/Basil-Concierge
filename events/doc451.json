@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "H.1301 (Cornil)",
+  "title": "Experimenting with the Kotlin Compiler",
+  "subtitle": "",
+  "track": "Kotlin",
+  "abstract": "A lot of us will agree that Kotlin is an awesome language - but have you ever thought about experimenting with the Kotlin Compiler? This talk explores how to set up your development environment, add, remove or change language features, get feedback from the community and get your suggestions merged.\n\nYou will get to know how to set up IntelliJ for working on different parts of the compiler in the Kotlin repo and learn how the compiler is structured and the different compilation phases. After looking at the structure, you will get know how to modify existing language features such and how to add a language keyword to Kotlin. In the end, we will look at different ways of bringing your changes to the Kotlin programming language!\n\nYou will leave this talk with a solid grasp of Kotlin Compiler mechanisms and how to change things up a bit. You don't need to know anything about compilers or Computer Science theory!",
+  "description": "",
+  "persons": [
+    "Jossi Wolf"
+  ]
+}

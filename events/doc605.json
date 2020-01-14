@@ -1,0 +1,13 @@
+{
+  "start": 1577871000000,
+  "duration": 25,
+  "room": "K.3.401",
+  "title": "cargo deny",
+  "subtitle": "Fearlessly update your dependencies",
+  "track": "Rust",
+  "abstract": "A talk about https://github.com/EmbarkStudios/cargo-deny, why we created it, and how it helps us manage our dependencies in the long term.",
+  "description": "",
+  "persons": [
+    "Jake Shadle"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577893800000,
+  "duration": 30,
+  "room": "H.1308 (Rolin)",
+  "title": "The history of error correction and detection and how it led to Ceph\u2019s Erasure Coding Techniques",
+  "subtitle": "",
+  "track": "Software Defined Storage",
+  "abstract": "70 years of academic innovation in the development of error correction codes have led to the advanced erasure coding techniques that we use in Ceph. Learn more about how these came about, the different types, how they work, and how we use them in distributed storage today.",
+  "description": "Erasure Coding is the latest in a long line of error detection and correction approaches over the last 70 years which have all had an impact on the way we approach storing and recovering data in sensible and efficient ways. I\u2019ll give an overview of the main approaches over the years, including the parity bit, the hamming codes, RAID, reed-solomon, and how they have impacted media storage, distributed storage, and their usage in other unexpected ways. I\u2019ll then provide an overview of erasure coding across distributed storage and specifically Ceph.",
+  "persons": [
+    "Danny Abukalam"
+  ]
+}

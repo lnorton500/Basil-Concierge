@@ -1,0 +1,13 @@
+{
+  "start": 1577895600000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Containers and Steam",
+  "subtitle": "Putting games under pressure",
+  "track": "Containers",
+  "abstract": "The availability of namespaces inside user sessions is increasing, and Valve's Steam game distribution platform is taking advantage of this for better gaming on Linux.\n\nA recent beta of Steam for Linux adds pressure-vessel, an experimental mechanism developed by Collabora to put games in containers. This gives the game partial isolation from various aspects of the host system, and in particular allows it to use a runtime library stack that is not entangled with the host's, with different games using different runtimes.\n\nMeanwhile, the unofficial Steam Flatpak app distributed on Flathub puts the entire Steam client and all of its games in a container. This gives the Steam client more thorough isolation from the host system, but all the games have to share that single container.\n\nIn this talk, pressure-vessel developer and Flatpak contributor Simon McVittie will compare the two approaches and the challenges they encounter, and look at where Steam containers might go in the future.",
+  "description": "",
+  "persons": [
+    "Simon McVittie"
+  ]
+}

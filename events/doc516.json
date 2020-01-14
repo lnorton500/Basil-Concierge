@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Designing to change it all",
+  "subtitle": "Designing processes and designing some products on the way...",
+  "track": "Open Source Design",
+  "abstract": "At the \u2018SamenBeter\u2019 project we firmly believe a good product is a product that improves how people work. So we start with designing the change we want before we even start thinking about a product. How that looks in practice? Come and see, but be prepared for a fast ride!",
+  "description": "Is it possible to design a radical change in the healthcare system? Why is the first product we build for that an authorization standard? Why are we talking about the \u2018personality of a system\u2019? How come the people designing it ended up in community centres, playing a game about privacy with the visitors? What is that \u2018developer journey\u2019 we are talking about? why are we making such a big fuss about a license nobody seems to read?\n\nThe \u2018SamenBeter\u2019 project has a moderate goal: to change healthcare, all of it. And because we are fuelled with design thinking, we are making deliberate design choices about everything. About what we want to change in healthcare, about the process of getting there, about the role of technology, about the values the technology should adhere, about the way we should develop the technology, about the way the technology will be adapted and about how the community should be developed.\n\nIn this talk I will showcase the SamenBeter project as example of how design is about much more then user interfaces. It is about designing processes, user interactions and designing the adaptation of the product itself. And last but not least: why did we take the effort to design everything and not just a product? Yes, it is too much to fit in one talk, so fasten your seatbelts!",
+  "persons": [
+    "Winfried Tilanus"
+  ]
+}

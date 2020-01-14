@@ -1,0 +1,13 @@
+{
+  "start": 1577896200000,
+  "duration": 25,
+  "room": "UB4.136",
+  "title": "Integrate Collabora Online with web applications",
+  "subtitle": "",
+  "track": "Open Document Editors",
+  "abstract": "Come and hear how to integrate Collabora Online \u2013 a powerful online office suite based on LibreOffice code \u2013 with web applications. Learn about how Collabora developers helped to develop solutions by extending the WOPI-like API and PostMessage API of Collabora Online.",
+  "description": "",
+  "persons": [
+    "Andras Timar"
+  ]
+}

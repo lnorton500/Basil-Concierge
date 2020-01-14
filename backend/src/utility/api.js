@@ -1,5 +1,6 @@
 var api = {};
 
-api.projects = require("./api/projects");
+api.events = require("./api/events");
+api.catagories = require("./api/catagories");
 
 module.exports = api;

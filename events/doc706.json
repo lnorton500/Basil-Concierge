@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 30,
+  "room": "UB2.252A (Lameere)",
+  "title": "Classify things in Go: the easy way.",
+  "subtitle": "Building classifiers quickly with the community contributions.",
+  "track": "Go",
+  "abstract": "Go and public training models can provide great potential: A fast way to build \"eyes around the world\", also known as classifiers. And with great powers, come great opportunities, such as building fantastic applications to turn our world a better place to live through the technology with few steps.",
+  "description": "Go and public training models can provide great potential: A fast way to build \"eyes around the world\", also known as classifiers. And with great powers, come great opportunities, such as building fantastic applications to turn our world a better place to live through the technology.\nThe GO language, have  GoCV package, and it provides the most modern and advanced Computational Vision libraries that exist like OpenCV.\nIn this talk, I'll demonstrate how to use public models from TensorFlow Hub and OpenCV library to easily build classifiers for APIs, taking a super leap from draft to a working classifier, in a few steps!\nThe idea is to demystify the concepts behind classifiers and show how to build one in a few steps and make rankers accessible to the business, showing how GO does this in a unique, scalable and self-performing way, and of course, encouraging the community to contribute and sharing more training models to they can turn more and more accurate!",
+  "persons": [
+    "Sheimy Rahman"
+  ]
+}

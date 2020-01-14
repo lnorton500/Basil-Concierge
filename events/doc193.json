@@ -1,0 +1,13 @@
+{
+  "start": 1577890800000,
+  "duration": 30,
+  "room": "AW1.126",
+  "title": "Revamping OpenRefine",
+  "subtitle": "a reproducible data wrangler",
+  "track": "Open Research Tools and Technologies",
+  "abstract": "OpenRefine is a data transformation tool popular in many communities: data journalism, semantic web, GLAMs, scientific research\u2026 In this talk I give an overview of our recent efforts to revamp this project as it approaches its 10th anniversary. We are working on exciting improvements which should help alleviate some of the most salient issues faced by our users. My intention is not to lecture the attendance about how to deal with technical debt or to grow a contributor community - I instead seek feedback and spark discussions about our choices. Let us know what you think and help us take good care of this fantastic tool!",
+  "description": "",
+  "persons": [
+    "Antonin Delpeuch"
+  ]
+}

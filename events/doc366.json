@@ -1,0 +1,13 @@
+{
+  "start": 1577881800000,
+  "duration": 55,
+  "room": "UD2.120 (Chavanne)",
+  "title": "Introduction to Metal\u00b3",
+  "subtitle": "Kubernetes-native bare metal infrastructure management",
+  "track": "Infra Management Devroom",
+  "abstract": "An introduction to Metal\u00b3, bare metal server provisioning in Kubernetes",
+  "description": "Metal\u00b3 (https://metal3.io/) (pronounced \u201cmetal cubed\u201d) is an open source bare metal provisioning project built on cloud-native technologies like Kubernetes and the Machine API from Kubernetes' SIG ClusterLifecycle. Metal\u00b3 can provision an operating system, manage the machine's life cycle, and ultimately decommission the machine. Metal\u00b3 can be used to provision any OS, but along with the cluster-api-provider, it can be used to install and scale bare metal Kuberentes clusters.\n\nWe'll explain the motivations behind the project and what has been accomplished so far. This will be followed by an architectural overview and description of the Custom Resource Definitions (CRDs) for describing bare metal hosts, leading to a demonstration of using Metal\u00b3 in a cluster.",
+  "persons": [
+    "Stephen Benjamin"
+  ]
+}

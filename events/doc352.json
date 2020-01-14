@@ -1,0 +1,13 @@
+{
+  "start": 1577884800000,
+  "duration": 15,
+  "room": "UD2.119",
+  "title": "Percona XtraBackup Current and Future State",
+  "subtitle": "What's the future for the open-source industry standard for MySQL hot backup?",
+  "track": "Backup and Recovery",
+  "abstract": "A brief overview of the current state of the backup tool, architecture, MySQL 8.0 support, new cloud native features, and the roadmap.",
+  "description": "During this brief lecture, I will present the roadmap for Percona XtraBackup, talk about the importance of our Cloud direction, why PXB 8.0 is a separate binary, and how PXB fits into our Percona Distribution model for 2020.",
+  "persons": [
+    "Tyler Duzan"
+  ]
+}

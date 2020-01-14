@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "Privacy by Design",
+  "subtitle": "",
+  "track": "Mozilla",
+  "abstract": "Most of the websites leak out the user data, and most of the times (~90%) it is not known to the site admins. These leakage happen via tag managers, third party CDNs, embeds, fonts etc. In this talk I would like to discuss the opportunities for developers to avoid these while developing websites. This talk will help them to ensure their websites does exactly what they intend their website to do. The side-effect of this always is better performance \ud83d\ude0e",
+  "description": "Every other website on the internet uses third party trackers to improve their product and provide better user experience, which eventually leads to a compromise in user privacy. As developers, we are responsible for making our users feel safe and do whatever it takes to secure the privacy of our users.\nIn this talk we will discuss the data leaks which happen while using third party trackers and will walk through the measures we can take to avoid them and ensure the privacy of our users, right from the time of development.",
+  "persons": [
+    "Trishul Goel"
+  ]
+}

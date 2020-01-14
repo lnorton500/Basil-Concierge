@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 30,
+  "room": "AW1.120",
+  "title": "openwifi",
+  "subtitle": "Opensource \"Wi-Fi chip design\" and Linux driver",
+  "track": "Free Software Radio",
+  "abstract": "An open source \"Wi-Fi chip design\"(Will be AGPLv3) will be presented and a live demo will be shown in the room! The design is based on SDR (Software Defined Radio) and offers full-stack 802.11a/g/n capabilities on FPGA and ARM Linux (Xilinx Zynq SoC + AD9361 RF front-end).It conforms with Linux mac80211 framework and behaves just like COTS Wi-Fi chip under Linux. The main components of the design are: RF front-end control; PHY; low-MAC; interfacing (DMA, register) with ARM; mac80211 compliant Linux driver; high-MAC (mac80211 framework); Linux user space tools (ifconfig, iwconfig, dedicated tools via netlink).\u200b Since it is a SDR based \"white box\" design instead of commercial \u201cblack box\u201d chip, you can do Wi-Fi research and customization without any reverse engineering efforts.\n\nWhy does it fit FOSDEM?\n\nIt will be the 1st open source project for full-stack Wi-Fi SDR implementation. Lots of people, especially wireless network/security researchers, SDR researchers and hackers, will be interested in. We are eager to show the demo in the room and hear feedback from people/community. Potential contributors are also very welcomed, and we will be glad to offer help.",
+  "description": "Overall architecture: Please find attachment.\n\nFeatures:\n\n\n802.11a/g; 802.11n MCS 0~7; 20MHz\nMode: Ad-hoc; Station; AP\nDCF (CSMA/CA) low MAC layer in FPGA\nConfigurable channel access priority parameters:\nduration of RTS/CTS, CTS-to-self\nSIFS/DIFS/xIFS/slot-time/CW/etc\nTime slicing based on MAC address\nEasy to change bandwidth and frequency:\n2MHz for 802.11ah in sub-GHz\n10MHz for 802.11p/vehicle in 5.9GHz\nOn roadmap: 802.11ax\n\n\n\nSupported SDR platforms:\n\n\nzc706 (Xilinx) + fmcomms2 (Analog Devices)\nOn roadmap: ADRV9361-Z7035/ADRV9364-Z7020 + ADRV1CRR-BOB (Analog Devices)\nOn roadmap: zcu102 (Xilinx) + fmcomms2/ADRV9371 (Analog Devices)\n",
+  "persons": [
+    "Xianjun Jiao"
+  ]
+}

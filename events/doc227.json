@@ -1,0 +1,13 @@
+{
+  "start": 1577892900000,
+  "duration": 30,
+  "room": "K.3.401",
+  "title": "BASICODE: the 8-bit programming API that crossed the Berlin Wall",
+  "subtitle": "",
+  "track": "Retrocomputing",
+  "abstract": "At the height of the cold war, BASIC programs exchanged by radio and cassette tape provided young people of socialist Eastern and capitalist Western Europe a rare insight into each other's worlds. BASICODE was a transmission format and an API developed by the Dutch public broadcasting service to overcome the challenge of exchanging open source hobby programs in the highly fragmented 8-bit computing landscape of the early 1980s, which was dominated by mutually incompatible versions of BASIC. Somewhat improbably, the format was picked up across the iron curtain in the German Democratic Republic, where it experienced its age of greatest popularity. The need for programs to work on platforms with widely different capabilities and incompatible syntaxes forced it to be simply structured, highly regulated and relatively well documented. This makes it ideally suited for implementation in a web browser.",
+  "description": "\nAn early age of open source\nModulating source code for radio transmission\nAn API based on GOSUBs in BASIC\nEast and West in the 1980s\nImplementing BASICODE in a web browser\n",
+  "persons": [
+    "Rob Hagemans"
+  ]
+}

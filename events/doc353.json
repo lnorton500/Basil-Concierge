@@ -1,0 +1,13 @@
+{
+  "start": 1577886000000,
+  "duration": 15,
+  "room": "UD2.119",
+  "title": "Percona Backup for MongoDB: Status and Plans",
+  "subtitle": "Open Source solution for consistent backups of multi-shard MongoDB",
+  "track": "Backup and Recovery",
+  "abstract": "A brief overview of the current state of backup tool, architecture, existing features, and the roadmap.",
+  "description": "",
+  "persons": [
+    "Mykola Marzhan"
+  ]
+}

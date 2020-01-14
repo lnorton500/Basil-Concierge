@@ -1,0 +1,13 @@
+{
+  "start": 1577883000000,
+  "duration": 10,
+  "room": "UD2.218A",
+  "title": "PSLab.io",
+  "subtitle": "Pocket Science Lab",
+  "track": "Internet of Things",
+  "abstract": "PSLab is a small USB powered iOT board to do measurements. It comes with slots for ESP WiFi chips and Bluetooth and can be used as hardware extension for Android phones or PCs. PSLab has a built-in Oscilloscope, Multimeter, Wave Generator, Logic Analyzer, Power Source, and we are constantly adding more digital instruments. To start measuring, connect two wires to the relevant pins and use the Android or desktop apps to view and collect the data. You can also plug in hundreds of compatible I\u00b2C standard sensors to the PSLab pin slots or even control robots with the robotic arm tool.",
+  "description": "PSLab is a small USB powered iOT board to do measurements. It comes with slots for ESP WiFi chips and Bluetooth and can be used as hardware extension for Android phones or PCs. PSLab has a built-in Oscilloscope, Multimeter, Wave Generator, Logic Analyzer, Power Source, and we are constantly adding more digital instruments. To start measuring, connect two wires to the relevant pins and use the Android or desktop apps to view and collect the data. You can also plug in hundreds of compatible I\u00b2C standard sensors to the PSLab pin slots or even control robots with the robotic arm tool.",
+  "persons": [
+    "Mario Behling"
+  ]
+}

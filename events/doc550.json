@@ -1,0 +1,13 @@
+{
+  "start": 1577888100000,
+  "duration": 15,
+  "room": "AW1.121",
+  "title": "KDE on FreeBSD",
+  "subtitle": "",
+  "track": "BSD",
+  "abstract": "The state of KDE (the Plasma desktop and applications) on FreeBSD, what works, what needs better support lower in the stack. How do we get rid of HAL?",
+  "description": "",
+  "persons": [
+    "Adriaan de Groot"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 50,
+  "room": "AW1.125",
+  "title": "Tracking Performance of a Big Application from Dev to Ops",
+  "subtitle": "",
+  "track": "Ada",
+  "abstract": "This talk describes how performance aspects of a big Air Traffic Flow\nManagement mission critical application are tracked from development\nto operations.",
+  "description": "Tracking performance is needed when new functionality is added, to\nbalance the additional services versus the resource increase needed.\nMeasuring and tracking performance is also critical to ensure a new\nrelease can cope with the current or expected load.\n\nWe will discuss various aspects such as which tools and techniques\nare used for performance tracking and measurements, what are the\ntraps and pitfalls encountered for these activities.  The application\nin question is using Ada, but most of the items discussed are not\nparticularly Ada related.",
+  "persons": [
+    "Philippe Waroquiers"
+  ]
+}

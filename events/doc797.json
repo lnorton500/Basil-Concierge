@@ -1,0 +1,13 @@
+{
+  "start": 1577869200000,
+  "duration": 15,
+  "room": "UD2.208 (Decroly)",
+  "title": "Jitsi: video conferencing for the privacy minded",
+  "subtitle": "Journalists, tinkerers, privacy concerned netizens, Jitsi may help you!",
+  "track": "Real Time Communications",
+  "abstract": "Jitsi is a set of Open Source projects which provide state-of-the-art videocconferencing capabilities. In this presentation we will explore the Jitsi ecosystem from a privacy minded point of view.",
+  "description": "Communicating privately via a public network (specially if we are using video) can be challenging. Jitsi provides the necessary tools to do so and we'll explore the seccurity model employed by our tools and how to setup a Jitsi instance with ease, while respecting your privacy.",
+  "persons": [
+    "Sa\u00fal Ibarra Corretg\u00e9"
+  ]
+}

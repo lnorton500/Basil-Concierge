@@ -1,0 +1,13 @@
+{
+  "start": 1577874300000,
+  "duration": 20,
+  "room": "UD2.208 (Decroly)",
+  "title": "Collaboration between Free RTC projects",
+  "subtitle": "Sharing resources for mutual benefit",
+  "track": "Real Time Communications",
+  "abstract": "This session will discuss how we can share infrastructure and resources between projects, with the goals of reducing administrative burdens, reducing duplication of effort and increasing interoperability between our solutions.  To satisfy user expectations, interoperability is more critical in the field of real-time communications than any other free software eco-system.  In particular, we will look at how to share management of an event calendar, Planet sites, repositories, CI for interop testing and various other tools.",
+  "description": "",
+  "persons": [
+    "Daniel Pocock"
+  ]
+}

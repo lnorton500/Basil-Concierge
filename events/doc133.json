@@ -1,0 +1,13 @@
+{
+  "start": 1577894400000,
+  "duration": 90,
+  "room": "J.1.106",
+  "title": "Replicant Meetup",
+  "subtitle": "Meeting for the Replicant community",
+  "track": "BOFs (Track A - in J.1.106)",
+  "abstract": "Replicant is a fully free Android distribution running on several devices, a free software mobile operating system putting the emphasis on freedom and privacy/security.\n\nThis meeting is for everyone interested in the Replicant project (users, developers, devices vendors, etc.). Among other things, we will present the ongoing efforts on Replicant 9 and discuss how we should move forward. Everyone's point of view is welcomed.",
+  "description": "Here's a non-exhaustive list of the topics that will be up for debate:\n\n\nReplicant 9 status on the i9300/i9305: bootloader, modem, LCD, audio, graphics.\nFuture targets: PinePhone, Librem5.\nWebView dependency on non-free Chromium.\nAndroid build system.\nReplicant infrastructure: servers, test benches, build machines.\nLong term project sustainability.\nSupported mainline kernel phones, what kernel versions brought what support and what is upcomming in the next kernel versions.\n",
+  "persons": [
+    "dllud"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577876400000,
+  "duration": 50,
+  "room": "K.1.105 (La Fontaine)",
+  "title": "MySQL Goes to 8!",
+  "subtitle": "",
+  "track": "Databases",
+  "abstract": "The latest and greatest version of MySQL is MySQL 8.\n\nCurrently the most used version of MySQL is MySQL 5.7. This talk will highlight what is new in MySQL 8.0 - a huge step forward for our users. MySQL 8.0 delivers significant improvements on all fronts, such as dramatically improved SQL, GIS, and JSON support. The talk will also cover the MySQL Document Store (MySQL = NoSQL + SQL) and MySQL InnoDB Cluster (HA out of the box) as well as MySQL Shell which ensures power, freedom, and flexibility for the Developer.",
+  "description": "",
+  "persons": [
+    "Geir H\u00f8ydalsvik"
+  ]
+}

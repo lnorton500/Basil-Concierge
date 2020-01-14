@@ -1,0 +1,13 @@
+{
+  "start": 1577898000000,
+  "duration": 30,
+  "room": "UD2.119",
+  "title": "Precise, cross-project code navigation at GitHub scale",
+  "subtitle": "",
+  "track": "Dependency Management",
+  "abstract": "GitHub has recently added Code Navigation features (jump to definition and find all references) that let you navigate code directly on github.com. For the languages that we support, we extract and store symbol information for every named branch and tag, of every repository, public or private, with no configuration necessary. The compute and storage requirements to do this for all of the code on GitHub are quite large. In this talk, we'll discuss some of the trade-offs we've made to make this tractable at GitHub's scale, to be able to operate and monitor this service effectively, and to let us add support for new languages quickly and easily. We'll also talk about our ongoing work to extend Code Navigation to handle links that cross package and repository boundaries.",
+  "description": "",
+  "persons": [
+    "Douglas Creager"
+  ]
+}

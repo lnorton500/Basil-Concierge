@@ -1,0 +1,13 @@
+{
+  "start": 1577893800000,
+  "duration": 30,
+  "room": "AW1.125",
+  "title": "Move semantics in Nim",
+  "subtitle": "Deterministic Memory Management",
+  "track": "Minimalistic, Experimental and Emerging Languages",
+  "abstract": "This talk explains Nim's move semantics and their connection to reference counting, how Nim's model differs from C++ and why move semantics can offer superior performance. Nim with deterministic memory management never has been easier.",
+  "description": "",
+  "persons": [
+    "Andreas Rumpf (Araq)"
+  ]
+}

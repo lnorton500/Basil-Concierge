@@ -1,0 +1,13 @@
+{
+  "start": 1577875200000,
+  "duration": 15,
+  "room": "K.4.601",
+  "title": "HelenOS in the Year of the Pig",
+  "subtitle": "",
+  "track": "Microkernels and Component-based OS",
+  "abstract": "This is going to be an all-encompassing update talk for HelenOS developments that happened in the Year of the Pig (since the last FOSDEM).",
+  "description": "",
+  "persons": [
+    "Jakub Jerm\u00e1\u0159"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "start": 1577878800000,
+  "duration": 40,
+  "room": "AW1.121",
+  "title": "FreeBSD Around the World!",
+  "subtitle": "",
+  "track": "BSD",
+  "abstract": "The FreeBSD Foundation has been supporting the FreeBSD Project and community for 20 years! In this talk, I'm going to share a little history of FreeBSD and the Foundation, how the Project works, and why you should get involved. I'll continue to share how the Foundation has been advocating for FreeBSD around the world, and what you can do to help bring on new users and contributors. Finally, I'll cover significant projects we are supporting to keep FreeBSD relevant, stable, and secure.",
+  "description": "",
+  "persons": [
+    "Deb Goodkin"
+  ]
+}

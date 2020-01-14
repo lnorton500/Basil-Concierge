@@ -1,0 +1,13 @@
+{
+  "start": 1577889000000,
+  "duration": 20,
+  "room": "H.2213",
+  "title": "Jumpstarting your business with Odoo",
+  "subtitle": "",
+  "track": "Open Source Design",
+  "abstract": "In this talk I will describe the process of discovering the wonders of Odoo when I got the project to write a book about it. My writing tools are Vim, Git, Asciidoctor-pdf and Inkscape. I will describe both the technical as the organisational challenges during the writing process.",
+  "description": "",
+  "persons": [
+    "Jeroen Baten"
+  ]
+}

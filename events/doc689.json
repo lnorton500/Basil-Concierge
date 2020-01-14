@@ -1,0 +1,13 @@
+{
+  "start": 1577880000000,
+  "duration": 25,
+  "room": "UB2.147",
+  "title": "IMSC Open Source Projects",
+  "subtitle": "How to combine different Open Souce Caption Tools",
+  "track": "Open Media",
+  "abstract": "IMSC is the Internet Media Subtitle and Caption Profile of the W3C Timed Text Markup Languages. The presentation will show how to combine different open source tools to create, render and validate IMSC subtitles. The focus will be on an open-source editor for IMSC.",
+  "description": "",
+  "persons": [
+    "Andreas Tai"
+  ]
+}

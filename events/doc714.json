@@ -1,0 +1,13 @@
+{
+  "start": 1577871000000,
+  "duration": 120,
+  "room": "UB4.132",
+  "title": "LPI Exam Session 3",
+  "subtitle": "",
+  "track": "Certification",
+  "abstract": "LPI offers discounted certification exams at FOSDEM",
+  "description": "As in previous years, the Linux Professional Institute (LPI) will offer discounted certification exams to FOSDEM attendees.\nLPI offers level 1, level 2 and level 3 certification exams at FOSDEM with an almost 50% discount.\n\nFor further information and instructions see https://fosdem.org/certification.",
+  "persons": [
+    "LPI Team"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "start": 1577869200000,
+  "duration": 50,
+  "room": "Janson",
+  "title": "Open Source Under Attack",
+  "subtitle": "How we, the OSI and others can defend it",
+  "track": "Freedom",
+  "abstract": "Whether it is \"Open Core\", the Mongo SSPL or the Common Clause, the core ethos of open source has been under attack for some time. As those parties who seek to limit the promise of free software enjoys more and more success, the community will need stronger and more forceful tools to defend ourselves. Presenters: Michael Cheng (Facebook), Max Sills (Google), Chris Aniszczyk (Linux Foundation)",
+  "description": "",
+  "persons": [
+    "Chris Aniszczyk",
+    "Max Sills",
+    "Michael Cheng"
+  ]
+}

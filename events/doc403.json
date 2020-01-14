@@ -1,0 +1,13 @@
+{
+  "start": 1577892600000,
+  "duration": 25,
+  "room": "UD2.218A",
+  "title": "PipeWire in the Automotive Industry",
+  "subtitle": "",
+  "track": "Embedded, Mobile and Automotive",
+  "abstract": "PipeWire has recently been adopted by Automotive Grade Linux for its implementation of the low-level platform audio service, replacing entirely previous solutions. Getting there had, of course, many challenges. In this talk, George is going to talk about how PipeWire has managed to overcome these challenges and has evolved to support automotive use cases and hardware through the design and implementation of a new, reusable, session &amp; policy management component, WirePlumber.",
+  "description": "",
+  "persons": [
+    "George Kiagiadakis"
+  ]
+}

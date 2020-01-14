@@ -1,0 +1,13 @@
+{
+  "start": 1577888100000,
+  "duration": 40,
+  "room": "K.4.201",
+  "title": "Tools and mechanisms to debug BPF programs",
+  "subtitle": "",
+  "track": "Debugging Tools",
+  "abstract": "By allowing to safely load programs from user space and to execute them in the kernel, eBPF (extended Berkeley Packet Filter) has brought new possibilities to the Linux kernel, in particular in terms of tracing and network processing.\n\nBut when a program fails to load, or when it does not return the expected values, what tools do we have to examine, inspect and debug eBPF objects? This talk focuses on the different tools and mechanisms available to help eBPF developers debug their programs, at the different stages of the workflow. From bpftool to test runs, let's find the best way to track bugs!",
+  "description": "I am not sure how long the time slots for the debugging devroom are, so the\ncontent would be adapted according to the duration of the talk. The idea is to:\n\n\nVery briefly introduce the existing tools/mechanisms for debugging BPF\nprograms at each stage of the workflow\nSpend some time on a more in-depth introduction to bpftool, which can be\nused to perform a variety of operations on eBPF programs, maps, or BTF\nobjects\nMention leads for future work\n\n\n\nIn more details, this would look like:\n\n\nDifferent tools to debug\n\n\n\n1.1 Compilation time (make sure program is generated as intended)\n\n\nLLVM backend\nllvm-objdump\neBPF assembly\n\n\n\n1.2 Load time / Verifier / JIT compile time (make sure program loads successfully)\n\n\nlibbpf / ip / tc\nverifier logs, kernel logs, extack messages\nDocumentation\nbpftool\n\n\n\n1.3 Runtime (make sure program return as expected)\n\n\nbpftool\nbpftraceprintk() helper / perf events\n(user space BPF machines)\nBPFPROGTEST_RUN\nbpftool prog run\nperf annotations\nBTF debug information\nBPF trampolines: spy on BPF with BPF\n\n\n\n1.4 User space (develop programs that manipulate BPF objects)\n\n\nstrace, valgrind support for bpf()\nprobing kernel with bpftool\nusing tools to generate BPF (bcc, bpftrace, libkefir, ...)\nbpftool introduction (with examples)\nlisting objects\nloading programs, attaching programs, creating maps\nperforming \u201ctest runs\u201d\nprobing kernel for existing features\ntaking over the world\nIn the future?\nchecking a program loads: bpftool prog probe object_file.o\ndebugger: break points, dump for registers/stack/context?\n(Complete the support (hooks exist) in GDB? Extend BPFPROGTEST_RUN\ninfrastructure?)\n",
+  "persons": [
+    "Quentin Monnet"
+  ]
+}

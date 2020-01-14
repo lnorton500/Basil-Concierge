@@ -1,0 +1,13 @@
+{
+  "start": 1577883000000,
+  "duration": 20,
+  "room": "K.3.401",
+  "title": "Cacheable Overlay Manager RISC-V",
+  "subtitle": "",
+  "track": "RISC-V",
+  "abstract": "We would like to present and overlay technique for RISCV which will be open source by WD.\nThis FW feature acts as and \u201ccatchable\u201d manager. It is to be threaded with the Real-Time code and to the toolchain.\nCacheable Overlay Manager RISC-V (ComRV), a technique which fits small devices (as IoT\u2019s), and does not need any HW support.",
+  "description": "",
+  "persons": [
+    "Ofer Shinaar"
+  ]
+}

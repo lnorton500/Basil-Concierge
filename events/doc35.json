@@ -1,0 +1,13 @@
+{
+  "start": 1577904000000,
+  "duration": 15,
+  "room": "H.2215 (Ferrer)",
+  "title": "DeskConnD: Secure, cross-platform IPC on the network",
+  "subtitle": "Zeroconf + WAMP = Cross platform IPC",
+  "track": "Lightning Talks",
+  "abstract": "DeskConnD is a cross-platform, python based daemon that uses Crossbar and WAMP to enable end-to-end encrypted IPC over the network.",
+  "description": "In this talk Omer Akram will talk about his new project that he has been working on for the past year to mainly make it easy for developers to add functionalities to their apps that were previously cumbersome to implement, having no platform-specific dependencies enables this project to be cross-platform.\n\nCombining proven technologies like WebSocket/WAMP and ZeroConf, DeskConnD allows different components of a distributed app on the local network to securely communicate and do messaging based on the RPCs and PubSub paradigms.",
+  "persons": [
+    "Omer Akram"
+  ]
+}

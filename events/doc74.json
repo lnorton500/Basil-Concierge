@@ -1,0 +1,14 @@
+{
+  "start": 1577895600000,
+  "duration": 20,
+  "room": "H.1308 (Rolin)",
+  "title": "Mixing kool-aids! Accelerate the internet with AF_XDP & DPDK",
+  "subtitle": "",
+  "track": "Software Defined Networking",
+  "abstract": "\"With its recent advancements, AFXDP is gaining popularity in the high performance packet processing space. As a result, existing frameworks for packet processing, such as DPDK, are integrating AFXDP support to provide more options for moving packets to user space applications. The challenge with such integration is that both AF_XDP and frameworks like DPDK have their own assumptions and constraints about such things as, for example, how to align or manage packet buffers, making the integration less straight forward than it might appear at first glance.\n\nThis talk takes a look at the usability of AFXDP pre-kernel v5.4, before diving into the recent challenges we encountered when integrating DPDK and AFXDP, and how we made changes (on both sides) to allow the two to work together in a much more seamless manner.\"",
+  "description": "",
+  "persons": [
+    "Ciara Loftus",
+    "Kevin Laatz"
+  ]
+}

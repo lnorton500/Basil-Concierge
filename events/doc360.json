@@ -1,0 +1,13 @@
+{
+  "start": 1577899800000,
+  "duration": 30,
+  "room": "UD2.119",
+  "title": "Spack's new Concretizer",
+  "subtitle": "Dependency solving is more than just SAT!",
+  "track": "Dependency Management",
+  "abstract": "Dependency resolution is deceptively complex; simply selecting a set of compatible versions for an arbitrary network of dependencies is NP-hard.  Much effort has been spent on this problem for modern single-language ecosystems, but many of these ecosystems rely on natively compiled libraries, and dependency mangers often fail at managing the additional complexities that native libraries entail.  Further, dependency resolution has traditionally been modeled as a SAT problem, where the package manager should find any workable solution to satisfy package constraints.  However, any solution may not be good enough.  Users want the most tested, most optimized, or most secure configuration, and this is a SAT problem coupled with complex optimization.\n\nSpack is a package/dependency manager rapidly gaining popularity in High Performance Computing (HPC) that aims to address many of the complexities of native, multi-language, cross-platform dependency management.  Spack has recently been reworked to use Answer Set Programming (ASP), a declarative logic programming paradigm that also provides sophisticated facilities for optimization.  This talk will cover how we\u2019ve been able to model the compiler toolchain, ISA, build options, ABI, and other constraints on native libraries. We\u2019ll also talk about how ASP has been a useful tool for finding optimized dependency configurations.  This work can be used to improve dependency resolvers in general \u2014 so that they can prefer more secure or tested configurations instead of simply selecting the most recent workable versions.",
+  "description": "Expected prior knowledge / intended audience:\nAudience should have basic knowledge of build systems and compiled languages, but we'll explain this up front with some brief background. The talk is aimed broadly -- for users, developers, packagers, researchers, package manager implementors, and HPC administrators.",
+  "persons": [
+    "Todd Gamblin"
+  ]
+}

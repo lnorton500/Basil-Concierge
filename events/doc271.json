@@ -1,0 +1,13 @@
+{
+  "start": 1577878200000,
+  "duration": 25,
+  "room": "UA2.114 (Baudoux)",
+  "title": "Securing Existing Software using Formally Verified Libraries",
+  "subtitle": "",
+  "track": "Security",
+  "abstract": "Security vulnerabilities are still very common in todays software. Formal methods could improve the situation, but program verification remains a complex and time-consuming task. Often, the verification of existing software is infeasible and a complete rewrite can be prohibitively expensive. Both, however, is not necessarily required to improve on the current state. By replacing critical parts of an existing software by verified code, security can be strengthened significantly with moderate effort.\n\nWe show the feasibility of this approach by the example of a FLOSS TLS implementation. The basis of our PoC is the TLS 1.3 library Fizz [1] which is written in C++. The existing message parser was replaced by a verified version implemented in the SPARK language [2]. Our RecordFlux toolkit [3] was used to automatically generate the parser based on a formal message specification. With the SPARK tools we can prove automatically that an attacker cannot cause any overflows, runtime errors or undefined state by sending malformed messages to the modified library. Because of mismatches in the data structures used in C++ and SPARK, some glue code had to be written manually to integrate the verified parser into Fizz. Still, the modified TLS implementation shows only a slight performance loss while providing higher security.\n\n[1] https://github.com/facebookincubator/fizz\n[2] https://www.adacore.com/about-spark\n[3] https://github.com/Componolit/RecordFlux",
+  "description": "",
+  "persons": [
+    "Tobias Reiher"
+  ]
+}

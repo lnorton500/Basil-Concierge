@@ -1,0 +1,14 @@
+{
+  "start": 1577892000000,
+  "duration": 40,
+  "room": "K.4.201",
+  "title": "The elfutils debuginfod server",
+  "subtitle": "",
+  "track": "Debugging Tools",
+  "abstract": "Debugging data is a necessary evil. It is necessary for running debuggers in situ, some tracing tools, or for coredump analysis. It is evil because it is big - potentially many times the size of the binaries. Therefore, software distributions have conflicting needs to generate &amp; keep this data but not burden everyone with its storage.\n\nWe will review some degrees of freedom for debugging data distribution, across compiled languages and OS distributions, identifying some of the best practices. We will identify the remaining shortcomings that necessitate exploring yet another way of making debuginfo data available needed.\n\nWe will present the elfutils debuginfo-server prototype, where a web service offers a lightweight, build-id-indexed lookup of debuginfo-related data on demand. This service is designed to run on a nearby host, private or shared within teams, or even by OS distributions. Clients built into various debugging type tools will be demonstrated.",
+  "description": "",
+  "persons": [
+    "Mark Wielaard",
+    "Frank Ch. Eigler"
+  ]
+}
