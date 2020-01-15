@@ -19,7 +19,7 @@ class UserCatagories extends Component {
 
     componentDidMount() {
         this.updateScores();
-        this.interval = setInterval(() => this.updateScores(), 2000);
+        this.interval = setInterval(() => this.updateScores(), 10000);
     }
 
     componentWillUnmount() {
@@ -28,11 +28,12 @@ class UserCatagories extends Component {
 
     updateScores() {
         axios
-            .get("http://localhost:8080/catagories/all")
+            .get("https://basil.eu-gb.mybluemix.net/api/catagories")
             .then(res => {
                 this.setState({
                     isLoaded: true,
                     catagories: res.data,
+                    error: null
                 });
             })
             .catch(error => {

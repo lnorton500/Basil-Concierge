@@ -37,7 +37,7 @@ class EventInfo extends Component {
     }
 
     getEventData() {
-        var url = "https://watsonibm.eu-gb.mybluemix.net/api/events/" + this.state.id
+        var url = "https://basil.eu-gb.mybluemix.net/api/events/" + this.state.id
 
         this.setState({ loading: true })
 

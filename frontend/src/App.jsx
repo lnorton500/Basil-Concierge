@@ -7,10 +7,7 @@ import Search from './components/Search/Search';
 import "./styles/css/app.css"
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
-    }
+
     render() {
         return (
             <>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import "../../styles/css/search.css"
+import SearchResult from './SearchResult';
 
 class Search extends Component {
     constructor(props) {
@@ -34,9 +35,7 @@ class Search extends Component {
                     <span className="exit" onClick={this.close}><i className="far fa-times-circle" style={{ color: "white" }}></i></span>
                     <div className="search-results">
                         {this.state.results.map((data, key) =>
-                            <div key={key} className="search-result">
-                                <p>{data}</p>
-                            </div>
+                            <SearchResult key={key} data={data} />
                         )}
                     </div>
                 </div>

@@ -11,10 +11,10 @@ class Home extends Component {
         this.state = {
             error: null,
             isLoaded: false,
-            limit: 20,
-            start: 0,
             interested: [],
             events: [],
+            limit: 840,
+            start: 0,
         }
 
         this.loadContent = this.loadContent.bind(this);
@@ -26,16 +26,18 @@ class Home extends Component {
         this.loadContent();
     }
 
+    /**
+     * Load content using the Node Red api
+     */
     loadContent() {
         axios
-            .get("https://watsonibm.eu-gb.mybluemix.net/api/events/", {
+            .get("https://basil.eu-gb.mybluemix.net/api/events/", {
                 params: {
                     skip: this.state.start,
                     limit: this.state.limit
                 }
             })
             .then(res => {
-                console.log(res);
                 this.setState({
                     isLoaded: true,
                     events: [...this.state.events, ...res.data],
@@ -43,7 +45,6 @@ class Home extends Component {
                 });
             })
             .catch(error => {
-                console.log(error);
                 this.setState({
                     error: error,
                 });
@@ -54,18 +55,16 @@ class Home extends Component {
         this.setState({
             interested: [...this.state.interested, eventID]
         })
-
     }
 
-    componentDidUpdate() {
-        console.log(this.state.interested)
-    }
-
+    /**
+     * Generate and download ics file
+     */
     downloadCalender() {
         this.setState({ interested: [] })
 
         var ids = this.state.interested.join(",")
-        window.open("https://watsonibm.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
+        window.open("https://basil.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
     }
 
     render() {
@@ -80,7 +79,6 @@ class Home extends Component {
                 <div className="screen">
                     <div className="heading"><h1>Home</h1> </div>
                     <div className="content">
-                        {/* <a href="webcal://watsonibm.eu-gb.mybluemix.net/api/cal/" download target="_blank">DOWNLOAD FILE</a> */}
                         <div className="events">
                             {events.map((event, _i) => (
                                 <Event key={_i} event={event} onInterested={this.eventInterested} />

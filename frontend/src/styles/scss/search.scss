@@ -13,8 +13,7 @@
         height: 100%;
 
         background-color: black;
-        opacity: 0.2;
-        filter: blur(20px);
+        opacity: 0.8;
     }
 
     .search-box {
@@ -30,7 +29,7 @@
         border: 1px solid gray;
         border-radius: 5px;
 
-        background: rgba(0, 0, 0, 0.4);
+        background: rgb(160, 160, 160);
 
         input {
             position: absolute;
@@ -75,14 +74,16 @@
             border: 1px solid black;
 
             display: flex;
+            flex-direction: row;
             flex-wrap: wrap;
-            justify-content: center;
+
+            justify-content: space-around;
             align-items: flex-start;
 
             overflow-y: scroll;
 
             .search-result {
-                width: 45%;
+                width: 19%;
 
                 min-height: 50px;
 
@@ -94,6 +95,16 @@
                 background: lightgray;
 
                 text-align: center;
+
+                display: flex;
+
+                &.selected {
+                    box-shadow: inset 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+                }
+
+                .result-name {
+                    width: 100%;
+                }
             }
         }
     }
