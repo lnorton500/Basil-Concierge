@@ -8,7 +8,7 @@ API routes used by the front-end
 
 ### `/keywords`
 
-Get Watson-usable categories based on user query
+Get Watson-usable keywords based on user query
 
 **Method** GET
 
@@ -18,13 +18,13 @@ Get Watson-usable categories based on user query
 
 ### `/events`
 
-Get relevant events from Watson categories
+Get relevant events from Watson keywords
 
 **Method** POST
 
-**Body** Event IDs, `string[]`
+**Body** Watson keywords, `string[]`
 
-**Returns** Events, `object[]`
+**Returns** Event IDs with relevance score, `object[]`
 
 ### `/events/:id`
 
