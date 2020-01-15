@@ -6,9 +6,9 @@ All API routes start with `/api`
 
 API routes used by the front-end
 
-### `/keywords`
+### `/categories`
 
-Get Watson-usable keywords based on user query
+Get Watson-usable categories based on user query
 
 **Method** GET
 
@@ -18,11 +18,11 @@ Get Watson-usable keywords based on user query
 
 ### `/events`
 
-Get relevant events from Watson keywords
+Get relevant events from Watson categories
 
 **Method** POST
 
-**Body** Watson keywords, `string[]`
+**Body** Watson categories, `string[]`
 
 **Returns** Event IDs with relevance score, `object[]`
 
