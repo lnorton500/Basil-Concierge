@@ -1,50 +1,71 @@
 # API
 
-All API routes start with `/api` and use method `GET`.
+All API routes start with `/api`
 
-## `/events`
+## Public API
 
-**/** Get event IDs
+API routes used by the front-end
 
-| Parameter | Description            | Type  | Default |
-| --------- | ---------------------- | ----- | ------- |
-| limit=    | Max number of IDs      | `int` | 25      |
-| skip=     | Skip first 'n' results | `int` | 0       |
+### `/keywords`
 
-Returns: `string[]`
+Get Watson-usable categories based on user query
 
-**`/:id`** Get event information
+**Method** GET
 
-| Parameter | Description | Type     |
-| --------- | ----------- | -------- |
-| :id       | Event ID    | `string` |
+**Parameters** q=User search query `string`
 
-Returns: `Event`
+**Returns** `string[]`
 
-## `/cal`
+### `/events`
 
-**`/`** Generate iCal calendar for events
+Get relevant events from Watson categories
 
-| Parameter | Description       | Type                       | Default |
-| --------- | ----------------- | -------------------------- | ------- |
-| ids=      | List of event IDs | `string[]` comma-separated | none    |
+**Method** POST
 
-Returns: calender file, `.iCal`
+**Body** Event IDs, `string[]`
 
-## `/github`
+**Returns** Events, `object[]`
 
-**`/`** Query for relevant events using Github's [API](https://developer.github.com/v4/)
+### `/events/:id`
 
-| Parameter | Description            | Type     |
-| --------- | ---------------------- | -------- |
-| username= | User's Github username | `string` |
+Get event details
 
-Returns: `Location` response header to Github sign-in page
+**Method** GET
 
-**`/callback`** Github sign-in redirect to [request OAuth token](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/#1-request-a-users-github-identity)
+**Parameters** id=Event ID
 
-| Parameter | Description                    | Type     |
-| --------- | ------------------------------ | -------- |
-| code=     | Temporary code for OAuth token | `string` |
+**Returns:** `Event`
 
-Returns: keywords from user's repositories, `string[]`
+### `/cal`
+
+Generate iCal calendar for events
+
+**Method** POST
+
+**Body** Event IDs, `string[]`
+
+**Returns**
+
+- Calender file, `.iCal`
+- Header `"Content-Type: text/calendar"`
+- Header `"Content-Disposition: attachment; filename=events.ics"`
+
+### `/github`
+
+Query for relevant events using [Github's API](https://developer.github.com/v4/)
+
+**Method** GET
+
+**Parameters** username=Github username
+
+**Returns:** Header "`Location: \<github sign-in page\>`"; redirects to `/github/callback`
+
+## Internal API
+
+### `/github/callback`
+
+Request an [OAuth token](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/#1-request-a-users-github-identity) for Github API
+
+**Method** GET
+
+**Parameters** code=Temporary code to request token
