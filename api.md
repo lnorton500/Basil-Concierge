@@ -29,7 +29,7 @@ Returns: `Event`
 | --------- | ----------------- | -------------------------- | ------- |
 | ids=      | List of event IDs | `string[]` comma-separated | none    |
 
-Returns: `.iCal`
+Returns: calender file, `.iCal`
 
 ## `/github`
 
@@ -46,3 +46,5 @@ Returns: `Location` response header to Github sign-in page
 | Parameter | Description                    | Type     |
 | --------- | ------------------------------ | -------- |
 | code=     | Temporary code for OAuth token | `string` |
+
+Returns: keywords from user's repositories, `string[]`
