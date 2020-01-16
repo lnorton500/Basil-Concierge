@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import CalenderButton from '../components/CalenderButton';
 
 import UserCatagories from '../components/UserStats/UserCatagories';
-import Search from '../components/Search/Search';
 import EventList from '../components/Events/EventList';
 import EventInterestStorage from '../components/Data/EventInterest';
 
@@ -46,7 +45,6 @@ class Home extends Component {
                     </div>
                 </div>
                 <CalenderButton show={EventInterestStorage.Has()} download={this.downloadCalender} />
-                <Search />
                 <UserCatagories />
             </>
         );
