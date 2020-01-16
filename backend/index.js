@@ -1,14 +1,15 @@
-const request = require("request");
+const request = require("superagent");
+const API = "https://basil.eu-gb.mybluemix.net/api/categories";
 
-const options = {
-  method: "POST",
-  url: "https://basil.eu-gb.mybluemix.net/api/cal",
-  body: JSON.stringify([
-    "760453cabd31724935481bf622403f63",
-    "760453cabd31724935481bf622406a38"
-  ])
-};
+(async () => {
+  try {
+    await request
+      .get(API)
+      .accept("application/json")
+      .query({ q: "" }); // empty
 
-request(options, (err, res, body) => {
-  console.log(body);
-});
+    expect(false); // shouldn't succeed
+  } catch (err) {
+    console.log(err.body);
+  }
+})();
