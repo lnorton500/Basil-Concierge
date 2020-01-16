@@ -10,7 +10,10 @@ API routes used by the front-end for data acquisition
 
 Get Watson-usable categories based on user query
 
-**Parameters** q=User search query `string`
+**Parameters**
+
+- q=User search query `string`
+- code=temporary OAuth code to request an [OAuth token](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/#1-request-a-users-github-identity) for Github API
 
 **Returns** `string[]`
 
@@ -56,12 +59,4 @@ Query for relevant events using [Github's API](https://developer.github.com/v4/)
 
 **Parameters** username=Github username
 
-**Returns** Header "`Location: \<github sign-in page\>`"; redirects to `/github/callback`
-
-## Internal API
-
-### `/github/callback`
-
-Request an [OAuth token](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/#1-request-a-users-github-identity) for Github API
-
-**Parameters** code=Temporary code to request token
+**Returns** Header "`Location: \<github sign-in page\>`"; redirects to front-end host domain
