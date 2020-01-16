@@ -1,16 +1,14 @@
 # API
 
-All API routes start with `/api`
+All API routes start with `/api` and use method GET
 
 ## Public API
 
-API routes used by the front-end
+API routes used by the front-end for data acquisition
 
 ### `/categories`
 
 Get Watson-usable categories based on user query
-
-**Method** GET
 
 **Parameters** q=User search query `string`
 
@@ -20,17 +18,13 @@ Get Watson-usable categories based on user query
 
 Get relevant events from Watson categories
 
-**Method** POST
-
-**Body** Watson categories, `string[]`
+**Parameters** q=Watson categories (comma-separated)
 
 **Returns** Event IDs with relevance score, `object[]`
 
 ### `/events/:id`
 
 Get event details
-
-**Method** GET
 
 **Parameters** id=Event ID
 
@@ -40,9 +34,7 @@ Get event details
 
 Generate iCal calendar for events
 
-**Method** POST
-
-**Body** Event IDs, `string[]`
+**Parameters** ids=Event IDs (comma-separated)
 
 **Returns**
 
@@ -54,18 +46,14 @@ Generate iCal calendar for events
 
 Query for relevant events using [Github's API](https://developer.github.com/v4/)
 
-**Method** GET
-
 **Parameters** username=Github username
 
-**Returns:** Header "`Location: \<github sign-in page\>`"; redirects to `/github/callback`
+**Returns** Header "`Location: \<github sign-in page\>`"; redirects to `/github/callback`
 
 ## Internal API
 
 ### `/github/callback`
 
 Request an [OAuth token](https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/#1-request-a-users-github-identity) for Github API
-
-**Method** GET
 
 **Parameters** code=Temporary code to request token
