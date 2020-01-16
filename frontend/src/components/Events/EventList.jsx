@@ -3,7 +3,7 @@ import { Waypoint } from 'react-waypoint';
 import axios from "axios";
 
 import Event from './Event';
-import InterestStorage from '../Data/Interest';
+import InterestStorage from '../Data/KeywordInterest';
 
 class EventList extends Component {
     constructor(props) {
@@ -13,17 +13,13 @@ class EventList extends Component {
             events: [],
             keywords: []
         }
-        InterestStorage.KeywordCallback((keywords) => {
+        InterestStorage.Callback((keywords) => {
             this.setState({ keywords: keywords })
-            console.log("New keywords added")
-            console.log(keywords)
         })
     }
 
     componentDidUpdate(prevProps, prevState) {
-        if (this.props === prevProps) return
-
-        if (this.prevState.keywords !== this.state.keywords)
+        if (prevState.keywords !== this.state.keywords && this.state.keywords.length > 0)
             this.loadContent()
     }
 
@@ -32,8 +28,10 @@ class EventList extends Component {
      */
     loadContent() {
         axios
-            .post("https://basil.eu-gb.mybluemix.net/api/events/", {
-                body: this.props.keywords
+            .get("https://basil.eu-gb.mybluemix.net/api/events/", {
+                params: {
+                    "categories": this.state.keywords.join(',')
+                }
             })
             .then(res => {
                 this.setState({

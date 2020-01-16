@@ -1,8 +1,21 @@
 import React, { Component } from 'react';
+import EventInterestStorage from './Data/EventInterest';
 
 class CalenderButton extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            show: false
+        }
+
+        EventInterestStorage.Callback((events) => {
+            this.setState({ show: true })
+        })
+    }
+
+
     render() {
-        if (!this.props.show) return (<></>);
+        if (!this.state.show) return (<></>);
 
         return (
             <div className="calender-button" onClick={this.props.download} >

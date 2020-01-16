@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-const moment = require('moment');
 
 class Hour extends Component {
     constructor(props) {

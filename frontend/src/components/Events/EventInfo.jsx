@@ -37,14 +37,15 @@ class EventInfo extends Component {
     }
 
     getEventData() {
-        var url = "https://basil.eu-gb.mybluemix.net/api/events/" + this.state.id
+        console.log(this.props)
+        var url = "https://basil.eu-gb.mybluemix.net/api/events/" + this.props.id
 
         this.setState({ loading: true })
 
         Axios.get(url)
             .then((response) => {
                 this.setState({
-                    event: response.data[0],
+                    event: response.data,
                     loading: false
                 })
             }).catch((error) => {

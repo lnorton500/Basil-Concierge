@@ -4,13 +4,13 @@ import axios from "axios";
 import SearchResult from './SearchResult';
 
 import "../../styles/css/search.css"
-import InterestStorage from '../Data/Interest';
+import InterestStorage from '../Data/KeywordInterest';
 
 class Search extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            show: InterestStorage.HasKeywords(),
+            show: InterestStorage.Has(),
             results: [],
             selected: []
         }
@@ -40,7 +40,7 @@ class Search extends Component {
     }
 
     componentDidUpdate() {
-        InterestStorage.StoreKeywords(this.state.selected)
+        InterestStorage.Store(this.state.selected)
     }
 
     handleChange(e) {
@@ -49,7 +49,8 @@ class Search extends Component {
                 q: e.target.value
             }
         }).then(response => {
-            this.setState({ results: response.data })
+            if (response.data !== null)
+                this.setState({ results: response.data })
         }).catch(error => {
             console.error(error)
         })

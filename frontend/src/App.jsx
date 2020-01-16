@@ -3,14 +3,11 @@ import { Route, NavLink, BrowserRouter as Router } from 'react-router-dom'
 
 import Home from './screens/Home';
 import Agenda from './screens/Agenda';
+import Books from './screens/Books';
 
 import "./styles/css/app.css"
 
 class App extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <>
@@ -29,6 +26,7 @@ class App extends Component {
                     <div className="screen-content">
                         <Route exact path="/" component={Home} />
                         <Route exact path="/agenda" component={Agenda} />
+                        <Route exact path="/books" component={Books} />
                     </div>
                 </Router>
             </>

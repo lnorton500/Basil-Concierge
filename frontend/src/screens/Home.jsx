@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Waypoint } from 'react-waypoint';
-import axios from "axios";
 
 import CalenderButton from '../components/CalenderButton';
 
 import UserCatagories from '../components/UserStats/UserCatagories';
 import Search from '../components/Search/Search';
 import EventList from '../components/Events/EventList';
+import EventInterestStorage from '../components/Data/EventInterest';
 
 
 class Home extends Component {
@@ -33,7 +32,8 @@ class Home extends Component {
     downloadCalender() {
         this.setState({ interested: [] })
 
-        var ids = this.state.interested.join(",")
+        var ids = EventInterestStorage.Load().join(",")
+        console.log(EventInterestStorage.Load().Events)
         window.open("https://basil.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
     }
 
@@ -45,7 +45,7 @@ class Home extends Component {
                         <EventList />
                     </div>
                 </div>
-                <CalenderButton show={this.state.interested.length > 0} download={this.downloadCalender} />
+                <CalenderButton show={EventInterestStorage.Has()} download={this.downloadCalender} />
                 <Search />
                 <UserCatagories />
             </>
