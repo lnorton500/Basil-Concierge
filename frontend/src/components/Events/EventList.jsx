@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Waypoint } from 'react-waypoint';
 import axios from "axios";
 
 import Event from './Event';
@@ -56,11 +55,8 @@ class EventList extends Component {
         return (
             <div className="events">
                 {events.map((event, _i) => (
-                    <Event key={_i} event={event} onInterested={this.eventInterested} />
+                    <Event key={event.id} event={event} onInterested={this.eventInterested} />
                 ))}
-                <Waypoint
-                    onEnter={this.loadContent}
-                    topOffset="50px" />
             </div>
         );
     }

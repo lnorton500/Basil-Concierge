@@ -74,7 +74,7 @@ class Search extends Component {
                     <span className="exit" onClick={this.close}><i className="far fa-times-circle" style={{ color: "white" }}></i></span>
                     <div className="search-results">
                         {keywords.map((data, key) =>
-                            <SearchResult key={key} onClick={this.handleClick} data={data.name} selected={data.selected} />
+                            <SearchResult key={data.name} onClick={this.handleClick} data={data.name} selected={data.selected} />
                         )}
                     </div>
                 </div>
