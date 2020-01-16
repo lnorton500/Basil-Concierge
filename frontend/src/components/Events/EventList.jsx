@@ -10,11 +10,15 @@ class EventList extends Component {
         this.state = {
             isLoaded: false,
             events: [],
+            keywords: this.props.keywords
         }
     }
 
-    componentDidMount() {
-        this.loadContent();
+    componentDidUpdate(prevProps) {
+        if (this.props === prevProps) return
+
+        if (this.props.keywords !== this.state.keywords)
+            this.loadContent()
     }
 
     /**
@@ -22,11 +26,8 @@ class EventList extends Component {
      */
     loadContent() {
         axios
-            .get("https://basil.eu-gb.mybluemix.net/api/events/", {
-                params: {
-                    skip: this.state.start,
-                    limit: this.state.limit
-                }
+            .post("https://basil.eu-gb.mybluemix.net/api/events/", {
+                body: this.props.keywords
             })
             .then(res => {
                 this.setState({

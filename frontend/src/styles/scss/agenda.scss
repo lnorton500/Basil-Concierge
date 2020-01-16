@@ -1,0 +1,26 @@
+table {
+    font-size: 1.25em;
+    width: 100%;
+    text-align: center;
+
+    tr {
+        &:nth-child(even) {
+            background: lightgray;
+        }
+
+        &:nth-child(odd) {
+            background: darkgray;
+        }
+    }
+
+    .hour {
+        width: 10%;
+        background: lightgray;
+        padding: 20px;
+    }
+
+    .minute {
+        width: 5%;
+        padding: 10px;
+    }
+}

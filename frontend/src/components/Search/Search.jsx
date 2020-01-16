@@ -14,6 +14,7 @@ class Search extends Component {
             selected: []
         }
 
+        this.getUniqueKeywords = this.getUniqueKeywords.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.handleClick = this.handleClick.bind(this);
         this.close = this.close.bind(this);
@@ -35,6 +36,7 @@ class Search extends Component {
                 })
             });
         }
+        this.props.updated(this.state.selected)
     }
 
     handleChange(e) {
@@ -56,17 +58,7 @@ class Search extends Component {
     render() {
         if (!this.state.show) return <></>;
 
-        var keywords = []
-        for (let index = 0; index < this.state.selected.length; index++) {
-            const element = this.state.selected[index];
-            if (!keywords.some(e => e.name === element))
-                keywords.push({ name: element, selected: true })
-        }
-        for (let index = 0; index < this.state.results.length; index++) {
-            const element = this.state.results[index];
-            if (!keywords.some(e => e.name === element.label))
-                keywords.push({ name: element.label, selected: false })
-        }
+        var keywords = this.getUniqueKeywords();
 
         return (
             <div className="search-panel">
@@ -77,12 +69,29 @@ class Search extends Component {
                     <span className="exit" onClick={this.close}><i className="far fa-times-circle" style={{ color: "white" }}></i></span>
                     <div className="search-results">
                         {keywords.map((data, key) =>
-                            <SearchResult key={key} data={data.name} onClick={this.handleClick} selected={data.selected} />
+                            <SearchResult key={key} onClick={this.handleClick} data={data.name} selected={data.selected} />
                         )}
                     </div>
                 </div>
             </div >
         );
+    }
+
+    getUniqueKeywords() {
+        var keywords = [];
+
+        for (let index = 0; index < this.state.selected.length; index++) {
+            const element = this.state.selected[index];
+            if (!keywords.some(e => e.name === element))
+                keywords.push({ name: element, selected: true });
+        }
+
+        for (let index = 0; index < this.state.results.length; index++) {
+            const element = this.state.results[index];
+            if (!keywords.some(e => e.name === element.label))
+                keywords.push({ name: element.label, selected: false });
+        }
+        return keywords;
     }
 }
 
