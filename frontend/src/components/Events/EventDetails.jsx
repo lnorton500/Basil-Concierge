@@ -26,7 +26,7 @@ class EventDetails extends Component {
                 {this.props.event.room}
             </div>
             <div className="detail track">
-                <h4>Room</h4>
+                <h4>Track</h4>
                 {this.props.event.track}
             </div>
         </div>);
