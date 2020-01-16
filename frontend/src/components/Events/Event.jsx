@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
-import Info from './EventInfo';
+import EventInterestStorage from '../Data/EventInterest';
 import Interested from './EventInterested';
+import Info from './EventInfo';
 
 import "../../styles/css/event.css"
 
@@ -26,13 +27,13 @@ class Event extends Component {
     }
 
     eventInterested() {
-        this.props.onInterested(this.state.event._id)
+        EventInterestStorage.Add(this.state.event.id)
     }
 
     render() {
         var barIcon = "arrow " + this.state.showDescription ? "open" : "";
         var eventBarClass = this.state.showDescription ? "event-bar open" : "event-bar"
-        var info = this.state.showDescription ? <Info show={this.state.showDescription} id={this.state.event._id} /> : <></>;
+        var info = this.state.showDescription ? <Info show={this.state.showDescription} id={this.state.event.id} /> : <></>;
         return (
             <div className="event" >
                 <div className={eventBarClass} onClick={this.toggleDisplay}>

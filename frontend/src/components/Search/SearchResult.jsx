@@ -12,8 +12,15 @@ class SearchResult extends Component {
         this.clicked = this.clicked.bind(this);
     }
 
-    clicked() {
+    componentDidMount() {
+        if (this.props.selected)
+            this.setState({ selected: true })
+    }
+
+
+    clicked(e) {
         this.setState({ selected: !this.state.selected })
+        this.props.onClick(this.props.data)
     }
 
     render() {
