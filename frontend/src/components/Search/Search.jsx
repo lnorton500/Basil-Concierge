@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
+import axios from "axios";
+
+import SearchResult from './SearchResult';
 
 import "../../styles/css/search.css"
-import SearchResult from './SearchResult';
 
 class Search extends Component {
     constructor(props) {
@@ -36,7 +38,15 @@ class Search extends Component {
     }
 
     handleChange(e) {
-        this.setState({ results: [e.target.value] })
+        axios.get("https://basil.eu-gb.mybluemix.net/api/categories", {
+            params: {
+                q: e.target.value
+            }
+        }).then(response => {
+            this.setState({ results: response.data })
+        }).catch(error => {
+            console.error(error)
+        })
     }
 
     close() {
@@ -46,6 +56,18 @@ class Search extends Component {
     render() {
         if (!this.state.show) return <></>;
 
+        var keywords = []
+        for (let index = 0; index < this.state.selected.length; index++) {
+            const element = this.state.selected[index];
+            if (!keywords.some(e => e.name === element))
+                keywords.push({ name: element, selected: true })
+        }
+        for (let index = 0; index < this.state.results.length; index++) {
+            const element = this.state.results[index];
+            if (!keywords.some(e => e.name === element.label))
+                keywords.push({ name: element.label, selected: false })
+        }
+
         return (
             <div className="search-panel">
                 <div className="background">
@@ -54,11 +76,8 @@ class Search extends Component {
                     <input type="text" onChange={this.handleChange}></input>
                     <span className="exit" onClick={this.close}><i className="far fa-times-circle" style={{ color: "white" }}></i></span>
                     <div className="search-results">
-                        {this.state.selected.map((data, key) =>
-                            <SearchResult key={key} data={data} onClick={this.handleClick} selected />
-                        )}
-                        {this.state.results.map((data, key) =>
-                            <SearchResult key={key} data={data} onClick={this.handleClick} />
+                        {keywords.map((data, key) =>
+                            <SearchResult key={key} data={data.name} onClick={this.handleClick} selected={data.selected} />
                         )}
                     </div>
                 </div>

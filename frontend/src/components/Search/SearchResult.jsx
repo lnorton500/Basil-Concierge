@@ -13,7 +13,7 @@ class SearchResult extends Component {
     }
 
     componentDidMount() {
-        if ('selected' in this.props)
+        if (this.props.selected)
             this.setState({ selected: true })
     }
 
