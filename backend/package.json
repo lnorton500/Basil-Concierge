@@ -1,0 +1,19 @@
+{
+  "name": "basil-backend",
+  "version": "1.0.0",
+  "description": "API testing, data, and data scripts",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "jest": "^24.9.0",
+    "request": "^2.88.0",
+    "superagent": "^5.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

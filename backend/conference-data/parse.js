@@ -28,7 +28,7 @@ rooms = rooms.concat(roomOne, roomTwo);
 
 let newEvents = [];
 
-cosnt addEvent = event => {
+const addEvent = event => {
   // delete shit
   delete event._id;
   delete event.language;

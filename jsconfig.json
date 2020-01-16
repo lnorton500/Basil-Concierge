@@ -1,0 +1,2 @@
+// vscode jest intellisense
+{ "typeAcquisition": { "include": ["jest"] } }
