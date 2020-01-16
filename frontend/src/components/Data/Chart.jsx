@@ -18,24 +18,20 @@ class Chart extends Component {
                         startAngle: -120,
                         endAngle: 120,
                         track: {
-                            background: "#e7e7e7",
-                            strokeWidth: '100%'
+                            strokeWidth: '95%'
                         },
                         dataLabels: {
-                            show: false
+                            name: {
+                                show: false
+                            },
+                            value: {
+                                show: false
+                            }
                         }
-                    }
+                    },
                 },
-                fill: {
-                    colors: [props.color]
-                },
-                animation: {
-                    dynamicAnimation: {
-                        enabled: true,
-                        speed: 1500
-                    }
-                }
-            },
+                colors: [props.color]
+            }
         };
     }
 

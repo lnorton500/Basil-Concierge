@@ -9,6 +9,10 @@
     color: #393939;
 }
 
+body {
+    height: 100vh;
+}
+
 .navigation {
     width: 100vw;
     display: flex;
@@ -28,44 +32,48 @@
     }
 }
 
-.screen {
-    width: 82%;
-    height: 100vh;
-    margin-right: 0;
+.screen-content {
+    position: relative;
+    height: fill-available;
 
-    overflow-y: scroll;
+    .screen {
+        width: 82%;
+        margin-right: 0;
 
-    .heading {
-        position: relative;
-        width: 100%;
-        height: 5vh;
-        padding: 40px;
+        overflow-y: scroll;
+
+        .heading {
+            position: relative;
+            width: 100%;
+            height: 5vh;
+            padding: 40px;
 
 
-        h1 {
-            text-align: center;
-            vertical-align: middle;
-            //color: #fff !important;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            h1 {
+                text-align: center;
+                vertical-align: middle;
+                //color: #fff !important;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
+
+        .content {
+            padding: 10px;
+            margin: 15px;
+
+            p {
+                line-height: 1.2em;
+            }
+        }
+
     }
 
-    .content {
-        padding: 10px;
-        margin: 15px;
-
-        p {
-            line-height: 1.2em;
-        }
+    .sidebar {
+        width: 18%;
     }
-}
-
-.sidebar {
-    width: 18%;
-    height: 100vh;
 }
 
 .calender-button {
