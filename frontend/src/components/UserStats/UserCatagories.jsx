@@ -28,7 +28,7 @@ class UserCatagories extends Component {
 
     updateScores() {
         axios
-            .get("https://basil.eu-gb.mybluemix.net/api/catagories")
+            .get("https://basil.eu-gb.mybluemix.net/api/colors")
             .then(res => {
                 this.setState({
                     isLoaded: true,
