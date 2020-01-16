@@ -15,5 +15,8 @@
     "test": "jest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "optionalDependencies": {
+    "@types/jest": "^24.9.0"
+  }
 }
