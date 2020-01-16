@@ -3,6 +3,7 @@ import { Waypoint } from 'react-waypoint';
 import axios from "axios";
 
 import Event from './Event';
+import InterestStorage from '../Data/Interest';
 
 class EventList extends Component {
     constructor(props) {
@@ -10,14 +11,19 @@ class EventList extends Component {
         this.state = {
             isLoaded: false,
             events: [],
-            keywords: this.props.keywords
+            keywords: []
         }
+        InterestStorage.KeywordCallback((keywords) => {
+            this.setState({ keywords: keywords })
+            console.log("New keywords added")
+            console.log(keywords)
+        })
     }
 
-    componentDidUpdate(prevProps) {
+    componentDidUpdate(prevProps, prevState) {
         if (this.props === prevProps) return
 
-        if (this.props.keywords !== this.state.keywords)
+        if (this.prevState.keywords !== this.state.keywords)
             this.loadContent()
     }
 

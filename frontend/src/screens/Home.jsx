@@ -19,7 +19,6 @@ class Home extends Component {
 
         this.eventInterested = this.eventInterested.bind(this);
         this.downloadCalender = this.downloadCalender.bind(this);
-        this.searchUpdated = this.searchUpdated.bind(this);
     }
 
     eventInterested(eventID) {
@@ -38,21 +37,16 @@ class Home extends Component {
         window.open("https://basil.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
     }
 
-    searchUpdated(keywords) {
-        this.setState({ keywords: keywords })
-    }
-
     render() {
-        //var eventList = this.updateEvents ?  : <></>
         return (
             <>
                 <div className="screen">
                     <div className="content">
-                        <EventList keywords={this.state.keywords} />
+                        <EventList />
                     </div>
                 </div>
                 <CalenderButton show={this.state.interested.length > 0} download={this.downloadCalender} />
-                <Search updated={this.searchUpdated} />
+                <Search />
                 <UserCatagories />
             </>
         );

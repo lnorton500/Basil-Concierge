@@ -4,12 +4,13 @@ import axios from "axios";
 import SearchResult from './SearchResult';
 
 import "../../styles/css/search.css"
+import InterestStorage from '../Data/Interest';
 
 class Search extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            show: true,
+            show: InterestStorage.HasKeywords(),
             results: [],
             selected: []
         }
@@ -36,7 +37,10 @@ class Search extends Component {
                 })
             });
         }
-        this.props.updated(this.state.selected)
+    }
+
+    componentDidUpdate() {
+        InterestStorage.StoreKeywords(this.state.selected)
     }
 
     handleChange(e) {
