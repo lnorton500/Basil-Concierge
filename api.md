@@ -1,6 +1,6 @@
 # API
 
-All API routes start with `/api` and use method GET
+All API routes start with `/api`, use method GET, and return JSON.
 
 ## Public API
 
@@ -41,6 +41,14 @@ Generate iCal calendar for events
 - Calender file, `.iCal`
 - Header `"Content-Type: text/calendar"`
 - Header `"Content-Disposition: attachment; filename=events.ics"`
+
+### `/reading`
+
+Get reading links by Watson category
+
+**Parameters** category=Watson category
+
+**Returns** Links, `string[]`
 
 ### `/github`
 
