@@ -13,6 +13,8 @@ class KeywordInterestStorage {
     static Load() {
         if (!KeywordInterestStorage.data)
             return []
+        if (!KeywordInterestStorage.data.keywords)
+            return []
         return KeywordInterestStorage.data.keywords
     }
 

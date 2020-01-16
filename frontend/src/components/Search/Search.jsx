@@ -12,7 +12,7 @@ class Search extends Component {
         this.state = {
             show: InterestStorage.Has(),
             results: [],
-            selected: []
+            selected: InterestStorage.Load()
         }
 
         this.getUniqueKeywords = this.getUniqueKeywords.bind(this);
@@ -39,8 +39,13 @@ class Search extends Component {
         }
     }
 
-    componentDidUpdate() {
+    componentDidUpdate(prevProps) {
         InterestStorage.Store(this.state.selected)
+
+        if (this.props === prevProps) return
+
+        if (this.props.show)
+            this.setState({ show: true });
     }
 
     handleChange(e) {
@@ -58,6 +63,7 @@ class Search extends Component {
 
     close() {
         this.setState({ show: false });
+        this.props.close()
     }
 
     render() {
@@ -70,9 +76,10 @@ class Search extends Component {
                 <div className="background">
                 </div>
                 <div className="search-box">
-                    <input type="text" onChange={this.handleChange}></input>
+                    <input type="text" onChange={this.handleChange} autoFocus></input>
                     <span className="exit" onClick={this.close}><i className="far fa-times-circle" style={{ color: "white" }}></i></span>
                     <div className="search-results">
+                        {keywords.length == 0 ? "Type to search" : null}
                         {keywords.map((data, key) =>
                             <SearchResult key={data.name} onClick={this.handleClick} data={data.name} selected={data.selected} />
                         )}
