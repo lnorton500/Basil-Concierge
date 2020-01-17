@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hallam//conferences//EN
+BEGIN:VEVENT
+UID:
+DTSTAMP:20200117T123748
+DTSTART:20200101T172000
+DURATION:PT20M
+SUMMARY:Kubernetes on ARM64
+LOCATION:UD2.208 (Decroly)
+DESCRIPTION: Building a Kubernetes cloud using Raspberry PI 4. The presentation will show how to put the pieces togother to get an Apache Tomcat
+operator to deploy a small web application in the build RPI4 Kubernetes cloud.
+ATTENDEE;CN=
+END:VEVENT
+END:VCALENDAR
