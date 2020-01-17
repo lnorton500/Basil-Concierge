@@ -111,3 +111,25 @@ body {
         padding-right: 5px;
     }
 }
+
+.book-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.book-details {
+    width: 200px;
+    padding: 20px;
+
+    img {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 1.25em;
+        text-decoration: none;
+    }
+}

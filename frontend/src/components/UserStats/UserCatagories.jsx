@@ -17,7 +17,7 @@ class UserCatagories extends Component {
 
         EventStorage.Subscribe((catagories) => {
             if (!catagories) return
-            console.log(catagories)
+            catagories = catagories.slice(0, 4)
             this.setState({
                 catagories: catagories
             })
@@ -33,10 +33,10 @@ class UserCatagories extends Component {
 
     render() {
         const { error, isLoaded, catagories } = this.state;
-        console.log(catagories)
 
         if (error) return ("Error" + { error });
         if (!isLoaded) return <div className="sidebar"></div>
+
         return (
             <div className="sidebar">
                 {catagories.map((i, key) => (

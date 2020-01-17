@@ -21,6 +21,34 @@ class Search extends Component {
         this.close = this.close.bind(this);
     }
 
+    componentDidMount() {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+
+        if (!urlParams.has('code')) return
+
+        const code = urlParams.get('code')
+        axios.get("https://basil.eu-gb.mybluemix.net/api/categories", {
+            params: {
+                code: code
+            }
+        },
+        ).then(response => {
+            console.log(response)
+            if (response.data !== null) {
+                var keywords = []
+                for (let index = 0; index < response.data.length; index++) {
+                    const element = response.data[index];
+                    keywords.push(element.label)
+                }
+
+                this.setState({ selected: [...this.state.selected, ...keywords] })
+            }
+        }).catch(error => {
+            console.error(error)
+        })
+    }
+
     handleClick(e) {
         if (e === undefined) return
         if (e in this.state.selected)
@@ -78,6 +106,7 @@ class Search extends Component {
                 <div className="search-box">
                     <input type="text" onChange={this.handleChange} autoFocus></input>
                     <span className="exit" onClick={this.close}><i className="far fa-times-circle" style={{ color: "white" }}></i></span>
+                    <span className="github" onClick={this.close}><a href="https://basil.eu-gb.mybluemix.net/api/github"><i className="fab fa-github" style={{ color: "white" }}></i></a></span>
                     <div className="search-results">
                         {keywords.length == 0 ? "Type to search" : null}
                         {keywords.map((data, key) =>

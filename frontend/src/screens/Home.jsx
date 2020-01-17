@@ -5,8 +5,8 @@ import CalenderButton from '../components/CalenderButton';
 import UserCatagories from '../components/UserStats/UserCatagories';
 import EventList from '../components/Events/EventList';
 import EventInterestStorage from '../components/Data/EventInterest';
-
-
+import Axios from 'axios';
+import KeywordInterestStorage from '../components/Data/KeywordInterest';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -34,6 +34,10 @@ class Home extends Component {
         var ids = EventInterestStorage.Load().join(",")
         console.log(EventInterestStorage.Load().Events)
         window.open("https://basil.eu-gb.mybluemix.net/api/cal?ids=" + ids, "_blank");
+    }
+
+    componentDidMount() {
+        
     }
 
     render() {

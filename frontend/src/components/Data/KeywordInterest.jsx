@@ -3,9 +3,9 @@ class KeywordInterestStorage {
         if (!KeywordInterestStorage.data)
             KeywordInterestStorage.data = {}
 
-        for (let index = 0; index < KeywordInterestStorage.data.callbacks.length; index++) {
-            KeywordInterestStorage.data.callbacks[index](interestKeywords);
-        }
+
+
+        KeywordInterestStorage.RunCallbacks()
 
         KeywordInterestStorage.data.keywords = interestKeywords
     }
@@ -34,6 +34,16 @@ class KeywordInterestStorage {
             return true
 
         return !(KeywordInterestStorage.data.keywords.length > 0)
+    }
+
+    static RunCallbacks() {
+        if (!KeywordInterestStorage.data) return;
+        if (!KeywordInterestStorage.data.callbacks) return;
+        if (!KeywordInterestStorage.data.callbacks.length > 0) return;
+
+        for (let index = 0; index < KeywordInterestStorage.data.callbacks.length; index++) {
+            KeywordInterestStorage.data.callbacks[index](KeywordInterestStorage.data.keywords);
+        }
     }
 }
 

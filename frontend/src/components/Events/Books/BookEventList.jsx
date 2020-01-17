@@ -1,25 +1,31 @@
 import React, { Component } from 'react';
-import axios from "axios";
+import EventInterested from "../../Data/EventInterest";
+import BookEvent from './BookEvent.jsx';
+import KeywordInterestStorage from '../../Data/KeywordInterest';
+import Axios from 'axios';
 
-import Event from './Event';
-import InterestStorage from '../Data/KeywordInterest';
-import EventStorage from '../Data/EventStorage';
-
-class EventList extends Component {
+class EventBookList extends Component {
     constructor(props) {
         super(props);
         this.state = {
             isLoaded: false,
             events: [],
-            keywords: []
+            keywords: KeywordInterestStorage.Load()
         }
-        InterestStorage.Callback((keywords) => {
+
+        this.loadContent = this.loadContent.bind(this)
+
+        KeywordInterestStorage.Callback((keywords) => {
             this.setState({ keywords: keywords })
-            console.log(keywords)
         })
     }
 
+    componentDidMount() {
+        this.loadContent()
+    }
+
     componentDidUpdate(prevProps, prevState) {
+
         if (this.state.keywords && prevState.keywords !== this.state.keywords && this.state.keywords.length > 0)
             this.loadContent()
     }
@@ -28,7 +34,8 @@ class EventList extends Component {
      * Load content using the Node Red api
      */
     loadContent() {
-        axios
+        if (!this.state.keywords) return
+        Axios
             .get("https://basil.eu-gb.mybluemix.net/api/events/", {
                 params: {
                     "categories": this.state.keywords.join(',')
@@ -39,7 +46,6 @@ class EventList extends Component {
                     isLoaded: true,
                     events: res.data
                 });
-                EventStorage.Store(res.data)
             })
             .catch(error => {
                 this.setState({
@@ -58,11 +64,11 @@ class EventList extends Component {
         return (
             <div className="events">
                 {events.map((event, _i) => (
-                    <Event key={event.id} event={event} onInterested={this.eventInterested} />
+                    <BookEvent key={event.id} event={event} />
                 ))}
             </div>
         );
     }
 }
 
-export default EventList;
+export default EventBookList;
