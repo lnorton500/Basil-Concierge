@@ -3,13 +3,12 @@ const request = require("superagent");
 const API = "https://basil.eu-gb.mybluemix.net/api/events";
 
 describe("/events Gets event details from Watson categories", () => {
-  const VALID_CATEGORIES = ["linux", "ssh", "network"];
-  const INVALID_CATEGORIES = ["pineapples", "government", "punk", "rock"];
+  const VALID_CATEGORIES = ["linux", "ssh", "network"].join(",");
 
   it("Requests with valid categories", async () => {
     await request
       .get(API)
-      .query({ categories: VALID_CATEGORIES.join(",") })
+      .query({ categories: VALID_CATEGORIES })
       .then(res => {
         expect(res.ok).toBeTruthy();
         expect(res.headers["content-type"]).toContain("json");
