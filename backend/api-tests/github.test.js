@@ -4,8 +4,8 @@ const API = "https://basil.eu-gb.mybluemix.net/api/github";
 
 const USERNAME = "johndoe";
 
-describe("/github", () => {
-  it("request sign-in with a username", async () => {
+describe("/github Prompts user for Github login, sends code to front-end for OAuth token", () => {
+  it("Directs to sign-in page with a username", async () => {
     await request
       .get(API)
       .query({ username: USERNAME }) // query
@@ -23,7 +23,7 @@ describe("/github", () => {
       });
   });
 
-  it("request sign-in without a username", async () => {
+  it("Directs to sign-in page without a username", async () => {
     await request.get(API).then(res => {
       // response
       expect(res.ok).toBeTruthy();
