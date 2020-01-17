@@ -2,9 +2,38 @@ const request = require("superagent");
 
 const API = "https://basil.eu-gb.mybluemix.net/api/events";
 
-const EVENT_ID = "f541619b0300380267d03457b2714041"; // valid event ID
+describe("/events Gets event details from Watson categories", () => {
+  const VALID_CATEGORIES = ["linux", "ssh", "network"];
+  const INVALID_CATEGORIES = ["pineapples", "government", "punk", "rock"];
 
-describe("/events/:id Get event information by Event ID", () => {
+  it("Requests with valid categories", async () => {
+    await request
+      .get(API)
+      .query({ categories: VALID_CATEGORIES.join(",") })
+      .then(res => {
+        expect(res.ok).toBeTruthy();
+        expect(res.headers["content-type"]).toContain("json");
+      });
+  });
+
+  /* Since Watson is an AI, invalid or irrelevant test data
+    may still yield results so there are no tests as such */
+
+  it("Requests without categories", async () => {
+    await request.get(API).then(
+      res => {
+        expect(false).toBeTruthy(); // shouldn't succeed
+      },
+      err => {
+        expect(err.response.badRequest).toBeTruthy();
+      }
+    );
+  });
+});
+
+describe("/events/:id Gets event information by Event ID", () => {
+  const EVENT_ID = "f541619b0300380267d03457b2714041"; // valid event ID
+
   it("Requests with a valid ID", async () => {
     await request
       .get(API + "/" + EVENT_ID) // route parameter
@@ -12,6 +41,9 @@ describe("/events/:id Get event information by Event ID", () => {
         // response
         expect(res.ok).toBeTruthy();
         expect(res.headers["content-type"]).toContain("json");
+
+        // data
+        expect(res.body).toBeInstanceOf(Object);
       });
   });
 
