@@ -39,7 +39,6 @@ class EventInterestStorage {
     static Has() {
         if (!EventInterestStorage.data)
             return false
-        console.log(EventInterestStorage.data)
 
         return EventInterestStorage.data.Events === undefined
     }
