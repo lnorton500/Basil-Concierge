@@ -45,11 +45,9 @@ Generate iCal calendar for events
 - Header `"Content-Type: text/calendar"`
 - Header `"Content-Disposition: attachment; filename=events.ics"`
 
-### `/reading`
+### `/reading/id`
 
-Get reading links by Watson category
-
-**Parameters** category=Watson category
+Get reading links by ID
 
 **Returns** Links, `string[]`
 
