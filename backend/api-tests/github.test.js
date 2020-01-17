@@ -9,7 +9,7 @@ describe("/github", () => {
     const res = await request.get(API).query({ username: USERNAME }); // query
 
     // response
-    expect(res.ok);
+    expect(res.ok).toBeTruthy();
     expect(res.redirects.length).toBeGreaterThan(0); // to Github sign-in
 
     // redirect data from Location header
@@ -24,7 +24,7 @@ describe("/github", () => {
     const res = await request.get(API);
 
     // response
-    expect(res.ok);
+    expect(res.ok).toBeTruthy();
     expect(res.redirects.length).toBeGreaterThan(0); // to Github sign-in
 
     // redirect data from Location header
