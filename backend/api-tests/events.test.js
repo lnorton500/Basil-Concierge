@@ -6,11 +6,13 @@ const EVENT_ID = "f541619b0300380267d03457b2714041"; // valid event ID
 
 describe("/events/:id", () => {
   it("request event information with a valid ID", async () => {
-    const res = await request.get(API + "/" + EVENT_ID); // route parameter
-
-    // response
-    expect(res.ok).toBeTruthy();
-    expect(res.headers["content-type"]).toContain("json");
+    await request
+      .get(API + "/" + EVENT_ID) // route parameter
+      .then(res => {
+        // response
+        expect(res.ok).toBeTruthy();
+        expect(res.headers["content-type"]).toContain("json");
+      });
   });
 
   it("request event information with an invalid ID", async () => {
