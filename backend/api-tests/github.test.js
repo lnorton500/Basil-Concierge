@@ -1,12 +1,17 @@
-const request = require("superagent");
+const superagent = require("superagent");
+require("dotenv").config();
 
 const API = "https://basil.eu-gb.mybluemix.net/api/github";
-
 const USERNAME = "johndoe";
+
+const request = superagent.agent().timeout({
+  response: process.env.RESPONSE,
+  deadline: process.env.DEADLINE
+});
 
 describe("/github Prompts user for Github login, sends code to front-end for OAuth token", () => {
   it("Directs to sign-in page with a username", async () => {
-    await request
+    request
       .get(API)
       .query({ username: USERNAME }) // query
       .then(res => {
@@ -24,7 +29,7 @@ describe("/github Prompts user for Github login, sends code to front-end for OAu
   });
 
   it("Directs to sign-in page without a username", async () => {
-    await request.get(API).then(res => {
+    request.get(API).then(res => {
       // response
       expect(res.ok).toBeTruthy();
       expect(res.redirects.length).toBeGreaterThan(0); // to Github sign-in

@@ -1,6 +1,12 @@
-const request = require("superagent");
+const superagent = require("superagent");
+require("dotenv").config();
 
 const API = "https://basil.eu-gb.mybluemix.net/api/cal";
+
+const request = superagent.agent().timeout({
+  response: process.env.RESPONSE,
+  deadline: process.env.DEADLINE
+});
 
 describe("/cal Generates an iCal file from events by Event ID ", () => {
   const IDs = [
@@ -10,7 +16,7 @@ describe("/cal Generates an iCal file from events by Event ID ", () => {
   ];
 
   it("Requests with valid IDs", async () => {
-    await request
+    request
       .get(API)
       .query({ ids: IDs.join(",") })
       .then(res => {
@@ -21,7 +27,7 @@ describe("/cal Generates an iCal file from events by Event ID ", () => {
   });
 
   it("Requests with some valid IDs", async () => {
-    await request
+    request
       .get(API)
       .query({ ids: IDs[0] + "," + IDs[1] + ",1000," + IDs[2] + ",pounds" })
       .then(res => {
@@ -32,7 +38,7 @@ describe("/cal Generates an iCal file from events by Event ID ", () => {
   });
 
   it("Requests with invalid IDs", async () => {
-    await request
+    request
       .get(API)
       .query({ ids: "pineapples,government,punk,rockers" })
       .then(
@@ -42,7 +48,7 @@ describe("/cal Generates an iCal file from events by Event ID ", () => {
   });
 
   it("Requests without IDs", async () => {
-    await request.get(API).then(
+    request.get(API).then(
       res => expect(false).toBeTruthy(),
       err => expect(err.response.badRequest).toBeTruthy()
     );

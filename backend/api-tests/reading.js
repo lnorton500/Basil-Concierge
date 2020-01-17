@@ -1,14 +1,8 @@
-const superagent = require("superagent");
-require("dotenv").config();
+const request = require("superagent");
 
-const API = "https://basil.eu-gb.mybluemix.net/api/events";
+const API = "https://basil.eu-gb.mybluemix.net/api/reading";
 
-const request = superagent.agent().timeout({
-  response: process.env.RESPONSE,
-  deadline: process.env.DEADLINE
-});
-
-describe("/events Gets event details from Watson categories", () => {
+describe("/reading Gets extra reading content by category", () => {
   const VALID_CATEGORIES = ["linux", "ssh", "network"].join(",");
 
   it("Requests with valid categories", async () => {
@@ -17,7 +11,6 @@ describe("/events Gets event details from Watson categories", () => {
       .query({ categories: VALID_CATEGORIES })
       .then(res => {
         expect(res.ok).toBeTruthy();
-        expect(res.headers["content-type"]).toContain("json");
       });
   });
 
