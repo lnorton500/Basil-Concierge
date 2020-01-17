@@ -10,12 +10,18 @@ class UserCatagories extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isLoaded: false,
+            isLoaded: true,
             error: null,
             catagories: []
         }
 
-        this.updateScores = this.updateScores.bind(this);
+        EventStorage.Subscribe((catagories) => {
+            if (!catagories) return
+            console.log(catagories)
+            this.setState({
+                catagories: catagories
+            })
+        })
     }
 
     colors = [
@@ -24,22 +30,6 @@ class UserCatagories extends Component {
         "#277FE0",
         "#2434C2"
     ]
-
-    componentDidMount() {
-        this.updateScores();
-        this.interval = setInterval(() => this.updateScores(), 1000);
-    }
-
-    componentWillUnmount() {
-        clearInterval(this.interval);
-    }
-
-    updateScores() {
-        this.setState({
-            catagories: EventStorage.GetCatagories(),
-            isLoaded: true
-        })
-    }
 
     render() {
         const { error, isLoaded, catagories } = this.state;
