@@ -4,6 +4,7 @@ import axios from "axios";
 
 
 import "../../styles/css/sidebar.css"
+import EventStorage from '../Data/EventStorage';
 
 class UserCatagories extends Component {
     constructor(props) {
@@ -17,9 +18,16 @@ class UserCatagories extends Component {
         this.updateScores = this.updateScores.bind(this);
     }
 
+    colors = [
+        "#48DD74",
+        "#AF0F48",
+        "#277FE0",
+        "#2434C2"
+    ]
+
     componentDidMount() {
         this.updateScores();
-        this.interval = setInterval(() => this.updateScores(), 10000);
+        this.interval = setInterval(() => this.updateScores(), 1000);
     }
 
     componentWillUnmount() {
@@ -27,24 +35,15 @@ class UserCatagories extends Component {
     }
 
     updateScores() {
-        axios
-            .get("https://basil.eu-gb.mybluemix.net/api/colors")
-            .then(res => {
-                this.setState({
-                    isLoaded: true,
-                    catagories: res.data,
-                    error: null
-                });
-            })
-            .catch(error => {
-                this.setState({
-                    error: error,
-                });
-            });
+        this.setState({
+            catagories: EventStorage.GetCatagories(),
+            isLoaded: true
+        })
     }
 
     render() {
         const { error, isLoaded, catagories } = this.state;
+        console.log(catagories)
 
         if (error) return ("Error" + { error });
         if (!isLoaded) return <div className="sidebar"></div>
@@ -52,10 +51,10 @@ class UserCatagories extends Component {
             <div className="sidebar">
                 {catagories.map((i, key) => (
                     <Chart
-                        key={key}
+                        key={i.name}
                         name={i.name}
                         value={i.score}
-                        color={i.color}></Chart>
+                        color={this.colors[key]}></Chart>
                 ))}
             </div>
         );

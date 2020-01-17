@@ -3,6 +3,7 @@ import axios from "axios";
 
 import Event from './Event';
 import InterestStorage from '../Data/KeywordInterest';
+import EventStorage from '../Data/EventStorage';
 
 class EventList extends Component {
     constructor(props) {
@@ -37,6 +38,7 @@ class EventList extends Component {
                     isLoaded: true,
                     events: res.data
                 });
+                EventStorage.Store(res.data)
             })
             .catch(error => {
                 this.setState({
